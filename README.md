@@ -186,7 +186,7 @@ The tool and interface design specifically supports partial components. A full-s
 
 ## Communications
 
-A community homepage will be set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyDesginer@gmail.com community mail.
+A community homepage will be set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyBuilder@gmail.com community mail.
 
 ## Background
 
