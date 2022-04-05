@@ -23,7 +23,7 @@ pages:
   - mkdocs build --strict --verbose
   artifacts:
     paths:
-    - public
+    - site
   only:
   - main
 
