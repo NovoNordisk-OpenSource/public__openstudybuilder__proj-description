@@ -1,0 +1,30 @@
+image: python:3.8-buster
+
+before_script:
+  - pip install mkdocs
+  - pip install mkdocs-material
+  - pip install pymdown-extensions
+  - pip install pyembed-markdown
+
+
+docs_test:
+  stage: test
+  script:
+  - mkdocs build --strict --verbose --site-dir test
+  artifacts:
+    paths:
+    - test
+  except:
+  - main
+
+pages:
+  stage: deploy
+  script:
+  - mkdocs build --strict --verbose
+  - mv site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
+

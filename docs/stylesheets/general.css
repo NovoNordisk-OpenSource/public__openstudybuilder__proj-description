@@ -1,0 +1,21 @@
+img {
+    border: 1px solid;
+}
+
+.md-typeset hr {
+    margin: 1.5em 0;
+    border-bottom: .05rem solid hsl(0deg 0% 0% / 25%);
+}
+
+:root {
+    --md-primary-fg-color:        #3a96df;
+    --md-primary-fg-color--light: #FFFFFF;
+    --md-primary-fg-color--dark:  #011965;
+}
+
+:root  > * {
+    --md-footer-fg-color:              hsla(0, 0%, 100%, 1);
+    --md-footer-bg-color:              #3a96df;
+    --md-footer-bg-color--dark:        #2f7bb9;
+}
+

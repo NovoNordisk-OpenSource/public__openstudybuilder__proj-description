@@ -1,0 +1,47 @@
+# Project information
+site_name: OpenStudyBuilder
+site_author: Katja Glaß
+site_description: This is a community site containing information about the OpenStudyBuilder Application. The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.
+
+# Copyright
+copyright: Copyright &copy; 2022 OpenStudyBuilder Project
+
+nav:
+  - Description: index.md
+  - Info: 
+    - Status: status.md
+    - Events: intro_events.md
+    - Past Events: intro_events_past.md
+  - FAQ:
+    - faq.md
+
+# Style Sheet
+extra_css:
+  - stylesheets/general.css
+
+# Repository
+repo_name: OpenStudyBuilder
+repo_url: https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description
+
+# Configuration
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.indexes
+  favicon: img/favicon.ico
+  icon:
+    logo: logo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: .
+  - attr_list
