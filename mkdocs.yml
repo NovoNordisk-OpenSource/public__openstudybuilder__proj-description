@@ -21,8 +21,7 @@ extra_css:
 
 # Repository
 repo_name: OpenStudyBuilder
-repo_url: https://gitlab.com/KatjaGlassConsulting/fork-project-description
-#repo_url: https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description
+repo_url: https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description
 
 # Configuration
 theme:
