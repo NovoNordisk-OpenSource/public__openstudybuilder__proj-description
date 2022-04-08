@@ -4,24 +4,12 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-31 March 2022 | COSA Spotlight Webinar | Scheduled 
 27 April 2022 | CDISC EU Interchange | Scheduled 
 29 April 2022 | COSA Workshop | Scheduled
 14 June 2022 | PHUSE EMEA SDE (Basel) | Planning | 
-13 Oktober 2022 | PHUSE EMEA SDE (Copenhagen) | Planning 
+13 Oktober 2022 | EMEA Autumn SDE (Copenhagen) | Planning 
 26-27 October 2022 | CDISC US Interchange |  Planning   
 13-16 November 2022 | PHUSE EU Connect |  Planning 
-
-## COSA Spotligh Webinar
-
-(31 March 2022, 16:00 - 17:30 CET)
-
-**Introduction to OpenStudyBuilder**
-
-by Henrik Lynge, Vice President & Mikkel Traun, Principal Programmer, Novo Nordisk A/S
-
-Free registration can be done [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-spotlight){target=_blank}.
-
 
 ## CDISC EU Interchange
 
@@ -41,7 +29,7 @@ Conference registration can be done [here](https://www.cdisc.org/events/intercha
 
 by many colleagues
 
-This workshop is free of charge and is open to anyone interested - registration for the CDISC Interchange main conference is not required. You can register either through the main conference [here](https://www.cdisc.org/events/interchange/2022-europe-interchange){target=_blank} or only for the event [here](https://www.cdisc.org/form/cosa-openstudybuilder-workshop-b){target=_blank}.
+This workshop is free of charge and is open to anyone interested - registration for the CDISC Interchange main conference is not required. You can register either through the main conference [here](https://www.cdisc.org/events/interchange/2022-europe-interchange){target=_blank}. Finally select the conference and the workshop or only the workshop after providing all details first.
 
 At this workshop we will briefly present
 
@@ -51,7 +39,7 @@ At this workshop we will briefly present
   
 Then we will split into number of breakout sessions where a facilitator will present a focus area and demonstrate relevant functionalities in the OpenStudyBuilder tool. The group members can try these and then discuss and reflect. The goal for each breakout group is to present a short overview of their reflections and recommendations within their focus area for everyone.
 
-The following breakout groups have been defined:
+The following **breakout groups** have been defined:
 
 - Use OpenStudyBuilder to make study specification for structured protocol content
 - Use OpenStudyBuilder to make study specification for CRF and data collection
@@ -73,18 +61,20 @@ by Katja Glass, Consultant (Community Manager for OpenStudyBuilder)
 
 The following abstract has been submitted to be presented. As the final agenda is not planned yet, it might be that this presentation will not be available.
 
-**OpenStudyBuilder – The Game Changer**
+**OpenStudyBuilder - The Game Changer**
 
 The OpenStudyBuilder is an open-source project run by NovoNordisk with the intention to support the future CDISC and DDF standards. It can become a game changer to enable the next step of collaboration together with common processes and workflows. Only when we share and discuss also tool implementations including supporting processes, we can build a common toolset and processes which we can use throughout our complete industry.
 
 This presentation will show a brief description of the OpenStudyBuilder tool and will show how we as industry can make use of it and design additional processes and tools as building blocks supported by a generic design, specific APIs and the will to change.
 
-## PHUSE EMEA SDE (Copenhagen)
+## PHUSE EMEA Autumn SDE (Copenhagen)
 
 (13 October 2022, live event in Copenhagen)
 
 by Mikkel Traun, Novo Nordisk A/S, Katja Glass, Consultant and others
 
-**Theme on Open Source Projects**
+**Theme: Experience with Exploring and Using Open-source Software**
 
-The theme for this single day event is on open source projects where the OpenStudyBuilder will have a presentation. The SDE is additionally planning for a panel discussion. Additionally  a poster session and an open space for direct discussions is planned.
+The theme for this single day event is on open source projects where the OpenStudyBuilder will have a presentation. The SDE is additionally planning for a panel discussion. Currently additionally a poster session and an open space for direct discussions is planned.
+
+A detailed description, the agenda when available and the registration about 6 weeks prior to the event is available [here](https://www.eventsforce.net/attend/frontend/reg/tOtherPage.csp?pageID=8559&eventID=15&traceRedir=2).
