@@ -7,7 +7,7 @@ Date | Event | Status
 27 April 2022 | CDISC EU Interchange | Scheduled 
 29 April 2022 | COSA Workshop | Scheduled
 14 June 2022 | PHUSE EMEA SDE (Basel) | Planning | 
-13 Oktober 2022 | EMEA Autumn SDE (Copenhagen) | Planning 
+13 October 2022 | EMEA Autumn SDE (Copenhagen) | Planning 
 26-27 October 2022 | CDISC US Interchange |  Planning   
 13-16 November 2022 | PHUSE EU Connect |  Planning 
 
