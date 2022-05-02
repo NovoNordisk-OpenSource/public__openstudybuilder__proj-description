@@ -1,9 +1,48 @@
 # Past Events
 
 Date | Event 
--- | -- 
+-- | --
+29 April 2022 | COSA Workshop
+27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+
+## CDISC Open Source Alliance (COSA) OpenStudyBuilder Workshop
+
+(29 April 2022, 9:00 - 13:00 CET)
+
+by many colleagues
+
+*additional resulting material coming soon*
+
+At this workshop the following has been presented:
+
+- Why you should consider to use the OpenStudyBuilder solution
+- Why we share OpenStudyBuilder as an open source project
+- Why you should consider to contribute to the OpenStudyBuilder solution
+  
+Then we split into number of breakout sessions where a facilitator presented a focus area and demonstrate relevant functionalities in the OpenStudyBuilder tool and lead discussions. The group members could try these and then discuss and reflect. The goal for each breakout group had been to present a short overview of their reflections and recommendations within their focus area for everyone, where the outcome will be included soon
+
+The following **breakout groups** had been defined:
+
+- Use OpenStudyBuilder to make study specification for structured protocol content
+- Use OpenStudyBuilder to make study specification for CRF and data collection
+- Use OpenStudyBuilder to make study specification for SDTM Study Design datasets
+- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions & Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks
+- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations
+- Demonstrate DDF API adaptor and discuss DDF API alignment
+- Ideate on business opportunities for vendor services for OpenStudyBuilder
+
+## CDISC EU Interchange
+
+**OpenStudyBuilder - Next Generation MDR Solution for Study Design and Configuration Using Concept-Based Standards**
+
+(27 April 2022, 16:00 - 16:30 CET)
+
+by Mikkel Traun, Novo Nordisk A/S
+
+*Presentation link will be included soon - similar to Spotlight presentation*
 
 ## CDISC Open Source Alliance (COSA) Spotlight
 

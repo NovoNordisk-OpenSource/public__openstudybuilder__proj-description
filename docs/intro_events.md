@@ -4,56 +4,26 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-27 April 2022 | CDISC EU Interchange | Scheduled 
-29 April 2022 | COSA Workshop | Scheduled
-14 June 2022 | PHUSE EMEA SDE (Basel) | Planning | 
+12 May 2022 | Graph Meetup Amsterdam | Scheduled
+14 June 2022 | PHUSE EMEA SDE (Basel) | Scheduled
 13 October 2022 | EMEA Autumn SDE (Copenhagen) | Planning 
 26-27 October 2022 | CDISC US Interchange |  Planning   
 13-16 November 2022 | PHUSE EU Connect |  Planning 
 
-## CDISC EU Interchange
+## Graph Meetup Amsterdam
 
-(27/28 April 2022)
+(12 May 2022, 18:00-20:00, live event in Amsterdam)
 
-**OpenStudyBuilder - Next Generation MDR Solution for Study Design and Configuration Using Concept-Based Standards**
+by Marius CONJEAUD (NEO4J) and Nicolas DE SAINT JORRE (QUANTICSOFT/ EVIDENTIQ)
 
-by Mikkel Traun, Novo Nordisk A/S
+**OpenStudyBuilder - "All you wanted to know about <del>Sex</del> Blood Pressure but were afraid to ask?"**
 
-(27 April 2022, 16:00 - 16:30 CET)
+In this presentation we will demo this new OpenStudyBuilder application (in beta mode) starting from a very simple example:
+"To demonstrate the superiority of Drug A relative to Drug B on Blood Pressure (BP)". This will lead us into the magic world of Nodes and Relationships to illustrate how this clinical objective can be "translated" into a linked graph, reducing the number of inconsistencies!
 
-Conference registration can be done [here](https://www.cdisc.org/events/interchange/2022-europe-interchange){target=_blank}. Please also consider to join the workshop which is scheduled for Friday (see next event).
+This presentation should illustrate how a concrete NEO4J professional application will help Clinical Research to bring a new drug to the market faster. You will see how this Graph database will allow us to produce related and consistent data to improve life on Earth!
 
-## CDISC Open Source Alliance (COSA) OpenStudyBuilder Workshop
-
-(29 April 2022, 9:00 - 13:00 CET)
-
-by many colleagues
-
-This workshop is free of charge and is open to anyone interested - registration for the CDISC Interchange main conference is not required. You can register either through the main conference [here](https://www.cdisc.org/events/interchange/2022-europe-interchange){target=_blank}. Finally select the conference and the workshop or only the workshop after providing all details first.
-
-At this workshop we will briefly present
-
-- Why you should consider to use the OpenStudyBuilder solution
-- Why we share OpenStudyBuilder as an open source project
-- Why you should consider to contribute to the OpenStudyBuilder solution
-  
-Then we will split into number of breakout sessions where a facilitator will present a focus area and demonstrate relevant functionalities in the OpenStudyBuilder tool. The group members can try these and then discuss and reflect. The goal for each breakout group is to present a short overview of their reflections and recommendations within their focus area for everyone.
-
-The following **breakout groups** have been defined:
-
-- Use OpenStudyBuilder to make study specification for structured protocol content
-- Use OpenStudyBuilder to make study specification for CRF and data collection
-- Use OpenStudyBuilder to make study specification for SDTM Study Design datasets
-- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions
-- Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks
-- Ideate on OCM and communication for adapting a OpenStudyBuilder solution
-- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations
-- Demonstrate DDF API adaptor and discuss DDF API alignment
-- Ideate on value drivers for pharma companies in using and contributing to OpenStudyBuilder
-- Ideate on business opportunities for vendor services for OpenStudyBuilder
-- When you sign up for the workshop you can select two preferred breakout groups.
-
-## PHUSE EMEA SDE (Basel) - preliminary
+## PHUSE EMEA SDE (Basel)
 
 (14 June 2022, live event in Basel)
 
