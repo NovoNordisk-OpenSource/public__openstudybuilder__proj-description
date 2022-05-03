@@ -18,6 +18,8 @@ by Marius CONJEAUD (NEO4J) and Nicolas DE SAINT JORRE (QUANTICSOFT/ EVIDENTIQ)
 
 **OpenStudyBuilder - "All you wanted to know about <del>Sex</del> Blood Pressure but were afraid to ask?"**
 
+You can register for this live event [here](https://www.meetup.com/graphdb-netherlands/events/285410610/).
+
 In this presentation we will demo this new OpenStudyBuilder application (in beta mode) starting from a very simple example:
 "To demonstrate the superiority of Drug A relative to Drug B on Blood Pressure (BP)". This will lead us into the magic world of Nodes and Relationships to illustrate how this clinical objective can be "translated" into a linked graph, reducing the number of inconsistencies!
 
