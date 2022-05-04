@@ -21,7 +21,7 @@ docs_test:
   except:
   - main
 pages:
-  stage: prod
+  stage: post
   script:
   - mkdocs build --strict --verbose
   - mv site public
