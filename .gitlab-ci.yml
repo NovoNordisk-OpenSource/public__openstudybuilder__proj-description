@@ -1,10 +1,11 @@
 image: python:3.8-buster
 
-before_script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install pymdown-extensions
-  - pip install pyembed-markdown
+install_packages:
+  stage: 
+    - test
+    - deploy
+  script:
+  - pip install mkdocs mkdocs-material pymdown-extensions pyembed-markdown
 
 
 docs_test:
