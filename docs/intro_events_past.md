@@ -16,7 +16,7 @@ by many colleagues
 
 *additional resulting material coming soon*
 
-At this workshop the following has been presented:
+At this workshop the following has been presented ([slides](./presentations/2022-04-09-COSA-Workshop-introduction.pdf)):
 
 - Why you should consider to use the OpenStudyBuilder solution
 - Why we share OpenStudyBuilder as an open source project
@@ -26,13 +26,12 @@ Then we split into number of breakout sessions where a facilitator presented a f
 
 The following **breakout groups** had been defined:
 
-- Use OpenStudyBuilder to make study specification for structured protocol content
-- Use OpenStudyBuilder to make study specification for CRF and data collection
-- Use OpenStudyBuilder to make study specification for SDTM Study Design datasets
-- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions & Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks
-- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations
-- Demonstrate DDF API adaptor and discuss DDF API alignment
-- Ideate on business opportunities for vendor services for OpenStudyBuilder
+- Use OpenStudyBuilder to make study specification for structured protocol content ([slides](./presentations/2022-04-09-COSA-Workshop-breakout1-protocol.pdf))
+- Use OpenStudyBuilder to make study specification for CRF and data collection ([slides](./presentations/2022-04-09-COSA-Workshop-breakout2-CRFs.pdf))
+- Use OpenStudyBuilder to make study specification for SDTM Study Design datasets 
+- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions & Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks ([slides](./presentations/2022-04-09-COSA-Workshop-breakout4_BC.pdf))
+- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations & Demonstrate DDF API adaptor and discuss DDF API alignment ([slides](./presentations/2022-04-09-COSA-Workshop-breakout5-api.pdf))
+- Ideate on business opportunities for vendor services for OpenStudyBuilder ([slides](./presentations/2022-04-09-COSA-Workshop-breakout6-vendors.pdf))
 
 ## CDISC EU Interchange
 
