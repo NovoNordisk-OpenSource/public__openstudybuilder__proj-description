@@ -6,7 +6,7 @@ Date | Event | Status
 -- | -- | -- 
 12 May 2022 | Graph Meetup Amsterdam | Scheduled
 6-8 June 2022 | GraphConnect 2022 (Austin, TX)  | Scheduled
-14 June 2022 | PHUSE EMEA SDE (Basel) | Scheduled
+21 June 2022 | PHUSE EMEA SDE (Basel) | Scheduled
 13 October 2022 | EMEA Autumn SDE (Copenhagen) | Planning 
 26-27 October 2022 | CDISC US Interchange |  Planning   
 13-16 November 2022 | PHUSE EU Connect |  Planning 
@@ -40,7 +40,7 @@ OpenStudyBuilder is an open source project for clinical study evaluations. This 
 
 ## PHUSE EMEA SDE (Basel)
 
-(14 June 2022, live event in Basel)
+(21 June 2022, live event in Basel)
 
 by Katja Glass, Consultant (Community Manager for OpenStudyBuilder)
 
