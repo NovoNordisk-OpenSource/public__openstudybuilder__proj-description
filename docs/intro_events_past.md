@@ -2,11 +2,26 @@
 
 Date | Event 
 -- | --
+12 May 2022 | Graph Meetup Amsterdam 
 29 April 2022 | COSA Workshop
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
 
+## Graph Meetup Amsterdam
+
+(12 May 2022, 18:00-20:00, live event in Amsterdam)
+
+by Marius CONJEAUD (NEO4J) and Nicolas DE SAINT JORRE (QUANTICSOFT/ EVIDENTIQ)
+
+**OpenStudyBuilder - "All you wanted to know about <del>Sex</del> Blood Pressure but were afraid to ask?"**
+
+In this presentation we will demo this new OpenStudyBuilder application (in beta mode) starting from a very simple example:
+"To demonstrate the superiority of Drug A relative to Drug B on Blood Pressure (BP)". This will lead us into the magic world of Nodes and Relationships to illustrate how this clinical objective can be "translated" into a linked graph, reducing the number of inconsistencies!
+
+This presentation should illustrate how a concrete NEO4J professional application will help Clinical Research to bring a new drug to the market faster. You will see how this Graph database will allow us to produce related and consistent data to improve life on Earth!
+
+Slides are available [here](./presentations/2022-05-12-AMS_Meetup_May.pdf){target=_blank}.
 
 ## CDISC Open Source Alliance (COSA) OpenStudyBuilder Workshop
 
@@ -16,7 +31,7 @@ by many colleagues
 
 *additional resulting material coming soon*
 
-At this workshop the following has been presented ([slides](./presentations/2022-04-09-COSA-Workshop-introduction.pdf)):
+At this workshop the following has been presented ([slides](./presentations/2022-04-09-COSA-Workshop-introduction.pdf){target=_blank}):
 
 - Why you should consider to use the OpenStudyBuilder solution
 - Why we share OpenStudyBuilder as an open source project
@@ -26,12 +41,12 @@ Then we split into number of breakout sessions where a facilitator presented a f
 
 The following **breakout groups** had been defined:
 
-- Use OpenStudyBuilder to make study specification for structured protocol content ([slides](./presentations/2022-04-09-COSA-Workshop-breakout1-protocol.pdf))
-- Use OpenStudyBuilder to make study specification for CRF and data collection ([slides](./presentations/2022-04-09-COSA-Workshop-breakout2-CRFs.pdf))
+- Use OpenStudyBuilder to make study specification for structured protocol content ([slides](./presentations/2022-04-09-COSA-Workshop-breakout1-protocol.pdf){target=_blank})
+- Use OpenStudyBuilder to make study specification for CRF and data collection ([slides](./presentations/2022-04-09-COSA-Workshop-breakout2-CRFs.pdf){target=_blank})
 - Use OpenStudyBuilder to make study specification for SDTM Study Design datasets 
-- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions & Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks ([slides](./presentations/2022-04-09-COSA-Workshop-breakout4_BC.pdf))
-- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations & Demonstrate DDF API adaptor and discuss DDF API alignment ([slides](./presentations/2022-04-09-COSA-Workshop-breakout5-api.pdf))
-- Ideate on business opportunities for vendor services for OpenStudyBuilder ([slides](./presentations/2022-04-09-COSA-Workshop-breakout6-vendors.pdf))
+- Use OpenStudyBuilder to manage concept-based standards, ideate on BC definitions & Use NeoDash reports for status reporting on study specifications, Ideate on format and meta-checks ([slides](./presentations/2022-04-09-COSA-Workshop-breakout4_BC.pdf){target=_blank})
+- How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations & Demonstrate DDF API adaptor and discuss DDF API alignment ([slides](./presentations/2022-04-09-COSA-Workshop-breakout5-api.pdf){target=_blank})
+- Ideate on business opportunities for vendor services for OpenStudyBuilder ([slides](./presentations/2022-04-09-COSA-Workshop-breakout6-vendors.pdf){target=_blank})
 
 ## CDISC EU Interchange
 
@@ -41,7 +56,7 @@ The following **breakout groups** had been defined:
 
 by Mikkel Traun, Novo Nordisk A/S
 
-*Presentation link will be included soon - similar to Spotlight presentation*
+Slides are available [here](./presentations/2022-04-27-CDISC-EU-Interchange-StudyBuilder.pdf){target=_blank}.
 
 ## CDISC Open Source Alliance (COSA) Spotlight
 
