@@ -13,11 +13,11 @@ The OpenStudyBuilder is an open-source project for clinical study evaluations. T
 
 Type | Description
 -- | --
-Project Type | [COSA project (CDISC Open Source Alliance)](https://cosa.cdisc.org/)
+Project Type | [COSA project (CDISC Open Source Alliance)](https://cosa.cdisc.org/){target=_blank}
 Owner | Novo Nordisk A/S
-Contact | <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a><br>Regular Open Sessions planned<br>Slack: [Join OpenStudyBuilder](https://join.slack.com/t/openstudybuilder/shared_invite/zt-15wjahh1c-4Tf41VseN3j_f76qjHWt3g)
+Contact | <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a><br>Regular Open Sessions planned<br>Slack: [Join OpenStudyBuilder](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank}
 Planned release | Q3-2022 (Source Code Release as Open Source)
-Project Sub-pages | [https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder)
+Project Sub-pages | [https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder){target=_blank}
 Programming Languages | Python, Cypher (Neo4j), JavaScript (Vue.js)
 Licenses | Components with MIT and GPLv3, documentation CC-BY-4.0 
 CDISC Standards | CDISC CT, CDASH, SDTM, ADaM with ODM-XML and Define-XML
@@ -37,7 +37,7 @@ The current solutions for managing clinical data standards and study design spec
     
 Additionally, the current CDISC standards have gaps in standards metadata, limiting automation opportunities. The inherent flexibility provided by the standards supports a broad range of implementations, but that flexibility also allows for inconsistencies that makes automation scaling difficult. Furthermore, the lack of end-to-end awareness and use of the CDISC standards (e.g. for writing documents such as the protocol and clinical study reports) prohibits efficient end-to-end automation and introduces discrepancies between different presentations of the study specifications, such as e.g. discrepancies in terminology used between protocol, CRF and SDTM datasets.       
 
-The vision is to solve this problem by implementing standards as linked metadata with a conceptual foundation providing the additional semantics needed to support metadata driven-automation across the end-to-end clinical research data lifecycle – as illustrated by the CDISC 360 PoC project (see more at [https://www.cdisc.org/cdisc-360](https://www.cdisc.org/cdisc-360)).
+The vision is to solve this problem by implementing standards as linked metadata with a conceptual foundation providing the additional semantics needed to support metadata driven-automation across the end-to-end clinical research data lifecycle – as illustrated by the CDISC 360 PoC project (see more at [https://www.cdisc.org/cdisc-360](https://www.cdisc.org/cdisc-360){target=_blank}).
 
 ## Solution
 
