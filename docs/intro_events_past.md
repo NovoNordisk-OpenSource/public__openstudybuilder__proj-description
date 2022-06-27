@@ -2,11 +2,37 @@
 
 Date | Event 
 -- | --
+21 June 2022 | PHUSE EMEA SDE (Basel)
+6-8 June 2022 | GraphConnect 2022
 12 May 2022 | Graph Meetup Amsterdam 
 29 April 2022 | COSA Workshop
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## PHUSE EMEA SDE - Basel
+
+(21 June 2022, live event in Basel)
+
+by Katja Glass, Consultant (Community Manager for OpenStudyBuilder)
+
+**OpenStudyBuilder - The Game Changer**
+
+The OpenStudyBuilder is an open-source project run by NovoNordisk with the intention to support the future CDISC and DDF standards. It can become a game changer to enable the next step of collaboration together with common processes and workflows. Only when we share and discuss also tool implementations including supporting processes, we can build a common toolset and processes which we can use throughout our complete industry. This presentation will show a brief description of the OpenStudyBuilder tool and will show how we as industry can make use of it and design additional processes and tools as building blocks supported by a generic design, specific APIs and the will to change.
+
+Slides are available [here](./presentations/2022-06-21-PHUSE SDE Basel.pdf){target=_blank}.
+
+## GraphConnect 2022
+
+(6-8 June 2022, live event in Austin, TX, USA)
+
+by Marius CONJEAUD (NEO4J) and Nicolas DE SAINT JORRE (QUANTICSOFT / EVIDENTIQ)
+
+**Creating a Clinical Knowledge Graph: Pharmaceutical Collaboration With OpenStudyBuilder**
+
+OpenStudyBuilder is an open source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes – all the way from protocol development and CRF design – to creation of datasets, analysis, reporting, submission to health authorities, and public disclosure of study information. Learn how we are building a complete solution based on a clinical knowledge graph that includes a shared API, a custom web application, and exploration tools to further analyze the data. We will also share the open source vision behind the project and how you can help! The OpenStudyBuilder, originally created by NovoNordisk, a global healthcare company, uses Neo4j as its database, along with other products from the Neo4j ecosystem, including NeoDash, Bloom, and the neomodel Python library. Neo4j's professional services team is also involved in the development and deployment of the solution.
+
+Slides are available [here](./presentations/2022-06-06-OpenStudyBuilder_GraphConnect.pdf){target=_blank}.
 
 ## Graph Meetup Amsterdam
 
