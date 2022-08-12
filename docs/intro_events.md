@@ -4,10 +4,20 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
+08 September 2022 | GraphSummit Copenhagen | Planning
 September 2022 | DDF Connectathon | Planning
 13 October 2022 | EMEA Autumn SDE (Copenhagen) | Scheduled 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
+
+## GraphSummit Copenhagen
+
+(08 September 2022 - 9:00am GMT+2)
+
+Registration to this event can be done [here](https://neo4j.com/event/graphsummit-copenhagen/){target=_blank}.
+
+Henrik Enguist will present some aspects about the used Graph in the OpenStudyBuilder project.
+
 
 ## DDF Connectathon
 
