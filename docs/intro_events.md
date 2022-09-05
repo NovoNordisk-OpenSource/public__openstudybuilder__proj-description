@@ -4,8 +4,8 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-08 September 2022 | GraphSummit Copenhagen | Planning
-September 2022 | DDF Connectathon | Planning
+08 September 2022 | GraphSummit Copenhagen | Scheduled
+12-30 September 2022 | DDF Connectathon | Scheduled
 13 October 2022 | EMEA Autumn SDE (Copenhagen) | Scheduled 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
@@ -14,18 +14,44 @@ September 2022 | DDF Connectathon | Planning
 
 (08 September 2022 - 9:00am GMT+2)
 
-Registration to this event can be done [here](https://neo4j.com/event/graphsummit-copenhagen/){target=_blank}.
+Registration to this event can be done [here]( https://neo4j.com/graphsummit/copenhagen/){target=_blank}.
 
-Henrik Enguist will present some aspects about the used Graph in the OpenStudyBuilder project.
+**Leveraging the Graph for Clinical Standards/Trials: Novo Nordisk**
+
+by Henrik Enquist, Advanced IT Developer, Novo Nordisk
+
+Learn how Novo Nordisk achieved success with Neo4j and their future plans for more graph applications.
 
 
 ## DDF Connectathon
 
-(September 2022, virtual 3-week-event)
+(12-30 September 2022, virtual 3-week-event)
 
 **DDF Showcase**
 
-We are planning to join the DDF Connectathon with an OpenStudyBuilder show case. Planning is ongoing.
+We join the DDF Connectathon with an OpenStudyBuilder show case.
+
+Our OpenStudyBuilder team will demonstrate how the OpenStudyBuilder, as a DDF reference implementation, can handle next to DDF USDM also additional data and standards in order to enable end-to-end consistency, automation and support efficient processes from protocol development and CRF design to the creation of data sets. 
+
+The OpenStudyBuilder team will cover: 
+
+OpenStudyBuilder Development
+
+- Managing standards: CDISC CT, Dictionary Terms, Concepts & Internal (sponsor standards)
+
+DDF API Adapter
+
+- Utilising Transcelerate SDR/USDM to integrate 
+- Other downstream systems can utilize OpenStudyBuilder  API
+	
+EDC Integration
+
+- Via DDF API adapter
+- Via OpenStudyBuilder native API
+- Via ODM-XML file with extensions
+
+We will create a live Demo of the above components!
+
 
 ## PHUSE EMEA Autumn SDE (Copenhagen)
 
