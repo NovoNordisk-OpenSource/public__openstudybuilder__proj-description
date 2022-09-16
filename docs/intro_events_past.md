@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+08 September 2022 | GraphSummit Copenhagen
 21 June 2022 | PHUSE EMEA SDE (Basel)
 6-8 June 2022 | GraphConnect 2022
 12 May 2022 | Graph Meetup Amsterdam 
@@ -9,6 +10,18 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## GraphSummit Copenhagen
+
+(08 September 2022, live event in Coppenhagen)
+
+by Henrik Enquist, Advanced IT Developer, Novo Nordisk
+
+**Leveraging the Graph for Clinical Standards/Trials: Novo Nordisk**
+
+Learn how Novo Nordisk achieved success with Neo4j and their future plans for more graph applications.
+
+Slides are available [here](./presentations/2022-09-08-GraphSummitCopenhagen_StudyBuilder.pdf){target=_blank}.
 
 ## PHUSE EMEA SDE - Basel
 
