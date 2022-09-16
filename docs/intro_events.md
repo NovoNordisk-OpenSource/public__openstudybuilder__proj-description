@@ -4,23 +4,10 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-08 September 2022 | GraphSummit Copenhagen | Scheduled
 12-30 September 2022 | DDF Connectathon | Scheduled
 13 October 2022 | EMEA Autumn SDE (Copenhagen) | Scheduled 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
-
-## GraphSummit Copenhagen
-
-(08 September 2022 - 9:00am GMT+2)
-
-Registration to this event can be done [here]( https://neo4j.com/graphsummit/copenhagen/){target=_blank}.
-
-**Leveraging the Graph for Clinical Standards/Trials: Novo Nordisk**
-
-by Henrik Enquist, Advanced IT Developer, Novo Nordisk
-
-Learn how Novo Nordisk achieved success with Neo4j and their future plans for more graph applications.
 
 
 ## DDF Connectathon
