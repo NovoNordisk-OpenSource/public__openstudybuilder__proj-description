@@ -53,7 +53,7 @@ The OpenStudyBuilder contains:
 
 The OpenStudyBuilder will cover the following study specification elements:
 
-* Study purpose (objectives, endpoints, estimands)
+* Study purpose (objectives, endpoints)
 * Population (disease area, indication, sex, age, etc)
 * Selection criteria (eligibility, randomisation, dosing, treatment discontinuation, etc)
 * Study type (interventional, observational, etc)
@@ -77,14 +77,15 @@ The conceptual design for the OpenStudyBuilder system with connected system inte
 
 * **OpenStudyBuilder** online documentation for the OpenStudyBuilder solution including introduction, user guides, system documentation and data model documentation.
 * **OpenStudyBuilder App** Vuetify based Web application with the UI for creating the study definition specification.
-* **Protocol Metadata Word add-in** holding the Protocol Template and import features of the structured study specification metadata that relates to the protocol content.
-* **Up-stream integrations** to clinical systems like CTMS, Trial Supplies, EDC, Study Registries, etc.
-* **Down-stream integrations** to clinical data systems for SDTM, ADaM, analysis and reporting.
-* **Explore data** FAIR based study search and explore tool utilising the OpenStudyBuilder metadata with reference to systems holding study data.
+* **Protocol Metadata Word add-in** holding the Protocol Template and import features of the structured study specification metadata that relates to the protocol content (expecting a blater).
+* **Up-stream integrations** to clinical systems like CTMS, Trial Supplies, EDC, Study Registries, etc. supporting also DDF API.
+* **Down-stream integrations** to clinical data systems for SDTM, ADaM, analysis and reporting, supporting also DDF API.
+* **Explore data** Using a biomedical concept used by a FAIR based study search and explore tool utilising the OpenStudyBuilder metadata with reference to systems holding study data.
 * **OpenStudyBuilder API** and Standards Library API Python based web application based on FAST API framework supporting all CRUD actions to the database, access control, versioning, workflows and data integrity rules.
+* **DDF API Adaptor** providing a Digital Data Flow compliant API connectivity enabling the Clinical MDR solution as a compliant Study Definition Repository (SDR) solution supporting the Unified Study Definition Model (USDM) standard data model as well.
 * **Integration Service** Integration to UNIX based Statistical Computing Environment (SCE) with SAS and R.
 * **Clinical MDR** Neo4j linked graph database and data model supporting the library standards, study definitions including fine granularity of versioning, audit trail, workflows and access control.
-* **Standards Management** Integrated into the OpenStudyBuilder App as the Library module managing concepts, dictionaries, code lists, syntax templates, project and TA standards.
+* **Standards Management** for integrated into the OpenStudyBuilder App as the Library module managing concepts, dictionaries, code lists, syntax templates, project and TA standards.
 
 
 ## Open Source Considerations
@@ -95,19 +96,21 @@ The OpenStudyBuilder system component architecture including software components
 
 ![Diagram of component design](./img/studyBuilderComponents.png)
 
-**Disclaimer:** The following licenses are planned to be used. The final release might switch to different common open-source licenses due to possible license conflicts of used packages.
+The following licenses are planned to be used. 
 
-Core components will be shared under MIT and applications will be shared under the GPLv3 copyleft license. The Clinical MDR and OpenStudyBuilder system consist of the following components exptected to be released under the mentioned open-source licenses.
+Core components will be shared under MIT and applications will be shared under the GPLv3 copyleft license. The Clinical MDR and OpenStudyBuilder system consist of the following components expected to be released under the mentioned open-source licenses.
 
-System Component (License) | Technology (Git repository) | Description
+System Component (License) | Technology | Description
 -- | -- | --
-OpenStudyBuilder App (GPLv3) | Vue.js using Vuetify library (OpenStudyBuilder) | JavaScript based web application with the UI for creating the study definition specification, maintaining library standards. The OpenStudyBuilder app holds two main modules: Library and Studies
-OpenStudyBuilder Documentation Portal (CC-BY-4.0 and GPLv3/MIT) | Vuepress (documentation-portal) | Markdown based documentation portal with OpenStudyBuilder Introduction, User Guides, System Documentation, Data Models and more.
-Clinical MDR API Specification (MIT) | OpenAPI Specification / Swagger (clinical-mdr-api-spec) | Off-line documentation of the API.
-Clinical MDR API (GPLv3) | Phyton using FAST API framework (clinical-mdr-api) | Python based web application based on FAST API framework supporting all CRUD actions to the database, access control, versioning, workflows and data integrity rules.
-Clinical MDR (MIT) | Cypher (neo4j-mdr-db) | Clinical MDR logical and physical data models, database constraint definitions, procedures and functions. Needs to run on a Neo4j database.
+OpenStudyBuilder App (GPLv3) | Vue.js using Vuetify library | JavaScript based web application with the UI for creating the study definition specification, maintaining library standards. The OpenStudyBuilder app holds two main modules: Library and Studies
+OpenStudyBuilder Documentation Portal (CC-BY-4.0 and MIT) | Vuepress | Markdown based documentation portal with OpenStudyBuilder Introduction, User Guides, System Documentation, Data Models and more.
+Clinical MDR API (GPLv3) | Phyton using FAST API framework | Python based web application based on FAST API framework supporting all CRUD actions to the database, access control, versioning, workflows and data integrity rules.
+Clinical MDR API Specification (MIT) | OpenAPI Specification / Swagger | Off-line documentation of the API.
+Clinical MDR (MIT) | Cypher | Clinical MDR logical and physical data models, database constraint definitions, procedures and functions. Needs to run on a Neo4j database.
 Graph Database (Neo4j free edition or licenced enterprise edition) | Neo4j native graph database (not part of repository, usable through neo4j.com) | A labelled property graph database engine, for more info see [Graph database concepts - Getting Started (neo4j.com)](https://neo4j.com/docs/getting-started/current/graphdb-concepts/) and [Neo4j Graph Platform - Developer Guides](https://neo4j.com/developer/)
-Standards Import (GPLv3) | Python and Cypher (mdr-standards-import) | Import programs connecting to CDISC Library, downloading files to cloud storage, reading these into staging database, and then inserting data into Clinical MDR database.
+Standards Import (GPLv3) | Python and Cypher | Import programs connecting to CDISC Library, downloading files to cloud storage, reading these into staging database, and then inserting data into Clinical MDR database.
+Data Import (MIT) | Python and Cypher | Importing other data like sponsor specific data standards as well as sample and test data.
+
 
 ## Maintenance
 
@@ -153,7 +156,7 @@ Novo Nordisk is using a full containerised DevOps pipeline running in Azure wher
 
 Access to a shared or dedicated cloud-based evaluation environment can be provided by Neo4j free of charge. More information on various options will be shared later.
 
-It is also possible to run the full system on a local desktop environment or on an individual cloud subscription on any of the main cloud providers. Instructions on how this can be done is made within the readme files in the Git repositories.
+It is also possible to run the full system on a local desktop environment or on an individual cloud subscription on any of the main cloud providers. Instructions on how this can be done is made within the repository.
 
 The different components can also be used independently due to the modular implementation and API usages.
 
@@ -183,7 +186,7 @@ The benefits are to manage master data and definitions for CDISC Data Standards,
 
 **Innovation**
 
-A modern graph database is used to link between related elements within and across standards (code lists) and studies. A transparent API-based architecture ensures simple system integration and allows for additional expandsion via dedicated applications. A simple and intuitive user interface is used which is based on a state-of-the-art modern application framework.
+A modern graph database is used to link between related elements within and across standards (code lists) and studies. A transparent API-based architecture ensures simple system integration and allows for additional expansion via dedicated applications. A simple and intuitive user interface is used which is based on a state-of-the-art modern application framework.
 
 **Modular implementation**
 
@@ -191,13 +194,13 @@ The tool and interface design specifically supports partial components. A full-s
 
 ## Communications
 
-A community homepage will be set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyBuilder@gmail.com community mail.
+A community homepage is set up for up-to-date information about the project. The project is presented at various conferences. Additional presentations, webinars, discussion, workshops and training sessions are planned. Please also join the Slack channel for discussions or use the OpenStudyBuilder@gmail.com community mail.
 
 ## Background
 
 This solution is based on a legacy bespoke MDR system at Novo Nordisk, and one of the goals for Novo Nordisk is to ensure that our current sponsor-defined data standards and portfolio of study definitions can be migrated into the new MDR and OpenStudyBuilder system.
 
-The new solution design for the OpenStudyBuilder is deeply inspired by the CDISC 360 PoC project as well as the TransCelerate BioPharma Digital Data Flow (DDF) project. The goal for this project initiative is therefore to continue the collaboration with these initiatives and as the data model and API standards mature to ensure this open project solution becomes a compliant solution for these standards. Furthermore, additional community involvement is appreciated.
+The new solution design for the OpenStudyBuilder is deeply inspired by the CDISC 360 PoC project as well as the TransCelerate BioPharma Digital Data Flow (DDF) project. The OpenStudyBuilder aims to become a DDF reference implementation on top of many other features. Furthermore, additional community involvement is appreciated.
 
 Currently the OpenStudyBuilder solution is only sponsored by Novo Nordisk. Novo Nordisk seeks additional stakeholders that would be interested in co-sponsoring this open-source project.
 
