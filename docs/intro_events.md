@@ -4,62 +4,17 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-12-30 September 2022 | DDF Connectathon | Scheduled
-13 October 2022 | EMEA Autumn SDE (Copenhagen) | Scheduled 
+24 October 2022 | OpenStudyBuilder Q&A | Scheduled 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
 
+## OpenStudyBuilder Q&A (virtual)
 
-## DDF Connectathon
+(24 October 2022 - 15:00-16:00 CEST, virtual event)
 
-(12-30 September 2022, virtual 3-week-event)
+**Join the open Q&A session to ask and discuss anything about the OpenStudyBuilder**
 
-**DDF Showcase**
-
-We join the DDF Connectathon with an OpenStudyBuilder show case.
-
-Our OpenStudyBuilder team will demonstrate how the OpenStudyBuilder, as a DDF reference implementation, can handle next to DDF USDM also additional data and standards in order to enable end-to-end consistency, automation and support efficient processes from protocol development and CRF design to the creation of data sets. 
-
-The OpenStudyBuilder team will cover: 
-
-OpenStudyBuilder Development
-
-- Managing standards: CDISC CT, Dictionary Terms, Concepts & Internal (sponsor standards)
-
-DDF API Adapter
-
-- Utilising Transcelerate SDR/USDM to integrate 
-- Other downstream systems can utilize OpenStudyBuilder  API
-	
-EDC Integration
-
-- Via DDF API adapter
-- Via OpenStudyBuilder native API
-- Via ODM-XML file with extensions
-
-We will create a live Demo of the above components!
-
-
-## PHUSE EMEA Autumn SDE (Copenhagen)
-
-(13 October 2022, live event in Copenhagen)
-
-by Mikkel Traun, Novo Nordisk A/S, Katja Glass, Consultant and others
-
-**Theme: Experience with Exploring and Using Open-source Software**
-
-The theme for this single day event is on open source projects where the OpenStudyBuilder will have a presentation. The SDE is additionally planning for a panel discussion. Currently additionally a poster session and an open space for direct discussions is planned.
-
-A detailed description, the agenda when available and the registration about 6 weeks prior to the event is available [here](https://www.eventsforce.net/attend/frontend/reg/tOtherPage.csp?pageID=8559&eventID=15&traceRedir=2){target=_blank}.
-
-**Presentation: OpenStudyBuilder - Open Source MDR**
-
-The OpenStudyBuilder is based on a proof of concept as part of the CDISC 360° project and is aiming to be a Transcelerate Digital Data Flow compliant implementation aiming for an end-to-end process. Metadata driven concept-based standards can ease our processes and tools. This presentation will show how we can benefit from working with connected metadata with the focus for SDTM and ADAM.
-
-The OpenStudyBuilder is built by Novo Nordisk in collaboration with other vendors. It is (going to be) available as open source. This can become a game changer in our industry, as this will allow for full-scale collaborations that not only discuss processes and tools, but also share implementations, creating flexible and generic toolsets! By using standard APIs, e.g. those from the Transcelerate DDF project, a flexible, generic and interoperable tool landscape can be built.  Just like what we are used to from plug and play apps! 
-
-The MDR as the heart, contains all the metadata and core study data information. The API allows many possible up and down stream integrations enabling system and data integrations. This includes the opportunity to create SAS macros or R functions to download information to the evaluation environments or even upload information.
-
+We provide an open virtual discussion round for any kind of questions to support our community best as we can. Please feel free to login into teams with this [Teams link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmJlMzI4YTgtMWNkZi00NDNhLWEyNGMtMTg3ZDM1NDk3NjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%22908a1a44-233f-4d11-b1ac-b8b4b3e45a19%22%7d) from 15:00-16:00 CEST.
 
 ## CDISC US Interchange (Austin, Texas)
 

@@ -2,6 +2,8 @@
 
 Date | Event 
 -- | --
+13 October 2022 | EMEA Autumn SDE (Copenhagen)
+12-30 September 2022 | DDF Connectathon
 08 September 2022 | GraphSummit Copenhagen
 21 June 2022 | PHUSE EMEA SDE (Basel)
 6-8 June 2022 | GraphConnect 2022
@@ -10,6 +12,51 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## PHUSE EMEA Autumn SDE (Copenhagen)
+
+(13 October 2022, live event in Copenhagen)
+
+by Mikkel Traun, Novo Nordisk A/S, Katja Glass, Consultant and others
+
+**Presentation: OpenStudyBuilder - Open Source MDR**
+
+The OpenStudyBuilder is based on a proof of concept as part of the CDISC 360° project and is aiming to be a Transcelerate Digital Data Flow compliant implementation aiming for an end-to-end process. Metadata driven concept-based standards can ease our processes and tools. This presentation will show how we can benefit from working with connected metadata with the focus for SDTM and ADAM.
+
+The OpenStudyBuilder is built by Novo Nordisk in collaboration with other vendors. It is (going to be) available as open source. This can become a game changer in our industry, as this will allow for full-scale collaborations that not only discuss processes and tools, but also share implementations, creating flexible and generic toolsets! By using standard APIs, e.g. those from the Transcelerate DDF project, a flexible, generic and interoperable tool landscape can be built.  Just like what we are used to from plug and play apps! 
+
+The MDR as the heart, contains all the metadata and core study data information. The API allows many possible up and down stream integrations enabling system and data integrations. This includes the opportunity to create SAS macros or R functions to download information to the evaluation environments or even upload information.
+
+Slides will be available here soon.
+
+## DDF Connectathon
+
+(12-30 September 2022, virtual 3-week-event)
+
+**DDF Showcase**
+
+We join the DDF Connectathon with an OpenStudyBuilder show case.
+
+Our OpenStudyBuilder team demonstrated how the OpenStudyBuilder, as a DDF reference implementation, can handle next to DDF USDM also additional data and standards in order to enable end-to-end consistency, automation and support efficient processes from protocol development and CRF design to the creation of data sets. 
+
+The OpenStudyBuilder team covered: 
+
+OpenStudyBuilder Development
+
+- Managing standards: CDISC CT, Dictionary Terms, Concepts & Internal (sponsor standards)
+
+DDF API Adapter
+
+- Utilising Transcelerate SDR/USDM to integrate 
+- Other downstream systems can utilize OpenStudyBuilder  API
+	
+EDC Integration
+
+- Via DDF API adapter
+- Via OpenStudyBuilder native API
+- Via ODM-XML file with extensions
+
+Demo videos and additional material will be made available here soon (October 2022).
 
 ## GraphSummit Copenhagen
 
