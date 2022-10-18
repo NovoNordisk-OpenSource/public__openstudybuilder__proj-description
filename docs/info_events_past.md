@@ -27,7 +27,8 @@ The OpenStudyBuilder is built by Novo Nordisk in collaboration with other vendor
 
 The MDR as the heart, contains all the metadata and core study data information. The API allows many possible up and down stream integrations enabling system and data integrations. This includes the opportunity to create SAS macros or R functions to download information to the evaluation environments or even upload information.
 
-Slides will be available here soon.
+Slides are available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Copenhagen.pdf){target=_blank}.
+The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
 
 ## DDF Connectathon
 
