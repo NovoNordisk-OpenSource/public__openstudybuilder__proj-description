@@ -152,14 +152,13 @@ The current implementation required CDISC library access to access CDISC standar
 
 Access to the open-source code will be via a public accessible GitLab repository. A link to this repository will be provided when available.
 
-Novo Nordisk is using a full containerised DevOps pipeline running in Azure where everything is hosted in the cloud. We will provide guidance on how a similar dedicated cloud-based environment can be made for stakeholders looking for a similar environment.
+Novo Nordisk is using a full containerised DevOps pipeline running in Azure where everything is hosted in the cloud. 
 
-Access to a shared or dedicated cloud-based evaluation environment can be provided by Neo4j free of charge. More information on various options will be shared later.
+Access to a shared or dedicated cloud-based evaluation environment can be provided by Neo4j free of charge. More information on various options are shared [here](./info_environment.md).
 
-It is also possible to run the full system on a local desktop environment or on an individual cloud subscription on any of the main cloud providers. Instructions on how this can be done is made within the repository.
+It is also possible to run the full system on a local desktop environment or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the readme files of the individual components.
 
 The different components can also be used independently due to the modular implementation and API usages.
-
 
 ## Sponsors
 
@@ -200,7 +199,7 @@ A community homepage is set up for up-to-date information about the project. The
 
 This solution is based on a legacy bespoke MDR system at Novo Nordisk, and one of the goals for Novo Nordisk is to ensure that our current sponsor-defined data standards and portfolio of study definitions can be migrated into the new MDR and OpenStudyBuilder system.
 
-The new solution design for the OpenStudyBuilder is deeply inspired by the CDISC 360 PoC project as well as the TransCelerate BioPharma Digital Data Flow (DDF) project. The OpenStudyBuilder aims to become a DDF reference implementation on top of many other features. Furthermore, additional community involvement is appreciated.
+The new solution design for the OpenStudyBuilder is deeply inspired by the CDISC 360 PoC project as well as the TransCelerate BioPharma Digital Data Flow (DDF) project. The OpenStudyBuilder aims to become a DDF reference implementation on top of many other features. Furthermore, additional community involvement is appreciated. Additional information how the OpenStudyBuilder can be seen in the DDF context is available [here](./info_ddf.md).
 
 Currently the OpenStudyBuilder solution is only sponsored by Novo Nordisk. Novo Nordisk seeks additional stakeholders that would be interested in co-sponsoring this open-source project.
 

@@ -8,7 +8,7 @@ Access to the open-source code will be via a public accessible GitLab repository
 
 Access to a cloud-based or a dedicated evaluation environment can be provided by Neo4j free of charge. Please check the following section for more information.
 
-It is also possible to run the full system on a **local desktop environment**. Instructions on how to set up the system on a local desktop can be found in the readme files of the individual components. The different components can also be used independently due to the modular implementation and API usages.
+It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the readme files of the individual components. The different components can also be used independently due to the modular implementation and API usages.
 
 ## Cloud evaluation environments
 
