@@ -12,7 +12,7 @@ There will be different ways for the project communication. We will use the foll
 
 - Workshops
 - Presentations
-- Virtual connects (OpenStudyBuilder F&A) 
+- Virtual connects (OpenStudyBuilder Q&A) 
 - Newsletter
 - Slack
 - Community mail

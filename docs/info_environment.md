@@ -6,13 +6,9 @@ The current implementation required CDISC library access to access CDISC standar
 
 Access to the open-source code will be via a public accessible GitLab repository. A link to this repository will be provided when available.
 
-Novo Nordisk is using a full containerised DevOps pipeline running in Azure where everything is hosted in the cloud. We will provide guidance on how a similar dedicated cloud-based environment can be made for stakeholders looking for a similar environment.
-
 Access to a cloud-based or a dedicated evaluation environment can be provided by Neo4j free of charge. Please check the following section for more information.
 
-It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how this can be done is made within the readme files in the Git repositories.
-
-The different components can also be used independently due to the modular implementation and API usages.
+It is also possible to run the full system on a **local desktop environment**. Instructions on how to set up the system on a local desktop can be found in the readme files of the individual components. The different components can also be used independently due to the modular implementation and API usages.
 
 ## Cloud evaluation environments
 
