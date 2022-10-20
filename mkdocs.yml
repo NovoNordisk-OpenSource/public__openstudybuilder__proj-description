@@ -10,8 +10,10 @@ nav:
   - Description: index.md
   - Info: 
     - Status: status.md
-    - Events: intro_events.md
-    - Past Events: intro_events_past.md
+    - Events: info_events.md
+    - Past Events: info_events_past.md
+    - DDF Context: info_ddf.md
+    - Environments: info_environment.md
   - FAQ:
     - faq.md
 
