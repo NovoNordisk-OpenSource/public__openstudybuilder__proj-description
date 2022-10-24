@@ -4,17 +4,9 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-24 October 2022 | OpenStudyBuilder Q&A | Scheduled 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
-
-## OpenStudyBuilder Q&A (virtual)
-
-(24 October 2022 - 15:00-16:00 CEST, virtual event)
-
-**Join the open Q&A session to ask and discuss anything about the OpenStudyBuilder**
-
-We provide an open virtual discussion round for any kind of questions to support our community best as we can. Please feel free to login into teams with this [Teams link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmJlMzI4YTgtMWNkZi00NDNhLWEyNGMtMTg3ZDM1NDk3NjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%22908a1a44-233f-4d11-b1ac-b8b4b3e45a19%22%7d) from 15:00-16:00 CEST.
+26-27 April 2023 | CDISC Europe Interchange (København, Denmark) |  Planned
 
 ## CDISC US Interchange (Austin, Texas)
 

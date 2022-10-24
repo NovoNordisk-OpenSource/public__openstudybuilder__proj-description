@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+24 October 2022 | OpenStudyBuilder Q&A
 13 October 2022 | EMEA Autumn SDE (Copenhagen)
 12-30 September 2022 | DDF Connectathon
 08 September 2022 | GraphSummit Copenhagen
@@ -12,6 +13,29 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## OpenStudyBuilder Q&A (virtual)
+
+(24 October 2022 - 15:00-16:00 CEST, virtual event)
+
+**Join the open Q&A session to ask and discuss anything about the OpenStudyBuilder**
+
+We provided a quick overview of the OpenStudyBuilder (10') and the most important links - see [slides](./presentations/2022-10-24 OpenStudyBuilder - Q&A.pdf). The tool went live today on 24. October 2022 with the first version of the minimum viable product (MVP) in version 0.1. Then we started discussions around this tool. 
+
+We have been discussing how the OpenStudyBuilder could be used to support also the pre-clinical phases. The SEND terminology is available in the OpenStudyBuilder. The trial summary datasets are very similar, but there is one additional dataset which could then be added at some point in time. The OpenStudyBuilder contains a lot, but many more things can and should be added. The OpenStudyBuilder is looking also for the pre-clinical area very valuable.
+
+The terminologies have been shown during the meeting. A nice feature for terminologies is to view differences from one version to another. To load terminology updates to the system, currently an administrator running python commands is required. This is one functionality which should be enhanced in the future.
+
+There are many things on the road map. Novo Nordisk is currently working on this as this is a missing part. When a decision on the roadmap has been performed by Novo Nordisk, this will be shared with the community as well. Collaborations enable additional priorities, so even though the core road map might priorize some items lower, a functionality might come earlier through collaboration.
+
+The biomedical concept which is used can be browsed through the neo4j browser which is part of the sandbox environment and the local installation is very important and enables FAIR data. This is very powerful as concepts and contents are linked. This allows also later on to link and search specific information. Currently it is not planned to store the data as linked data. But that is likely on the roadmap far away.
+
+We checked some examples for assessments and how there are stored in the OpenStudyBuilder. Also, the Protocol tool which is currently not open-source has been showed. This tool is running as a Word add-in using the APIs to get the required data. The API layer is very powerful as this enables data consumption and provision for any content.
+
+A question about maintenance came up. As this is an open-source project it relies on the community to support general topics and issues. When there is a more detailed need for support, then it is recommended to use vendors commercially. The current contributors are lists and can easily be contacted. The OpenStudyBuilder would also be happy to include additional vendors to provide services around the OpenStudyBuilder. Novo Nordisk has no intention of being a software provider. The idea is to facilitate knowledge sharing and sharing these solutions among pharma companies. Then there could be a network of suppliers that can give you professional services around the use and installation and integrations and validations and so on.
+
+A lot of documentation is available. The community documentation is this page here. Then we do have the repository documentation along with the source code in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution).. And finally, there is the in-build tool documentation which can be access by the local installation the "documentation" area or through the sandbox access where the documentation is available as well.
+
 
 ## PHUSE EMEA Autumn SDE (Copenhagen)
 
@@ -57,7 +81,8 @@ EDC Integration
 - Via OpenStudyBuilder native API
 - Via ODM-XML file with extensions
 
-Demo videos and additional material will be made available here soon (October 2022).
+Demo videos are available under [DDF Context](info_ddf.md). The following slides has been used: [DDF compliant SDR](./presentations/2022-09-30-DDF-compliant-SDR-solution.pdf), [ODM](./presentations/2022-09-30-ODM-Study-Definition-solution.pdf) and [Protocol](./presentations/2022-09-30-Protocol-and-SDTM-Study-Design-integration.pdf).
+
 
 ## GraphSummit Copenhagen
 
