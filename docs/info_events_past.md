@@ -2,6 +2,8 @@
 
 Date | Event 
 -- | --
+07 November 2022 | OpenStudyBuilder Q&A | Scheduled 
+26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
 24 October 2022 | OpenStudyBuilder Q&A
 13 October 2022 | EMEA Autumn SDE (Copenhagen)
 12-30 September 2022 | DDF Connectathon
@@ -13,6 +15,37 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+
+## OpenStudyBuilder Q&A (virtual)
+
+(07 November 2022 - 15:00-16:00 CET, virtual event)
+
+**Join the open Q&A session to ask and discuss anything about the OpenStudyBuilder**
+
+We had great talks similar to the first Q&A session. We had quick demonstration of various aspects of the OpenStudyBuilder and many discussions.
+
+## CDISC US Interchange (Austin, Texas)
+
+(26-27 October 2022, live event in Austin, TX)
+
+**Concept-based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables**
+
+(27th October 2022 - Session 5: Track B - Trial Design - 8:30 - 9:00CT)
+
+by Mikkel Traun, Novo Nordisk A/S
+
+OpenStudyBuilder is developed as an outcome of the CDISC 360 project and as a Digital Data Flow (DDF) compliant solution. The vision is to make metadata driven study specifications based on concept-based standards to be applied in protocol development, downstream system setup and SDTM submission deliverables.
+
+The solution includes an MDR component for managing versioned external and sponsor-defined data standards as concept based end-to-end standards linked from protocol specification, data collection to submission datasets. This presentation will focus on how we define and apply the concept based data standards.
+
+OpenStudyBuilder is currently being developed by Novo Nordisk in collaboration with vendors. Our ambition is to share the solution as open source under COSA and thereby contribute to improvement of tools supporting digitalisation in clinical development.  
+
+Slides including demonstration pictures are available [here](./presentations/2022-10-27-OpenStudyBuilderWithDemo-CDISC-US-Interchange.pdf){target=_blank}.
+
+**CDISC Open Source Alliance Booth / COSA Booth**
+
+There had be a high interest in demonstration and talks at the COSA booth around the OpenStudyBuilder. The next interchange will also have a booth and a time schedule, so use further chances for live demonstrations and direct talks!
 
 ## OpenStudyBuilder Q&A (virtual)
 
