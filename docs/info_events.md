@@ -4,41 +4,8 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
-07 November 2022 | OpenStudyBuilder Q&A | Scheduled 
 13-16 November 2022 | PHUSE EU Connect (Belfast) |  Scheduled 
 26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark) |  Planned
-
-## CDISC US Interchange (Austin, Texas)
-
-(26-27 October 2022, live event in Austin, TX)
-
-Registration and additional conference information [here](https://www.cdisc.org/events/interchange/2022-us-interchange){target=_blank}.
-
-**Concept-based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables**
-
-(27th October 2022 - Session 5: Track B - Trial Design - 8:30 - 9:00CT)
-
-by Mikkel Traun, Novo Nordisk A/S
-
-OpenStudyBuilder is developed as an outcome of the CDISC 360 project and as a Digital Data Flow (DDF) compliant solution. The vision is to make metadata driven study specifications based on concept-based standards to be applied in protocol development, downstream system setup and SDTM submission deliverables.
-
-The solution includes an MDR component for managing versioned external and sponsor-defined data standards as concept based end-to-end standards linked from protocol specification, data collection to submission datasets. This presentation will focus on how we define and apply the concept based data standards.
-
-OpenStudyBuilder is currently being developed by Novo Nordisk in collaboration with vendors. Our ambition is to share the solution as open source under COSA and thereby contribute to improvement of tools supporting digitalisation in clinical development.  
-
-**CDISC Open Source Alliance Booth / COSA Booth**
-
-Watch out for demonstrations of the OpenStudyBuilder and come around to ask questions and learn more! Among other tools and topics which are presented and talked about at the COSA booth, also the OpenStudyBuilder is on board!
-
-## OpenStudyBuilder Q&A (virtual)
-
-(07 November 2022 - 15:00-16:00 CET, virtual event)
-
-**Join the open Q&A session to ask and discuss anything about the OpenStudyBuilder**
-
-We provide an open virtual discussion round for any kind of questions to support our community best as we can. Please feel free to login into teams with this [Teams link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY4OWM1YzktYWEzZC00MjU3LWE1ZDEtMzdkMDg3YTY5YWI1%40thread.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%22de39650c-9208-44e9-89ea-207fea8e0751%22%7d){target=_blank} from 15:00-16:00 CET. You can also use this calender invite ([.ics file](https://drive.google.com/file/d/1WRFIUKwjL-E7jExOxu8HyIan5D5TL0Tp/view?usp=sharing){target=_blank}).
-
 
 ## PHUSE EU Connect (Belfast)
 
@@ -68,3 +35,5 @@ Please use also the networking opportunities to talk about possible collaboratio
 (26-27 April 2023, live event in Copenhagen)
 
 We plan to present the OpenStudyBuilder. More information will be shared when the event planning allows for this.
+
+Additional conference information available [here](https://www.cdisc.org/events/interchange/2023-europe-interchange){target=_blank}.
