@@ -14,6 +14,10 @@ nav:
     - Past Events: info_events_past.md
     - DDF Context: info_ddf.md
     - Environments: info_environment.md
+  - Guides:
+    - Introduction: guide_intro.md
+    - Sandbox: guide_sandbox.md
+    - Codelists: guide_codelists.md
   - FAQ:
     - faq.md
 
