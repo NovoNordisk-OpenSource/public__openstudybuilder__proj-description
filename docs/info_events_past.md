@@ -2,8 +2,9 @@
 
 Date | Event 
 -- | --
-07 November 2022 | OpenStudyBuilder Q&A | Scheduled 
-26-27 October 2022 | CDISC US Interchange (Austin, Texas) |  Scheduled   
+13-16 November 2022 | PHUSE EU Connect (Belfast)
+07 November 2022 | OpenStudyBuilder Q&A 
+26-27 October 2022 | CDISC US Interchange (Austin, Texas)
 24 October 2022 | OpenStudyBuilder Q&A
 13 October 2022 | EMEA Autumn SDE (Copenhagen)
 12-30 September 2022 | DDF Connectathon
@@ -16,6 +17,28 @@ Date | Event
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
 
+## PHUSE EU Connect (Belfast)
+
+(13-16 November 2022, live event in Belfast)
+
+**Vision and demonstration of the OpenStudyBuilder for supporting structured protocol content and submission deliverables using concept-based standards**
+
+by Martin Gram and Mikkel Traun, Novo Nordisk A/S
+
+OpenStudyBuilder is developed as an outcome of the CDISC 360 project and as a Digital Data Flow (DDF) compliant solution. The vision is to make metadata driven study specifications based on concept-based standards to be applied in protocol development, downstream system setup and SDTM submission deliverables. It includes an MDR component for managing versioned external and sponsor-defined data standards. 
+
+This poster will demonstrate the solution by:
+
+- Showing how concept-based standards can be applied to define a study e.g., specifying objectives, endpoints, activities with reference to the study design schedule.
+- Defining SDTM trial summary parameters, study arms, elements, epochs, and visit schedules.Creating structured protocol content directly from the repository.
+ 
+OpenStudyBuilder is currently being developed by Novo Nordisk in collaboration with vendors. Our ambition is to share the solution as open source under COSA and thereby contribute to improvement of tools supporting digitalisation in clinical development.
+
+**Talk to us**
+
+Many used the opportunity to talk to us and see a brief demo. 
+
+The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
 
 ## OpenStudyBuilder Q&A (virtual)
 
