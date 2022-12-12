@@ -18,6 +18,7 @@ nav:
     - Introduction: guide_intro.md
     - Sandbox: guide_sandbox.md
     - Codelists: guide_codelists.md
+    - CRF: guide_crf.md
   - FAQ:
     - faq.md
 

@@ -1,4 +1,7 @@
-# Guide for Sandbox Environment
+# Guide for Sandbox Environment {: class="guideH1"}
+
+(created 2022-11-25 using v0.1) 
+{: class="guideCreated"}
 
 The OpenStudyBuilder project is progressing with a sandbox environment where people can register to play around with the open-source solution without needing to install anything. This provides an excellent opportunity to get a more detailed impression of the metadata repository (MDR). The sandbox allows for investigations on how standards can be maintained, differences identified, how studies can be created with all protocol information and much more. The API is also accessible to see the capabilities for connecting tools.  And lastly, a database browser allows for check out details of the biomedical concept. 
 
