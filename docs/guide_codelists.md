@@ -1,4 +1,7 @@
-# Guide for Codelist Management
+# Guide for Codelist Management {: class="guideH1"}
+
+(created 2022-11-25 using v0.1) 
+{: class="guideCreated"}
 
 The OpenStudyBuilder is an open-source project for both a data standards metadata repository (MDR) as well as a study definitions repository (SDR). OpenStudyBuilder is capable of supporting the end-to-end automation of clinical trials in many ways. One main aspect is the management of codelists including CDISC controlled terminology and sponsor specific terminology.
 
