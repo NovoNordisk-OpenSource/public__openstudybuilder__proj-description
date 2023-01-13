@@ -8,6 +8,7 @@
 One of the main foundations in OpenStudyBuilder is the capacity to set up the Study Structure. The Study Structure consists of several parts, and further detailed descriptions are provided below the introduction. The Study Structure metadata can be used in systems and documents, e.g. for the Protocol, CRF and SDTM generation.
 
 The study Structure menu consists of:
+
 -	The **Overview** that provides the user with an overview of the study, that has been set up
 -	The **Study Arms** which provide the option to add single or multiple arms with different arm types from Observational arms to investigational arms
 -	The **Study Branches** where users can split arms to branches 
