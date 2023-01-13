@@ -113,7 +113,7 @@ The study visits tab contains all the visits needed for a study. OpenStudyBuilde
 -	**Scheduled visit**. This is the normal visits scheduled in a study and visible in the schedule of activities
 -	**Unscheduled visit**. This is primarily a technical placeholder for events happening outside normal visits and not visible in the schedule of activities
 -	**Non Visit**. This is primarily a technical placeholder for data that are not visit related. This visit type is not visible in the schedule of activities
--	**Special visit**. Other visits without specific timing but related to data collection. An example is early treatment discontinuation, where certain data are to be collected, but not at the timing of the planned End of Treatment visit. The special visit is always related to another visit and is shown in the schedule of activites as visit VXXA.
+-	**Special visit**. Other visits without specific timing but related to data collection. An example is early treatment discontinuation, where certain data are to be collected, but not at the timing of the planned End of Treatment visit. The special visit is always related to another visit and is shown in the schedule of activities as visit VXXA.
 
 ![Screenshot - Special Visit added as related to visit 10 End of Treatment](./img/guide_sstruct_06.png)
 {: class="imageParagraph"}
@@ -151,7 +151,7 @@ Figure 8: Design matrix in edit mode
 
 ## View specification
 
-In the section below Study Structure, the section **View Specification** is available. One of the view specifications is **SDTM Study Design Datasets**. In this section, it is possible to view the study structure from another perspective. 
+In the section below Study Structure, the section **View Specification** is available. One of the view specifications is **SDTM Study Design Datasets**. In this section, it is possible to display the study structure as Trial Domain datasets. 
 
 ![Screenshot - SDTM Trial Summary View](./img/guide_sstruct_09.png)
 {: class="imageParagraph"}
