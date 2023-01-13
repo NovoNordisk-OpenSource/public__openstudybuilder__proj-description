@@ -19,6 +19,7 @@ nav:
     - Sandbox: guide_sandbox.md
     - Codelists: guide_codelists.md
     - CRF: guide_crf.md
+    - Study Structure: guide_study_structure.md
   - FAQ:
     - faq.md
 
