@@ -17,7 +17,6 @@ The study Structure menu consists of:
 -	The **Study Elements** tab, where the user can specify intended main purpose within an arm in a certain period (epoch)
 -	The **Study Visits** where the user can assign visits to the epoch with visit types and reference timepoints
 -	The **Design Matrix** that provides an overview of the combination of arms/branches, epochs, and elements
--	The **Disease Milestone** tab describing the Disease milestones for the study.
 
 ![Screenshot - Study Overview for 2-arms, parallel study](./img/guide_sstruct_01.png)
 {: class="imageParagraph"}
@@ -149,12 +148,6 @@ You need to add the elements to the arm/epoch combination and **save your choice
 
 Figure 8: Design matrix in edit mode
 {: class="imageDescription"}
-
-## Disease Milestones
-
-Disease milestones described in CDISC SDTMIG v3.3 can be added based on the need in the study. The supporting code list is available in the library as Disease Milestone Type (MIDSTYPE).
-
-A Disease Milestone can be marked for repetition for milestones expected more than once in a study. 
 
 ## View specification
 
