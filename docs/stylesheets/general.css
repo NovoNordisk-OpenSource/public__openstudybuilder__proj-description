@@ -32,8 +32,10 @@ img {
   text-align: center;
   font-style: italic;
   margin-top: 0;
+  font-size: 0.7rem;
 }
 
 .imageParagraph {
   margin-bottom: 0;
+  text-align: center;
 }
