@@ -20,6 +20,7 @@ nav:
     - Codelists: guide_codelists.md
     - CRF: guide_crf.md
     - Study Structure: guide_study_structure.md
+    - API: guide_api.md
   - FAQ:
     - faq.md
 
@@ -49,6 +50,8 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
+  - admonition
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.snippets:
