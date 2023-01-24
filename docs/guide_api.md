@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The **A**pplication **P**rogramming **I**nterface (API) is a core feature of the OpenStduyBuilder, as integrations with other tools are key to enable fully automated processes. The heart of the MDR is the graph database which is a Neo4j database. There could be directly commands on the database, which might be used for standards and data import. But APIs allow for more controlled operations on the database. The OpenStudyBuilder solution - so the web application - is fully working on the APIs available. 
+The **A**pplication **P**rogramming **I**nterface (API) is a core feature of the OpenStudyBuilder, as integrations with other tools are key to enable fully automated processes. The heart of the MDR is the graph database which is a Neo4j database. There could be directly commands on the database, which might be used for standards and data import. But APIs allow for more controlled operations on the database by enforcing the business logic and providing a more domain-oriented view on the data. The OpenStudyBuilder solution - so the web application - is fully working on the APIs available. 
 
 The OpenStudyBuilder API allows you for example to:
 
@@ -16,7 +16,7 @@ The OpenStudyBuilder API allows you for example to:
 - GET a list of all ODM forms
 - Receive an ODM XML for a given template
 
-There are really many endpoints available. All tasks which are performed by the OpenStudyBuilder solution are done through these APIs. There are
+There are really many endpoints available. All tasks which are performed by the OpenStudyBuilder solution are done through these APIs. 
 
 ## API Definition
 
@@ -45,7 +45,7 @@ Figure 2: OpenStudyBuilder Conceptual Architecture
 
 Let us start on the left side. The CDISC Library comes along with an API, so this can be used by a program to load relevant data. Other library and dictionary providers might have an API where the data can be loaded from one system to another automatically. For the OpenStudyBuilder we have standard import programs in place which read the data from the CDISC API and stores the data in the database using the OpenStudyBuilder API - there are many parts in the API just responsible for standard imports.
 
-On the right side we do have the OpenStudyBuilder application which is also only communicating with the database through the OpenStudyBuilder API. Other tools like a protocol tool (which is currently not open-sourced) access also all protocol information through the API. Any tool like also EDC tools can use the API to receive, send and update data.
+On the right side we do have the OpenStudyBuilder application which is also only communicating with the database through the OpenStudyBuilder API. Other tools like a protocol tool (which is currently not open-sourced) access also all protocol information through the API. Any tool like also EDC tools can use the API to import and export ODM-XML, to send and update metadata.
 
 The OpenStudyBuilder API is very powerful and contains a lot of data to receive and put. As other software which is made available to the pharmaceutical industry is not only designed for the OpenStudyBuilder, but should support also other environments from any pharma company. To overcome integration issues, the [TransCelerate DDF](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/) project is working together with CDISC on API standards. The OpenStudyBuilder is working on a DDF-API-Adaptor which will be included in one of the next coming releases. This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.
 
@@ -61,11 +61,11 @@ There could be a EDC tool supporting the DDF standards. By connecting just the d
 
 ### OpenAPI and Swagger
 
-For the API development and usage, there are excellent standards and tools available. The [OpenAPI](https://www.openapis.org/) is a very common format for API specifications. This specification which is available in the json format can be important into many API tools - for example into [Postman](https://www.postman.com/), a commonly used API tool. Additionally, there is the [Swagger](https://swagger.io/) documentation which allows also even execute API calls easily.
+For the API development and usage, there are excellent standards and tools available. The [OpenAPI](https://www.openapis.org/) is a very common format for API specifications. This specification which is available in the json format can be important into many API tools - for example into [Postman](https://www.postman.com/), a commonly used API interaction tool. Additionally, there is the [Swagger](https://swagger.io/) documentation which also allows executing API calls easily. 
 
-In the OpenStudyBuilder you can download the OpenAPI either from the [repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/clinical-mdr-api/openapi.json) directly, or you can click the link in the Swagger documentation top right. The Swagger documentation is an available component within the OpenStudyBuilder package - in the sandbox environment you can access this simply through a [URL](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/). In the other environments this is also available, for example by using a docker environment the URL is [http://localhost:5005/api/docs](http://localhost:5005/api/docs).
+In the OpenStudyBuilder you can download the OpenAPI either from the [repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/clinical-mdr-api/openapi.json) directly, or you can click the link in the Swagger documentation top right. This you can then load it into Postman to "Create a new collection". The Swagger documentation is an available component within the OpenStudyBuilder package - in the sandbox environment you can access this simply through a [URL](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/). In the other environments this is also available, for example by using a docker environment the URL is [http://localhost:5005/api/docs](http://localhost:5005/api/docs).
 
-Remark **Sandbox Environment**: To get access to the Sandbox environment, you can simply send a mail to openstudybuilder@neotechnology.com with the subject "Request Sandbox Access". Your e-mail will be used together with Microsoft authentication to access the various tools via browser. Please be aware that your mail might be exposed when you perform changes as all changes are tracked for a version history. 
+Remark **Sandbox Environment**: To get access to the Sandbox environment, you can simply send a mail to openstudybuilder@neotechnology.com with the subject "Request Sandbox Access". Your e-mail will be used together with Microsoft authentication to access the various tools via browser. Please be aware that your mail might be exposed when you perform changes as all changes are tracked for a version history as audit trail feature. 
 
 There are different operations you can do with an API. The following standard operations are typically used for tasks:
 
