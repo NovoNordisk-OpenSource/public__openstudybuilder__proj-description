@@ -179,3 +179,44 @@ Study_000001 CDISC DEV-0>
 
 Figure 8: R data frame from API studies object
 {: class="imageDescription"}
+
+### SAS example
+
+SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using a bearer authentication for the "/studies" endpoint. The API is calles through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
+
+```sas
+OPTIONS QUOTELENMAX;
+
+/* define the bearer token and API endpoint variable */ 
+%let bearer_token = eyJ0eXAiOi....; /* enter your token here */
+%let api_endpoint = https://openstudybuilder.northeurope.cloudapp.azure.com/api/studies; 
+
+/* make the API call */ 
+FILENAME response temp; 
+
+PROC HTTP URL="&api_endpoint" METHOD="GET" OUT=response;
+	debug level = 1;
+	HEADERS 
+		"Authorization" = "Bearer &bearer_token"
+		"accept" =  "application/json"; 
+RUN;
+
+/* Read in the JSON into a library */
+LIBNAME response JSON;
+```
+
+The "ALLDATA" dataset in the assigned library containing the full content of the response. 
+
+![Screenshot of SAS ALLDATA dataset containing response](./img/guide_api_execute5.png)
+{: class="imageParagraph"}
+
+Figure 9: ALLDATA dataset containing response
+{: class="imageDescription"}
+
+The first level information for the studies are contained in the "ITEMS" object, which can be seen by opening up the corresponding "ITEMS" dataset. At this timepoint there are three studies available in the OpenStudyBuilder sandbox environment.
+
+![Screenshot of SAS ITEMS dataset containing response](./img/guide_api_execute6.png)
+{: class="imageParagraph"}
+
+Figure 9: ITEMS dataset containing response information for ITEMS
+{: class="imageDescription"}
