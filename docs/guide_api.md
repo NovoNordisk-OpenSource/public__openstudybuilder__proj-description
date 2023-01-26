@@ -142,33 +142,21 @@ The following examples are using a token for authentication. This might be an ac
 
 ### R example
 
-As mentioned, this API can be called in any other kind of software. Let's use as example an R application connecting the sandbox environment with authentication. There are different packages available for http and CURL requests. The following example is using the httr package. 
+As mentioned, this API can be called in any other kind of software. Let's use as example an R application connecting a local installation without authentication. There are different packages available for http and CURL requests. The following example is using the httr package. 
 
 ```R
 
-# CURL example to get API results from OpenStudyBuilder
-#
-# Remark - you can get the current bearer token by executing by calling the API from the browser and copy the token
-#   goto - https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/Studies/get_all_studies_get
-#   click "authorize" top right lock symbol, then "authorize"
-#   click "try it out"
-#   remove everything from the "filters" field
-#   click "execute"
-#   copy the bearer token from the CURL command (long string after "-H 'Authorization: Bearer ")
-#
-
 # setup for sandbox environment
-api_url <- "https://openstudybuilder.northeurope.cloudapp.azure.com/api"
-api_bearer <- "...."    # get your specific one
+api_url <- "http://localhost:5005/api"
 
 library(httr)
 
-response <- GET(paste(api_url,"studies", sep = "/"), add_headers(Authorization = paste("Bearer", api_bearer)))
+response <- GET(paste(api_url,"studies", sep = "/"))
 studies <- jsonlite::fromJSON(rawToChar(response$content))
 cat(studies[][["items"]][["uid"]], studies[][["items"]][["study_id"]])
 
 
-response <- GET(paste(api_url,"ct/terms?codelist_name=Sex", sep = "/"), add_headers(Authorization = paste("Bearer", api_bearer)))
+response <- GET(paste(api_url,"ct/terms?codelist_name=Sex", sep = "/"))
 ct_sex <- jsonlite::fromJSON(rawToChar(response$content))
 print(ct_sex[["items"]][["name"]][["sponsor_preferred_name"]])
 ```
@@ -195,14 +183,12 @@ Figure 10: R data frame from API studies object
 
 ### SAS example
 
-SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using a bearer authentication for the "/studies" endpoint. The API is calles through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
+SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using the "/studies" endpoint. The API is called through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
 
 ```sas
-OPTIONS QUOTELENMAX;
 
-/* define the bearer token and API endpoint variable */ 
-%let bearer_token = eyJ0eXAiOi....; /* enter your token here */
-%let api_endpoint = https://openstudybuilder.northeurope.cloudapp.azure.com/api/studies; 
+/* define API endpoint variable */ 
+%let api_endpoint = http://localhost:5005/api/studies; 
 
 /* make the API call */ 
 FILENAME response temp; 
@@ -210,7 +196,6 @@ FILENAME response temp;
 PROC HTTP URL="&api_endpoint" METHOD="GET" OUT=response;
 	debug level = 1;
 	HEADERS 
-		"Authorization" = "Bearer &bearer_token"
 		"accept" =  "application/json"; 
 RUN;
 
