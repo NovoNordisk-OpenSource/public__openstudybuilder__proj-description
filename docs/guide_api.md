@@ -138,25 +138,37 @@ Figure 9: CURL command executed in Git Bash in Windows
 
 ### Security Comments
 
-The following examples are using a token for authentication. This might be an acceptable approach for testing, but should be handled securely for concrete processes.
+In the OpenStudyBuilder project, authentication and authorization is being handled with OAuth 2.0 and OpenID Connect. Depending on the use-cases of OpenStudyBuilder and how you're connecting to the API, different authentication flows exist, such as client credentials flow, device code flow and authorization code flow. You should familiarize yourself with the authentication context that you're going to implement. For testing purposes, you can get an access token from the OpenStudyBuilder sandbox environment and using this for Bearer token authentication in other software solutions connecting to the API, such as SAS, R, or Postman. Such workflows should not be used for anything else than testing.
 
 ### R example
 
-As mentioned, this API can be called in any other kind of software. Let's use as example an R application connecting a local installation without authentication. There are different packages available for http and CURL requests. The following example is using the httr package. 
+As mentioned, this API can be called in any other kind of software. Let's use as example an R application connecting the sandbox environment with authentication. There are different packages available for http and CURL requests. The following example is using the httr package. As this is for test purposes, we are using a bearer token for authentication for simplicity.
 
 ```R
 
+# CURL example to get API results from OpenStudyBuilder
+#
+# Remark - you can get the current bearer token by executing by calling the API from the browser and copy the token
+#   goto - https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/Studies/get_all_studies_get
+#   click "authorize" top right lock symbol, then "authorize"
+#   click "try it out"
+#   remove everything from the "filters" field
+#   click "execute"
+#   copy the bearer token from the CURL command (long string after "-H 'Authorization: Bearer ")
+#
+
 # setup for sandbox environment
-api_url <- "http://localhost:5005/api"
+api_url <- "https://openstudybuilder.northeurope.cloudapp.azure.com/api"
+api_bearer <- "...."    # get your specific one
 
 library(httr)
 
-response <- GET(paste(api_url,"studies", sep = "/"))
+response <- GET(paste(api_url,"studies", sep = "/"), add_headers(Authorization = paste("Bearer", api_bearer)))
 studies <- jsonlite::fromJSON(rawToChar(response$content))
 cat(studies[][["items"]][["uid"]], studies[][["items"]][["study_id"]])
 
 
-response <- GET(paste(api_url,"ct/terms?codelist_name=Sex", sep = "/"))
+response <- GET(paste(api_url,"ct/terms?codelist_name=Sex", sep = "/"), add_headers(Authorization = paste("Bearer", api_bearer)))
 ct_sex <- jsonlite::fromJSON(rawToChar(response$content))
 print(ct_sex[["items"]][["name"]][["sponsor_preferred_name"]])
 ```
@@ -183,12 +195,14 @@ Figure 10: R data frame from API studies object
 
 ### SAS example
 
-SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using the "/studies" endpoint. The API is called through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
+SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using a bearer authentication for the "/studies" endpoint. The API is calles through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
 
 ```sas
+OPTIONS QUOTELENMAX;
 
-/* define API endpoint variable */ 
-%let api_endpoint = http://localhost:5005/api/studies; 
+/* define the bearer token and API endpoint variable */ 
+%let bearer_token = eyJ0eXAiOi....; /* enter your token here */
+%let api_endpoint = https://openstudybuilder.northeurope.cloudapp.azure.com/api/studies; 
 
 /* make the API call */ 
 FILENAME response temp; 
@@ -196,6 +210,7 @@ FILENAME response temp;
 PROC HTTP URL="&api_endpoint" METHOD="GET" OUT=response;
 	debug level = 1;
 	HEADERS 
+		"Authorization" = "Bearer &bearer_token"
 		"accept" =  "application/json"; 
 RUN;
 
