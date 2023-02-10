@@ -67,7 +67,7 @@ Data of Collection | collection_date |  01 JAN 2020 | Timing
 
 The value 76 is meaningful when it is defined in a Biomedical Concept together with its qualifiers. In the following we will use the term "a logical observation" for the above combined elements of information.  
 
-In OpenStudyBuilder we use the term ActivityConcept for the implementation of a Biomedical Concept with the following definition ([see also section: High-level Logical Activity Concepts Model](.#high-level-logical-activity-concepts-model)):
+In OpenStudyBuilder we use the term ActivityConcept for the implementation of a Biomedical Concept with the following definition ([see also section: High-level Logical Activity Concepts Model](guide_activity_concept.md#high-level-logical-activity-concepts-model)):
 
 !!! warning  
 
