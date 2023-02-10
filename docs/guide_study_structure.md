@@ -1,4 +1,4 @@
-# Guide for Study Structure (Structural Study Design)
+# Guide for Study Structure (Structural Study Design) {: class="guideH1"}
 
 (created 2023-01-13 using v0.2) 
 {: class="guideCreated"}

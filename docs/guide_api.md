@@ -1,4 +1,4 @@
-# Guide for the API
+# Guide for the API {: class="guideH1"}
 
 (created 2023-01-27 using v0.2) 
 {: class="guideCreated"}
