@@ -16,6 +16,7 @@ nav:
     - Environments: info_environment.md
   - Guides:
     - Introduction: guide_intro.md
+    - Overview: guide_overview.md
     - Sandbox: guide_sandbox.md
     - Codelists: guide_codelists.md
     - CRF: guide_crf.md
