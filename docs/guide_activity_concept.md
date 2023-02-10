@@ -67,16 +67,17 @@ Data of Collection | collection_date |  01 JAN 2020 | Timing
 
 The value 76 is meaningful when it is defined in a Biomedical Concept together with its qualifiers. In the following we will use the term "a logical observation" for the above combined elements of information.  
 
-In OpenStudyBuilder we use the term ActivityConcept for the implementation of a Biomedical Concept with the following definition (see also section: High-level Logical Activity Concepts Model):
+In OpenStudyBuilder we use the term ActivityConcept for the implementation of a Biomedical Concept with the following definition ([see also section: High-level Logical Activity Concepts Model](.#high-level-logical-activity-concepts-model)):
 
 !!! warning  
 
     TODO
 
 > If the Activity Concepts relate to data collection, then the activity at the level resulting in a semantic logical observation, this can be depending on context and qualifiers having different identifications. If not related to data collection, then to a semantic specific activity. 
-To get a detailed understanding of Biomedical Concepts, we recommend reading the detailed paper about “Biomedical Concepts” from Dave Iberson-Hurst.
 
-> We differentiate two different activity concepts: a sematic logical observation and a semantic specific activity. If the activity is related to data collection, it belongs to the logical observation group, otherwise it’s a semantic specific activity. **please include two examples** 
+> We differentiate two different activity concepts: a sematic logical observation and a semantic specific activity. If the activity is related to data collection, it belongs to the logical observation group, otherwise it's a semantic specific activity. **please include two examples**
+
+To get a detailed understanding of Biomedical Concepts, we recommend reading the detailed paper about ["Biomedical Concepts"](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf){target=_blank} from Dave Iberson-Hurst.
 
 ## Usage of Activity Concepts
 
@@ -127,13 +128,75 @@ On the "Protocol Flowcharts" tab, you can preview how the schedule of activities
 Figure 6: Protocol Flowchart Display
 {: class="imageDescription"}
 
+## Activity Concepts Data Model
+
+Let us now focus on the model behind the activity concepts. The activity concepts subject area covers the biomedical concepts related to study procedures and assessments. An activity concept can be defined at four different levels each being of the general concept's type within the OpenStudyBuilder. These have relationships to the activity class model, controlled terminologies and dictionary terms as well as to data collection structures.
+
+An example of an activity concept and its relationship is given in Figure 7.
+
+[![Example of Activity Concept – Weight and its relationships as per Activity Concept Model](./img/guide_ac_07.png)](./img/guide_ac_07.png)
+{: class="imageParagraph"}
+
+Figure 7: Example of Activity Concept - Weight and its relationships as per Activity Concept Model
+{: class="imageDescription"}
+
+### High-level Logical Activity Concepts Model
+
+The entities within the Activity Concepts Model are illustrated in the following diagram.
+
+[![High Level Activity Concept Model Diagram](./img/guide_ac_lmhlac.svg)](./img/guide_ac_lmhlac.svg)
+{: class="imageParagraph"}
+
+Figure 8: High Level Activity Concept Model Diagram
+{: class="imageDescription"}
+
+The entities within the Activity Concepts Model are described in the following table.
+
+Entity | Definition | Example
+-- | -- | --
+Library | Entity holds the name and definition of the library that are the source and owner for the related element. | CDISC Library, Sponsor Library, User Requested
+Concept | Within the Activity Concept subject area, the entities of the Concept type are: <br/><ul><li>Activity Group</li><li>Activity Subgroup</li><li>Activity</li><li>Activity Instance</li></ul><br/>All these share a set of attributes and will have a relationship to the library they belong to. | See the concept subtypes in Figure 9. ![Concept model part screenshot](./img/guide_ac_08.png)
+Activity Group | High level grouping of study activities (procedures and assessments) as the clinical term relevant for representation in the protocol.<br/>This can be what you decide to show in the protocol schedule of activities, it may be like a data collection instrument or other relevant grouping. By default, there is a General Group. | General, Laboratory Assessments, Clinical Outcome Assessments. <br/>"Exammination" as in figure 7: ![Examination node](./img/guide_ac_09.png)
+Activity Subgroup | Medium level grouping of study activities (procedures and assessments) as the clinical term relevant for representation in the protocol.<br/>This can be what you decide to show in the protocol schedule of activities, it may be like CRF form names, questionnaire or clinical procedures.<br/>The Activity Subgroup will always have a relationship to one Activity Group. | Vital signs, Lipids, SF36 V2.0 Standard, Adverse Event<br/>"Body Measurements" as in figure 7: ![Examination node](./img/guide_ac_10.png)
+Activity | *DDF definition:* An action, undertaking, or event, which is anticipated to be performed or observed, or was performed or observed, according to the study protocol during the execution of the study.<br/>*OpenStudyBuilder:* If relating to data collection, the activity at a level resulting in a semantic logical observation, this can be depending on context and qualifiers having different identifications. If not related to data collection, then to a semantic specific activity.<br/>The Activity can be related to one or more Activity Subgroups. | Body weight, Systolic blood pressure, HDL Cholesterol, SF-36 v2.0 Standard<br/>"Body Weigth" as in figure 7: ![Examination node](./img/guide_ac_11.png)
+Activity Instance | *OpenStudyBuilder:* The specific identification of the logical observation, this includes reference to context and qualifier values. For example, this includes references to ADaM BDS PARAM/PARAMCD or column name in ADSL, it also include internal unique identification as well as internal topic code.This will enable unique identification of source data, representation in SDTM by several qualifiers, and representation in ADaM BDS by PARAMCD value.<br/>The Activity Instance will always have a relationship to one Activity. The Activity Instance can have relationship to one or more Activity Instance Class's. | Body Weight, Fasting Plasma Glucose, HDL Cholesterol Plasma <br/>"Body Weight" as in figure 7: ![Examination node](./img/guide_ac_12.png)
+Activity Instance Class | This is the class of the logical observation giving the template of variables, the Activity Item Class's, relevant for an Activity Instance. For example, some variables are expected for a numeric finding, being collection unit, collection value, standard unit, value in standard unit. These are common characteristics of logical observations measuring numeric assessments.<br/>The Activity Instance Class have a recursive self-relationship describing the hierarchal relationship from general class's to more specific ones. The properties from the general ones are inherited to the sub classes. E.g., Subject Observation -> Finding -> Numeric Finding.<br/>The Activity Instance Class also have a relationship to zero or more Activity Item Class's. | Subject Observation, Finding, Numeric Finding,Categoric Finding<br/>"Finding" or "NumericFinding" as in figure 7: ![Finding or NumericFinding](./img/guide_ac_13.png) 
+Activity Item Class | The semantic generic type of variable related to a specific Activity Instance Class. It will be related to a semantic variable role and a semantic data type.<br/>Most Activity Item Class's will be related to an Activity Instance via an Activity Item.<br/>The Activity Item Class will have relationship to the Variable Class representations in various Data Models and Implementation Guides.<br/>The Activity Item Class is a semantic definition of the variable related to an Activity Instance holding the relationship to the various representations in connected data models.<br/>The Activity Item Classes are typically defined out of general SDTM and ADaM model understanding but is independent of any specific data models.<br/>The Activity Item Class will always have a relationship to one Semantic Item Data Type and one Semantic Item Role. | collection_datetime, laterality, result_collection_unit,result_standard_unit<br/>"domain" or "test_name_code" or ... as in figure 7: <br/>![domain, test_name_code or similar](./img/guide_ac_14.png)
+Semantic Item Data Type | The generic sematic variable item data type for an activity item class. This is independent of the data type in the various data model representations – but these are of course related and data type conversions can be defined. E.g., a datetime can be in multiple variables in CDASH, in a text-based ISO 8601 format in SDTM and in a numeric representation in ADaM. | TEXT, INTEGER, FLOAT, DATETIME, CTTERM <br/>"CTTERM" or "FLOAT" as in figure 7: <br/>![ctterm or float](./img/guide_ac_15.png)
+Semantic Item Role | The generic semantic role a variable item has for a logical observation. These are inspired by SDTM variable roles but independent of any specific data model representation. | IDENTIFIER, TOPIC, RECOQUAL, RESUQUAL. "TOPIC" or "IDENTIFIER" as in figure 7: <br/>![topic or identifier](./img/guide_ac_16.png)
+Activity Item | This carries the ternary relationship between a specific Activity Instance to Activity Item Class and Controlled Term.<br/>The Activity Item will always have a relationship to one Activity Instance and one Activity Item Class. It may have one or more relationships to CT or Dictionary Terms or other Concepts (like Unit Definitions).<br/>The Activity Item also carry the relationship to one or more data collection item(s). | Body Weight -> test_code_name -> WEIGHT in VSTESTCD<br/>Grey connecting dots as in figure 7: <br/>![Activity Items](./img/guide_ac_17.png)
+ 
+### Logical Activity Concepts Entity Attribute Model
+
+The following logical data model diagram illustrate the entity attributes and relationship to related subject areas.
+
+[![Logical Modal for Activity Concept Class](./img/guide_ac_lm_acc.svg)](./img/guide_ac_lm_acc.svg)
+{: class="imageParagraph"}
+
+Figure 9: Logical Modal for Activity Concept Class
+{: class="imageDescription"}
+ 
+The following table describe the main entity attributes:
+
+Entity | Attribute | Definition | Example
+-- | -- | -- | --
+Concepts shared for ActivityGroup, ActivitySubGroup, Activity, ActivityInstance | uid | Unique identifier within the system database. These are used for internal reference and audit trail. Can be seen when viewing the history or audit trail. Typical a concatenation of the label name and a running integer. | Activity_000001
+ | name | Default display name in title case. | Weight
+ | sentence_case_name | Default name to be used in sentence generation, value by default in lower case, but abbreviations and term in correct case as expected in paragraph text. | weight, HbA1c.
+ | abbreviation | Common short abbreviation when preferred name is long. | FPG, Hba1C.
+ | definition | Semantic concept definition. | The hemoglobin A1c (HbA1c) test measures the amount of blood sugar (glucose) attached to your hemoglobin. Hemoglobin is the part of your red blood cells that carries oxygen from your lungs to the rest of your body. It is an important blood test that gives a good indication of how well your diabetes is being controlled.
+Activity (additional attributes) | is_data_collected | Boolean indicator if this Activity is related to data collection or represent a reminder or procedure without expected data collection. | Yes, No.
+ | request_rationale | Rationale for an Activity request, only applicable for Activity Placeholders requested by a study user. | I need this new assessment for my study.
+Activity Instance | topic_code | Option to store the topic  | 
+ | adam_param_code | Option to store the ADAM parameter code  | 
+
 
 ## References
 
-- [1] CDISC 360: Using Biomedical Concept Metadata to Generate Case Report Forms and Dataset Definitions, PHUSE US Connect 2020, Paper TT06 by Sam Hume (CDISC), https://[www.lexjansen.com/phuse-us/2020/tt/TT06.pdf](www.lexjansen.com/phuse-us/2020/tt/TT06.pdf), accessed on 06.02.2023
+- [1] CDISC 360: Using Biomedical Concept Metadata to Generate Case Report Forms and Dataset Definitions, PHUSE US Connect 2020, Paper TT06 by Sam Hume (CDISC), [https://www.lexjansen.com/phuse-us/2020/tt/TT06.pdf](https://www.lexjansen.com/phuse-us/2020/tt/TT06.pdf){target=_blank}, accessed on 06.02.2023
 
-- [2] Biomedical Concepts - A Treatise by Dave Iberson-Hurst (data4knowledge), Draft 0.3, 18th May 2022, [https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf), accessed on 06.02.2023
+- [2] Biomedical Concepts - A Treatise by Dave Iberson-Hurst (data4knowledge), Draft 0.3, 18th May 2022, [https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf){target=_blank}, accessed on 06.02.2023
 
-- [3] Thoughts on Medical Informatics, Blog by Armando Oliva, [https://aolivamd.blogspot.com/](https://aolivamd.blogspot.com/), accessed on 10.02.2023
+- [3] Thoughts on Medical Informatics, Blog by Armando Oliva, [https://aolivamd.blogspot.com/](https://aolivamd.blogspot.com/){target=_blank}, accessed on 10.02.2023
 
-- [4] CDISC Protocol Controlled Terminology, CDISC CT "C71473" for "Study Activitiy" [https://evs.nci.nih.gov/ftp1/CDISC/Protocol/Archive/Protocol%20Terminology%202017-12-22.html](https://evs.nci.nih.gov/ftp1/CDISC/Protocol/Archive/Protocol%20Terminology%202017-12-22.html), accessed on 10.02.2023
+- [4] CDISC Protocol Controlled Terminology, CDISC CT "C71473" for "Study Activitiy" [https://evs.nci.nih.gov/ftp1/CDISC/Protocol/Archive/Protocol%20Terminology%202017-12-22.html](https://evs.nci.nih.gov/ftp1/CDISC/Protocol/Archive/Protocol%20Terminology%202017-12-22.html){target=_blank}, accessed on 10.02.2023
