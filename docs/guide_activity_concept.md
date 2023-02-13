@@ -37,6 +37,10 @@ This then requires a definition of an Activity within a clinical study, here we 
 
 In the OpenStudyBuillder, the activity concept is defined closer to the definition by Armando Olivia and broader than the above definitions by Sam Hume and Dave Iberson-Hurst. An activity concept in OpenStudyBuillder is made to support both the protocol specification (electronically) as well as the down-stream data flow (Forms, SDTM). An activity in the OpenStudyBuillder can be a clinical recording (like the definition by Dave Iberson-Hurst), but it can also be an activity performed during the study that is not leading to collection of data, for example the administration of study drug (like definition by Armando Olivia).
 
+!!! tip  
+
+    To get a detailed understanding of Biomedical Concepts, we recommend reading the detailed paper about ["Biomedical Concepts"](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf){target=_blank} from Dave Iberson-Hurst.
+
 ### Example
 
 To get a better understanding of what a biomedical concept is, let's look at an example. We observe a clinical recording as:
@@ -67,17 +71,15 @@ Data of Collection | collection_date |  01 JAN 2020 | Timing
 
 The value 76 is meaningful when it is defined in a Biomedical Concept together with its qualifiers. In the following we will use the term "a logical observation" for the above combined elements of information.  
 
+### Definition Activity Concept
+
 In OpenStudyBuilder we use the term ActivityConcept for the implementation of a Biomedical Concept with the following definition ([see also section: High-level Logical Activity Concepts Model](guide_activity_concept.md#high-level-logical-activity-concepts-model)):
 
-!!! warning  
+> We differentiate between two different types of activity concepts: a sematic logical observation and a semantic specific activity. If the activity is related to data collection, then the activity corresponds to a logical data observation; otherwise, it’s a semantic specific activity. 
 
-    TODO
+> The activity related to a logical data observation is defined at a level of granularity where it will match an observation: an example can be Systolic blood pressure measured sitting, in unit of mmHg, at a specific point in time. 
 
-> If the Activity Concepts relate to data collection, then the activity at the level resulting in a semantic logical observation, this can be depending on context and qualifiers having different identifications. If not related to data collection, then to a semantic specific activity. 
-
-> We differentiate two different activity concepts: a sematic logical observation and a semantic specific activity. If the activity is related to data collection, it belongs to the logical observation group, otherwise it's a semantic specific activity. **please include two examples**
-
-To get a detailed understanding of Biomedical Concepts, we recommend reading the detailed paper about ["Biomedical Concepts"](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf){target=_blank} from Dave Iberson-Hurst.
+> The semantic specific activity not related to data collection can e.g., be dosing instructions for the subject. 
 
 ## Usage of Activity Concepts
 
