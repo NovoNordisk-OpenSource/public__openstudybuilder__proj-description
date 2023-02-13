@@ -136,7 +136,7 @@ Let us now focus on the model behind the activity concepts. The activity concept
 
 An example of an activity concept and its relationship is given in Figure 7.
 
-[![Example of Activity Concept – Weight and its relationships as per Activity Concept Model](./img/guide_ac_07.png)](./img/guide_ac_07.png)
+[![Example of Activity Concept - Weight and its relationships as per Activity Concept Model](./img/guide_ac_07.png)](./img/guide_ac_07.png)
 {: class="imageParagraph"}
 
 Figure 7: Example of Activity Concept - Weight and its relationships as per Activity Concept Model
@@ -164,7 +164,7 @@ Activity | *DDF definition:* An action, undertaking, or event, which is anticipa
 Activity Instance | *OpenStudyBuilder:* The specific identification of the logical observation, this includes reference to context and qualifier values. For example, this includes references to ADaM BDS PARAM/PARAMCD or column name in ADSL, it also include internal unique identification as well as internal topic code.This will enable unique identification of source data, representation in SDTM by several qualifiers, and representation in ADaM BDS by PARAMCD value.<br/>The Activity Instance will always have a relationship to one Activity. The Activity Instance can have relationship to one or more Activity Instance Class's. | Body Weight, Fasting Plasma Glucose, HDL Cholesterol Plasma <br/>"Body Weight" as in figure 7: ![Examination node](./img/guide_ac_12.png)
 Activity Instance Class | This is the class of the logical observation giving the template of variables, the Activity Item Class's, relevant for an Activity Instance. For example, some variables are expected for a numeric finding, being collection unit, collection value, standard unit, value in standard unit. These are common characteristics of logical observations measuring numeric assessments.<br/>The Activity Instance Class have a recursive self-relationship describing the hierarchal relationship from general class's to more specific ones. The properties from the general ones are inherited to the sub classes. E.g., Subject Observation -> Finding -> Numeric Finding.<br/>The Activity Instance Class also have a relationship to zero or more Activity Item Class's. | Subject Observation, Finding, Numeric Finding,Categoric Finding<br/>"Finding" or "NumericFinding" as in figure 7: ![Finding or NumericFinding](./img/guide_ac_13.png) 
 Activity Item Class | The semantic generic type of variable related to a specific Activity Instance Class. It will be related to a semantic variable role and a semantic data type.<br/>Most Activity Item Class's will be related to an Activity Instance via an Activity Item.<br/>The Activity Item Class will have relationship to the Variable Class representations in various Data Models and Implementation Guides.<br/>The Activity Item Class is a semantic definition of the variable related to an Activity Instance holding the relationship to the various representations in connected data models.<br/>The Activity Item Classes are typically defined out of general SDTM and ADaM model understanding but is independent of any specific data models.<br/>The Activity Item Class will always have a relationship to one Semantic Item Data Type and one Semantic Item Role. | collection_datetime, laterality, result_collection_unit,result_standard_unit<br/>"domain" or "test_name_code" or ... as in figure 7: <br/>![domain, test_name_code or similar](./img/guide_ac_14.png)
-Semantic Item Data Type | The generic sematic variable item data type for an activity item class. This is independent of the data type in the various data model representations – but these are of course related and data type conversions can be defined. E.g., a datetime can be in multiple variables in CDASH, in a text-based ISO 8601 format in SDTM and in a numeric representation in ADaM. | TEXT, INTEGER, FLOAT, DATETIME, CTTERM <br/>"CTTERM" or "FLOAT" as in figure 7: <br/>![ctterm or float](./img/guide_ac_15.png)
+Semantic Item Data Type | The generic sematic variable item data type for an activity item class. This is independent of the data type in the various data model representations - but these are of course related and data type conversions can be defined. E.g., a datetime can be in multiple variables in CDASH, in a text-based ISO 8601 format in SDTM and in a numeric representation in ADaM. | TEXT, INTEGER, FLOAT, DATETIME, CTTERM <br/>"CTTERM" or "FLOAT" as in figure 7: <br/>![ctterm or float](./img/guide_ac_15.png)
 Semantic Item Role | The generic semantic role a variable item has for a logical observation. These are inspired by SDTM variable roles but independent of any specific data model representation. | IDENTIFIER, TOPIC, RECOQUAL, RESUQUAL. "TOPIC" or "IDENTIFIER" as in figure 7: <br/>![topic or identifier](./img/guide_ac_16.png)
 Activity Item | This carries the ternary relationship between a specific Activity Instance to Activity Item Class and Controlled Term.<br/>The Activity Item will always have a relationship to one Activity Instance and one Activity Item Class. It may have one or more relationships to CT or Dictionary Terms or other Concepts (like Unit Definitions).<br/>The Activity Item also carry the relationship to one or more data collection item(s). | Body Weight -> test_code_name -> WEIGHT in VSTESTCD<br/>Grey connecting dots as in figure 7: <br/>![Activity Items](./img/guide_ac_17.png)
  
@@ -191,6 +191,30 @@ Activity (additional attributes) | is_data_collected | Boolean indicator if this
  | request_rationale | Rationale for an Activity request, only applicable for Activity Placeholders requested by a study user. | I need this new assessment for my study.
 Activity Instance | topic_code | Option to store the topic  | 
  | adam_param_code | Option to store the ADAM parameter code  | 
+
+## Example Activity Concept
+
+After we have explained the Activity concept (see [here](guide_activity_concept.md#high-level-logical-activity-concepts-model)), let us look at a concrete example concept for body weight in the OpenStudyBuilder which is visualized in Figure 10. We use an "ActivityGroup" called "Examiniations" with the "ActivitySubgroup" of "Body Measurements". The "Activity" as well as the "ActivityInstance" we name "Body Weight". 
+
+![Body Weight Example Activity Concept](./img/guide_ac_18.png)
+{: class="imageParagraph"}
+
+Figure 10: Body Weight Example Activity Concept
+{: class="imageDescription"}
+
+In the Study Flowchart we can use this grouping to group and display the corresponding activity. But furthermore, we can use the same information on the CRF by having a form definition "FormDef" and an item group definition "ItemGroupDef" which is linked to these activities. The "ActivityItem"s contain additional detailed information. For this the "Body Weight" can either use "kg" or "lb" as "UnitDefinition". Such information can be linked to item definitions "ItemDef" required for the CRF design and simply be used. For this the CRF can contain the unit selection as well as an examination date.
+ 
+![Additional Information for Body Weight](./img/guide_ac_19.png)
+{: class="imageParagraph"}
+
+Figure 11: Additional Information for Body Weight
+{: class="imageDescription"}
+
+Additionally, the concepts contain also the SDTM information - "Body Weight" belongs to the "SDTMVariable" which is "VSCAT" using the "CTTERM" "VSCAT = Body measurement". The same can be done to link the domain and other related information like the content for the SDTM variable "VSORRESU".  
+
+Just by adding links to ADAM, define-xml and any other information, you might be able to envision the automation capabilities of these concepts. Such concepts does not only support data collection, presentation, CDISC standards support, but could be used automate many our processes and beyond. The main disadvantage is the complexity of such concepts, as we still needs to be able to work with this.
+
+Luckily not everyone needs to understand these concepts. A study designer can still work without knowing the concept behind. With a corresponding implementation and usage behind a concept everyone will benefit from this. For example, a study designer can simply select activities like collection of body weight, height, pulse and more and the CRF designer will automatically see these items on the CRF, and the study analyst can see the SDTM variables which they can expect and much more. If the CRF designer decides to remove one collection item, that will also be removed from the study design and SDTM as well (if implemented that way). 
 
 
 ## Browsing OpenStudyBuilder Concepts 
