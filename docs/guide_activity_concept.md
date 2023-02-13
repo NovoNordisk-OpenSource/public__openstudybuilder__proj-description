@@ -191,6 +191,21 @@ Activity Instance | topic_code | Option to store the topic  |
  | adam_param_code | Option to store the ADAM parameter code  | 
 
 
+## Browsing OpenStudyBuilder Concepts 
+
+The concepts are documented in the OpenStudyBuilder public repository and can be browed to gain a better understanding of these. You do find these under ["neo4j-mdr-db\model"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model){target=_blank}. There might be enhancements and updates to these models when the solution is updated. 
+
+To manage the complexity of the domain, we distinguish between four abstraction layers from a data model perspective: 
+
+- **Conceptual model** - how "manager"-level stakeholders view the data. (High-level) 
+- **Domain model** - how end-users perceive the data, for "user"-level conversations. 
+- **Logical model** - how the front-end developers and other data consumers perceive the data. 
+- **Physical model** - how our API developers work with the data (as stored on disk in the database). 
+
+The models are created using a yEd editor from yWorks, it is suggested to use this software to view the models (software available [here](https://www.yworks.com/products/yed){target=_blank} or live view [here](https://www.yworks.com/yed-live/){target=_blank}). 
+
+The Logical Modal for Activity Concept Class is for example available via ["neo4j-mdr-db\model\logical_data_model\logical-model-activity-class-concept.graphml"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/neo4j-mdr-db/model/logical_data_model/logical-model-activity-class-concept.graphml){target=_blank}. 
+
 ## References
 
 - [1] CDISC 360: Using Biomedical Concept Metadata to Generate Case Report Forms and Dataset Definitions, PHUSE US Connect 2020, Paper TT06 by Sam Hume (CDISC), [https://www.lexjansen.com/phuse-us/2020/tt/TT06.pdf](https://www.lexjansen.com/phuse-us/2020/tt/TT06.pdf){target=_blank}, accessed on 06.02.2023
