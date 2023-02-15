@@ -210,11 +210,11 @@ In the Study Flowchart we can use this grouping to group and display the corresp
 Figure 11: Additional Information for Body Weight
 {: class="imageDescription"}
 
-Additionally, the concepts contain also the SDTM information - "Body Weight" belongs to the "SDTMVariable" which is "VSCAT" using the "CTTERM" "VSCAT = Body measurement". The same can be done to link the domain and other related information like the content for the SDTM variable "VSORRESU".  
+Additionally, the concepts contain also the SDTM information - "Body Weight" belongs to the "SDTMVariable" which is "VSCAT" using the "CTTERM" "VSCAT = Body measurement". The same can be done to link the domain and other related information like the content for the SDTM variable "VSORRES".  
 
-Just by adding links to ADAM, define-xml and any other information, you might be able to envision the automation capabilities of these concepts. Such concepts does not only support data collection, presentation, CDISC standards support, but could be used automate many our processes and beyond. The main disadvantage is the complexity of such concepts, as we still needs to be able to work with this.
+Just by adding links to ADAM, define-xml and any other information, you might be able to envision the automation capabilities of these concepts. Such concepts do not only support data collection, presentation, CDISC standards support, but could be used automate many our processes and beyond. The main disadvantage is the complexity of such concepts, as we still need to be able to work with this.
 
-Luckily not everyone needs to understand these concepts. A study designer can still work without knowing the concept behind. With a corresponding implementation and usage behind a concept everyone will benefit from this. For example, a study designer can simply select activities like collection of body weight, height, pulse and more and the CRF designer will automatically see these items on the CRF, and the study analyst can see the SDTM variables which they can expect and much more. If the CRF designer decides to remove one collection item, that will also be removed from the study design and SDTM as well (if implemented that way). 
+Luckily not everyone needs to understand these concepts. A study designer can still work without knowing the concept behind. With a corresponding implementation and usage behind a concept everyone will benefit from this. For example, a study designer can simply select activities like collection of body weight, height, pulse and more and the CRF designer will automatically see these items on the CRF, and the study analyst can see the SDTM variables which they can expect and much more. If the protocol is updated with a new "Actitvity", that could automatically be added as new CRF item and will be dedicated to SDTM variable(s) - if implemented that way. 
 
 
 ## Browsing OpenStudyBuilder Concepts 
