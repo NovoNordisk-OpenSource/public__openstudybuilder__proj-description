@@ -21,7 +21,7 @@ In the OpenStudyBuilder you can manage different types of standards within Clini
 
 
 - **Concept based standards.** We refer to concept-based standards as data standards defined in more complex structures than code-value pairs. In the OpenStudyBuilder we have grouped the ones we currently cover into the following groups related to their scope: 
-    - **Activities.** These refer to our (broader) definition of Biomedical Concepts which cover clinical procedures and assessments with or without data collection. (guide available soon)
+    - **Activities.** These refer to our (broader) definition of Biomedical Concepts which cover clinical procedures and assessments with or without data collection. ([guide available](guide_activity_concept.md))
     - **Units.** These refer to unit definitions including relationship to UCUM, SPOR RMS and CDISC CT as well as metadata supporting unit conversions. 
     - **CRFs.** These generally refer to data collection instruments with reference to Activity Concepts as well as representation in CDISC ODM.XML format. ([guide available](guide_crf.md))
     - **Compounds.** These refer to representations of medicinal products in the protocol as well as the data collection and submission datasets. This model is in alignment with the ISO IDMP standard.
