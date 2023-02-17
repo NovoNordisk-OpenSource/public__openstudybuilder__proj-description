@@ -39,7 +39,7 @@ In the OpenStudyBuillder, the activity concept is defined closer to the definiti
 
 !!! tip  
 
-    To get a detailed understanding of Biomedical Concepts, we recommend reading the detailed paper about ["Biomedical Concepts"](https://github.com/data4knowledge/biomedical_concepts/blob/main/docs/bc treatise/Biomedical Concepts Treatise.pdf){target=_blank} from Dave Iberson-Hurst.
+    To get a detailed understanding of Biomedical Concepts, we recommend checking the [reference](guide_activity_concept.md#references) links one to three.
 
 ### Example
 
@@ -217,9 +217,9 @@ Just by adding links to ADAM, define-xml and any other information, you might be
 Luckily not everyone needs to understand these concepts. A study designer can still work without knowing the concept behind. With a corresponding implementation and usage behind a concept everyone will benefit from this. For example, a study designer can simply select activities like collection of body weight, height, pulse and more and the CRF designer will automatically see these items on the CRF, and the study analyst can see the SDTM variables which they can expect and much more. If the protocol is updated with a new "Actitvity", that could automatically be added as new CRF item and will be dedicated to SDTM variable(s) - if implemented that way. 
 
 
-## Browsing OpenStudyBuilder Concepts 
+## OpenStudyBuilder Data Model
 
-The concepts are documented in the OpenStudyBuilder public repository and can be browed to gain a better understanding of these. You do find these under ["neo4j-mdr-db\model"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model){target=_blank}. There might be enhancements and updates to these models when the solution is updated. 
+The concepts data model is documented in the OpenStudyBuilder public repository and can be browsed to gain a better understanding of these. You do find the data model diagrams under ["neo4j-mdr-db\model"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model){target=_blank}. Note the solution is a MVP solution under development and the documentation is under updates as well. There might therefore be gaps in the diagrams, enhancements and updates to these data model diagrams. Development is ongoing and models will be updated as part of new releases. 
 
 To manage the complexity of the domain, we distinguish between four abstraction layers from a data model perspective: 
 
