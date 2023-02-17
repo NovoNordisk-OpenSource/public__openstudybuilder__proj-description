@@ -21,6 +21,7 @@ nav:
     - Codelists: guide_codelists.md
     - CRF: guide_crf.md
     - Study Structure: guide_study_structure.md
+    - Activity Concept: guide_activity_concept.md
     - API: guide_api.md
   - FAQ:
     - faq.md
@@ -55,6 +56,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.caret
   - pymdownx.snippets:
       base_path: .
   - attr_list
