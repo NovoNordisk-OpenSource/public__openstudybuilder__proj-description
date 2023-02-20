@@ -2,13 +2,13 @@
 
 ## Pre-Requisites
 
-The current implementation required CDISC library access to access CDISC standards (freely available also for non-CDISC-members), a Neo4j database license for the database (a community version is available) and a set of servers where the web applications and API services can run.
+The current implementation required CDISC library access to access CDISC standards (freely available also for non-CDISC-members), a Neo4j database license for the database (a community version is available) and a set of servers where the web applications and API services can run. A docker-setup is available as well.
 
-Access to the open-source code will be via a public accessible GitLab repository. A link to this repository will be provided when available.
+Access to the open-source code is available via [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}.
 
 Access to a cloud-based or a dedicated evaluation environment can be provided by Neo4j free of charge. Please check the following section for more information.
 
-It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the readme files of the individual components. The different components can also be used independently due to the modular implementation and API usages.
+It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/README.md){target=_blank} file. The different components can also be used independently due to the modular implementation and API usages - install instructions are available in the single sub-areas readme files.
 
 ## Cloud evaluation environments
 
@@ -44,5 +44,7 @@ For more information about the evaluation environment, please use the following 
 - +32(485)329828 & +39(339)8702150
 - <a href="mailto:openstudybuilder@neotechnology.com">openstudybuilder@neotechnology.com</a>
 
-The public sandbox access can be requested via mail as well:, <a href="mailto:openstudybuilder@neotechnology.com?subject=Request%20Sandbox%20Access">
+## Public Sandbox Access
+
+The public sandbox access can be requested via mail: <a href="mailto:openstudybuilder@neotechnology.com?subject=Request%20Sandbox%20Access">
 openstudybuilder@neotechnology.com (Request Sandbox Access)</a>.
