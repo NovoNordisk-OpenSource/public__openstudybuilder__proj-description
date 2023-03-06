@@ -4,8 +4,22 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
+21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA) | Scheduled
 25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark) |  Scheduled
 26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark) |  Scheduled
+
+## OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
+
+(21 March 2023, Nashville, 9:00-10:00)
+
+We are going to present how the OpenStudyBuilder can be utilized in the pre-clinical space using SEND, how protocol automation could be performed as well as how collaboration in this space can embrace further standardization and standard tools.
+
+You will find this presentation in the "Exhibitor-Hosted Sessions".
+
+Registration and further information are available [here](https://www.toxicology.org/events/am/AM2023/index.asp){target=_blank}.
+
+**Presenter**: Bob Friedmann, Xybion
+
 
 ## COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
 
