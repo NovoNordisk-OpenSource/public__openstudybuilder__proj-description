@@ -2,7 +2,7 @@
 
 ## Release of OpenStudyBuilder
 
-The OpenStudyBuilder has just been released on 24.10.2022 and is available as open source in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
+The OpenStudyBuilder has been released on 24.10.2022 and is available as open source in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
 
 Thanks to Novo Nordisk for sharing this as open source to enable the next level of collaboration! 
 
@@ -39,7 +39,7 @@ The OpenStudyBuilder aims to become a DDF reference implementation on top of man
 
 The main goal for the OpenStudyBuilder as an open-source project is to allow for next level collaboration. Let's not only share ideas and discuss processes, but share concepts and tools as well! Want to enhance the biomedical concept? Create additional connecting tools? There are many ways to collaborate with us. We want to build up our community.  
 
-Please follow our newsletter in [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}, join us in [Slack](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank}, write a message to the OpenStudyBuilder team via mail OpenStudyBuilder@gmail.com or get in touch with us on conferences and similar!You can use the opportunity to get access to the Sandbox environment via mail: openstudybuilder@neotechnology.com - Request Sandbox Access. 
+Please follow our newsletter in [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}, join us in [Slack](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank}, write a message to the OpenStudyBuilder team via mail <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a> or get in touch with us on conferences and similar!You can use the opportunity to get access to the Sandbox environment via mail: <a href="mailto:openstudybuilder@neotechnology.com">openstudybuilder@neotechnology.com</a> - Request Sandbox Access. 
 
 ## Status and Team
 
