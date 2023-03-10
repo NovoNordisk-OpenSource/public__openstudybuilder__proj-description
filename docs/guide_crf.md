@@ -8,7 +8,7 @@ The OpenStudyBuilder offers a Case Report Form (CRF) management feature in both 
 The following video provides a great overview of the CRF featues available in version 0.2:
 
 <iframe
-  title="DDF-1 OpenStudyBuilder as SDR Solution"
+  title="CRF support in OpenStudyBuilder"
   width=720
   height=405
   src="https://www.youtube-nocookie.com/embed/ubG9IJU9wVQ"
