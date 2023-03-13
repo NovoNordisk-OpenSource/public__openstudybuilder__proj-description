@@ -14,6 +14,7 @@ nav:
     - Past Events: info_events_past.md
     - DDF Context: info_ddf.md
     - Environments: info_environment.md
+    - Resources: info_resources.md
   - Guides:
     - Introduction: guide_intro.md
     - Overview: guide_overview.md
