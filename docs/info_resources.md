@@ -10,16 +10,11 @@ Title | Description
 -- | --
 [OpenStudyBuilder Flyer](./presentations/2023-02-17-Flyer.pdf){target=_blank} | Flyer (2023-02-17)
 [OpenStudyBuilder Poster](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank} | Poster (2022-10-13)
-[Concept based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables](./presentations/2022-10-27-OpenStudyBuilderWithDemo-CDISC-US-Interchange.pdf){target=_blank} | Introduction with Demo Slides (2022-10-27)
-[OpenStudyBuilder - Open source MDR](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Copenhagen.pdf){target=_blank} | Introduction including focus areas, next steps, how to get started & getting along <br/>(2022-10-13)
-[StudyBuilder - Leveraging the Graph for Clinical Standards and Trials](./presentations/2022-09-08-GraphSummitCopenhagen_StudyBuilder.pdf){target=_blank} | Showing underlying graph structures and examples <br/>(2022-09-08) 
-[OpenStudyBuilder - The Game Changer!](./presentations/2022-06-21-PHUSE%20SDE%20Basel.pdf){target=_blank} | Open-source and community aspects <br/>(2022-06-21)
-
-
-
-
-
-
+[Concept based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables](./presentations/2022-10-27-OpenStudyBuilderWithDemo-CDISC-US-Interchange.pdf){target=_blank} | **Introduction** with Demo Slides (2022-10-27)
+[OpenStudyBuilder - Open source MDR](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Copenhagen.pdf){target=_blank} | **Introduction** including focus areas, next steps, how to get started & getting along <br/>(2022-10-13)
+[StudyBuilder - Leveraging the Graph for Clinical Standards and Trials](./presentations/2022-09-08-GraphSummitCopenhagen_StudyBuilder.pdf){target=_blank} | Showing underlying **graph** structures and examples <br/>(2022-09-08) 
+[OpenStudyBuilder - The Game Changer!](./presentations/2022-06-21-PHUSE%20SDE%20Basel.pdf){target=_blank} | **Open-source** and community aspects <br/>(2022-06-21)
+[OpenStudyBuilder](./presentations/2022-04-27-CDISC-EU-Interchange-StudyBuilder.pdf){target=_blank} | **Introduction** (2022-04-27)
 
 ## Videos
 
