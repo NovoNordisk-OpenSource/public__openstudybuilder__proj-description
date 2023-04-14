@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA) | Scheduled
 13-16 November 2022 | PHUSE EU Connect (Belfast)
 07 November 2022 | OpenStudyBuilder Q&A 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas)
@@ -16,6 +17,16 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
+
+(21 March 2023, Nashville, 9:00-10:00)
+
+We are going to present how the OpenStudyBuilder can be utilized in the pre-clinical space using SEND, how protocol automation could be performed as well as how collaboration in this space can embrace further standardization and standard tools.
+
+The slides are available [here](./presentations/2023-03-21-OpenStudyBuilder-SOT.pdf){target=_blank}.
+
+**Presenter**: Bob Friedmann, Xybion & Katja Glaß, Katja Glass Consulting
 
 ## PHUSE EU Connect (Belfast)
 

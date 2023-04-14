@@ -4,22 +4,11 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA) | Scheduled
 25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark) |  Scheduled
-26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark) |  Scheduled
-
-## OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
-
-(21 March 2023, Nashville, 9:00-10:00)
-
-We are going to present how the OpenStudyBuilder can be utilized in the pre-clinical space using SEND, how protocol automation could be performed as well as how collaboration in this space can embrace further standardization and standard tools.
-
-You will find this presentation in the "Exhibitor-Hosted Sessions".
-
-Registration and further information are available [here](https://www.toxicology.org/events/am/AM2023/index.asp){target=_blank}.
-
-**Presenter**: Bob Friedmann, Xybion
-
+26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark) | Scheduled
+05 May 2023 | OpenStudyBuilder Community Meeting | Scheduled
+10 October 2023 | PHUSE EMEA SDE  - Copenhagen | Planned
+5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Planned
 
 ## COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
 
@@ -43,3 +32,27 @@ Registration is available [here](https://web.cvent.com/event/692520b3-5d88-48f1-
 We present a poster on the OpenStudyBuilder and will be around the COSA booth. So if you are interested in more details, a demo or discussions, please come by.
 
 Conference information is available [here](https://www.cdisc.org/events/interchange/2023-europe-interchange){target=_blank}.
+
+## OpenStudyBuilder Community Meeting (virtual)
+
+(05 May 2023 - 15:00-16:00 CEST, virtual event)
+
+**Register now and be part of the conversation!**
+
+Looking to expand your knowledge and network within the OpenStudyBuilder community? Then mark your calendars for our upcoming event on Friday, May 5th!
+
+Join us for an engaging discussion on the latest developments and trends in the field, including a follow-up on the OpenStudyBuilder workshop on Biomedical Concepts. Share your own insights, questions, and feedback and get inspired by the ideas of others.
+
+You can login via this [teams link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmY5OGE2MTktNjIwMS00ODMwLWI5ZTMtNzBiZjA2MzIwMzcy%40thread.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%22908a1a44-233f-4d11-b1ac-b8b4b3e45a19%22%7d).
+
+## PHUSE EMEA SDE  - Copenhagen
+
+(10 October 2023, live event in Copenhagen)
+
+We plan to be at the PHUSE SDE in Copenhagen and will submit a presentation. We will provide additional information when this has been accepted.
+
+## PHUSE EU Connect
+
+(5-8 November 2023, live event in Birmingham, UK)
+
+We plan to be at the PHUSE EU Connect and will submit a presentation. We will provide additional information when this has been accepted.
