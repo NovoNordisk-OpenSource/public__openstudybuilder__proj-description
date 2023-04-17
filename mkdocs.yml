@@ -21,6 +21,7 @@ nav:
     - Environments: guide_sandbox.md
     - Codelists: guide_codelists.md
     - CRF: guide_crf.md
+    - Manage studies: guide_manage_studies.md
     - Study Structure: guide_study_structure.md
     - Activity Concept: guide_activity_concept.md
     - API: guide_api.md
