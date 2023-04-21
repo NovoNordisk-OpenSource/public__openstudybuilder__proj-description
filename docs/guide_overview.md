@@ -36,13 +36,15 @@ Within the "Studies" part of the OpenStudyBuilder, metadata for the studies can 
 
 ![OpenStudyBuilder Screenshot of the study part](./img/guide_overview_02.png)
  
-The following actions are available for a study:
+The following actions are available for a study setup and management:
 
+- Manage Studies ([guide available](guide_manage_studies.md))
 - Define Study
     - Study Title
     - Registry Identifiers
     - Study Properties
     - Study Structure ([guide available](guide_study_structure.md))
+      - Study Visits ([guide available](guide_visits.md))
     - Study Population
     - Study Criteria
     - Study Interventions
