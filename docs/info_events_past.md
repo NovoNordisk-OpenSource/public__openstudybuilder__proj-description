@@ -2,6 +2,9 @@
 
 Date | Event 
 -- | --
+05 May 2023 | OpenStudyBuilder Community Meeting
+26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark)
+25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
 21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA) | Scheduled
 13-16 November 2022 | PHUSE EU Connect (Belfast)
 07 November 2022 | OpenStudyBuilder Q&A 
@@ -17,6 +20,45 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## OpenStudyBuilder Community Meeting (virtual)
+
+(05 May 2023 - 15:00-16:00 CEST, virtual event)
+
+Everyone was invited to join our OpenStudyBuilder community meeting. After a short introduction we answered questions and showed areas people had been interested in. There was a huge interest in the CRF part including CRF related edit checks which could be added in the "Sponsor Extensions". Apart from the fact, that the ODM.XML can be exported, it is also possible to import ODM.XML - ideally you need to check that the codelists match the CDISC CTs, otherwise new sponsor specific codelists might be created. A nice note is that we are looking into the ICH M11 guideline about structured protocols. CDISC is looking into this guideline as well, so hopefully we can collaborate on this as well.
+
+
+## CDISC Europe Interchange (Copenhagen, Denmark)
+
+(26-27 April 2023, live event in Copenhagen)
+
+We presented a poster on the OpenStudyBuilder and had nice demonstration sessions at the COSA booth. Furthermore there was a presentation by Marius
+Conjeaud (Neo4j) and Nicolas de Saint Jorre (Novo Nordisk):
+
+**All you wanted to know about Blood Pressure but were afraid to ask**
+
+The presentation slides are available [here](./presentations/2023-04-27-Blood-Pressure.pdf){target=_blank}.
+
+## COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
+
+(25 April 2023, Copenhagen, 9:00-15:00)
+
+At this workshop we will dive into what Biomedical Concepts (BC) is, and how the can be applied within a MDR data standards repository and a SDR study definitions repository - illustrated within the OpenStudyBuilder (OSB) solution.
+
+We will as well relate to how BC's are defined within COSMoS, DDF, d4k and other models. There will be a shared introduction followed by 4 breakout sessions, leading to a shared reflection and discussion on how we can support and bring these initiatives forward. The 4 breakout sessions are currently defined as:
+
+- Breakout 1: Setup BC's in OSB SoA for a new study, run various queries to learn how BC's can be utilised
+- Breakout 2: Learn and understand the BC model in OSB versus the COSMoS, DDF, d4k and other models
+- Breakout 3: Create and curate OSB BC content and mining BC's from existing data sources like SDTM
+
+**Summary:** We could get a good overview about the different initiatives related to Biomedical Concepts, what the differences are and possible ways forward. Specifically the high participation from CDISC and other experts in the BC field enabled excellent introductions, discussions and a fantastic collaborative opportunity. Thanks for all who joined the workshop.
+
+Slides are available - an article is likely to come soon:
+
+- [Introcution Session](./presentations/2023-04-25-COSA-BC-and-OSB-Workshop.pdf){target=_blank}
+- [Breakout 1](./presentations/2023-04-25-Breakout1-Setup-BCs-in-OSB.pdf){target=_blank} - Biomedical Concepts in OpenStudyBuilder
+- [Breakout 2](./presentations/2023-04-25-Breakout2-BC-Data-Models.pdf){target=_blank} - Understand BCs in OpenStudyBuilder, COSMoS, DDF, d4k
+- [Breakout 3](./presentations/2023-04-25-Breakout3-Curate-BC-Content.pdf){target=_blank} - Curate BCs
 
 ## OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
 

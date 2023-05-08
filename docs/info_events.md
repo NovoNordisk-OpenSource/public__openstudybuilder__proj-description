@@ -4,48 +4,23 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark) |  Scheduled
-26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark) | Scheduled
-05 May 2023 | OpenStudyBuilder Community Meeting | Scheduled
-10 October 2023 | PHUSE EMEA SDE  - Copenhagen | Planned
+22 June 2023 | PHUSE SDE  - Heidelberg, Germany | Scheduled
+10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Planned
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Planned
 
-## COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
+## PHUSE SDE  - Heidelberg, Germany
 
-(25 April 2023, Copenhagen, 9:00-15:00)
+(22 June 2023, live event in Copenhagen)
 
-At this workshop we will dive into what Biomedical Concepts (BC) is, and how the can be applied within a MDR data standards repository and a SDR study definitions repository - illustrated within the OpenStudyBuilder (OSB) solution.
+**OpenStudyBuilder – Experimentation Examples**
 
-We will as well relate to how BC's are defined within COSMoS, DDF, d4k and other models. There will be a shared introduction followed by 4 breakout sessions, leading to a shared reflection and discussion on how we can support and bring these initiatives forward. The 4 breakout sessions are currently defined as:
+by Katja Glaß, Katja Glass Consulting
 
-- Setup BC's in OSB SoA for a new study, run various queries to learn how BC's can be utilised
-- Learn and understand the BC model in OSB versus the COSMoS, DDF, d4k and other models
-- Create and curate OSB BC content via the OSB Library and NeoDash reports
-- Mining BC's from existing data sources like SDTM
+The OpenStudyBuilder is a versatile open-source solution that serves as both a clinical metadata repository (MDR) and study definition repository (SDR). Developed as part of the CDISC 360 project, it is fully compliant with COSMoS and Digital Data Flow (DDF) standards, making it a powerful tool for managing clinical trial data.
 
-Registration is available [here](https://web.cvent.com/event/692520b3-5d88-48f1-b291-269010defffb/websitePage:645d57e4-75eb-4769-b2c0-f201a0bfc6ce){target=_blank}.
+This presentation offers a deep dive into the features of OpenStudyBuilder, highlighting how it streamlines processes related to study setup, protocol automation, and CRF development, as well as managing standards. We will demonstrate how you can leverage OpenStudyBuilder to explore dashboards based on biomedical concepts, export information in DDF format, automate protocol creation, and much more. You can gain valuable insights and inspiration on how you can benefit and collaborate!
 
-## CDISC Europe Interchange (Copenhagen, Denmark)
-
-(26-27 April 2023, live event in Copenhagen)
-
-We present a poster on the OpenStudyBuilder and will be around the COSA booth. So if you are interested in more details, a demo or discussions, please come by.
-
-Conference information is available [here](https://www.cdisc.org/events/interchange/2023-europe-interchange){target=_blank}.
-
-## OpenStudyBuilder Community Meeting (virtual)
-
-(05 May 2023 - 15:00-16:00 CEST, virtual event)
-
-**Register now and be part of the conversation!**
-
-Looking to expand your knowledge and network within the OpenStudyBuilder community? Then mark your calendars for our upcoming event on Friday, May 5th!
-
-Join us for an engaging discussion on the latest developments and trends in the field, including a follow-up on the OpenStudyBuilder workshop on Biomedical Concepts. Share your own insights, questions, and feedback and get inspired by the ideas of others.
-
-You can login via this [teams link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmY5OGE2MTktNjIwMS00ODMwLWI5ZTMtNzBiZjA2MzIwMzcy%40thread.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%22908a1a44-233f-4d11-b1ac-b8b4b3e45a19%22%7d).
-
-## PHUSE EMEA SDE  - Copenhagen
+## PHUSE SDE  - Copenhagen, Denmark
 
 (10 October 2023, live event in Copenhagen)
 
