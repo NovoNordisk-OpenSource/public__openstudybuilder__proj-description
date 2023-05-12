@@ -1,6 +1,6 @@
 # Guide for the API {: class="guideH1"}
 
-(created 2023-01-27 using v0.2) 
+(created 2023-01-27 using v0.2, 2023-05-12 include DDF-API PoC) 
 {: class="guideCreated"}
 
 ## Introduction
@@ -232,4 +232,50 @@ The first level information for the studies are contained in the "ITEMS" object,
 {: class="imageParagraph"}
 
 Figure 12: ITEMS dataset containing response information for ITEMS
+{: class="imageDescription"}
+
+## DDF-API Adapter (PoC)
+
+With the release of version 0.4 of the OpenStudyBuilder, the DDF-API adapter has been released. The compilation and running of this in only possible when you get an additional library from DDF. As soon as this is released as open-source by DDF, then installation instructions will be made available as well. We are also planning a Swagger documentation (and execution) including authentication.
+
+For now the DDS-API adapter can be tried out and executed for the neo4j sandbox environment. Make sure you have [access](../guide_sandbox/#getting-access) to this.
+
+You can start Postman (a common tool for API management), and create a "new" -> "HTTP Request". Then you enter the URL:
+
+```
+https://ddf-cloud-function-1.azurewebsites.net/api/func1?studyId=Study_000001
+```
+
+This example is getting the information for the study with the ID "Study_000001". You can also enter any other valid ID. For the proof of concept, we need a bearer token for authentication. To get this, open the application ([https://openstudybuilder.northeurope.cloudapp.azure.com](https://openstudybuilder.northeurope.cloudapp.azure.com){target=_blank}), open the "developer tools", e.g. by pressing F12 in Chrome, and go to the "network" tab. 
+
+![Investigate Bearer Token - see the API call](./img/guide_api_ddf1.png)
+{: class="imageParagraph"}
+
+Figure 13: Investigate Bearer Token - see the API call
+{: class="imageDescription"}
+
+Under "Name" you will see the study ID of your selected study. When you click this, you can see the API call which is executed in the background. You can now scroll down to authentication and see the bearer token.
+
+![Investigate Bearer Token - see the token](./img/guide_api_ddf2.png)
+{: class="imageParagraph"}
+
+Figure 14: Investigate Bearer Token - see the token
+{: class="imageDescription"}
+
+Now you can copy the value.
+
+Back to Postman, you need to select "Auth" and select the "Bearer Token" type. Here you need to paste the value in. Make sure to remove the "Bearer " pretext.
+
+![Enter Bearer Token in Postman](./img/guide_api_ddf3.png)
+{: class="imageParagraph"}
+
+Figure 15: Enter Bearer Token in Postman
+{: class="imageDescription"}
+
+Now we can "Send" this request and get the DDF-API response as defined by the DDF team.
+
+![DDF-API result from an OpenStudyBuilder studie](./img/guide_api_ddf4.png)
+{: class="imageParagraph"}
+
+Figure 16: DDF-API result from an OpenStudyBuilder studie
 {: class="imageDescription"}

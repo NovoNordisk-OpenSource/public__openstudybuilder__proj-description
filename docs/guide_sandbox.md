@@ -101,11 +101,18 @@ Sometimes there are some issues with remembered Microsoft logins and accounts sp
 
 You can install the OpenStudyBuilder with or without test data locally. The easiest way is to use the docker instructions. For this you just need to follow the instructions on the readme files. You can also install the single components by following the instructions in the corresponding readme files within each sub-folder.
 
-For the docker installation, you can install, setup and start the container following the general [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/README.md){target=_blank}. This will install the tools along with the database, but not the testdata.
+The current version 0.4 installation does include already test data and is very convenient to install. For **Windows** for example, make sure that you meet all pre-requisites that docker is running on the command line. Then you just need the following commands to setup, install and startup the OpenStudyBuilder:
 
-You can follow the "data-import" [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/data-import/README.md){target=_blank} to install the test data next.
+```
+cd c:\myInstallLocation
+git clone https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution.git OpenStudyBuilder
+cd OpenStudyBuilder
+docker compose up -d --build
+```
 
-If you also want to load additional CDISC terminology, you can follow along the "mdr-standards-import" [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/mdr-standards-import/README.md). You might not want to load all CTs at once, but load just those you need.
+You can also checkout the readme files in the subfolders to install individual components. If you also want to load additional CDISC terminology, you can follow along the "mdr-standards-import" [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/mdr-standards-import/README.md). You might not want to load all CTs at once, but load just those you need.
+
+Please note that Windows is not recommended, but it is working.
 
 ### Overview
 

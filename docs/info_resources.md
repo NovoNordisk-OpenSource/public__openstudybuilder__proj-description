@@ -19,7 +19,8 @@ Title | Description
 ## Videos
 
 Title | Description
--- | -- 
+-- | --
+[OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)
 [OpenStudyBuilder as SDR Solution (5:18)](https://www.youtube.com/watch?v=SB3AFJJQj-c){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used as SDR
 [OpenStudyBuilder for Standards and Protocol (5:22)](https://www.youtube.com/watch?v=rUOIwqVWGII){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used for standards management and protocol automation
 [OpenStudyBuilder with EDC Integrations (6:11)](https://www.youtube.com/watch?v=gGYkZGjWprs){target=_blank} | DDF Connectathon - quickly show how ECD Integrations can be done with the OpenStudyBuilder
