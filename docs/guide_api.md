@@ -236,6 +236,8 @@ Figure 12: ITEMS dataset containing response information for ITEMS
 
 ## DDF-API Adapter (PoC)
 
+The TransCelerate [Digital Data Flow](https://www.transceleratebiopharmainc.com/assets/digital-data-flow-solutions/){target=_blank} project (DDF) aims to a future state of fully automated, dynamic, study start-up readiness. To enable streamless integrations, the DDF team is working on standardized APIs.
+
 With the release of version 0.4 of the OpenStudyBuilder, the DDF-API adapter has been released. The compilation and running of this in only possible when you get an additional library from DDF. As soon as this is released as open-source by DDF, then installation instructions will be made available as well. We are also planning a Swagger documentation (and execution) including authentication.
 
 For now the DDS-API adapter can be tried out and executed for the neo4j sandbox environment. Make sure you have [access](../guide_sandbox/#getting-access) to this.
