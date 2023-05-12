@@ -31,6 +31,20 @@ The API provides a standard interface which is very powerful. The application it
 
 This project homepage contains core information as well as information about upcoming [events](info_events.md). For instructions on how to install all components together or just single components, see the single readme files in the [GitLab repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}. And finally, there is also the documentation portal with the documentation coming along with the tool itself – this is accessible through the Sandbox system [here](https://openstudybuilder.northeurope.cloudapp.azure.com/doc/){target=_blank}. 
 
+## Demonstration Video
+
+The following video shows the demonstration of the OpenStudyBuilder Application in Version 0.4.
+
+<iframe
+  title="OpenStudyBuilder - Demonstration of Application"
+  width=720
+  height=405
+  src="https://www.youtube-nocookie.com/embed/dL5CY0BwfEs"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 ## DDF Context
 
 The OpenStudyBuilder aims to become a DDF reference implementation on top of many other features. For this, any tools supporting DDF will also be able to work with the OpenStudyBuilder. Additional information on how the OpenStudyBuilder can be seen in the DDF context is available [online](info_ddf.md).
