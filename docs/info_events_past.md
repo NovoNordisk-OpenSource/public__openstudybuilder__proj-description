@@ -68,7 +68,7 @@ We are going to present how the OpenStudyBuilder can be utilized in the pre-clin
 
 The slides are available [here](./presentations/2023-03-21-OpenStudyBuilder-SOT.pdf){target=_blank}.
 
-**Presenter**: Bob Friedmann, Xybion & Katja Glaß, Katja Glass Consulting
+**Presenter**: Bob Friedmann, Xybion & Katja Glass, Katja Glass Consulting
 
 ## PHUSE EU Connect (Belfast)
 
