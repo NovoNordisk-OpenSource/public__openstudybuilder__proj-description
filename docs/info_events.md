@@ -18,11 +18,11 @@ Feel free to join the French CDISC User Group which meets live in France. You ca
 
 [Journee de conference GUF Billets, Le jeu 15 juin 2023 a 09:30 | Eventbrite](https://www.eventbrite.com/e/billets-journee-de-conference-guf-637912121327)
 
-## PHUSE SDE  - Heidelberg, Germany
+## PHUSE SDE - Heidelberg, Germany
 
 (22 June 2023, live event in Copenhagen)
 
-**OpenStudyBuilder – Experimentation Examples**
+**OpenStudyBuilder - Experimentation Examples**
 
 by Katja Glass, Katja Glass Consulting
 
