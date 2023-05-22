@@ -24,7 +24,7 @@ Feel free to join the French CDISC User Group which meets live in France. You ca
 
 **OpenStudyBuilder – Experimentation Examples**
 
-by Katja Glaß, Katja Glass Consulting
+by Katja Glass, Katja Glass Consulting
 
 The OpenStudyBuilder is a versatile open-source solution that serves as both a clinical metadata repository (MDR) and study definition repository (SDR). Developed as part of the CDISC 360 project, it is fully compliant with COSMoS and Digital Data Flow (DDF) standards, making it a powerful tool for managing clinical trial data.
 
