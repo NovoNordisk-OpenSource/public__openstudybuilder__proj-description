@@ -10,14 +10,13 @@ Date | Event | Status
 10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Planned
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Planned
 
-
 ## GUF Meeting (French CDISC User Group)
 
 (15 June 2023, live event in Indre-et-Loire, France)
 
 Feel free to join the French CDISC User Group which meets live in France. You can register for this free event via eventbrite:
 
-[Journée de conférence GUF Billets, Le jeu 15 juin 2023 à 09:30 | Eventbrite](https://www.eventbrite.com/e/billets-journee-de-conference-guf-637912121327)
+[Journee de conference GUF Billets, Le jeu 15 juin 2023 a 09:30 | Eventbrite](https://www.eventbrite.com/e/billets-journee-de-conference-guf-637912121327)
 
 ## PHUSE SDE  - Heidelberg, Germany
 
