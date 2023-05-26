@@ -9,7 +9,9 @@ Date | Event | Status
 22 June 2023 | PHUSE SDE  - Heidelberg, Germany | Scheduled
 28 September | PHUSE SDE  - Utrecht, Netherlands | Planned
 10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Planned
+18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA | Planned
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Planned
+April 2024 | CDISC EU Interchange - Berlin, Germany | Planned
 
 ## Community Meeting (virtual)
 
@@ -39,11 +41,15 @@ The OpenStudyBuilder is a versatile open-source solution that serves as both a c
 
 This presentation offers a deep dive into the features of OpenStudyBuilder, highlighting how it streamlines processes related to study setup, protocol automation, and CRF development, as well as managing standards. We will demonstrate how you can leverage OpenStudyBuilder to explore dashboards based on biomedical concepts, export information in DDF format, automate protocol creation, and much more. You can gain valuable insights and inspiration on how you can benefit and collaborate!
 
+You can register for this event [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=18163&ef_sel_menu=1450&eventID=29){target=_blank}.
+
 ## PHUSE SDE  - Utrecht, Netherlands
 
 (28 September 2023, live event in Utrecht)
 
 We plan to be at the PHUSE SDE in Utrecht and will submit a presentation. We will provide additional information when this has been accepted.
+
+Event information can be found [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=15113&eventID=25){target=_blank}.
 
 ## PHUSE SDE  - Copenhagen, Denmark
 
@@ -51,8 +57,26 @@ We plan to be at the PHUSE SDE in Utrecht and will submit a presentation. We wil
 
 We plan to be at the PHUSE SDE in Copenhagen and will submit a presentation. We will provide additional information when this has been accepted.
 
+Event information can be found [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=20144&eventID=32){target=_blank}.
+
+## CDISC US Interchange
+
+(18-19 October 2023, live event in Falls Church, VA, USA)
+
+We plan to be at the CDISC US Interchange and submit a presentation. We will provide additional information when this has been accepted.
+
+Event information can be found [here](https://www.cdisc.org/events/interchange/2023-us-interchange){target=_blank}.
+
 ## PHUSE EU Connect
 
 (5-8 November 2023, live event in Birmingham, UK)
 
 We plan to be at the PHUSE EU Connect and will submit a presentation. We will provide additional information when this has been accepted.
+
+Event information can be found [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=11403&eventID=19){target=_blank}.
+
+## CDISC EU Interchange
+
+(April 2024, Berlin, Germany)
+
+We plan to be at the CDISC EU Interchange and will submit a presentation. We will provide additional information when this has been accepted.
