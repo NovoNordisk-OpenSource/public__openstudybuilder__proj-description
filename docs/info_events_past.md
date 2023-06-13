@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+08 June 2023 | Community Meeting (virtual) | Scheduled
 05 May 2023 | OpenStudyBuilder Community Meeting
 26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark)
 25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
@@ -20,6 +21,15 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## Community Meeting (virtual)
+
+(8 June 2023, 15:00-16:00 CEST, virtual event)
+
+We had our community meeting where everyone was invited to dicuss any topic. This time we had quite some questions about the activity concepts (guide on the activity concepts [here](./guide_activity_concept.md)). Furthermore we discusses how to best get started. You might want to look for the demonstration video showing what is currently implemented [here](./guide_intro.md#demonstration-video). We also have a collection of useful resources [here](./info_resources.md). The public sandbox environment is available, where you can easily play around with the tool and test data as described [here](./guide_sandbox.md#getting-access).
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to attend the OpenStudyBuilder community meeting, where we'll demonstrate functionality, provide insightful answers to your questions, and encourage lively discussions on a wide range of subjects.
+
 
 ## OpenStudyBuilder Community Meeting (virtual)
 
