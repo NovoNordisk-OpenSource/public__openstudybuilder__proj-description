@@ -7,7 +7,6 @@ Date | Event | Status
 15 June 2023 | GUF Meeting (French CDISC User Group)  - France | Scheduled
 22 June 2023 | PHUSE SDE  - Heidelberg, Germany | Scheduled
 11 July 2023 | SEND Webinar, Electronic Nonclinical Protocol Design - virtual | Scheduled
-28 September | PHUSE SDE  - Utrecht, Netherlands | Planned
 10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Planned
 17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA | Scheduled
 18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA | Scheduled
@@ -58,14 +57,6 @@ Join this free webinar to learn:
 Don't miss out on this opportunity to stay ahead of the curve in nonclinical protocol development. We look forward to your participation in this exciting webinar.
 
 You can register for this event [here](https://register.gotowebinar.com/register/4694799632873648728?source=Xybion){target=_blank}.
-
-## PHUSE SDE  - Utrecht, Netherlands
-
-(28 September 2023, live event in Utrecht)
-
-We plan to be at the PHUSE SDE in Utrecht and will submit a presentation. We will provide additional information when this has been accepted.
-
-Event information can be found [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=15113&eventID=25){target=_blank}.
 
 ## PHUSE SDE  - Copenhagen, Denmark
 
