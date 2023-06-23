@@ -2,11 +2,13 @@
 
 Date | Event 
 -- | --
-08 June 2023 | Community Meeting (virtual) | Scheduled
+22 June 2023 | PHUSE SDE  - Heidelberg, Germany
+15 June 2023 | GUF Meeting (French CDISC User Group)  - France
+08 June 2023 | Community Meeting (virtual)
 05 May 2023 | OpenStudyBuilder Community Meeting
 26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark)
 25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
-21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA) | Scheduled
+21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
 13-16 November 2022 | PHUSE EU Connect (Belfast)
 07 November 2022 | OpenStudyBuilder Q&A 
 26-27 October 2022 | CDISC US Interchange (Austin, Texas)
@@ -21,6 +23,28 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## PHUSE SDE - Heidelberg, Germany
+
+(22 June 2023, live event in Heidelberg)
+
+**OpenStudyBuilder - Experimentation Examples**
+
+by Katja Glass, Katja Glass Consulting
+
+The OpenStudyBuilder is a versatile open-source solution that serves as both a clinical metadata repository (MDR) and study definition repository (SDR). Developed as part of the CDISC 360 project, it is fully compliant with COSMoS and Digital Data Flow (DDF) standards, making it a powerful tool for managing clinical trial data.
+
+This presentation offers a deep dive into the features of OpenStudyBuilder, highlighting how it streamlines processes related to study setup, protocol automation, and CRF development, as well as managing standards. We will demonstrate how you can leverage OpenStudyBuilder to explore dashboards based on biomedical concepts, export information in DDF format, automate protocol creation, and much more. You can gain valuable insights and inspiration on how you can benefit and collaborate!
+
+The presentation slides are available [here](./presentations/2023-06-20-PHUSE-SDE-Heidelberg.pdf){target=_blank}.
+
+## GUF Meeting (French CDISC User Group)
+
+(15 June 2023, live event in Indre-et-Loire, France)
+
+There was the French CDISC User Group which meets live in France. Nicolas has presented a "Presentation de OpenStudyBuilder: Metadata Repository (MDR) open source". 
+
+The presentation slides are available [here](./presentations/2023-06-15-OpenStudyBuilder_GUF.pdf){target=_blank}.
 
 ## Community Meeting (virtual)
 
