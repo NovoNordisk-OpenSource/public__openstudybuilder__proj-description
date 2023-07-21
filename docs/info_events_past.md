@@ -188,7 +188,7 @@ by Mikkel Traun, Novo Nordisk A/S, Katja Glass, Consultant and others
 
 **Presentation: OpenStudyBuilder - Open Source MDR**
 
-The OpenStudyBuilder is based on a proof of concept as part of the CDISC 360° project and is aiming to be a Transcelerate Digital Data Flow compliant implementation aiming for an end-to-end process. Metadata driven concept-based standards can ease our processes and tools. This presentation will show how we can benefit from working with connected metadata with the focus for SDTM and ADAM.
+The OpenStudyBuilder is based on a proof of concept as part of the CDISC 360&deg; project and is aiming to be a Transcelerate Digital Data Flow compliant implementation aiming for an end-to-end process. Metadata driven concept-based standards can ease our processes and tools. This presentation will show how we can benefit from working with connected metadata with the focus for SDTM and ADAM.
 
 The OpenStudyBuilder is built by Novo Nordisk in collaboration with other vendors. It is (going to be) available as open source. This can become a game changer in our industry, as this will allow for full-scale collaborations that not only discuss processes and tools, but also share implementations, creating flexible and generic toolsets! By using standard APIs, e.g. those from the Transcelerate DDF project, a flexible, generic and interoperable tool landscape can be built.  Just like what we are used to from plug and play apps! 
 
