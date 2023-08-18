@@ -45,6 +45,24 @@ The following video shows the demonstration of the OpenStudyBuilder Application 
   allowFullScreen
 ></iframe>
 
+## Background and Scope
+
+The following video describes the background and scope.
+
+<iframe
+  title="OpenStudyBuilder - Background & Scope"
+  width=720
+  height=405
+  src="https://www.youtube-nocookie.com/embed/dagWWR3ZBao"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+The OpenStudyBuilder as an outcome of the CDISC 360&deg; project and related to the TransCelerate Digital Data Flow Project is meant to be the core component for all study related activities and tools, managing and providing standards and study metadata. The solution comes along with tools, scripts and a graph database for industry and sponsor standards as well as study definitions. It is not meant to be an Electronic Data Capture (EDC) System, nor a Statistical Computing Environment (SCE) and it is also not planned to contain the clinical data itself. Nevertheless all the metadata is meant to be connected to those systems to enable end-to-end automation.
+
+The OpenStudyBuilder is an ongoing project with growing functionality. We receive standards data through the CDISC library, we provide (and enhance) an API adapter to support the DDF API. We are also working with CDISC on the COSMoS model and integration as well as beeing a CDISC Open Source Alliance (COSA) member. We follow also other initiatives and plan to support them one or the other way in the OpenStudyBuilder. We are looking for example into the new ICH M11 guideline for protocol presentation, plan to support OAK and Admiral when this becomes metadata driven and follow up the Analyses Results Metadata initiative.
+
 ## DDF Context
 
 The OpenStudyBuilder aims to become a DDF reference implementation on top of many other features. For this, any tools supporting DDF will also be able to work with the OpenStudyBuilder. Additional information on how the OpenStudyBuilder can be seen in the DDF context is available [online](info_ddf.md).

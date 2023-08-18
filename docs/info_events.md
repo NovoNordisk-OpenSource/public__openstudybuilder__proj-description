@@ -8,7 +8,7 @@ Date | Event | Status
 10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Planned
 17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA | Scheduled
 18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA | Scheduled
-5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Planned
+5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Scheduled
 April 2024 | CDISC EU Interchange - Berlin, Germany | Planned
 
 ## SEND Webinar, Electronic Nonclinical Protocol Design
@@ -58,7 +58,7 @@ Event information can be found [here](https://www.cdisc.org/events/interchange/2
 
 (5-8 November 2023, live event in Birmingham, UK)
 
-We plan to be at the PHUSE EU Connect and will submit a presentation. We will provide additional information when this has been accepted.
+We will be at the PHUSE EU Connect and will present on the OpenStudyBuilder. We will provide additional information as soon as the agenda is available.
 
 Event information can be found [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=11403&eventID=19){target=_blank}.
 

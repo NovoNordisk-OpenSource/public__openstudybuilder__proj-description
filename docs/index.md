@@ -136,7 +136,7 @@ Novo Nordisk | www.novonordisk.com <br> Henrik Lynge, Vice President, BDP MARS, 
 EvidentIQ  | www.evidentiq.com <br> J.David Renzelmann, Executive Director Business Development <br> david.renzelmann@evidentiq.com| Main solution vendor supporting system design, system documentation, system validation, open-source project support and services. <br/><br/><ul><li>Documentation Portal</li><li>System documentation and validation</li><li>System and Data Model integration</li><li>Study Builder App support</li><li>API Specification support</li><li>API Service extensions</li></ul>
 Neo4j | www.neo4j.com <br> Jan Aertsen - Professional Services EMEA <br> openstudybuilder@neotechnology.com | Main solution vendor supporting data modelling, system design, system development, cloud architecture and cloud manage services.<br/><br/><ul><li>Documentation Portal</li><li>API Specification </li><li>API service </li><li>Data Model </li><li>Database</li></ul>
 Microsoft | www.microsoft.com <br> Tianna M. Umann, Business Growth & Innovation Architect <br> Tianna.Umann@microsoft.com | Technical and architectural design review. 
-Katja Glass Consulting | www.glacon.eu <br>Katja Glaß<br>Consultant<br>info@glacon.eu| Open-source project consulting and support.
+Katja Glass Consulting | www.glacon.eu <br>Katja Gla&szlig;<br>Consultant<br>info@glacon.eu| Open-source project consulting and support.
 
 
 ## User Information

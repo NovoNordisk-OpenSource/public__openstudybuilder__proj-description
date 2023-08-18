@@ -20,8 +20,10 @@ Title | Description
 
 Title | Description
 -- | --
-[OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)
-[OpenStudyBuilder as SDR Solution (5:18)](https://www.youtube.com/watch?v=SB3AFJJQj-c){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used as SDR
-[OpenStudyBuilder for Standards and Protocol (5:22)](https://www.youtube.com/watch?v=rUOIwqVWGII){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used for standards management and protocol automation
-[OpenStudyBuilder with EDC Integrations (6:11)](https://www.youtube.com/watch?v=gGYkZGjWprs){target=_blank} | DDF Connectathon - quickly show how ECD Integrations can be done with the OpenStudyBuilder
-[CRF support in OpenStudyBuilder (4:10)](https://www.youtube.com/watch?v=ubG9IJU9wVQ){target=_blank} | Show the CRF support in the OpenStudyBuilder (currently available on the standards level)
+[OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)<br>(2023-05-22)
+[OpenStudyBuilder - Background & Scope (11:16)](https://www.youtube.com/watch?v=dagWWR3ZBao){target=_blank} | Introduction with Background and Scrope<br>(2023-07-21)
+[OpenStudyBuilder - Use Cases (13:55)](https://www.youtube.com/watch?v=O-li4eBWVPM){target=_blank} | Showing different Use Cases<br>(2023-07-21)
+[OpenStudyBuilder as SDR Solution (5:18)](https://www.youtube.com/watch?v=SB3AFJJQj-c){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used as SDR<br>(2022-10-17)
+[OpenStudyBuilder for Standards and Protocol (5:22)](https://www.youtube.com/watch?v=rUOIwqVWGII){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used for standards management and protocol automation<br>(2022-10-17)
+[OpenStudyBuilder with EDC Integrations (6:11)](https://www.youtube.com/watch?v=gGYkZGjWprs){target=_blank} | DDF Connectathon - quickly show how ECD Integrations can be done with the OpenStudyBuilder<br>(2022-10-17)
+[CRF support in OpenStudyBuilder (4:10)](https://www.youtube.com/watch?v=ubG9IJU9wVQ){target=_blank} | Show the CRF support in the OpenStudyBuilder (currently available on the standards level)<br>(2022-12-12)
