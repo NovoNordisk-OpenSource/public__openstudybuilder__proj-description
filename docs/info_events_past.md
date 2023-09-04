@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+11 July 2023 | SEND Webinar, Electronic Nonclinical Protocol Design - virtual
 22 June 2023 | PHUSE SDE  - Heidelberg, Germany
 15 June 2023 | GUF Meeting (French CDISC User Group)  - France
 08 June 2023 | Community Meeting (virtual)
@@ -23,6 +24,27 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## SEND Webinar, Electronic Nonclinical Protocol Design
+
+(11 July 2023, virtual webinar 5:00 PM - 6:00 PM CEST)
+
+**SEND Webinar | Electronic Nonclinical Protocol Design for Sharing Between Systems**
+
+by Bob Friedman, Xybion
+
+In this live webinar, Bob Friedman, an active member of the CDISC SEND standards consortium for ten years and an active member in the PhUSE/FDA Industry Collaboration, will discuss and demonstrate the next generation of nonclinical protocol development using OpenStudyBuilder. 
+
+Join this free webinar to learn:
+
+-	In-depth insights on the latest industry trends in nonclinical protocol development.
+-	Expert guidance on best practices for improving your organization’s nonclinical protocol development.
+-	A demonstration of how OpenStudyBuilder can streamline the nonclinical protocol development process.
+-	An opportunity to network with other industry professionals and share your ideas and questions during the Q&A session.
+
+Don't miss out on this opportunity to stay ahead of the curve in nonclinical protocol development. We look forward to your participation in this exciting webinar.
+
+The presentation slides are available [here](./presentations/2023-07-11 SEND-ElectronicNonclinicalProtocolDesign.pdf){target=_blank}.
 
 ## PHUSE SDE - Heidelberg, Germany
 
