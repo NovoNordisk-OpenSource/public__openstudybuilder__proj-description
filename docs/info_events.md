@@ -4,11 +4,20 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
+25 September 2023 | Community Meeting (virtual)
 10 October 2023 | PHUSE SDE  - Copenhagen, Denmark | Scheduled
 17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA | Scheduled
 18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA | Scheduled
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK | Scheduled
 April 2024 | CDISC EU Interchange - Berlin, Germany | Planned
+
+## Community Meeting (virtual)
+
+(25 September 2023, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7105822303778689024/about/){target=_blank}.
 
 ## PHUSE SDE  - Copenhagen, Denmark
 
