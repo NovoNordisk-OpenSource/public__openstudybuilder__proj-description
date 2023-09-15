@@ -197,4 +197,4 @@ The new solution design for the OpenStudyBuilder is deeply inspired by the CDISC
 
 Currently the OpenStudyBuilder solution is only sponsored by Novo Nordisk. Novo Nordisk seeks additional stakeholders that would be interested in co-sponsoring this open-source project.
 
-The first minimal viable product release is planned to be used by Novo Nordisk from Q3 2022.
+The first minimal viable product release for PoC was started in Q3 2022. The initial business go-live for the minimal viable product is Q4 2023.
