@@ -2,6 +2,11 @@
 
 Date | Event 
 -- | --
+18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA
+17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA
+16 October 2023 | Community Meeting (virtual)
+10 October 2023 | PHUSE SDE  - Copenhagen, Denmark
+25 September 2023 | Community Meeting (virtual)
 11 July 2023 | SEND Webinar, Electronic Nonclinical Protocol Design - virtual
 22 June 2023 | PHUSE SDE  - Heidelberg, Germany
 15 June 2023 | GUF Meeting (French CDISC User Group)  - France
@@ -24,6 +29,54 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## CDISC US Interchange
+
+(18-19 October 2023, live event in Falls Church, VA, USA)
+
+**OpenStudyBuilder – an open-source DDF and COSMoS compatible solution **
+
+by Mikkel Traun, Novo Nordisk
+
+This presentation will explore the use of OpenStudyBuilder, a Digital Data Flow (DDF) and CDISC Conceptual and Operational Standards Metadata Services (COSMoS) compatible metadata repository (MDR) solution.   
+
+The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and shared as open source under COSA aiming for end-to-end automations from protocol to TLFs. The solution consists of a Study Builder App connected to a Metadata Repository holding data standards and a Study Definition Repository with study specifications. 
+
+OpenStudyBuilder is based on concept-based standards providing a generalized, implementation independent way of defining complex data elements that have multiple relationships and attributes. This presentation will demonstrate how concept-based standards can be used to define the objectives, endpoints, activities, and scheduling of these in the study design – and how this can be applied as structured protocol content and digitalized study specifications. 
+
+The presentation slides are available [here](./presentations/2023-10-18-CDISC-US-Interchange.pdf){target=_blank}.
+
+## Workshop (at CDISC US Interchange)
+
+(17 October 2023, Falls Church, VA, USA)
+
+We performed a workshop on Biomedical Concepts. The material and summary is currently under development and will be published here soon.
+
+## Community Meeting (virtual)
+
+(16 October 2023, virtual event)
+
+In this community meeting we discusses about some needs and questions some members had. It was a more technical documentation, where we checked out how it is possible to see the data structure and it was recommended that the structure could also been displayed by using graph tools which is better exchangable than the current visualization.
+
+Additionally we had been talking about the licenses. The only requirement to non-open-source-software in this project is the database - Neo4j. If you want to use the OpenStudyBuilder solution in production, a Neo4j enterprise edition is recommended. Additional questions and the need for documentation is available. We take this task up and will write down a guide or information on our projecthomepage hopefully this year.
+
+A third discussed aspect was authentification. As this is important when you want to use this in other environments and probably also with other systems then Azure, additional documentation is needed. We will document experiences of a community member inclusion a possible solution. As this process is not finished yet, this might take time.
+
+It will also be interesting to see how the different graph models can work together as the OpenStudyBuilder has a strong metadata graph model which might be connected with other local graph systems. This is an open question on how to.
+
+## PHUSE SDE  - Copenhagen, Denmark
+
+(10 October 2023, live event in Copenhagen)
+
+We showed our OpenStudyBuilder poster, had a live demonstration and talked to many people at the event.
+
+The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
+
+## Community Meeting (virtual)
+
+(25 September 2023, virtual event)
+
+We had our community meeting and talkes about the general functionality.
 
 ## SEND Webinar, Electronic Nonclinical Protocol Design
 
