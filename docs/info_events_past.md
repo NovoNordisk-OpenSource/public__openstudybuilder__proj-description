@@ -2,6 +2,8 @@
 
 Date | Event 
 -- | --
+21 November 2023 | DMB Annual Conference - Paris, France
+5-8 November 2023 | PHUSE EU Connect - Birmingham, UK
 18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA
 17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA
 16 October 2023 | Community Meeting (virtual)
@@ -30,11 +32,62 @@ Date | Event
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
 
+## DMB Annual Conference
+
+(21 November 2023, live event in Paris, France)
+
+**The OpenStudyBuilder as a new Metadata Repository solution**
+
+by Nicolas de Saint Jorre, Novo Nordisk and Katja Glass, Consultant
+
+DMB - Association Francaise de Data Management Biomedical
+
+The OpenStudyBuilder is an open source project for clinical study evaluations. This tool is a
+new approach for working with studies that once fully implemented will drive end-to-end
+consistency and more efficient processes - all the way from protocol development and CRF
+design - to creation of datasets, analysis, reporting, submission to health authorities, and
+public disclosure of study information. Learn how we are building a complete solution based
+on a clinical knowledge graph that includes a shared API, a custom web application, and
+exploration tools to further analyze the data. We will also share the open source vision
+behind the project and how you can help! The OpenStudyBuilder, originally created by Novo
+Nordisk, a global healthcare company, uses Neo4j as its database, along with other products
+from the Neo4j ecosystem, including NeoDash, Bloom, and the neomodel Python library.
+Neo4j's professional services team is also involved in the development and deployment of
+the solution.
+
+The presentation slides are available [here](./presentations/2023-11-21-DMB_MDR_OpenStudyBuilder.pdf){target=_blank}.
+
+## PHUSE EU Connect 
+
+(5-8 November 2023, live event in Birmingham, UK)
+
+**Open-Source Protocol Automation with the OpenStudyBuilder**
+
+by Mikkel Traun and Nicolas de Saint Jorre, Novo Nordisk
+
+The OpenStudyBuilder is a powerful tool designed to streamline the end-to-end process of clinical trials. With its innovative protocol automation capabilities, the OpenStudyBuilder simplifies the management of protocol information, allowing for the easy creation and maintenance of protocol content. Through standard interfaces (APIs), a Word addon can be used to fill structural parts of the protocol, including complex parts like the schedule of activity flowchart.   
+
+In this presentation, we will demonstrate how the OpenStudyBuilder can be used to facilitate efficient protocol automation and how this is related to the ICH M11 guideline for clinical study protocols.  
+
+The presentation slides are available [here](./presentations/2023-11-06-PHUSE_Presentation_TT07.pdf){target=_blank}.
+The paper is available [here](./presentations/2023-11-06-PHUSE_Paper_TT07.pdf){target=_blank}.
+
+**Open-Source MDR & SDR - Managing your standards with the OpenStudyBuilder**
+
+by Nicolas de Saint Jorre and Mikkel Traun, Novo Nordisk
+
+The OpenStudyBuilder is a highly innovative open-source project that provides both a data standards metadata repository (MDR) and a study definitions repository (SDR). Developed as part of the CDISC 360 project and shared under the CDISC Open Source Alliance (COSA), the OpenStudyBuilder is designed to automate the entire end-to-end process from protocol to TLFs.  
+
+This presentation will demonstrate how the OpenStudyBuilder adopts industry standards such as CDISC Codelists and any dictionaries, while also effectively managing sponsor and CRF standards. Additionally, it supports standard interfaces like the TransCelerate DDF projects API, making it a highly versatile tool. The OpenStudyBuilder uses modern graph technology to facilitate seamless end-to-end processes and traceability, using biomedical concepts like those found in the COSMoS project from CDISC. With its robust capabilities and adaptability, the OpenStudyBuilder is a valuable tool for all those involved in clinical research.  
+
+The presentation slides are available [here](./presentations/2023-11-06-PHUSE_Presentation_SI03.pdf){target=_blank}.
+The paper is available [here](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank}.
+
 ## CDISC US Interchange
 
 (18-19 October 2023, live event in Falls Church, VA, USA)
 
-**OpenStudyBuilder – an open-source DDF and COSMoS compatible solution **
+**OpenStudyBuilder - an open-source DDF and COSMoS compatible solution **
 
 by Mikkel Traun, Novo Nordisk
 
@@ -42,7 +95,7 @@ This presentation will explore the use of OpenStudyBuilder, a Digital Data Flow 
 
 The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and shared as open source under COSA aiming for end-to-end automations from protocol to TLFs. The solution consists of a Study Builder App connected to a Metadata Repository holding data standards and a Study Definition Repository with study specifications. 
 
-OpenStudyBuilder is based on concept-based standards providing a generalized, implementation independent way of defining complex data elements that have multiple relationships and attributes. This presentation will demonstrate how concept-based standards can be used to define the objectives, endpoints, activities, and scheduling of these in the study design – and how this can be applied as structured protocol content and digitalized study specifications. 
+OpenStudyBuilder is based on concept-based standards providing a generalized, implementation independent way of defining complex data elements that have multiple relationships and attributes. This presentation will demonstrate how concept-based standards can be used to define the objectives, endpoints, activities, and scheduling of these in the study design - and how this can be applied as structured protocol content and digitalized study specifications. 
 
 The presentation slides are available [here](./presentations/2023-10-18-CDISC-US-Interchange.pdf){target=_blank}.
 
@@ -50,7 +103,9 @@ The presentation slides are available [here](./presentations/2023-10-18-CDISC-US
 
 (17 October 2023, Falls Church, VA, USA)
 
-We performed a workshop on Biomedical Concepts. The material and summary is currently under development and will be published here soon.
+We performed a workshop on Biomedical Concepts. 
+
+The matierial is available [here](./presentations/2023-10-17-COSA_BC_OSB_Workshop_CDISC_Interchange.pdf){target=_blank}.
 
 ## Community Meeting (virtual)
 
@@ -91,7 +146,7 @@ In this live webinar, Bob Friedman, an active member of the CDISC SEND standards
 Join this free webinar to learn:
 
 -	In-depth insights on the latest industry trends in nonclinical protocol development.
--	Expert guidance on best practices for improving your organization’s nonclinical protocol development.
+-	Expert guidance on best practices for improving your organization's nonclinical protocol development.
 -	A demonstration of how OpenStudyBuilder can streamline the nonclinical protocol development process.
 -	An opportunity to network with other industry professionals and share your ideas and questions during the Q&A session.
 
@@ -334,7 +389,7 @@ by Marius CONJEAUD (NEO4J) and Nicolas DE SAINT JORRE (QUANTICSOFT / EVIDENTIQ)
 
 **Creating a Clinical Knowledge Graph: Pharmaceutical Collaboration With OpenStudyBuilder**
 
-OpenStudyBuilder is an open source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes – all the way from protocol development and CRF design – to creation of datasets, analysis, reporting, submission to health authorities, and public disclosure of study information. Learn how we are building a complete solution based on a clinical knowledge graph that includes a shared API, a custom web application, and exploration tools to further analyze the data. We will also share the open source vision behind the project and how you can help! The OpenStudyBuilder, originally created by NovoNordisk, a global healthcare company, uses Neo4j as its database, along with other products from the Neo4j ecosystem, including NeoDash, Bloom, and the neomodel Python library. Neo4j's professional services team is also involved in the development and deployment of the solution.
+OpenStudyBuilder is an open source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities, and public disclosure of study information. Learn how we are building a complete solution based on a clinical knowledge graph that includes a shared API, a custom web application, and exploration tools to further analyze the data. We will also share the open source vision behind the project and how you can help! The OpenStudyBuilder, originally created by NovoNordisk, a global healthcare company, uses Neo4j as its database, along with other products from the Neo4j ecosystem, including NeoDash, Bloom, and the neomodel Python library. Neo4j's professional services team is also involved in the development and deployment of the solution.
 
 Slides are available [here](./presentations/2022-06-06-OpenStudyBuilder_GraphConnect.pdf){target=_blank}.
 

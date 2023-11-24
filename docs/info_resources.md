@@ -27,3 +27,10 @@ Title | Description
 [OpenStudyBuilder for Standards and Protocol (5:22)](https://www.youtube.com/watch?v=rUOIwqVWGII){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used for standards management and protocol automation<br>(2022-10-17)
 [OpenStudyBuilder with EDC Integrations (6:11)](https://www.youtube.com/watch?v=gGYkZGjWprs){target=_blank} | DDF Connectathon - quickly show how ECD Integrations can be done with the OpenStudyBuilder<br>(2022-10-17)
 [CRF support in OpenStudyBuilder (4:10)](https://www.youtube.com/watch?v=ubG9IJU9wVQ){target=_blank} | Show the CRF support in the OpenStudyBuilder (currently available on the standards level)<br>(2022-12-12)
+
+## Additional Resources
+
+Content | Description
+-- | --
+[Paper](./presentations/2023-11-06-PHUSE_Paper_TT07.pdf){target=_blank} | Open-Source Protocol Automation with the OpenStudyBuilder (2023-11-06)
+[Paper](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank} | Open-Source MDR & SDR - Managing your standards with the OpenStudyBuilder (2023-11-06)
