@@ -1,5 +1,8 @@
 # DDF Context
 
+(created 2022-10-18) 
+{: class="guideCreated"}
+
 The TransCelerate Digital Data Flow project [(DDF)](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/) aims to a future state of fully automated, dynamic, study start-up readiness. This automated end-to-end process is also the goal of the OpenStudyBuilder. In the context of the DDF, the OpenStudyBuilder can be seen as an SDR (Study Definition Repository), but with more capabilities than what DDF is containing in its first version.
 
 The main advantage of DDF is the standard API which allows the connection of very different up- and downstream systems. All tools which support the DDF project through their standard APIs should also be usable with the OpenStudyBuilder, which supports the same APIs.

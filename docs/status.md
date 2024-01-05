@@ -1,6 +1,6 @@
 # Status
 
-The OpenStudyBuilder is an open source project which was released in October 2022 for the public. The development contineous and for this there are already different versions available in GitLab. The internal release within NovoNordisk as MVP (Minimum Viable Product) is beeing used. Watch out for the latest news on this website.
+The OpenStudyBuilder is an open source project which was released in October 2022 for the public. The agile development contineusly releases new version in GitLab. Since October 2022 Novo Nordisk performed two pilot studies to enhance the solution further. On October 31, 2023, Novo Nordisk launched of the first business release of the internal OpenStudyBuilder. From now on all phase 2 and 3 studies in Novo Nordisk use the OpenStudyBuilder to generate study protocol parts.
 
 ## Communication
 
