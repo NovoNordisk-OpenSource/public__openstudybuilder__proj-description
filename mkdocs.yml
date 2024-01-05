@@ -26,6 +26,7 @@ nav:
     - Study Structure: guide_study_structure.md
     - Visits: guide_visits.md
     - Activity Concept: guide_activity_concept.md
+    - Activity Dashboard: guide_bc_dashboard.md
     - API: guide_api.md
   - FAQ:
     - faq.md

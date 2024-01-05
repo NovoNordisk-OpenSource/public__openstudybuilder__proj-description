@@ -22,7 +22,7 @@ The OpenStudyBuilder API allows you for example to:
 
     An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification.[1]
 
-[1] Wikipedia entry for API, [https://en.wikipedia.org/wiki/API](https://en.wikipedia.org/wiki/API)
+[1] Wikipedia entry for API, [https://en.wikipedia.org/wiki/API](https://en.wikipedia.org/wiki/API){target=_blank}
 {: class="imageDescription"}
 
 ![Schema for API](./img/guide_api_intro1.png)
@@ -45,7 +45,7 @@ Let us start on the left side. The CDISC Library expose its data through an API,
 
 On the right side is the OpenStudyBuilder application which is also only communicating with the database through the OpenStudyBuilder API. Other tools like a protocol tool (not open-sourced currently) also access the data needed for their use-cases through the API. Addition use-cases could be, but not limited to, EDC tools which use the API to import and export ODM-XML metadata updates.
 
-The OpenStudyBuilder API is very powerful and contains a lot of endpoints to work with the data. Tool integrations are typically very difficult, but will be easier by utilizing APIs. To integrate multiple systems is still challenging, as every tool is using different interfaces. To overcome integration issues, the [TransCelerate DDF](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/) project is working together with CDISC on API standards. The OpenStudyBuilder is working on a DDF-API-Adaptor which will be included in one of the next coming releases. This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.
+The OpenStudyBuilder API is very powerful and contains a lot of endpoints to work with the data. Tool integrations are typically very difficult, but will be easier by utilizing APIs. To integrate multiple systems is still challenging, as every tool is using different interfaces. To overcome integration issues, the [TransCelerate DDF](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/){target=_blank} project is working together with CDISC on API standards. The OpenStudyBuilder is working on a DDF-API-Adaptor which will be included in one of the next coming releases. This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.
 
 ![TransCelerate DDF API - Example](./img/guide_api_intro2.png)
 {: class="imageParagraph"}
@@ -59,9 +59,9 @@ There could be an EDC tool supporting the DDF standards. By connecting just the 
 
 ### OpenAPI and Swagger
 
-For the API development and usage, there are excellent standards and tools available. The [OpenAPI](https://www.openapis.org/) is a very common format for API specifications. This specification, which is available in the json format, can be important into many API tools - for example into [Postman](https://www.postman.com/), a commonly used API interaction tool. Additionally, there is the [Swagger](https://swagger.io/) documentation which also allows executing API calls easily. 
+For the API development and usage, there are excellent standards and tools available. The [OpenAPI](https://www.openapis.org/){target=_blank} is a very common format for API specifications. This specification, which is available in the json format, can be important into many API tools - for example into [Postman](https://www.postman.com/){target=_blank}, a commonly used API interaction tool. Additionally, there is the [Swagger](https://swagger.io/){target=_blank} documentation which also allows executing API calls easily. 
 
-In the OpenStudyBuilder you can download the OpenAPI either from the [repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/clinical-mdr-api/openapi.json) directly, or you can click the link in the Swagger documentation top right. This you can then load it into Postman to "Create a new collection". The Swagger documentation is an available component within the OpenStudyBuilder package - in the sandbox environment you can access this simply through a [URL](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/). In the other environments this is also available, for example by using a docker environment the default URL is [http://localhost:5005/api/docs](http://localhost:5005/api/docs).
+In the OpenStudyBuilder you can download the OpenAPI either from the [repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/clinical-mdr-api/openapi.json){target=_blank} directly, or you can click the link in the Swagger documentation top right. This you can then load it into Postman to "Create a new collection". The Swagger documentation is an available component within the OpenStudyBuilder package - in the sandbox environment you can access this simply through a [URL](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/){target=_blank}. In the other environments this is also available, for example by using a docker environment the default URL is [http://localhost:5005/api/docs](http://localhost:5005/api/docs){target=_blank}.
 
 
 ![Download OpenAPI.json from Swagger documentation](./img/guide_api_intro4.png)
