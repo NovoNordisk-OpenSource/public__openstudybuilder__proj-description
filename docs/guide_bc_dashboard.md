@@ -1,6 +1,6 @@
 # Guide for Activity Dashboard {: class="guideH1"}
 
-(created 2024-01-05 using v0.7.3) 
+(created 2024-01-15 using v0.7.3 and the LATEST dashboard) 
 {: class="guideCreated"}
 
 ## Activity Introduction
@@ -37,24 +37,57 @@ The first graphic (A) shows the "Groupings of Activities" - so which types and s
 
 ### Activity Lib (search top-down)
 
-The second tab allows to look at activities from the top-down perspective. You can browse either the Type-Subtype-Activity or go Group-Subgroup-Activity. 
+The second tab allows to look at activities from the top-down perspective. You can browse the class and sub-class followed by the group and subgroup. 
 
+![Screenshot of second tab from dashboard](./img/guide_bc_dash_08.png)
+
+After the description, there is a selection area where the activities can be filtered until the level of a subgroup (A). The "Number of activities" graph updates with the concrete numbers when you filter all activities (B). Depending on your selection, the "List of activities" shows then the actual activities matching your filter (C). When clicking one concrete activity, the details of this activity are displayed (D).
+
+![Screenshot for selecting an activity](./img/guide_bc_dash_09.png)
+
+We can see that the `PULSE RATE` has an associated domain, a test_name_code which consists of a code and a name, a unit_dimension and a standard_unit.
+
+Below we can see the representation of that activity as in the graph database in the logical view or physical view (E). The complex model enables us to link all information. The following screenshot shows the logical view for `PULSE RATE`. 
+
+![Screenshot for logical view for pulse rate](./img/guide_bc_dash_10.png)
+
+The last part displays information about concrete activities instances. There is the selection part (F) and the display as logical view part (G). 
+
+When we select for example `ALBUMIN` as activity, it could have three different instances depending on the purpose of activity collection. 
+
+![Screenshot for ALBUMIN instances](./img/guide_bc_dash_11.png)
+
+There is an instance for "Albumin Urine", where the specimen is "Urine", the second instance is for the specimen "Serum" and the third one is collected differently with the purpose for "AE Requiring Additional Data".
+
+### Activity Lib (search bottom-up)
+
+The search bottom-up tab enables to search for a concrete activity or multiple activities in the search field (A). For the concrete activity the groups (B) and sub-groups (C) are displayed. Out of these groups you can select one (D) where the details are displayes in a list (E).
+
+![Screenshot for bottom-up content](./img/guide_bc_dash_12.png)
+
+### Activity to SDTM
+
+By linking the activities to concrete SDTM items in a specific implementation guide, corresponding SDTM items can be displayed for an activity.
 
 
 ## Setup
 
-## Load dashboard in local envirionment
+## Load dashboard_OSB_v0_6_1 dashboard in local envirionment
 
-To load the dashboard into the local environment, a few steps are required
+**Remark** This dashboard is not the latest as installed on the sandbox. The newest dashboard will be coming along version 0.8 at least.
 
-- Adopt the JSON file to use the correct "database" (search/replace - for OSB_v0_6_1, not required for later releases)
+With OSB version 0.8 it is planned to have the dashboard pre-loaded. From that version on, the dashboard will be accessable simply through a port, which is [http://localhost:5007/](http://localhost:5007/){target=_blank} when you work with the defaults.
+
+To load the dashboard the version `Activity_Library_content_dashboard_OSB_v0_6_1.json` into the local environment, a few steps are required.
+
+- Adopt the JSON file to use the correct "database" (search/replace)
 - Use [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} to connect to the local neo4j database
 - Load the JSON file and save this with a name 'My dashboard' (case sensitive)
 - When loading [http://localhost:5007/](http://localhost:5007/){target=_blank} the dashboard will appear
 
-Unless you use a later version than those named "Activity_Library_content_dashboard_OSB_v0_6_1", we do have to update the database name with the one used in the current environment. We can open the Neo4j database browser with this URL: [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank}. By clicking the database symbol at the right, we can select different databases. There should be a database named `mdrdb-2024.01.05-08.52` or similar. This is the database name we need.
+When using the dashboard version "Activity_Library_content_dashboard_OSB_v0_6_1", we do have to update the database name with the one used in the current environment. We can open the Neo4j database browser with this URL: [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank}. By clicking the database symbol at the right, we can select different databases. There should be a database named `mdrdb-2024.01.05-08.52` or similar. This is the database name we need.
 
-The next step is to open the available dashboard which is located in `\neo4j-mdr-db\neodash_reports`. The name might be something like `Activity_Library_content_dashboard_OSB_v0_6_1.json`. We open this file for example in a simple editor and replace all occurences of `mdrdev1` with the name of the actual database, for example with `mdrdb-2024.01.05-08.52`.
+The next step is to open the available dashboard which is located in `\neo4j-mdr-db\neodash_reports`. The name of the dashboard is `Activity_Library_content_dashboard_OSB_v0_6_1.json`. We open this file for example in a simple editor and replace all occurences of `mdrdev1` with the name of the actual database, for example with `mdrdb-2024.01.05-08.52`.
 
 Now we open the neodash web application under [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} to open our existing dashboard. First we need to create a "New Dashboard". Here we can connect to our local database. If you have not changed the default settings for the docker setup, your port will be `5002`, the username `neo4j` and the password `changeme1234`. Make also sure to enter the correct default database which could be `mdrdb-2024.01.05-08.52`.
 
