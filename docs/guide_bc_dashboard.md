@@ -1,6 +1,6 @@
 # Guide for Activity Dashboard {: class="guideH1"}
 
-(created 2024-01-15 using v0.7.3 and the LATEST dashboard) 
+(created 2024-01-29 using v0.7.3 and dashboard as available in 0.8) 
 {: class="guideCreated"}
 
 ## Activity Introduction
@@ -67,47 +67,88 @@ The search bottom-up tab enables you to search for a concrete activity or multip
 
 ### Activity to SDTM
 
-By linking the activities to concrete SDTM items in a specific implementation guide, corresponding SDTM items can be displayed for each activity.
+The "Activity to SDTM" tab provides a detailed view of how activities are linked to specific SDTM items within a particular implementation guide. This feature allows you to visualize the relationship between activities and SDTM items, enhancing your understanding of the data structure.
 
+![Screenshot for Activity to SDTM](./img/guide_bc_dash_13.png)
+
+In this section, you can select the activity sub-group and the corresponding activity instance (A). Given that SDTM standards evolve over time, item definitions and structures may change. Therefore, you have the option to select a specific implementation version (B). Once selected, the mapping as defined in the implementation guide is displayed (C). Please note that for some activities, the mapping may not yet be available in the database. In such cases, the mapping will not be displayed until it is added.
+
+### Activitiy in COSMoS format
+
+In an effort to standardize and streamline the representation of Biomedical Concepts, CDISC initiated the Conceptual and Operational Standards Metadata Services (COSMoS) project in 2022. More details about this project can be found on their [homepage](https://www.cdisc.org/cdisc-biomedical-concepts){target=_blank}. As part of this initiative, CDISC has adopted the YAML format for displaying biomedical concepts.
+
+Our dashboard has been designed to align with this standard. It can map the activities defined in OpenStudyBuilder into a valid COSMoS format, ensuring compatibility and interoperability with other systems that adhere to the same standard.
+
+The following section presents an example of how the activity instance "TEMPERATURE" is represented in the COSMoS format.
+
+```yaml
+category:
+  - Vital Signs
+dataElementConcepts:
+  - dataType: string
+    conceptId: C44276
+    exampleSet:
+      - TEMPERATURE
+    shortName: unit_dimension
+    href: https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C44276
+  - dataType: string
+    conceptId: C82587
+    exampleSet:
+      - C
+    shortName: standard_unit
+    href: https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C82587
+  - dataType: string
+    conceptId: C25341
+    exampleSet:
+      - SKIN
+    shortName: location
+    href: https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C25341
+packageType: bc
+definition: A measurement of the temperature of the body.
+synonym:
+  - TEMP
+  - Temperature
+resultScale:
+  - Quantitative
+conceptId: C174446
+domain: VS
+parentConceptId: C25206
+shortName: Body Temperature
+href: https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C174446
+packageDate: 2023-04-30
+```
+
+### Activities used in Studies
+
+The last tab on the dashboard, 'Activities used in Studies', provides a view of where specific activities are utilized across different studies. This feature allows you to track the usage of activities.
+
+In the selection box (A), you can choose one or more activities. Upon selection, the dashboard dynamically displays the studies in which these activities are used (B). 
+
+![Screenshot for Activities used in Studies](./img/guide_bc_dash_14.png)
 
 ## Setup
 
-## Load dashboard_OSB_v0_6_1 dashboard in local environment
+### Dashboard in Sandbox
 
-**Remark** This dashboard is not the latest as installed on the sandbox. The newest dashboard will be coming with version 0.8 at least.
+When you have access to the OpenStudyBuilder sandbox environment, you can simply browse the dashboard online: [https://openstudybuilder.northeurope.cloudapp.azure.com/neodash/?](https://openstudybuilder.northeurope.cloudapp.azure.com/neodash/?){target=_blank}.
 
-With OSB version 0.8 the dashboard is planned to be pre-loaded. From that version on, the dashboard will be accessable simply through a port, which is [http://localhost:5007/](http://localhost:5007/){target=_blank} when you work with the defaults.
+### Dashboard in local environment
 
-To load the dashboard the version `Activity_Library_content_dashboard_OSB_v0_6_1.json` into the local environment, a few steps are required.
+With version 0.8 of the OpenStudyBuilder, the dashboard will be deployed within the docker container and is accessible through [http://localhost:5007/](http://localhost:5007/){target=_blank}. With the OpenStudyBuilder version 0.9 we plan additionally to have a direct link from the web application to the dashboard.
 
-- Adopt the JSON file to use the correct "database" (search/replace)
-- Use [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} to connect to the local neo4j database
-- Load the JSON file and save this with a name 'My dashboard' (case sensitive)
-- When loading [http://localhost:5007/](http://localhost:5007/){target=_blank} the dashboard will appear
+The dashboard content is available as JSON file located in `\neo4j-mdr-db\neodash_reports`. For the released version 0.7.3 and earlier, this is not the latest version as deployed in the sandbox, but you can use this to check some cyper queries. 
 
-When using the dashboard version "Activity_Library_content_dashboard_OSB_v0_6_1", we need to update the database name with the one used in the current environment. We can open the Neo4j database browser with this URL: [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank}. By clicking the database symbol at the right, we can select different databases. There should be a database named `mdrdb-2024.01.05-08.52` or similar. This is the database name we need.
+### Create own dashboards
 
-The next step is to open the available dashboard which is located in `\neo4j-mdr-db\neodash_reports`. The name of the dashboard is `Activity_Library_content_dashboard_OSB_v0_6_1.json`. We open this file for example in a simply editor and replace all occurences of `mdrdev1` with the name of the actual database, for example with `mdrdb-2024.01.05-08.52`.
+You can also design your own dashboard. 
 
-Now we open the neodash web application under [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} and open our existing dashboard. First we need to create a "New Dashboard". Here we can connect to our local database. If you have not changed the default settings for the docker setup, your port will be `5002`, the username `neo4j` and the password `changeme1234`. Make also sure to enter the correct default database which could be `mdrdb-2024.01.05-08.52`.
+**Investigate database name**: We need the name of the actual database. We can open the Neo4j database browser with this URL: [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank}. By clicking the database symbol at the right, we can select different databases. There should be a database named `mdrdb-2024.01.05-08.52` or similar. This is the database name we need.
+
+**Create new dashboars**: Now we can visit [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} and create a new dashboard. Here we can connect to our local database. If you have not changed the default settings for the docker setup, your port will be `5002`, the username `neo4j` and the password `changeme1234`. Make also sure to enter the correct default database which could be `mdrdb-2024.01.05-08.52`.
 
 ![Screenshot for connecting to local database](./img/guide_bc_dash_01.png)
 
-When you click on the right pane, a menu with all dashboards opens up. You can click the `+` next to Dashboards to import the json file. Either copy and paste the content from the modified file or select the file itself. Now the dashboard is loaded.
-
-You might receive a upgrade notification:
-
-![Screenshot for upgrade notification](./img/guide_bc_dash_02.png)
-
-When you do a refresh, you can start your existing dashboard by clicking "Existing Dashboard".
-
-Now you can change the name of the dashboard to 'My dashboard' by clicking the edit button next to the title. After clicking "stop editing", this is the new title. On the left title menu, click to the cloud icon to save this dashboard on your database. Now, when you open up the dashboard local URL, this dashboard will be shown: [http://localhost:5007/](http://localhost:5007/){target=_blank}.
-
-![Screenshot for upgrade notification](./img/guide_bc_dash_03.png)
-
-## Create own dashboards
-
-You can also design your own dashboard. For this you can visit [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} and create a new dashboard. By clicking on the grey box, you can add additional elements to the dashboard. For example, you could create a "markdown" box to start with a simple description. Click the "settings" on the box to edit the type - for markdown you can simple edit the content and apply it by pressing "play". 
+**Include content**: By clicking on the grey box, you can add additional elements to the dashboard. For example, you could create a "markdown" box to start with a simple description. Click the "settings" on the box to edit the type - for markdown you can simple edit the content and apply it by pressing "play". 
 
 You can also create a table output. For this you can select the type "Table". Make sure to choose the correct database, which could be for example `mdrdb-2024.01.05-08.52`. Then in the coding box you can put the cypher query in. For example the following to get a simple table with all your compounds:
 
@@ -124,6 +165,6 @@ To investigate which types of nodes are available, which connections are availab
 
 ![Screenshot of node propoerties](./img/guide_bc_dash_04.png)
 
-If you are not familiar with Cypher, you might find ChatGPT or similar tools helpful.
+If you're new to Cypher, don't worry! There are several tools available that can assist you in navigating this language. Tools like ChatGPT and Copilot are designed to provide guidance and suggestions, making it easier for you to construct and understand Cypher queries.
 
-To get a better understanding of the database structure, you might want to check out the model as documented in GitLab [`/neo4j-mdr-db/model`](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model?ref_type=heads){target=_blank}.
+To gain a deeper understanding of the database structure, we recommend exploring the model documentation available in GitLab. You can find this under [`/neo4j-mdr-db/model`](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model?ref_type=heads){target=_blank}. This resource provides a detailed overview of the database model, helping you to understand how the data is organized and interconnected.
