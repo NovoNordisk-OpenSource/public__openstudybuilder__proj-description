@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+29 January 2024 | Community Meeting (virtual)
 21 November 2023 | DMB Annual Conference - Paris, France
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK
 18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA
@@ -31,6 +32,12 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## Community Meeting (virtual)
+
+(29 January 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about utilization and plans.
 
 ## DMB Annual Conference
 
