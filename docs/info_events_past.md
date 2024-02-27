@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
 21 November 2023 | DMB Annual Conference - Paris, France
 5-8 November 2023 | PHUSE EU Connect - Birmingham, UK
@@ -32,6 +33,12 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## Community Meeting (virtual)
+
+(26 February 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about utilization and plans. A main focus point was the CRF and EDC connection, the CRF library and study planned connection and about data structures.
 
 ## Community Meeting (virtual)
 

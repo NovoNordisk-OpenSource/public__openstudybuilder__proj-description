@@ -4,20 +4,13 @@ Overview
 
 Date | Event | Status 
 -- | -- | -- 
-26 February 2024 | Community Meeting (virtual) | Scheduled
-7 March 2024 | GraphSummit (Copenhagen, Denmark) | Scheduled
+07 March 2024 | GraphSummit (Copenhagen, Denmark) | Scheduled
+11 March 2024 | OSB as MDR Collaboration (virtual) | Scheduled
+18 March 2024 | Community Meeting (virtual) | Scheduled
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany | Scheduled
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
-
-## Community Meeting (virtual)
-
-(26 February 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-Registration is available [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7152571432802086912/){target=_blank}.
 
 ## GraphSummit
 
@@ -30,6 +23,30 @@ by Mikkel Traun and Henrik Enquist, Novo Nordisk
 In 30 minutes Mikkel and Henrik will reflect on their experience, and insights gained, in developing OpenStudyBuilder. This transformational open-source project is a new approach to working with clinical data standards that will drive end-to-end consistency and more efficient processes for clinical studies. They will focus on how they have applied Domain Driven Design, implemented an API using neomodel, and enabled direct usage of the database as a knowledge graph and licensing aspects.
 
 Registration is available [here](https://neo4j.com/graphsummit/copenhagen-mar-7/){target=_blank}.
+
+## OSB as MDR Collaboration (virtual)
+
+(13 March 2024, virtual event)
+
+Join us at the "OpenStudyBuilder as MDR Collaboration Meeting"!
+
+Given the significant interest in leveraging OpenStudyBuilder as a Medata Repository (MDR), we're launching a dedicated collaborative working group. This group will serve as a platform for coordinating efforts, harmonizing methodologies, and fostering a culture of knowledge sharing.
+
+Discover the power of collaboration through:
+
+- Gain insights into the scope and focus of OpenStudyBuilder, specifically tailored for the MDR use case.
+- Engage in dynamic discussions about various collaboration options.
+- Participate in the creation of a collaboration group and help plan the next steps.
+
+Registration is available [here](https://www.linkedin.com/events/openstudybuilderasmdrcollaborat7168129136161460224/about/){target=_blank}.
+
+## Community Meeting (virtual)
+
+(18 March 2024, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+Registration is available [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7167879361142984704/){target=_blank}.
 
 ## COSA Workshop at CDISC EU Interchange
 
