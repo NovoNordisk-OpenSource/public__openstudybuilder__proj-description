@@ -2,6 +2,8 @@
 
 Date | Event 
 -- | --
+11 March 2024 | OSB as MDR Collaboration (virtual)
+07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
 21 November 2023 | DMB Annual Conference - Paris, France
@@ -34,11 +36,45 @@ Date | Event
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
 
+## OSB as MDR Collaboration (virtual)
+
+(13 March 2024, virtual event)
+
+Join us at the "OpenStudyBuilder as MDR Collaboration Meeting"!
+
+Given the significant interest in leveraging OpenStudyBuilder as a Medata Repository (MDR), we're launching a dedicated collaborative working group. This group will serve as a platform for coordinating efforts, harmonizing methodologies, and fostering a culture of knowledge sharing.
+
+Discover the power of collaboration through:
+
+- Gain insights into the scope and focus of OpenStudyBuilder, specifically tailored for the MDR use case.
+- Engage in dynamic discussions about various collaboration options.
+- Participate in the creation of a collaboration group and help plan the next steps.
+
+The presentation slides are available [here](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank}.
+
+A recording will be available soon.
+
+## GraphSummit
+
+(7 March 2024 - Copenhagen, Denmark)
+
+**Novo Nordisk - A journey in developing an open-source application on Neo4j**
+
+by Mikkel Traun and Henrik Enquist, Novo Nordisk
+
+In 30 minutes Mikkel and Henrik will reflect on their experience, and insights gained, in developing OpenStudyBuilder. This transformational open-source project is a new approach to working with clinical data standards that will drive end-to-end consistency and more efficient processes for clinical studies. They will focus on how they have applied Domain Driven Design, implemented an API using neomodel, and enabled direct usage of the database as a knowledge graph and licensing aspects.
+
+The presentation slides are available [here](./presentations/2024-03-07-Graph-Summit-2024.pdf){target=_blank}.
+
+A recording will soon be available on the GraphSummit [homepage](https://neo4j.com/graphsummit/){target=_blank}.
+
 ## Community Meeting (virtual)
 
 (26 February 2024, virtual event)
 
 We discussed various aspects of the OpenStudyBuilder, about utilization and plans. A main focus point was the CRF and EDC connection, the CRF library and study planned connection and about data structures.
+
+Introduction slides are available [here](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank}.
 
 ## Community Meeting (virtual)
 
