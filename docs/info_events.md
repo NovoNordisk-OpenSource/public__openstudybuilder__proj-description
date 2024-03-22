@@ -3,50 +3,14 @@
 Overview
 
 Date | Event | Status 
--- | -- | -- 
-07 March 2024 | GraphSummit (Copenhagen, Denmark) | Scheduled
-11 March 2024 | OSB as MDR Collaboration (virtual) | Scheduled
-18 March 2024 | Community Meeting (virtual) | Scheduled
+-- | -- | --
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany | Scheduled
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany | Scheduled
+27 June 2024 | PHUSE SDE - Heidelberg, Germany | Planned
+10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
-## GraphSummit
-
-(7 March 2024 - Copenhagen, Denmark)
-
-**Novo Nordisk - A journey in developing an open-source application on Neo4j**
-
-by Mikkel Traun and Henrik Enquist, Novo Nordisk
-
-In 30 minutes Mikkel and Henrik will reflect on their experience, and insights gained, in developing OpenStudyBuilder. This transformational open-source project is a new approach to working with clinical data standards that will drive end-to-end consistency and more efficient processes for clinical studies. They will focus on how they have applied Domain Driven Design, implemented an API using neomodel, and enabled direct usage of the database as a knowledge graph and licensing aspects.
-
-Registration is available [here](https://neo4j.com/graphsummit/copenhagen-mar-7/){target=_blank}.
-
-## OSB as MDR Collaboration (virtual)
-
-(13 March 2024, virtual event)
-
-Join us at the "OpenStudyBuilder as MDR Collaboration Meeting"!
-
-Given the significant interest in leveraging OpenStudyBuilder as a Medata Repository (MDR), we're launching a dedicated collaborative working group. This group will serve as a platform for coordinating efforts, harmonizing methodologies, and fostering a culture of knowledge sharing.
-
-Discover the power of collaboration through:
-
-- Gain insights into the scope and focus of OpenStudyBuilder, specifically tailored for the MDR use case.
-- Engage in dynamic discussions about various collaboration options.
-- Participate in the creation of a collaboration group and help plan the next steps.
-
-Registration is available [here](https://www.linkedin.com/events/openstudybuilderasmdrcollaborat7168129136161460224/about/){target=_blank}.
-
-## Community Meeting (virtual)
-
-(18 March 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-Registration is available [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7167879361142984704/){target=_blank}.
 
 ## COSA Workshop at CDISC EU Interchange
 
@@ -94,6 +58,20 @@ We plan to run a live demonstration starting from a defined study and illustrate
 By using the USDM in conjunction with other CDISC standards inside the OpenStudyBuilder, researchers can ensure that clinical research data is collected, analysed, and reported in a consistent and standardized manner. This makes it easier to share and compare data across different studies and study sites, which can help to improve the quality and efficiency of clinical research. 
 
 Registration is available [here](https://www.cdisc.org/events/interchange/2024-cdisc-tmf-europe-interchange){target=_blank}.
+
+## PHUSE SDE - Heidelberg, Germany
+
+(27 June 2024)
+
+We submitted an abstract for the PHUSE SDE Heidelberg in Germany.
+
+Event information is available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=37311&eventID=59){target=_blank}.
+
+## PHUSE SDE - Copenhagen, Denmark
+
+(10 October 2024)
+
+We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
 
 ## PHUSE EU Connect
 
