@@ -138,13 +138,13 @@ With version 0.8 of the OpenStudyBuilder, the dashboard will be deployed within 
 
 The dashboard content is available as JSON file located in `\neo4j-mdr-db\neodash_reports`. For the released version 0.7.3 and earlier, this is not the latest version as deployed in the sandbox, but you can use this to check some cyper queries. 
 
-### Create own dashboards
+### Create own dashboards (neodash.graphapp.io)
 
 You can also design your own dashboard. 
 
 **Investigate database name**: We need the name of the actual database. We can open the Neo4j database browser with this URL: [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank}. By clicking the database symbol at the right, we can select different databases. There should be a database named `mdrdb-2024.01.05-08.52` or similar. This is the database name we need.
 
-**Create new dashboars**: Now we can visit [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} and create a new dashboard. Here we can connect to our local database. If you have not changed the default settings for the docker setup, your port will be `5002`, the username `neo4j` and the password `changeme1234`. Make also sure to enter the correct default database which could be `mdrdb-2024.01.05-08.52`.
+**Create new dashboars**: Now we can visit [http://neodash.graphapp.io/](http://neodash.graphapp.io/){target=_blank} and create a new dashboard. Here we can connect to our local database. If you have not changed the default settings for the docker setup, your port will be `5002`, the username `neo4j` and the password `changeme1234`. Make also sure to enter the correct default database which could be `mdrdb-2024.01.05-08.52`. If you want to connect to your local database, make sure to use `http://` prefix, as `https://` is likely not working.
 
 ![Screenshot for connecting to local database](./img/guide_bc_dash_01.png)
 
@@ -168,3 +168,12 @@ To investigate which types of nodes are available, which connections are availab
 If you're new to Cypher, don't worry! There are several tools available that can assist you in navigating this language. Tools like ChatGPT and Copilot are designed to provide guidance and suggestions, making it easier for you to construct and understand Cypher queries.
 
 To gain a deeper understanding of the database structure, we recommend exploring the model documentation available in GitLab. You can find this under [`/neo4j-mdr-db/model`](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model?ref_type=heads){target=_blank}. This resource provides a detailed overview of the database model, helping you to understand how the data is organized and interconnected.
+
+### Create own dashboards (neodash docker)
+
+To install the neoDash tool locally, you can download for example this tool and start this within a container. You might want to use the port 5060 as below (the default 5005 is already used by the OpenStudyBuilder frontend):
+
+```
+docker pull nielsdejong/neodash:latest
+docker run -it --rm -p 5060:5060 nielsdejong/neodash
+```

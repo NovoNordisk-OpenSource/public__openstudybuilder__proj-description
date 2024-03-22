@@ -4,19 +4,13 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-18 March 2024 | Community Meeting (virtual) | Scheduled
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany | Scheduled
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany | Scheduled
+27 June 2024 | PHUSE SDE - Heidelberg, Germany | Planned
+10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
-## Community Meeting (virtual)
-
-(18 March 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-Registration is available [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7167879361142984704/){target=_blank}.
 
 ## COSA Workshop at CDISC EU Interchange
 
@@ -64,6 +58,20 @@ We plan to run a live demonstration starting from a defined study and illustrate
 By using the USDM in conjunction with other CDISC standards inside the OpenStudyBuilder, researchers can ensure that clinical research data is collected, analysed, and reported in a consistent and standardized manner. This makes it easier to share and compare data across different studies and study sites, which can help to improve the quality and efficiency of clinical research. 
 
 Registration is available [here](https://www.cdisc.org/events/interchange/2024-cdisc-tmf-europe-interchange){target=_blank}.
+
+## PHUSE SDE - Heidelberg, Germany
+
+(27 June 2024)
+
+We submitted an abstract for the PHUSE SDE Heidelberg in Germany.
+
+Event information is available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=37311&eventID=59){target=_blank}.
+
+## PHUSE SDE - Copenhagen, Denmark
+
+(10 October 2024)
+
+We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
 
 ## PHUSE EU Connect
 

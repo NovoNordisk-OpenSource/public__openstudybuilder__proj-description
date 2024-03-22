@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+18 March 2024 | Community Meeting (virtual)
 11 March 2024 | OSB as MDR Collaboration (virtual)
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
@@ -36,6 +37,12 @@ Date | Event
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
 
+## Community Meeting (virtual)
+
+(18 March 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about utilization and plans and showing a demonstration.
+
 ## OSB as MDR Collaboration (virtual)
 
 (13 March 2024, virtual event)
@@ -52,7 +59,7 @@ Discover the power of collaboration through:
 
 The presentation slides are available [here](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank}.
 
-A recording will be available soon.
+The recording is available in YouTube [here](https://youtu.be/omxL0hW79Rk){target=_blank}.
 
 ## GraphSummit
 
