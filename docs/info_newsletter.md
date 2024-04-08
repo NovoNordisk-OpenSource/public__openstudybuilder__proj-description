@@ -4,7 +4,7 @@ The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.l
 
 ### Status, MDR collaboration, Upcoming Events
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7169238927038365696" height="750" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7169238927038365696" height="775" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Ecosystem, Dashboard, EDC Integration & Workshop, Release 0.7.3
 
@@ -12,11 +12,11 @@ The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.l
 
 ### Reflections 2023
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7142429956776611841" height="795" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7142429956776611841" height="815" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Business Go Live, Release 0.7 and PHUSE
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135284515551219712" height="640" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135284515551219712" height="665" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Team, Workshop, Survey & Release 0.6
 
