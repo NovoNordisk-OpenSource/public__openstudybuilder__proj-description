@@ -2,6 +2,10 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Events & Collaboration, Shaping the Future, Release 0.8.1
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7183023415950200832" height="685" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Status, MDR collaboration, Upcoming Events
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7169238927038365696" height="775" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
