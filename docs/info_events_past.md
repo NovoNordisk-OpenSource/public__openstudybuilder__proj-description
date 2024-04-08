@@ -2,6 +2,7 @@
 
 Date | Event 
 -- | --
+26 March 2024 | COSA Spotlight (virtual)
 18 March 2024 | Community Meeting (virtual)
 11 March 2024 | OSB as MDR Collaboration (virtual)
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
@@ -36,6 +37,20 @@ Date | Event
 27 April 2022 | CDISC EU Interchange
 31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
 15-19 November 2021 | PHUSE EU Connect
+
+## COSA Spotlight (virtual)
+
+(18 March 2024, virtual event)
+
+**COSA Workshop on how OpenStudyBuilder can be used to drive EDC setup**
+
+by Nicolas de Saint Jorre, Novo Nordisk
+
+In this presentation, Nicolas shared information about the status of the CRF design and EDC integration plans promoting the COSA Workshop on OpenStudyBuilder EDC Integrations. You can checkout the slides or watch the full video.
+
+The presentation slides are available [here](./presentations/2024-03-26-COSA-Spotlight.pdf){target=_blank}.
+
+The recording is available on the CDISC website [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1){target=_blank}.
 
 ## Community Meeting (virtual)
 
