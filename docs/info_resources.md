@@ -24,6 +24,7 @@ Title | Description
 -- | --
 [OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)<br>(2023-05-22)
 [OpenStudyBuilder as MDR Collaboration kick-off (47:00)](https://www.youtube.com/watch?v=omxL0hW79Rk){target=_blank} | Recorded kick-off meeting<br>(2024-03-11)
+[COSA Spotlight (COSA Workshop on how OpenStudyBuilder can be used to drive EDC setup) (30:00)](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1){target=_blank} | Nicolas shared information about the status of the CRF design and EDC integration plans promoting the COSA Workshop on OpenStudyBuilder EDC Integrations.<br>(2024-03-26 - starting at 25')
 [OpenStudyBuilder - Background & Scope (11:16)](https://www.youtube.com/watch?v=dagWWR3ZBao){target=_blank} | Introduction with Background and Scrope<br>(2023-07-21)
 [OpenStudyBuilder - Use Cases (13:55)](https://www.youtube.com/watch?v=O-li4eBWVPM){target=_blank} | Showing different Use Cases<br>(2023-07-21)
 [OpenStudyBuilder as SDR Solution (5:18)](https://www.youtube.com/watch?v=SB3AFJJQj-c){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used as SDR<br>(2022-10-17)
@@ -35,5 +36,5 @@ Title | Description
 
 Content | Description
 -- | --
-[Paper](./presentations/2023-11-06-PHUSE_Paper_TT07.pdf){target=_blank} | Open-Source Protocol Automation with the OpenStudyBuilder (2023-11-06)
-[Paper](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank} | Open-Source MDR & SDR - Managing your standards with the OpenStudyBuilder (2023-11-06)
+[Paper](./presentations/2023-11-06-PHUSE_Paper_TT07.pdf){target=_blank} | Open-Source Protocol Automation with the OpenStudyBuilder (2023-11-06)
+[Paper](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank} | Open-Source MDR & SDR - Managing your standards with the OpenStudyBuilder (2023-11-06)

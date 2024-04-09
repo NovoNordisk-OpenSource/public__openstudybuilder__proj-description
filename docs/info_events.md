@@ -6,7 +6,7 @@ Date | Event | Status
 -- | -- | --
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany | Scheduled
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany | Scheduled
-27 June 2024 | PHUSE SDE - Heidelberg, Germany | Planned
+27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
@@ -63,7 +63,11 @@ Registration is available [here](https://www.cdisc.org/events/interchange/2024-c
 
 (27 June 2024)
 
-We submitted an abstract for the PHUSE SDE Heidelberg in Germany.
+**Revolutionizing Clinical Trials: The Impact of OpenStudyBuilder on Automation and Insights**
+
+by Katja Glaß, Katja Glass Consutling
+
+OpenStudyBuilder, an open-source metadata and study definition repository, is revolutionizing the landscape of clinical trials by enabling end-to-end automation, from protocol generation to report creation. This presentation will provide an in-depth exploration of the current capabilities of OpenStudyBuilder, with a focus on its available and upcoming downstream tools. These include a Word add-in for protocol generation, standard utilities such as an R package for study and standard metadata download, and integrations with EDC and ePRO systems. Additionally, we will delve into how dashboards can offer insightful knowledge.
 
 Event information is available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=37311&eventID=59){target=_blank}.
 
