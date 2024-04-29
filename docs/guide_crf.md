@@ -146,7 +146,7 @@ Save your item and it will be added to the list in the table. Again, remember to
 
 Clicking on the CRF tree tab displays the list of existing templates. This is the page where the structure of our CRFs is defined by managing the hierarchy inside a template. It links the forms that contain ItemGroups which contain the items. In order to do that, the CRF elements need to be in draft status.
 
-By clicking the plus button of each row, the list of elements that can be linked at this level is shown. For example, when looking at the available example form 'Informed Consent and Demography’, then the OpenStudyBuilder will allow the addition of an ItemGroup.
+By clicking the plus button of each row, the list of elements that can be linked at this level is shown. For example, when looking at the available example form 'Informed Consent and Demography', then the OpenStudyBuilder will allow the addition of an ItemGroup.
 
 This addition could be for:
 

@@ -9,9 +9,11 @@ On this page you find a structured list of resources - not complete but containi
 Title | Description
 -- | --
 [OpenStudyBuilder Flyer](./presentations/2023-02-17-Flyer.pdf){target=_blank} | Flyer (2023-02-17)
-[OpenStudyBuilder Poster](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank} | Poster (2022-10-13)
+[OpenStudyBuilder Poster](./presentations/2024-04-OSB-Poster.pdf){target=_blank} | Poster (2024-04-29)
 [Community Meeting Overview](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank} | Overview & **Links** (2024-01-29)
-[OpenStudyBuilder as MDR](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | OpenStudyBuilder as MDR Collaboration  kick-off <br/>(2024-03-11)
+[OpenStudyBuilder as MDR](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | OpenStudyBuilder as Metadata Repository (**MDR**) Collaboration  kick-off <br/>(2024-03-11)
+[OpenStudyBuilder for EDC Integrations](./presentations/2024-04-23-Workshop_OSB_EDC_Integration.pdf){target=_blank} | OpenStudyBuilder for standard **CRF** design and **EDC** integrations <br/>(2024-04-23)
+[OpenStudyBuilder to DDF and USDM](./presentations/2024-04-25-OpenStudyBuilder%20to%20DDF%20and%20USDM.pdf){target=_blank} | OpenStudyBuilder in the context of **DDF** and the **USDM** format<br/>(2024-04-25)
 [Concept based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables](./presentations/2022-10-27-OpenStudyBuilderWithDemo-CDISC-US-Interchange.pdf){target=_blank} | **Introduction** with Demo Slides (2022-10-27)
 [OpenStudyBuilder - Open source MDR](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Copenhagen.pdf){target=_blank} | **Introduction** including focus areas, next steps, how to get started & getting along <br/>(2022-10-13)
 [StudyBuilder - Leveraging the Graph for Clinical Standards and Trials](./presentations/2022-09-08-GraphSummitCopenhagen_StudyBuilder.pdf){target=_blank} | Showing underlying **graph** structures and examples <br/>(2022-09-08) 
