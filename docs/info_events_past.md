@@ -1,44 +1,60 @@
 # Past Events
 
+## 2024
+
 Date | Event 
 -- | --
+24-25 April 2024 | CDISC EU Interchange - Berlin, Germany
+23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany
+23 April 2024 | OpenStudyBuilder as MDR meetup - Berlin, Germany
 26 March 2024 | COSA Spotlight (virtual)
 18 March 2024 | Community Meeting (virtual)
 11 March 2024 | OSB as MDR Collaboration (virtual)
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
-21 November 2023 | DMB Annual Conference - Paris, France
-5-8 November 2023 | PHUSE EU Connect - Birmingham, UK
-18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA
-17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA
-16 October 2023 | Community Meeting (virtual)
-10 October 2023 | PHUSE SDE  - Copenhagen, Denmark
-25 September 2023 | Community Meeting (virtual)
-11 July 2023 | SEND Webinar, Electronic Nonclinical Protocol Design - virtual
-22 June 2023 | PHUSE SDE  - Heidelberg, Germany
-15 June 2023 | GUF Meeting (French CDISC User Group)  - France
-08 June 2023 | Community Meeting (virtual)
-05 May 2023 | OpenStudyBuilder Community Meeting
-26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark)
-25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
-21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
-13-16 November 2022 | PHUSE EU Connect (Belfast)
-07 November 2022 | OpenStudyBuilder Q&A 
-26-27 October 2022 | CDISC US Interchange (Austin, Texas)
-24 October 2022 | OpenStudyBuilder Q&A
-13 October 2022 | EMEA Autumn SDE (Copenhagen)
-12-30 September 2022 | DDF Connectathon
-08 September 2022 | GraphSummit Copenhagen
-21 June 2022 | PHUSE EMEA SDE (Basel)
-6-8 June 2022 | GraphConnect 2022
-12 May 2022 | Graph Meetup Amsterdam 
-29 April 2022 | COSA Workshop
-27 April 2022 | CDISC EU Interchange
-31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
-15-19 November 2021 | PHUSE EU Connect
 
-## COSA Spotlight (virtual)
+### CDISC EU Interchange
+
+(24-25 April 2024 - Berlin, Germany)
+
+We had the pleasure to be at the CDISC Interchange in Berlin where we could showcase the OpenStudyBuilder at the COSA booth, had a poster and three related presentations.
+
+- **From OpenStudyBuilder to the Digital Data Flow- USDM Format** by Maurizio Mazzei, Neo4j & Nicolas De Saint Jorre, Novo Nordisk [(slides)](./presentations/2024-04-25-OpenStudyBuilder%20to%20DDF%20and%20USDM.pdf){target=_blank}
+- **Introduction to OpenStudyBuilder** by Katja Gla&szlig;, Consultant [(poster)](./presentations/2024-04-24-OpenStudyBuilder%20Poster.pdf){target=_blank}
+- **How to Build a Global, Reusable, Shareable Metadata Flow with a Customer-Centric Focus** by Anja Lundgreen and Martin Gram, Novo Nordisk [(slides)](./presentations/2024-04-25-HowToBuildMDFlow.pdf){target=_blank}
+- **Open Source Practicalities and the legal side** by Katja Gla&szlig;, Consultant [(slides)](./presentations/2024-04-25-OpenSource%20-%20Practicalities%20and%20the%20Legal%20Side.pdf){target=_blank}
+
+### COSA Workshop at CDISC EU Interchange
+
+**Use OpenStudyBuilder to drive EDC setup - a COSA Workshop**
+
+(23 April 2024 09:00 - 16:00 - Berlin, Germany)
+
+In this workshop, we delved into the depths of OpenStudyBuilder, showcasing its functionality with respect to standard CRF design and the opportunities for others to leverage this information for EDC automation. This could be achieved either through the ODM.XML export or by utilizing the native API or the ODM-API endpoints.
+
+EvidentIQ demonstrated the integration into their EDC system via ODM.XML. Oracle then showcased their integration into their EDC system, utilizing the API and additionally showcasing ePRO connectivity with the EvidentIQ ePRO system. Veeva also shared their perspectives and plans to support API integrations.
+
+Following these introductions, we divided into three breakout groups to discuss the strengths, weaknesses, opportunities, and challenges associated with integrations through ODM.xml and APIs. We documented these discussions in a SWOT analysis sheet.
+
+After the breakouts, we heard from CDISC, presented by Sam Hume, and discussed the breakout summaries. We also strategized on how to progress further.
+
+The following resources are available:
+
+- OpenStudyBuilder Introduction and Status [(slides)](./presentations/2024-04-23-Workshop_OSB_EDC_Integration.pdf){target=_blank}
+- OpenStudyBuilder - Marvin Integration (no slides available)
+- OpenStudyBuilder - OracleOne and Marvin ePro Integration [(slides)](./presentations/2024-04-23-Workshop_OSB_EDC_Integration_OracleEvidentIQ.pdf){target=_blank}
+- OpenStudyBuilder - Veeva viewpoints [(slides)](./presentations/2024-04-23-Workshop_OSB_EDC_Integration_Veeva.pdf){target=_blank}
+- OpenStudyBuilder - CDISC perspective [(slides)](./presentations/2024-04-23-Workshop_OSB_EDC_Integration_CDISC.pdf){target=_blank}
+- OpenStudyBuilder - Breakout SWOT [(slides)](./presentations/2024-04-23-Workshop_OSB_EDC_Integration_Summary_SWOTs.pdf){target=_blank}
+
+### OpenStudyBuilder as MDR meetup
+
+(23 April 2024, live meetup in Berlin, Germany)
+
+We recently hosted a live meetup, spanning one hour, to discuss the challenges and opportunities associated with using OpenStudyBuilder as a metadata repository. A significant gap we identified is the need for high-level documentation. Instead of delving into intricate details, we aim to showcase simplistic, single use cases. These cases should contain sufficient information for managers, providing a comprehensive understanding without overwhelming them with technicalities.
+
+### COSA Spotlight (virtual)
 
 (18 March 2024, virtual event)
 
@@ -52,13 +68,13 @@ The presentation slides are available [here](./presentations/2024-03-26-COSA-Spo
 
 The recording is available on the CDISC website [here](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (18 March 2024, virtual event)
 
 We discussed various aspects of the OpenStudyBuilder, about utilization and plans and showing a demonstration.
 
-## OSB as MDR Collaboration (virtual)
+### OSB as MDR Collaboration (virtual)
 
 (13 March 2024, virtual event)
 
@@ -76,7 +92,7 @@ The presentation slides are available [here](./presentations/2024-03-11-OSB-as-M
 
 The recording is available in YouTube [here](https://youtu.be/omxL0hW79Rk){target=_blank}.
 
-## GraphSummit
+### GraphSummit
 
 (7 March 2024 - Copenhagen, Denmark)
 
@@ -90,7 +106,7 @@ The presentation slides are available [here](./presentations/2024-03-07-Graph-Su
 
 A recording will soon be available on the GraphSummit [homepage](https://neo4j.com/graphsummit/){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (26 February 2024, virtual event)
 
@@ -98,13 +114,33 @@ We discussed various aspects of the OpenStudyBuilder, about utilization and plan
 
 Introduction slides are available [here](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (29 January 2024, virtual event)
 
 We discussed various aspects of the OpenStudyBuilder, about utilization and plans.
 
-## DMB Annual Conference
+## 2023
+
+Date | Event 
+-- | --
+21 November 2023 | DMB Annual Conference - Paris, France
+5-8 November 2023 | PHUSE EU Connect - Birmingham, UK
+18-19 October 2023 | CDISC US Interchange - Falls Church, VA, USA
+17 October 2023 | Workshop at CDISC US Interchange - Falls Church, VA, USA
+16 October 2023 | Community Meeting (virtual)
+10 October 2023 | PHUSE SDE  - Copenhagen, Denmark
+25 September 2023 | Community Meeting (virtual)
+11 July 2023 | SEND Webinar, Electronic Nonclinical Protocol Design - virtual
+22 June 2023 | PHUSE SDE  - Heidelberg, Germany
+15 June 2023 | GUF Meeting (French CDISC User Group)  - France
+08 June 2023 | Community Meeting (virtual)
+05 May 2023 | OpenStudyBuilder Community Meeting
+26-27 April 2023 | CDISC Europe Interchange (Copenhagen, Denmark)
+25 April 2023 | COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
+21 March 2023 | OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
+
+### DMB Annual Conference
 
 (21 November 2023, live event in Paris, France)
 
@@ -129,7 +165,7 @@ the solution.
 
 The presentation slides are available [here](./presentations/2023-11-21-DMB_MDR_OpenStudyBuilder.pdf){target=_blank}.
 
-## PHUSE EU Connect 
+### PHUSE EU Connect 
 
 (5-8 November 2023, live event in Birmingham, UK)
 
@@ -155,7 +191,7 @@ This presentation will demonstrate how the OpenStudyBuilder adopts industry stan
 The presentation slides are available [here](./presentations/2023-11-06-PHUSE_Presentation_SI03.pdf){target=_blank}.
 The paper is available [here](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank}.
 
-## CDISC US Interchange
+### CDISC US Interchange
 
 (18-19 October 2023, live event in Falls Church, VA, USA)
 
@@ -171,7 +207,7 @@ OpenStudyBuilder is based on concept-based standards providing a generalized, im
 
 The presentation slides are available [here](./presentations/2023-10-18-CDISC-US-Interchange.pdf){target=_blank}.
 
-## Workshop (at CDISC US Interchange)
+### Workshop (at CDISC US Interchange)
 
 (17 October 2023, Falls Church, VA, USA)
 
@@ -179,7 +215,7 @@ We performed a workshop on Biomedical Concepts.
 
 The matierial is available [here](./presentations/2023-10-17-COSA_BC_OSB_Workshop_CDISC_Interchange.pdf){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (16 October 2023, virtual event)
 
@@ -191,7 +227,7 @@ A third discussed aspect was authentification. As this is important when you wan
 
 It will also be interesting to see how the different graph models can work together as the OpenStudyBuilder has a strong metadata graph model which might be connected with other local graph systems. This is an open question on how to.
 
-## PHUSE SDE  - Copenhagen, Denmark
+### PHUSE SDE  - Copenhagen, Denmark
 
 (10 October 2023, live event in Copenhagen)
 
@@ -199,13 +235,13 @@ We showed our OpenStudyBuilder poster, had a live demonstration and talked to ma
 
 The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (25 September 2023, virtual event)
 
 We had our community meeting and talkes about the general functionality.
 
-## SEND Webinar, Electronic Nonclinical Protocol Design
+### SEND Webinar, Electronic Nonclinical Protocol Design
 
 (11 July 2023, virtual webinar 5:00 PM - 6:00 PM CEST)
 
@@ -226,7 +262,7 @@ Don't miss out on this opportunity to stay ahead of the curve in nonclinical pro
 
 The presentation slides are available [here](./presentations/2023-07-11 SEND-ElectronicNonclinicalProtocolDesign.pdf){target=_blank}.
 
-## PHUSE SDE - Heidelberg, Germany
+### PHUSE SDE - Heidelberg, Germany
 
 (22 June 2023, live event in Heidelberg)
 
@@ -240,7 +276,7 @@ This presentation offers a deep dive into the features of OpenStudyBuilder, high
 
 The presentation slides are available [here](./presentations/2023-06-20-PHUSE-SDE-Heidelberg.pdf){target=_blank}.
 
-## GUF Meeting (French CDISC User Group)
+### GUF Meeting (French CDISC User Group)
 
 (15 June 2023, live event in Indre-et-Loire, France)
 
@@ -248,7 +284,7 @@ There was the French CDISC User Group which meets live in France. Nicolas has pr
 
 The presentation slides are available [here](./presentations/2023-06-15-OpenStudyBuilder_GUF.pdf){target=_blank}.
 
-## Community Meeting (virtual)
+### Community Meeting (virtual)
 
 (8 June 2023, 15:00-16:00 CEST, virtual event)
 
@@ -257,14 +293,14 @@ We had our community meeting where everyone was invited to dicuss any topic. Thi
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to attend the OpenStudyBuilder community meeting, where we'll demonstrate functionality, provide insightful answers to your questions, and encourage lively discussions on a wide range of subjects.
 
 
-## OpenStudyBuilder Community Meeting (virtual)
+### OpenStudyBuilder Community Meeting (virtual)
 
 (05 May 2023 - 15:00-16:00 CEST, virtual event)
 
 Everyone was invited to join our OpenStudyBuilder community meeting. After a short introduction we answered questions and showed areas people had been interested in. There was a huge interest in the CRF part including CRF related edit checks which could be added in the "Sponsor Extensions". Apart from the fact, that the ODM.XML can be exported, it is also possible to import ODM.XML - ideally you need to check that the codelists match the CDISC CTs, otherwise new sponsor specific codelists might be created. A nice note is that we are looking into the ICH M11 guideline about structured protocols. CDISC is looking into this guideline as well, so hopefully we can collaborate on this as well.
 
 
-## CDISC Europe Interchange (Copenhagen, Denmark)
+### CDISC Europe Interchange (Copenhagen, Denmark)
 
 (26-27 April 2023, live event in Copenhagen)
 
@@ -275,7 +311,7 @@ Conjeaud (Neo4j) and Nicolas de Saint Jorre (Novo Nordisk):
 
 The presentation slides are available [here](./presentations/2023-04-27-Blood-Pressure.pdf){target=_blank}.
 
-## COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
+### COSA Biomedical Concept & OpenStudyBuilder Workshop (Copenhagen, Denmark)
 
 (25 April 2023, Copenhagen, 9:00-15:00)
 
@@ -296,7 +332,7 @@ Slides are available - an article is likely to come soon:
 - [Breakout 2](./presentations/2023-04-25-Breakout2-BC-Data-Models.pdf){target=_blank} - Understand BCs in OpenStudyBuilder, COSMoS, DDF, d4k
 - [Breakout 3](./presentations/2023-04-25-Breakout3-Curate-BC-Content.pdf){target=_blank} - Curate BCs
 
-## OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
+### OpenStudyBuilder for Pre-Clinical at Society of Toxicology (Nashville, USA)
 
 (21 March 2023, Nashville, 9:00-10:00)
 
@@ -306,7 +342,26 @@ The slides are available [here](./presentations/2023-03-21-OpenStudyBuilder-SOT.
 
 **Presenter**: Bob Friedmann, Xybion & Katja Glass, Katja Glass Consulting
 
-## PHUSE EU Connect (Belfast)
+## 2022
+
+Date | Event 
+-- | --
+13-16 November 2022 | PHUSE EU Connect (Belfast)
+07 November 2022 | OpenStudyBuilder Q&A 
+26-27 October 2022 | CDISC US Interchange (Austin, Texas)
+24 October 2022 | OpenStudyBuilder Q&A
+13 October 2022 | EMEA Autumn SDE (Copenhagen)
+12-30 September 2022 | DDF Connectathon
+08 September 2022 | GraphSummit Copenhagen
+21 June 2022 | PHUSE EMEA SDE (Basel)
+6-8 June 2022 | GraphConnect 2022
+12 May 2022 | Graph Meetup Amsterdam 
+29 April 2022 | COSA Workshop
+27 April 2022 | CDISC EU Interchange
+31 March 2022 | CDISC Open Source Alliance (COSA) Spotlight
+15-19 November 2021 | PHUSE EU Connect
+
+### PHUSE EU Connect (Belfast)
 
 (13-16 November 2022, live event in Belfast)
 
@@ -329,7 +384,7 @@ Many used the opportunity to talk to us and see a brief demo.
 
 The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
 
-## OpenStudyBuilder Q&A (virtual)
+### OpenStudyBuilder Q&A (virtual)
 
 (07 November 2022 - 15:00-16:00 CET, virtual event)
 
@@ -337,7 +392,7 @@ The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE
 
 We had great talks similar to the first Q&A session. We had quick demonstration of various aspects of the OpenStudyBuilder and many discussions.
 
-## CDISC US Interchange (Austin, Texas)
+### CDISC US Interchange (Austin, Texas)
 
 (26-27 October 2022, live event in Austin, TX)
 
@@ -359,7 +414,7 @@ Slides including demonstration pictures are available [here](./presentations/202
 
 There had be a high interest in demonstration and talks at the COSA booth around the OpenStudyBuilder. The next interchange will also have a booth and a time schedule, so use further chances for live demonstrations and direct talks!
 
-## OpenStudyBuilder Q&A (virtual)
+### OpenStudyBuilder Q&A (virtual)
 
 (24 October 2022 - 15:00-16:00 CEST, virtual event)
 
@@ -382,7 +437,7 @@ A question about maintenance came up. As this is an open-source project it relie
 A lot of documentation is available. The community documentation is this page here. Then we do have the repository documentation along with the source code in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution).. And finally, there is the in-build tool documentation which can be access by the local installation the "documentation" area or through the sandbox access where the documentation is available as well.
 
 
-## PHUSE EMEA Autumn SDE (Copenhagen)
+### PHUSE EMEA Autumn SDE (Copenhagen)
 
 (13 October 2022, live event in Copenhagen)
 
@@ -399,7 +454,7 @@ The MDR as the heart, contains all the metadata and core study data information.
 Slides are available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Copenhagen.pdf){target=_blank}.
 The poster is available [here](./presentations/2022-10-13-OpenStudyBuilder-PHUSE-SDE-Poster.pdf){target=_blank}.
 
-## DDF Connectathon
+### DDF Connectathon
 
 (12-30 September 2022, virtual 3-week-event)
 
@@ -429,7 +484,7 @@ EDC Integration
 Demo videos are available under [DDF Context](info_ddf.md). The following slides has been used: [DDF compliant SDR](./presentations/2022-09-30-DDF-compliant-SDR-solution.pdf), [ODM](./presentations/2022-09-30-ODM-Study-Definition-solution.pdf) and [Protocol](./presentations/2022-09-30-Protocol-and-SDTM-Study-Design-integration.pdf).
 
 
-## GraphSummit Copenhagen
+### GraphSummit Copenhagen
 
 (08 September 2022, live event in Coppenhagen)
 
@@ -441,7 +496,7 @@ Learn how Novo Nordisk achieved success with Neo4j and their future plans for mo
 
 Slides are available [here](./presentations/2022-09-08-GraphSummitCopenhagen_StudyBuilder.pdf){target=_blank}.
 
-## PHUSE EMEA SDE - Basel
+### PHUSE EMEA SDE - Basel
 
 (21 June 2022, live event in Basel)
 
@@ -453,7 +508,7 @@ The OpenStudyBuilder is an open-source project run by NovoNordisk with the inten
 
 Slides are available [here](./presentations/2022-06-21-PHUSE SDE Basel.pdf){target=_blank}.
 
-## GraphConnect 2022
+### GraphConnect 2022
 
 (6-8 June 2022, live event in Austin, TX, USA)
 
@@ -465,7 +520,7 @@ OpenStudyBuilder is an open source project for clinical study evaluations. This 
 
 Slides are available [here](./presentations/2022-06-06-OpenStudyBuilder_GraphConnect.pdf){target=_blank}.
 
-## Graph Meetup Amsterdam
+### Graph Meetup Amsterdam
 
 (12 May 2022, 18:00-20:00, live event in Amsterdam)
 
@@ -480,7 +535,7 @@ This presentation should illustrate how a concrete NEO4J professional applicatio
 
 Slides are available [here](./presentations/2022-05-12-AMS_Meetup_May.pdf){target=_blank}.
 
-## CDISC Open Source Alliance (COSA) OpenStudyBuilder Workshop
+### CDISC Open Source Alliance (COSA) OpenStudyBuilder Workshop
 
 (29 April 2022, 9:00 - 13:00 CET)
 
@@ -505,7 +560,7 @@ The following **breakout groups** had been defined:
 - How to start evaluate and use OpenStudyBuilder, deployment options, system operations and integrations & Demonstrate DDF API adaptor and discuss DDF API alignment ([slides](./presentations/2022-04-09-COSA-Workshop-breakout5-api.pdf){target=_blank})
 - Ideate on business opportunities for vendor services for OpenStudyBuilder ([slides](./presentations/2022-04-09-COSA-Workshop-breakout6-vendors.pdf){target=_blank})
 
-## CDISC EU Interchange
+### CDISC EU Interchange
 
 **OpenStudyBuilder - Next Generation MDR Solution for Study Design and Configuration Using Concept-Based Standards**
 
@@ -515,7 +570,7 @@ by Mikkel Traun, Novo Nordisk A/S
 
 Slides are available [here](./presentations/2022-04-27-CDISC-EU-Interchange-StudyBuilder.pdf){target=_blank}.
 
-## CDISC Open Source Alliance (COSA) Spotlight
+### CDISC Open Source Alliance (COSA) Spotlight
 
 **Introduction to OpenStudyBuilder**
 
@@ -527,7 +582,7 @@ by Henrik Lynge, Vice President & Mikkel Traun, Principal Programmer, Novo Nordi
 
 OpenStudyBuilder is a new approach to working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information.
 
-## Presentation - Next Generation MDR Solution
+### Presentation - Next Generation MDR Solution
 
 **Next Generation MDR Solution for Study Design and Configuration Using Concept-based Standards**
 
