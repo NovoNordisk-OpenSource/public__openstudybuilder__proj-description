@@ -24,6 +24,8 @@ We had the pleasure to be at the CDISC Interchange in Berlin where we could show
 - **Introduction to OpenStudyBuilder** by Katja Gla&szlig;, Consultant [(poster)](./presentations/2024-04-24-OpenStudyBuilder%20Poster.pdf){target=_blank}
 - **How to Build a Global, Reusable, Shareable Metadata Flow with a Customer-Centric Focus** by Anja Lundgreen and Martin Gram, Novo Nordisk [(slides)](./presentations/2024-04-25-HowToBuildMDFlow.pdf){target=_blank}
 - **Open Source Practicalities and the legal side** by Katja Gla&szlig;, Consultant [(slides)](./presentations/2024-04-25-OpenSource%20-%20Practicalities%20and%20the%20Legal%20Side.pdf){target=_blank}
+- **Navigating the Labyrinth of Controlled Terminology: Challenges and Opportunities in Integrating and Managing Diverse Terminologies for Broad Use of Metadata** by Martin Gram and Kasper Dideriksen, Novo Nordisk [(slides)](./presentations/2024-04-25-Navigating the Labyrinth of Controlled Terminology.pdf){target=_blank}
+
 
 ### COSA Workshop at CDISC EU Interchange
 
