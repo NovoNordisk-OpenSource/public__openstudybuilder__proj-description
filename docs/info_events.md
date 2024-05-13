@@ -4,7 +4,7 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-06 May 2024 | Community Meeting (virtual) | Scheduled
+03 June 2024 | Community Meeting (virtual) | Scheduled
 12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
@@ -14,11 +14,11 @@ Date | Event | Status
 
 ## Community Meeting (virtual)
 
-(6 May 2024, virtual event)
+(3 June 2024, virtual event)
 
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7181981418309193728/comments/){target=_blank}.
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7195724693440499713/comments/){target=_blank}.
 
 ## GraphTalk Pharma
 

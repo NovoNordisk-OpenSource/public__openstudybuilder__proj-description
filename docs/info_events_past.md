@@ -4,6 +4,7 @@
 
 Date | Event 
 -- | --
+06 May 2024 | Community Meeting (virtual)
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany
 23 April 2024 | OpenStudyBuilder as MDR meetup - Berlin, Germany
@@ -13,6 +14,12 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(06 May 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about protocol automation and finding available information.
 
 ### CDISC EU Interchange
 
