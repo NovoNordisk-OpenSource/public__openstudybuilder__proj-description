@@ -2,6 +2,10 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Recap of the CDISC Interchange: EDC Workshop, MDR Meetup, and Conference Summary
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196163588414144513" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Events & Collaboration, Shaping the Future, Release 0.8.1
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7183023415950200832" height="685" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
