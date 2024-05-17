@@ -31,11 +31,11 @@ We are thrilled to announce that a representative from Neo4j will be present at 
 
 You can register for the event [here](https://neo4j.com/event/graphtalk-munich-pharma/){target=_blank}.
 
-## Journée de conférence GUF CDISC - Paris, France
+## Journ&eacute;e de conf&eacute;rence GUF CDISC - Paris, France
 
 (25 June 2024)
 
-Avancée et défi de l'automatisation du protocole (Advancements and Challenges in Protocol Automation)
+Avanc&eacute;e et d&eacute;fi de l'automatisation du protocole (Advancements and Challenges in Protocol Automation)
 
 by Marc-Antoine Prodhomme, Johnson & Johnson and Nicolas De Saint Jorre, Novo Nordisk
 
