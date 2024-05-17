@@ -9,7 +9,7 @@ The main advantage of DDF is the standard API which allows the connection of ver
 
 ## DDF API Endpoint
 
-Beginning with the OpenStudyBuilder version 0.9 which is expected to be released in Q2 2024 - the DDF API v3 endpoint is available which is implementing the USDM version 2.7.1. As of now (Mai 2024) it is already released in the sandbox environment and can be checked out [here](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/DDF%20endpoints){target=_blank}.
+Beginning with the OpenStudyBuilder version 0.9 which is expected to be released in Q2 2024 - the DDF API v3 endpoint is available which is implementing the USDM version 2.7.1. As of now (Mai 2024) it is already released in the sandbox environment and can be checked out [here](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/DDF%20endpoints){target=_blank}. Unluckily, the testing of the output had not been finalized with the release and we already figured out some discrepancies. We are working on USDM v3 support which is expected to be available in the version 0.10 or 0.11.
 
 As the OpenStudyBuilder started before the DDF initiative and contains more metadata than the USDM model, it is currently only possible to export an OpenStudyBuilder study to the USDM format using the endpoint. 
 
