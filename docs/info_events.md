@@ -6,6 +6,7 @@ Date | Event | Status
 -- | -- | --
 03 June 2024 | Community Meeting (virtual) | Scheduled
 12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual | Scheduled
+25 June 2024 | GUF CDISC - Paris, France | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
@@ -29,6 +30,18 @@ Join us for an enlightening presentation titled "Graphs and Clinical Study Devel
 We are thrilled to announce that a representative from Neo4j will be present at the event location. This is a unique opportunity to engage in insightful discussions.
 
 You can register for the event [here](https://neo4j.com/event/graphtalk-munich-pharma/){target=_blank}.
+
+## Journ&eacute;e de conf&eacute;rence GUF CDISC - Paris, France
+
+(25 June 2024)
+
+Avanc&eacute;e et d&eacute;fi de l'automatisation du protocole (Advancements and Challenges in Protocol Automation)
+
+by Marc-Antoine Prodhomme, Johnson & Johnson and Nicolas De Saint Jorre, Novo Nordisk
+
+Marc and Nicolas will talk about advancements and challenges in the protocol automation on the French User Group Conference.
+
+You can register for the event [here](https://www.tickettailor.com/events/hpitauxuniversitairesdegenvehug/1258089){target=_blank}.
 
 ## PHUSE SDE - Heidelberg, Germany
 
