@@ -9,6 +9,7 @@ Date | Event | Status
 25 June 2024 | GUF CDISC - Paris, France | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
+23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
@@ -60,6 +61,27 @@ Event information is available [here](https://www.phuse-events.org/attend/fronte
 (10 October 2024)
 
 We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
+
+## CDISC US Interchange
+
+(23-24 October 2024 - Phoenix/Scottsdale, US)
+
+We will be at the CDISC Interchange with a presentation and are also planning for a workshop (planning ongoing).
+
+**Schedule of Activities in OpenStudyBuilder**
+
+by Mikkel Traun, Novo Nordisk
+
+This presentation demonstrate how OpenStudyBuilder operates across various standard levels to define the Schedule of Activities (SoA) as part of a structured study specification, catering to distinct study purposes: 
+
+- **Protocol SoA:** High level SoA in protocol, main purpose is for the investigator and site staff to get an overview of the operational schedule. 
+- **Detailed SoA:** Specifying the semantic data observations to be collected in the study – but not specific to representation in ADaM, SDTM or data collection; Will be part of protocol and appendixes or other supplementary documents. 
+- **Operational SoA:** Data specification to support data collection specification; Will also be related to specific ADaM PARAM/PARAMCD for collected data and thereby used to specify the data needed for analysis. 
+- **Data Capture / Collection Specification:** EDC information related to the SoA – i.e., how data is to be collected in the study and when, what is pre-set, what is collected and how. 
+
+The Schedule of Activities at the different levels are a major result when working with biomedical concepts and for this is integrated in the data model linked to the corresponding biomedical concept definitions in OpenStudyBuilder library module. This way and end-to-end connectivity and study setup automation is enabled. 
+
+The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and shared as open source under COSA aiming for end-to-end automations from protocol to TLFs. The solution consists of a Study Builder Application connected to a Metadata Repository holding data standards and a Study Definition Repository with study specifications. 
 
 ## PHUSE EU Connect
 
