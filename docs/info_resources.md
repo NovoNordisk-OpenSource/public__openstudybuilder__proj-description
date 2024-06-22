@@ -25,10 +25,13 @@ Title | Description
 Title | Description
 -- | --
 [OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)<br>(2023-05-22)
+[OpenStudyBuilder in a Nutshell (4:24)](https://www.youtube.com/watch?v=X0UQrOGfEOc){target=_blank} | High Level Overview<br>(2024-05-24)
+[EDC Integration (13:05)](https://www.youtube.com/watch?v=4-33kqSTdeY){target=_blank} | Intelligent Study Build - Oracle integration with OpenStudyBuilder<br>(2024-06-03)
 [OpenStudyBuilder as MDR Collaboration kick-off (47:00)](https://www.youtube.com/watch?v=omxL0hW79Rk){target=_blank} | Recorded kick-off meeting<br>(2024-03-11)
 [COSA Spotlight (COSA Workshop on how OpenStudyBuilder can be used to drive EDC setup) (30:00)](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1){target=_blank} | Nicolas shared information about the status of the CRF design and EDC integration plans promoting the COSA Workshop on OpenStudyBuilder EDC Integrations.<br>(2024-03-26 - starting at 25')
 [OpenStudyBuilder - Background & Scope (11:16)](https://www.youtube.com/watch?v=dagWWR3ZBao){target=_blank} | Introduction with Background and Scrope<br>(2023-07-21)
 [OpenStudyBuilder - Use Cases (13:55)](https://www.youtube.com/watch?v=O-li4eBWVPM){target=_blank} | Showing different Use Cases<br>(2023-07-21)
+[Graph utilization of OpenStudyBuilder (20:30)](https://youtu.be/zVobn-lnSLQ){target=_blank} | Leveraging the Graph for Clinical Trials and Standards<br>(2026-06-12)
 [OpenStudyBuilder as SDR Solution (5:18)](https://www.youtube.com/watch?v=SB3AFJJQj-c){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used as SDR<br>(2022-10-17)
 [OpenStudyBuilder for Standards and Protocol (5:22)](https://www.youtube.com/watch?v=rUOIwqVWGII){target=_blank} | DDF Connectathon - quickly show how the OpenStudyBuilder can be used for standards management and protocol automation<br>(2022-10-17)
 [OpenStudyBuilder with EDC Integrations (6:11)](https://www.youtube.com/watch?v=gGYkZGjWprs){target=_blank} | DDF Connectathon - quickly show how EDC Integrations can be done with the OpenStudyBuilder<br>(2022-10-17)

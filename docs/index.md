@@ -25,6 +25,18 @@ CDISC Standards | CDISC CT, CDASH, SDTM, ADaM with ODM-XML and Define-XML
 Project Status | First productive usage in Novo Nordisk planned for Q2 2022
 Users | Standards Governance, Study Designer, Standards Management, Trial Management, Medical Writing, Data Management, Biostatistics, Medical & Science, Clinical Pharmacology
 
+## OpenStudyBuilder in a Nutshell
+
+<iframe
+  title="Intelligent Study Build - Oracle integration with OpenStudyBuilder"
+  width=720
+  height=400
+  src="https://www.youtube-nocookie.com/embed/X0UQrOGfEOc"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
 ## Problem
 
 The current solutions for managing clinical data standards and study design specifications are often characterised by:

@@ -9,3 +9,17 @@ EDC | Marvin EDC | EdiventIQ has developed a proof of concept that integrates th
 EDC | Oracle Clinical One | Oracle has developed a comprehensive integration for OpenStudyBuilder into the Oracle Clinical One EDC system. Study automation has been created which imports all relevant information from OpenStudyBuilder to set up the EDC for a study, including visits, assessments, checks, and more.<br>**Status** - PoC available
 EDC | Veeva EDC | Novo Nordisk is actively developing integrations of OpenStudyBuilder into the Veeva EDC system. Concurrently, Veeva is developing APIs to enable the automation required for this integration.<br>**Status** - in development, PoC expected 2024/2025
 ePRO | Marvin ePRO | EvidentIQ has demonstrated the integration of the Oracle ClinicalOne EDC into their Marvin ePRO system. Both systems can integrate with the OpenStudyBuilder.<br>**Status** - PoC available
+
+## Demonstration Video
+
+This video showcases EDC Integration with Oracle Clinical One.
+
+<iframe
+  title="Intelligent Study Build - Oracle integration with OpenStudyBuilder"
+  width=720
+  height=400
+  src="https://www.youtube-nocookie.com/embed/4-33kqSTdeY"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
