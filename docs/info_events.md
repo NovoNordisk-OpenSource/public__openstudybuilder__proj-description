@@ -4,33 +4,15 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-03 June 2024 | Community Meeting (virtual) | Scheduled
-12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual | Scheduled
 25 June 2024 | GUF CDISC - Paris, France | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
+01 July 2024 | Community Meeting (virtual) | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
+22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
-
-## Community Meeting (virtual)
-
-(3 June 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7195724693440499713/comments/){target=_blank}.
-
-## GraphTalk Pharma
-
-(12 June 2024, Hybrid Event in Munich, Germany with a Virtual Component)
-
-Join us for an enlightening presentation titled "Graphs and Clinical Study Development: How Neo4j Powers the OpenStudyBuilder Project". This session will delve into the transformative role of Neo4j in driving the OpenStudyBuilder project, offering insights into the power of graph databases in clinical study development.
-
-We are thrilled to announce that a representative from Neo4j will be present at the event location. This is a unique opportunity to engage in insightful discussions.
-
-You can register for the event [here](https://neo4j.com/event/graphtalk-munich-pharma/){target=_blank}.
 
 ## Journ&eacute;e de conf&eacute;rence GUF CDISC - Paris, France
 
@@ -56,11 +38,44 @@ OpenStudyBuilder, an open-source metadata and study definition repository, is re
 
 Event information is available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=37311&eventID=59){target=_blank}.
 
+## Community Meeting (virtual)
+
+(1 July 2024, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7202196350426329092/comments/){target=_blank}.
+
 ## PHUSE SDE - Copenhagen, Denmark
 
 (10 October 2024)
 
 We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
+
+## COSA Workshop at CDISC US Interchange
+
+(22 October 2024 - Phoenix/Scottsdale, US)
+
+**COSA OpenStudyBuilder workshop - Use OpenStudyBuilder to drive EDC setup - a COSA Workshop**
+
+The landscape of system integrations within our industry often poses significant challenges despite the existence of established data exchange standards such as CDASH and ODM as well as the upcoming Biomedical Concepts and USDM, and others. Many tools, however, tend to support only their native formats or a limited selection of standards using custom extensions. This workshop aims to delve into these challenges and explore the vast opportunities available when integrating systems effectively.
+
+The workshop will primarily concentrate on the integration aspects of EDC (Electronic Data Capture) systems with OpenStudyBuilder, which boasts highly accessible interfaces through APIs and/or via ODM.XML file based integrations. Participants will gain insights into what currently would work and identify existing gaps, considering each system coming along with their own operational data model.
+
+We will start by explaining the OpenStudyBuilder vision around the end to end process with the illustration of the OSB Biomedical Concept (OSB BC).
+
+This will illustrate the Library and the Studies areas of the OpenStudyBuilder, and the reason for having every CTs, models and dictionaries connected to the metadata of our studies.
+
+We will here present the CRF module in the Library and explain the specification around the Study level, throught the use of the OSB BC.
+
+Then, we will split into different breakout groups with the following focus:
+
+- **Breakout 1** - EDC API based Integration: Working with standard CRFs (Case Report Forms), study SoA (Schedule of Activities) and vendor extensions in OpenStudyBuilder connecting to the EDC tools for EDC setup with bidirectional API based connections
+- **Breakout 2** - EDC ODM.XML based Integrations: Same as above, but focused on file based ODM.XML integrations.
+
+The integrations include study design definitions, reference and configuration of standard collection forms as well as specification of study specific forms. This will include use of Biomedical Concepts linking the data collection structure to a semantic definition and representation in e.g. SDTM. This will be illustrated from the ongoing data model in OSB, and how this model is related to the CDISC COSMoS BC model and USDM.
+
+Event information and registration is available [here](https://web.cvent.com/event/f5e9a2cd-6a16-45fb-aecc-d6451294cd5f/summary){target=_blank}.
 
 ## CDISC US Interchange
 
@@ -87,7 +102,25 @@ The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and s
 
 (10-13 November 2024 - Strasbourg, France)
 
-We plan to be at the PhUSE EU Connect where we will submit various presentations.
+We will be at the PhUSE EU Connect. Please come to the Novo Nordisk or CDISC Open Source Alliance booth to catch up with us. We are also happy to participate in the following events:
+
+**Poster - Status and news in OpenStudyBuilder**
+
+by Mikkel Traun, Novo Nordisk
+
+The OpenStudyBuilder is an open-source project for clinical study specifications. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information.This poster will present our current status and capabilities added to StudyBuilder this year. 
+
+**Presentation - Leveraging the USDM Standard in OpenStudyBuilder for Enhanced Data Exchange**
+
+by Marius Conjeaud, Neo4j and Nicolas de Saint Jorre, Novo Nordisk
+
+Explore the integration of the Unified Study Data Model (USDM) in OpenStudyBuilder, an open- source metadata and study definition repository. Developed by CDISC, USDM aims to streamline the exchange of study definitions and enable end-to-end automation across multiple systems. OpenStudyBuilder supports these processes and facilitates system integrations with its open interfaces and native graph-based data model. Beyond its native exports, OpenStudyBuilder also offers a study export in USDM format as a JSON file, enhancing connectivity with other USDM-compliant systems. This presentation delves into the data collection and transformation process, the challenges encountered, and the opportunities presented by this innovative standard. 
+
+**Related Presentation - Digital Data Flow: Achieving Protocol Digitalization and Clinical Research Interoperability through Multi-stakeholder Collaboration**
+
+by William Illis and Lakshmi Sankar,TransCelerate
+
+Digitalizing clinical protocol information can streamline study start-up, enable analytics-assisted study design and feasibility, and support more routine use of point-of-care data for research. Digital Data Flow (DDF) has supported the CDISC efforts to develop a foundational data model, the Unified Study Definitions Model (USDM), and has developed an open-source reference implementation, the Study Definitions Repository (SDR) to digitalize the clinical protocol and achieve interoperability between clinical trial systems.This session focuses on how industry stakeholders can make real the application of DDF for clinical protocol digitalization for your organization. The presentation will sit alongside presentations, "ICH M11 Clinical electronic Structure Harmonized Protocol (CeSHarP) and CDISC: Making the Electronic Protocol a reality" and "The TransCelerate / CDISC Digital Data Flow Project: Practical Electronic Study Designs" to set the stage on how the DDF project and the ICH M11 work will come together in the future as an important industry initiative.  
 
 ## BVMA (German Organization)
 
