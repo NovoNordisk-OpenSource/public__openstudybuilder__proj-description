@@ -4,6 +4,8 @@
 
 Date | Event 
 -- | --
+12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual
+03 June 2024 | Community Meeting (virtual)
 06 May 2024 | Community Meeting (virtual)
 24-25 April 2024 | CDISC EU Interchange - Berlin, Germany
 23 April 2024 | COSA Workshop at CDISC EU Interchange - Berlin, Germany
@@ -14,6 +16,28 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+## GraphTalk Pharma
+
+**Leveraging the Graph for Clinical Trials and Standards**
+
+(12 June 2024, Hybrid Event in Munich, Germany with a Virtual Component)
+
+by Katja Glaß, Consultant and Marius Conjeaud, Neo4j
+
+Join Katja Glaß and Marius Conjeaud as they introduce the revolutionary Open Study Builder, an open-source tool designed to enhance the clinical trial process. Developed by Novo Nordisk, this innovative platform leverages graph technology to streamline and standardize clinical trial workflows.
+
+Discover how Open Study Builder can replace traditional, manual processes with a centralized metadata repository, ensuring consistency and efficiency across various clinical trial activities. Explore the extensive resources available, including a project homepage, documentation, and interactive tools. Learn how to get involved and collaborate on this open-source project.
+
+The presentation slides are available [here](./presentations/2024-06-12-OpenStudyBuilder-LeveragingGraph.pdf){target=_blank}.
+
+Video recording is available [here](https://youtu.be/zVobn-lnSLQ){target=_blank}.
+
+### Community Meeting (virtual)
+
+(03 June 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about protocol automation and finding available information.
 
 ### Community Meeting (virtual)
 

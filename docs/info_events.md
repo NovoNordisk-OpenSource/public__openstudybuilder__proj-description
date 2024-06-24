@@ -4,34 +4,15 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-03 June 2024 | Community Meeting (virtual) | Scheduled
-12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual | Scheduled
 25 June 2024 | GUF CDISC - Paris, France | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 01 July 2024 | Community Meeting (virtual) | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
+22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
-
-## Community Meeting (virtual)
-
-(3 June 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7195724693440499713/comments/){target=_blank}.
-
-## GraphTalk Pharma
-
-(12 June 2024, Hybrid Event in Munich, Germany with a Virtual Component)
-
-Join us for an enlightening presentation titled "Graphs and Clinical Study Development: How Neo4j Powers the OpenStudyBuilder Project". This session will delve into the transformative role of Neo4j in driving the OpenStudyBuilder project, offering insights into the power of graph databases in clinical study development.
-
-We are thrilled to announce that a representative from Neo4j will be present at the event location. This is a unique opportunity to engage in insightful discussions.
-
-You can register for the event [here](https://neo4j.com/event/graphtalk-munich-pharma/){target=_blank}.
 
 ## Journ&eacute;e de conf&eacute;rence GUF CDISC - Paris, France
 
@@ -70,6 +51,31 @@ You can register for the event [here](https://www.linkedin.com/events/openstudyb
 (10 October 2024)
 
 We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
+
+## COSA Workshop at CDISC US Interchange
+
+(22 October 2024 - Phoenix/Scottsdale, US)
+
+**COSA OpenStudyBuilder workshop - Use OpenStudyBuilder to drive EDC setup - a COSA Workshop**
+
+The landscape of system integrations within our industry often poses significant challenges despite the existence of established data exchange standards such as CDASH and ODM as well as the upcoming Biomedical Concepts and USDM, and others. Many tools, however, tend to support only their native formats or a limited selection of standards using custom extensions. This workshop aims to delve into these challenges and explore the vast opportunities available when integrating systems effectively.
+
+The workshop will primarily concentrate on the integration aspects of EDC (Electronic Data Capture) systems with OpenStudyBuilder, which boasts highly accessible interfaces through APIs and/or via ODM.XML file based integrations. Participants will gain insights into what currently would work and identify existing gaps, considering each system coming along with their own operational data model.
+
+We will start by explaining the OpenStudyBuilder vision around the end to end process with the illustration of the OSB Biomedical Concept (OSB BC).
+
+This will illustrate the Library and the Studies areas of the OpenStudyBuilder, and the reason for having every CTs, models and dictionaries connected to the metadata of our studies.
+
+We will here present the CRF module in the Library and explain the specification around the Study level, throught the use of the OSB BC.
+
+Then, we will split into different breakout groups with the following focus:
+
+- **Breakout 1** - EDC API based Integration: Working with standard CRFs (Case Report Forms), study SoA (Schedule of Activities) and vendor extensions in OpenStudyBuilder connecting to the EDC tools for EDC setup with bidirectional API based connections
+- **Breakout 2** - EDC ODM.XML based Integrations: Same as above, but focused on file based ODM.XML integrations.
+
+The integrations include study design definitions, reference and configuration of standard collection forms as well as specification of study specific forms. This will include use of Biomedical Concepts linking the data collection structure to a semantic definition and representation in e.g. SDTM. This will be illustrated from the ongoing data model in OSB, and how this model is related to the CDISC COSMoS BC model and USDM.
+
+Event information and registration is available [here](https://web.cvent.com/event/f5e9a2cd-6a16-45fb-aecc-d6451294cd5f/summary){target=_blank}.
 
 ## CDISC US Interchange
 
