@@ -123,6 +123,7 @@ Tool | URL | Note
 OpenStudyBuilder App | [http://localhost:5005/](http://localhost:5005/){target=_blank} | main application
 Documentation | [http://localhost:5005/doc/](http://localhost:5005/doc/){target=_blank} | product related documentation
 API | [http://localhost:5005/api/docs](http://localhost:5005/api/docs){target=_blank} | API documentation and running API calls
+Dashboards | [http://localhost:5007/](http://localhost:5007/){target=_blank} | Browser available NeoDash dashboards
 DB Browser | [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank} | Browser for underlying database
 
 ### Installation Experiences

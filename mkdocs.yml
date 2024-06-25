@@ -12,6 +12,7 @@ nav:
     - Status: status.md
     - Events: info_events.md
     - Past Events: info_events_past.md
+    - OSB Hub: info_osb_hub.md
     - DDF Vision: info_ddf_vision.md
     - DDF Context: info_ddf.md
     - Environments: info_environment.md
@@ -67,4 +68,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.snippets:
       base_path: .
-  - attr_list
+  - attr_list  
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
