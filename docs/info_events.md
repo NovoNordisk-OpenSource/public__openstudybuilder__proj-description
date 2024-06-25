@@ -7,6 +7,7 @@ Date | Event | Status
 25 June 2024 | GUF CDISC - Paris, France | Scheduled
 27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 01 July 2024 | Community Meeting (virtual) | Scheduled
+15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
@@ -45,6 +46,14 @@ Event information is available [here](https://www.phuse-events.org/attend/fronte
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
 You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7202196350426329092/comments/){target=_blank}.
+
+## OSB-Hub & OSB-Trail-ControlledTerminology
+
+Welcome to our OSB-Hub where we want to introduce the OSB-Trail-ControlledTerminology community team! We hope you would like to join the collaboration!
+
+You find additional information on our [wiki](https://github.com/cdisc-org/osb-hub/wiki){target=_blank}!
+
+The invite ics file can be downloaded [here](./other/2024-07-15-OSB-Hub-OSB-Trail-ControlledTerminology.ics).
 
 ## PHUSE SDE - Copenhagen, Denmark
 
