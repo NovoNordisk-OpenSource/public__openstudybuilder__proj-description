@@ -41,7 +41,7 @@ by Marc-Antoine Prodhomme, Johnson & Johnson and Nicolas De Saint Jorre, Novo No
 
 Marc and Nicolas talked about advancements and challenges in the protocol automation on the French User Group Conference.
 
-The slides will be available soon.
+The presentation slides are available [here](./presentations/2024-06-25-CDISC-GUF-Paris.pdf){target=_blank}.
 
 ### GraphTalk Pharma
 
