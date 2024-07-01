@@ -2,6 +2,10 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Release of OpenStudyBuilder 0.9 & The OpenStudyBuilder Hub
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7213446330210267136" height="800" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Recap of the CDISC Interchange: EDC Workshop, MDR Meetup, and Conference Summary
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196163588414144513" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -25,7 +29,3 @@ The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.l
 ### Business Go Live, Release 0.7 and PHUSE
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135284515551219712" height="665" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-### Team, Workshop, Survey & Release 0.6
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7115022434268766209" height="1000" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

@@ -4,6 +4,8 @@
 
 Date | Event 
 -- | --
+27 June 2024 | PHUSE SDE - Heidelberg, Germany
+25 June 2024 | GUF CDISC - Paris, France
 12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual
 03 June 2024 | Community Meeting (virtual)
 06 May 2024 | Community Meeting (virtual)
@@ -17,15 +19,39 @@ Date | Event
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
 
-## GraphTalk Pharma
+### PHUSE SDE Heidelberg, Germany
+
+(27 June 2024, live event)
+
+**Revolutionizing Clinical Trials: The Impact of OpenStudyBuilder on Automation and Insights**
+
+by Katja Gla&szlig;, Katja Glass Consutling
+
+OpenStudyBuilder, an open-source metadata and study definition repository, is revolutionizing the landscape of clinical trials by enabling end-to-end automation, from protocol generation to report creation. This presentation will provide an in-depth exploration of the current capabilities of OpenStudyBuilder, with a focus on its available and upcoming downstream tools. These include a Word add-in for protocol generation, standard utilities such as an R package for study and standard metadata download, and integrations with EDC and ePRO systems. Additionally, we will delve into how dashboards can offer insightful knowledge.
+
+The presentation slides are available [here](./presentations/2024-06-27-PHUSE SDE Heidelberg.pdf){target=_blank}.
+
+### Journ&eacute;e de conf&eacute;rence GUF CDISC
+
+**Avanc&eacute;e et d&eacute;fi de l'automatisation du protocole (Advancements and Challenges in Protocol Automation)**
+
+(25 June 2024, live event in Paris, France)
+
+by Marc-Antoine Prodhomme, Johnson & Johnson and Nicolas De Saint Jorre, Novo Nordisk
+
+Marc and Nicolas talked about advancements and challenges in the protocol automation on the French User Group Conference.
+
+The slides will be available soon.
+
+### GraphTalk Pharma
 
 **Leveraging the Graph for Clinical Trials and Standards**
 
 (12 June 2024, Hybrid Event in Munich, Germany with a Virtual Component)
 
-by Katja Glaß, Consultant and Marius Conjeaud, Neo4j
+by Katja Gla&szlig;, Consultant and Marius Conjeaud, Neo4j
 
-Join Katja Glaß and Marius Conjeaud as they introduce the revolutionary Open Study Builder, an open-source tool designed to enhance the clinical trial process. Developed by Novo Nordisk, this innovative platform leverages graph technology to streamline and standardize clinical trial workflows.
+Join Katja Gla&szlig; and Marius Conjeaud as they introduce the revolutionary Open Study Builder, an open-source tool designed to enhance the clinical trial process. Developed by Novo Nordisk, this innovative platform leverages graph technology to streamline and standardize clinical trial workflows.
 
 Discover how Open Study Builder can replace traditional, manual processes with a centralized metadata repository, ensuring consistency and efficiency across various clinical trial activities. Explore the extensive resources available, including a project homepage, documentation, and interactive tools. Learn how to get involved and collaborate on this open-source project.
 

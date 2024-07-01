@@ -50,7 +50,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
-  favicon: img/favicon.ico
+  favicon: favicon.ico
   icon:
     logo: logo
   font:
