@@ -103,7 +103,7 @@ Explore the integration of the Unified Study Data Model (USDM) in OpenStudyBuild
 
 **Related Presentation - Digital Data Flow: Achieving Protocol Digitalization and Clinical Research Interoperability through Multi-stakeholder Collaboration**
 
-by William Illis and Lakshmi Sankar,TransCelerate
+by Mikkel Traun, Novo Nordisk on behalf of TransCelerate
 
 Digitalizing clinical protocol information can streamline study start-up, enable analytics-assisted study design and feasibility, and support more routine use of point-of-care data for research. Digital Data Flow (DDF) has supported the CDISC efforts to develop a foundational data model, the Unified Study Definitions Model (USDM), and has developed an open-source reference implementation, the Study Definitions Repository (SDR) to digitalize the clinical protocol and achieve interoperability between clinical trial systems.This session focuses on how industry stakeholders can make real the application of DDF for clinical protocol digitalization for your organization. The presentation will sit alongside presentations, "ICH M11 Clinical electronic Structure Harmonized Protocol (CeSHarP) and CDISC: Making the Electronic Protocol a reality" and "The TransCelerate / CDISC Digital Data Flow Project: Practical Electronic Study Designs" to set the stage on how the DDF project and the ICH M11 work will come together in the future as an important industry initiative.  
 
