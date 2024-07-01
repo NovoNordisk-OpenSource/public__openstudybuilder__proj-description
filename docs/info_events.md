@@ -4,8 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-25 June 2024 | GUF CDISC - Paris, France | Scheduled
-27 June 2024 | PHUSE SDE - Heidelberg, Germany | Scheduled
 01 July 2024 | Community Meeting (virtual) | Scheduled
 15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
@@ -14,30 +12,6 @@ Date | Event | Status
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
-
-## Journ&eacute;e de conf&eacute;rence GUF CDISC - Paris, France
-
-(25 June 2024)
-
-Avanc&eacute;e et d&eacute;fi de l'automatisation du protocole (Advancements and Challenges in Protocol Automation)
-
-by Marc-Antoine Prodhomme, Johnson & Johnson and Nicolas De Saint Jorre, Novo Nordisk
-
-Marc and Nicolas will talk about advancements and challenges in the protocol automation on the French User Group Conference.
-
-You can register for the event [here](https://www.tickettailor.com/events/hpitauxuniversitairesdegenvehug/1258089){target=_blank}.
-
-## PHUSE SDE - Heidelberg, Germany
-
-(27 June 2024)
-
-**Revolutionizing Clinical Trials: The Impact of OpenStudyBuilder on Automation and Insights**
-
-by Katja Gla&szlig;, Katja Glass Consutling
-
-OpenStudyBuilder, an open-source metadata and study definition repository, is revolutionizing the landscape of clinical trials by enabling end-to-end automation, from protocol generation to report creation. This presentation will provide an in-depth exploration of the current capabilities of OpenStudyBuilder, with a focus on its available and upcoming downstream tools. These include a Word add-in for protocol generation, standard utilities such as an R package for study and standard metadata download, and integrations with EDC and ePRO systems. Additionally, we will delve into how dashboards can offer insightful knowledge.
-
-Event information is available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=37311&eventID=59){target=_blank}.
 
 ## Community Meeting (virtual)
 
@@ -48,6 +22,8 @@ Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportu
 You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7202196350426329092/comments/){target=_blank}.
 
 ## OSB-Hub & OSB-Trail-ControlledTerminology
+
+(15 July 2024, 15:00-15:50 CEST, virtual event)
 
 Welcome to our OSB-Hub where we want to introduce the OSB-Trail-ControlledTerminology community team! We hope you would like to join the collaboration!
 
