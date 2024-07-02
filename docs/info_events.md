@@ -103,9 +103,15 @@ Explore the integration of the Unified Study Data Model (USDM) in OpenStudyBuild
 
 **Related Presentation - Digital Data Flow: Achieving Protocol Digitalization and Clinical Research Interoperability through Multi-stakeholder Collaboration**
 
-by William Illis and Lakshmi Sankar,TransCelerate
+by Mikkel Traun, Novo Nordisk on behalf of TransCelerate
 
 Digitalizing clinical protocol information can streamline study start-up, enable analytics-assisted study design and feasibility, and support more routine use of point-of-care data for research. Digital Data Flow (DDF) has supported the CDISC efforts to develop a foundational data model, the Unified Study Definitions Model (USDM), and has developed an open-source reference implementation, the Study Definitions Repository (SDR) to digitalize the clinical protocol and achieve interoperability between clinical trial systems.This session focuses on how industry stakeholders can make real the application of DDF for clinical protocol digitalization for your organization. The presentation will sit alongside presentations, "ICH M11 Clinical electronic Structure Harmonized Protocol (CeSHarP) and CDISC: Making the Electronic Protocol a reality" and "The TransCelerate / CDISC Digital Data Flow Project: Practical Electronic Study Designs" to set the stage on how the DDF project and the ICH M11 work will come together in the future as an important industry initiative.  
+
+**Related Presentation - Mapping a Veeva SDS specification to ODM-XML**
+
+by J&oslash;rgen Mangor Iversen, Novo Nordisk
+
+As Veeva EDC grows increasingly popular across the industry, more and more sponsors become acquainted with its Study Design Specification (SDS) document. The focus here is on what information is inside the SDS and how it is related to the CDISC ODM-XML standard and serves as inspiration on how to map an SDS to a generic ODM-XML. Topics covered include the level of transformations, a discussion of internal and external keys, data types, vendor specific data, edit checks, and ODM-XML data not found in the SDS. The scope is solely the definitions of library CRF forms and does not include any other data that may be stored in ODM-XML format.
 
 ## BVMA (German Organization)
 
