@@ -1,6 +1,6 @@
 # Guide for the API {: class="guideH1"}
 
-(created 2023-01-27 using v0.2, 2023-05-12 include DDF-API PoC) 
+(updated 2024-07-05 using v0.9.1) 
 {: class="guideCreated"}
 
 ## Introduction
@@ -45,7 +45,7 @@ Let us start on the left side. The CDISC Library expose its data through an API,
 
 On the right side is the OpenStudyBuilder application which is also only communicating with the database through the OpenStudyBuilder API. Other tools like a protocol tool (not open-sourced currently) also access the data needed for their use-cases through the API. Addition use-cases could be, but not limited to, EDC tools which use the API to import and export ODM-XML metadata updates.
 
-The OpenStudyBuilder API is very powerful and contains a lot of endpoints to work with the data. Tool integrations are typically very difficult, but will be easier by utilizing APIs. To integrate multiple systems is still challenging, as every tool is using different interfaces. To overcome integration issues, the [TransCelerate DDF](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/){target=_blank} project is working together with CDISC on API standards. The OpenStudyBuilder is working on a DDF-API-Adaptor which will be included in one of the next coming releases. This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.
+The OpenStudyBuilder API is very powerful and contains a lot of endpoints to work with the data. Tool integrations are typically very difficult, but will be easier by utilizing APIs. To integrate multiple systems is still challenging, as every tool is using different interfaces. To overcome integration issues, the [TransCelerate DDF](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/){target=_blank} project is working together with CDISC on API standards. The OpenStudyBuilder has an DDF-API Endpoint available which can be used (see [DDF-API Overview](#ddf-api-overview)). This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.
 
 ![TransCelerate DDF API - Example](./img/guide_api_intro2.png)
 {: class="imageParagraph"}
@@ -53,7 +53,7 @@ The OpenStudyBuilder API is very powerful and contains a lot of endpoints to wor
 Figure 3: TransCelerate DDF API - Example
 {: class="imageDescription"}
 
-There could be an EDC tool supporting the DDF standards. By connecting just the different database, for example by specifying the URL in a configuration file, the original tool would not need any further integrations. Currently the DDF API might not be as powerful as required - for example the native API provides many additional features which are very valuable for EDC tools - but it is in development and throughout the years we are expecting the DDF API adaptor to contain all required functions.
+The potential for an Electronic Data Capture (EDC) tool to support the DDF standards is significant. By connecting just the different solutions, for example by specifying the URL in a configuration file, tools would not need any further integrations when all provide the same information. Currently the capabilities of the DDF API might not be as powerful as required. The native OpenStudyBuilder API provides many additional information which could be consumed. Nevertheless, the USDM standard promises a future where this endpoint will progressively encompass a broader spectrum of functionalities enabling a standard exchange.
 
 ## API and Execution
 
@@ -193,6 +193,17 @@ Study_000001 CDISC DEV-0>
 Figure 10: R data frame from API studies object
 {: class="imageDescription"}
 
+!!! note
+
+    When using a local OpenStudyBuilder instance without authentication, the authentication headers can be omitted to get the same result.
+
+	```R
+	response <- GET(paste("http://localhost:5005/api","studies", sep = "/"))
+	studies <- jsonlite::fromJSON(rawToChar(response$content))
+	cat(studies[][["items"]][["uid"]], studies[][["items"]][["study_id"]])
+	```
+
+
 ### SAS example
 
 SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using a bearer authentication for the "/studies" endpoint. The API is calles through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.
@@ -234,50 +245,103 @@ The first level information for the studies are contained in the "ITEMS" object,
 Figure 12: ITEMS dataset containing response information for ITEMS
 {: class="imageDescription"}
 
-## DDF-API Adapter (PoC)
+!!! note
 
-The TransCelerate [Digital Data Flow](https://www.transceleratebiopharmainc.com/assets/digital-data-flow-solutions/){target=_blank} project (DDF) aims to a future state of fully automated, dynamic, study start-up readiness. To enable streamless integrations, the DDF team is working on standardized APIs.
+    When using a local OpenStudyBuilder instance without authentication, the authentication headers can be omitted to get the same result. This will only work when SAS is also running locally. A server version cannot access a local application.
 
-With the release of version 0.4 of the OpenStudyBuilder, the DDF-API adapter has been released. The compilation and running of this in only possible when you get an additional library from DDF. As soon as this is released as open-source by DDF, then installation instructions will be made available as well. We are also planning a Swagger documentation (and execution) including authentication.
+## DDF-API Overview
 
-For now the DDS-API adapter can be tried out and executed for the neo4j sandbox environment. Make sure you have [access](../guide_sandbox/#getting-access) to this.
+The TransCelerate [Digital Data Flow](https://www.transceleratebiopharmainc.com/assets/digital-data-flow-solutions/){target=_blank} (DDF) initiative is designed to pave the way for a future where study start-up processes are fully automated and dynamic. A key component of achieving this vision is the development of standardized APIs and the new Unified Study Definitions Model (USDM) that facilitate seamless integrations across systems.
 
-You can start Postman (a common tool for API management), and create a "new" -> "HTTP Request". Then you enter the URL:
+**DDF API Endpoint**: The OpenStudyBuilder release 0.9.1 provides a DDF API Endpoint capable of exporting studies in the USDM format. The current exported USDM format is a hybrid of versions 2.7 and 3.0. Efforts are underway to enhance compliance with the USDM 3.0 standard, and we anticipate releasing updates in future versions to address this.
 
-```
-https://ddf-cloud-function-1.azurewebsites.net/api/func1?studyId=Study_000001
-```
+**Swagger API Application**: To interact with the API and download studies in the USDM format, users can utilize the Swagger API application. This tool is available for both sandbox and local environments:
 
-This example is getting the information for the study with the ID "Study_000001". You can also enter any other valid ID. For the proof of concept, we need a bearer token for authentication. To get this, open the application ([https://openstudybuilder.northeurope.cloudapp.azure.com](https://openstudybuilder.northeurope.cloudapp.azure.com){target=_blank}), open the "developer tools", e.g. by pressing F12 in Chrome, and go to the "network" tab. 
+- Sandbox Environment: [https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs](https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs){target=_blank}
+- Local Environment: [http://localhost:5005/api/docs](http://localhost:5005/api/docs){target=_blank}
+  
+At the Swagger interface, navigate to the "DDF endpoints" section located at the bottom of the page.
 
-![Investigate Bearer Token - see the API call](./img/guide_api_ddf1.png)
+**How to Use**
+
+1. **Try It Out**: Select the "try it out" option available in the DDF endpoints section.
+2. **Enter Study UID**: Input the `study_uid` for the study you wish to download. For demonstration purposes, you can use the example study UID `Study_000001`.
+3. **Execution and Output**: Due to the comprehensive data collection process across the graph database, the execution time for this endpoint may be longer than others. Please allow a few seconds for the output to be generated and displayed.
+
+![DDF API in Swagger](./img/guide_api_ddf_new_01.png)
 {: class="imageParagraph"}
 
-Figure 13: Investigate Bearer Token - see the API call
-{: class="imageDescription"}
+## Postman Integration
 
-Under "Name" you will see the study ID of your selected study. When you click this, you can see the API call which is executed in the background. You can now scroll down to authentication and see the bearer token.
+[Postman](https://www.postman.com/){target=_blank} is an essential tool for API testing and development, offering a streamlined way to integrate and interact with APIs like the one from the OpenStudyBuilder solution.
 
-![Investigate Bearer Token - see the token](./img/guide_api_ddf2.png)
+**Importing the API Collection**
+
+You can import the entire API collection into Postman using a URL obtained from the Swagger documentation.
+
+![Import OpenAPI.json into Postman using Swagger documentation URL](./img/guide_api_intro4.png)
 {: class="imageParagraph"}
 
-Figure 14: Investigate Bearer Token - see the token
-{: class="imageDescription"}
+To begin, navigate to Postman and utilize the "Import" feature. Here, you can input the URL, such as `https://openstudybuilder.northeurope.cloudapp.azure.com/api/openapi.json` for accessing the sandbox environment, to import it as a new Postman Collection.
 
-Now you can copy the value.
+For those working with an unauthenticated API version, you can dive straight into testing. However, if authentication is required, it's crucial to manage access effectively. A common approach involves using a "Bearer Token" for authentication, which can be acquired either directly through the application or via the Swagger interface, ensuring secure and efficient access to API functionalities ([see below](#obtaining-a-bearer-token)).
 
-Back to Postman, you need to select "Auth" and select the "Bearer Token" type. Here you need to paste the value in. Make sure to remove the "Bearer " pretext.
+**Setting Up Authentication**
 
-![Enter Bearer Token in Postman](./img/guide_api_ddf3.png)
-{: class="imageParagraph"}
+If the API requires authentication, a Bearer Token authentication setup could be used.
 
-Figure 15: Enter Bearer Token in Postman
-{: class="imageDescription"}
+- Select the entire collection to apply settings globally (1).
+- Navigate to the "Authorization" tab (2), select "Bearer Token" as the type (3), and enter your token (4).
 
-Now we can "Send" this request and get the DDF-API response as defined by the DDF team.
+![Setting Bearer Token authentication in Postman](./img/guide_api_ddf_new_04.png)
 
-![DDF-API result from an OpenStudyBuilder studie](./img/guide_api_ddf4.png)
-{: class="imageParagraph"}
+**Configuring the API Endpoint**
 
-Figure 16: DDF-API result from an OpenStudyBuilder studie
-{: class="imageDescription"}
+Next, the concrete API endpoint needs to be set. This can be done by selecting the complete collection (1), selecting "Variables" (2) and enter the corresponding baseUrl (3) like "https://openstudybuilder.northeurope.cloudapp.azure.com/api".
+
+![Setting the baseUrl](./img/guide_api_ddf_new_05.png)
+
+Ensure that all changes are saved to preserve your setup.
+
+**Making API Requests**
+
+Finally, you can perform an API request.
+
+1. **Select an Endpoint**: Choose, for example, the "GET" endpoint for "studies" (1).
+2. **Configure Parameters**: Adjust parameters as necessary (all can be toggled by clicking "key") (2).
+3. **Check authentication**: Ensure the endpoint inherits the authentication settings (4).
+4. **Send the Request**: Execute the request (4).
+5. **Review the Response**: This will display either the requested data or an error message (e.g., token expiration or invalid parameters) (5).
+
+![Executing request in Postman](./img/guide_api_ddf_new_06.png)
+
+## Obtaining a Bearer Token
+
+Securing a Bearer Token is a critical step for authenticating and interacting with the OpenStudyBuilder API. This token acts as a key, granting you access to the API's functionalities. Below are two methods to obtain your Bearer Token, either through the OpenStudyBuilder application or its Swagger documentation.
+
+**Via the OpenStudyBuilder Application**
+
+1. **Access Developer Tools**: Launch the OpenStudyBuilder application in your browser. Open the developer tools by pressing `F12` in Chrome or the equivalent shortcut in your browser, and navigate to the "Network" tab.
+
+2. **Perform an Action**: Initiate an action within the application, such as selecting a study. This action triggers an API request, which is then logged in the Network tab.
+
+3. **Locate the Token**: In the Network tab, look for an entry labeled "studies?..." or similar, indicative of the API request made. Clicking on this entry reveals the request details, including the endpoint URL (1) and the Bearer Token within the header information (2). This token can be copied and used for subsequent authentication requests.
+
+![Obtaining the Bearer Token from the OpenStudyBuilder Application](./img/guide_api_ddf_new_02.png)
+*This image illustrates how to locate and copy the Bearer Token from the application's network traffic.*
+
+**Note**: The Bearer Token is temporary and will expire after a certain period. Ensure to refresh it periodically to maintain access.
+
+-----
+
+**Via the OpenStudyBuilder Swagger Documentation**
+
+1. **Execute an Endpoint**: Navigate to the OpenStudyBuilder Swagger documentation. Execute any API endpoint within the documentation interface.
+
+2. **Copy the Token**: In the response section, a complete CURL request is displayed, which includes the Bearer Token. This token can be copied for use in authenticating your API requests.
+
+![Obtaining the Bearer Token from the Swagger Documentation](./img/guide_api_ddf_new_03.png)
+*This image shows the CURL request in the Swagger documentation response, highlighting the Bearer Token.*
+
+Both methods provide a straightforward way to obtain the Bearer Token, enabling secure and authenticated access to the OpenStudyBuilder API. Remember to handle this token with care, as it provides critical access permissions to the API and consider the token expiration.
+
