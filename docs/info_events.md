@@ -6,6 +6,7 @@ Date | Event | Status
 -- | -- | --
 01 July 2024 | Community Meeting (virtual) | Scheduled
 15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology | Scheduled
+10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US | Planned
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
@@ -31,11 +32,17 @@ You find additional information on our [wiki](https://github.com/cdisc-org/osb-h
 
 The invite ics file can be downloaded [here](./other/2024-07-15-OSB-Hub-OSB-Trail-ControlledTerminology.ics).
 
+## DDF in Action Day - Copenhagen, Denmark & New Jersey, US
+
+(10 October 2024)
+
+We will be at the DDF in Action Day in Copenhagen and New Jersey. We likely present a poster at each location.
+
 ## PHUSE SDE - Copenhagen, Denmark
 
 (10 October 2024)
 
-We plan to submit an abstract for the PHUSE SDE Copenhagen in Denmark. There will be OpenStudyBuilder representatives at the event.
+There will be OpenStudyBuilder representatives at the event.
 
 ## COSA Workshop at CDISC US Interchange
 
