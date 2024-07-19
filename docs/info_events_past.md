@@ -4,6 +4,8 @@
 
 Date | Event 
 -- | --
+15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology
+01 July 2024 | Community Meeting (virtual)
 27 June 2024 | PHUSE SDE - Heidelberg, Germany
 25 June 2024 | GUF CDISC - Paris, France
 12 June 2024 | GraphTalk Pharma - Munich, Germany & virtual
@@ -18,6 +20,24 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### OSB-Hub & OSB-Trail-ControlledTerminology
+
+(15 July 2024, 15:00-15:50 CEST, virtual event)
+
+Welcome to our OSB-Hub where we want to introduce the OSB-Trail-ControlledTerminology community team! We hope you would like to join the collaboration!
+
+You find additional information on our [wiki](https://github.com/cdisc-org/osb-hub/wiki){target=_blank}!
+
+Provide additional feedback and join discussion in [slack](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank}!
+
+The introduction and summary recording is available [here](https://youtu.be/0VApJgop-Jk){target=_blank}.
+
+### Community Meeting (virtual)
+
+(1 July 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder, about protocol automation and finding available information.
 
 ### PHUSE SDE Heidelberg, Germany
 

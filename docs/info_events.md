@@ -4,33 +4,32 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-01 July 2024 | Community Meeting (virtual) | Scheduled
-15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology | Scheduled
-10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US | Planned
-10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Planned
+09 September 2024 | OSB-Trail-ControlledTerminology (virtual) | Scheduled
+16 September 2024 | Community Meeting (virtual) | Scheduled
+10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US | Scheduled
+10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Scheduled
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
-10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Planned
+10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 
+## OSB-Trail-ControlledTerminology - Action Planning Meeting
+
+(9 September 2024 14-15 CEST, virtual event)
+
+Please join the COSA Collaboration Team in the OpenStudyBuilder-Hub. Our mission is to support the utilization and enhancement of the OpenStudyBuilder open-source tool. Here, we not only collect valuable feedback and use-cases but also actively run focused projects. Join us to drive innovation forward through both community engagement and project execution.
+
+Objective: The primary goal of this meeting is to transition from the planning phase to the action phase for the Controlled Terminology focus group. We aim to summarize the collective insights and feedback from our community to address challenges, and information gaps, and implement needs. We will ask for contributions and assign volunteers for specific actions.
+
+You can register for the event [here](https://attendee.gotowebinar.com/register/6422464462240619104){target=_blank}.
 
 ## Community Meeting (virtual)
 
-(1 July 2024, virtual event)
+(16 September 2024, virtual event)
 
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7202196350426329092/comments/){target=_blank}.
-
-## OSB-Hub & OSB-Trail-ControlledTerminology
-
-(15 July 2024, 15:00-15:50 CEST, virtual event)
-
-Welcome to our OSB-Hub where we want to introduce the OSB-Trail-ControlledTerminology community team! We hope you would like to join the collaboration!
-
-You find additional information on our [wiki](https://github.com/cdisc-org/osb-hub/wiki){target=_blank}!
-
-The invite ics file can be downloaded [here](./other/2024-07-15-OSB-Hub-OSB-Trail-ControlledTerminology.ics).
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7219995663961333760/comments/){target=_blank}.
 
 ## DDF in Action Day - Copenhagen, Denmark & New Jersey, US
 
