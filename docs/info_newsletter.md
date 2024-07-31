@@ -2,13 +2,17 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Roadmap
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7224003065664712706" height="760" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Release of OpenStudyBuilder 0.9 & The OpenStudyBuilder Hub
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7213446330210267136" height="800" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7213446330210267136" height="780" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Recap of the CDISC Interchange: EDC Workshop, MDR Meetup, and Conference Summary
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196163588414144513" height="900" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196163588414144513" height="910" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Events & Collaboration, Shaping the Future, Release 0.8.1
 
