@@ -4,6 +4,7 @@
 
 Date | Event 
 -- | --
+09 September 2024 | OSB-Trail-ControlledTerminology (virtual)
 15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology
 01 July 2024 | Community Meeting (virtual)
 27 June 2024 | PHUSE SDE - Heidelberg, Germany
@@ -20,6 +21,16 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### OSB-Trail-ControlledTerminology - Action Planning Meeting
+
+(9 September 2024 14-15 CEST, virtual event)
+
+Please join the COSA Collaboration Team in the OpenStudyBuilder-Hub. Our mission is to support the utilization and enhancement of the OpenStudyBuilder open-source tool. Here, we not only collect valuable feedback and use-cases but also actively run focused projects. Join us to drive innovation forward through both community engagement and project execution.
+
+Objective: The primary goal of this meeting is to transition from the planning phase to the action phase for the Controlled Terminology focus group. We aim to summarize the collective insights and feedback from our community to address challenges, and information gaps, and implement needs. We will ask for contributions and assign volunteers for specific actions.
+
+All information and follow up actions are managed in slack. Please join our slack channel [here](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A).
 
 ### OSB-Hub & OSB-Trail-ControlledTerminology
 
@@ -100,7 +111,7 @@ We had the pleasure to be at the CDISC Interchange in Berlin where we could show
 - **From OpenStudyBuilder to the Digital Data Flow- USDM Format** by Maurizio Mazzei, Neo4j & Nicolas De Saint Jorre, Novo Nordisk [(slides)](./presentations/2024-04-25-OpenStudyBuilder%20to%20DDF%20and%20USDM.pdf){target=_blank}
 - **Introduction to OpenStudyBuilder** by Katja Gla&szlig;, Consultant [(poster)](./presentations/2024-04-24-OpenStudyBuilder%20Poster.pdf){target=_blank}
 - **How to Build a Global, Reusable, Shareable Metadata Flow with a Customer-Centric Focus** by Anja Lundgreen and Martin Gram, Novo Nordisk [(slides)](./presentations/2024-04-25-HowToBuildMDFlow.pdf){target=_blank}
-- **Open Source Practicalities and the legal side** by Katja Gla&szlig;, Consultant [(slides)](./presentations/2024-04-25-OpenSource%20-%20Practicalities%20and%20the%20Legal%20Side.pdf){target=_blank}
+- **Open Source Practicalities and the legal side** by Katja Gla&szlig;, Consultant ([slides](./presentations/2024-04-25-OpenSource%20-%20Practicalities%20and%20the%20Legal%20Side.pdf){target=_blank}, [recording](https://youtu.be/6CtoH2yZb-I){target=_blank})
 - **Navigating the Labyrinth of Controlled Terminology: Challenges and Opportunities in Integrating and Managing Diverse Terminologies for Broad Use of Metadata** by Martin Gram and Kasper Dideriksen, Novo Nordisk [(slides)](./presentations/2024-04-25-Navigating the Labyrinth of Controlled Terminology.pdf){target=_blank}
 
 

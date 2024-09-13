@@ -27,6 +27,7 @@ Title | Description
 [OpenStudyBuilder - Demonstration of Application (27:59)](https://www.youtube.com/watch?v=dL5CY0BwfEs){target=_blank} | Demonstration of the Application (Functionality / User Interface)<br>(2023-05-22)
 [OpenStudyBuilder in a Nutshell (4:24)](https://www.youtube.com/watch?v=X0UQrOGfEOc){target=_blank} | High Level Overview<br>(2024-05-24)
 [EDC Integration (13:05)](https://www.youtube.com/watch?v=4-33kqSTdeY){target=_blank} | Intelligent Study Build - Oracle integration with OpenStudyBuilder<br>(2024-06-03)
+[Open Source Practicalities and the legal side (27:00)](https://youtu.be/6CtoH2yZb-I){target=_blank} | Open Source Licenses - Practicalities and the Legal Side<br>(2024-09-12)
 [OpenStudyBuilder as MDR Collaboration kick-off (47:00)](https://www.youtube.com/watch?v=omxL0hW79Rk){target=_blank} | Recorded kick-off meeting<br>(2024-03-11)
 [COSA Spotlight (COSA Workshop on how OpenStudyBuilder can be used to drive EDC setup) (30:00)](https://www.cdisc.org/events/webinar/cdisc-open-source-alliance-quarterly-spotlight-q1){target=_blank} | Nicolas shared information about the status of the CRF design and EDC integration plans promoting the COSA Workshop on OpenStudyBuilder EDC Integrations.<br>(2024-03-26 - starting at 25')
 [OpenStudyBuilder - Background & Scope (11:16)](https://www.youtube.com/watch?v=dagWWR3ZBao){target=_blank} | Introduction with Background and Scrope<br>(2023-07-21)
