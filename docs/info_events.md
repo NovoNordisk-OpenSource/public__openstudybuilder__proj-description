@@ -4,24 +4,14 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-09 September 2024 | OSB-Trail-ControlledTerminology (virtual) | Scheduled
 16 September 2024 | Community Meeting (virtual) | Scheduled
 10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US | Scheduled
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Scheduled
+14 October 2024 | Community Meeting (virtual) | Scheduled
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
-
-## OSB-Trail-ControlledTerminology - Action Planning Meeting
-
-(9 September 2024 14-15 CEST, virtual event)
-
-Please join the COSA Collaboration Team in the OpenStudyBuilder-Hub. Our mission is to support the utilization and enhancement of the OpenStudyBuilder open-source tool. Here, we not only collect valuable feedback and use-cases but also actively run focused projects. Join us to drive innovation forward through both community engagement and project execution.
-
-Objective: The primary goal of this meeting is to transition from the planning phase to the action phase for the Controlled Terminology focus group. We aim to summarize the collective insights and feedback from our community to address challenges, and information gaps, and implement needs. We will ask for contributions and assign volunteers for specific actions.
-
-You can register for the event [here](https://attendee.gotowebinar.com/register/6422464462240619104){target=_blank}.
 
 ## Community Meeting (virtual)
 
@@ -41,7 +31,15 @@ We will be at the DDF in Action Day in Copenhagen and New Jersey. We likely pres
 
 (10 October 2024)
 
-There will be OpenStudyBuilder representatives at the event.
+There will be OpenStudyBuilder representatives at the event, additionally we will present a poster about the OpenStudyBuilder.
+
+## Community Meeting (virtual)
+
+(14 October 2024, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7240247330715627520/comments/){target=_blank}.
 
 ## COSA Workshop at CDISC US Interchange
 

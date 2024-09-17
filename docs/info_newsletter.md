@@ -2,6 +2,10 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Release 0.10
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7239986316774420480" height="863" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Roadmap
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7224003065664712706" height="760" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
