@@ -12,6 +12,8 @@ Date | Event | Status
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
+3-4 March 2025 | ACDM - Prague | Planned
+18-20 March 2025 | DIA EU - Basel | Planned
 
 ## Community Meeting (virtual)
 
@@ -25,7 +27,9 @@ You can register for the event [here](https://www.linkedin.com/events/openstudyb
 
 (10 October 2024)
 
-We will be at the DDF in Action Day in Copenhagen and New Jersey. We likely present a poster at each location.
+We will be at the DDF in Action Day in Copenhagen and New Jersey. 
+
+Camilla Kehler will present on "Adoption of DDF @Novo Nordisk". Additionally we will show our poster "OpenStudyBuilder - an USDM Compatible SDR Solution". Please come around for discussions and to learn more!
 
 ## PHUSE SDE - Copenhagen, Denmark
 
@@ -124,3 +128,15 @@ As Veeva EDC grows increasingly popular across the industry, more and more spons
 Katja will speak at the German organization "Bundesverband Medizinischer Auftragsinstitute e.V." about an introduction to the OpenStudyBuilder, and the oppotunities it provides as an open source project.
 
 Additional information is available [here](https://www.bvma.de/){target=_blank}.
+
+# ACDM - Prague
+
+(3-4 March 2025 - Prague, Czech Republic)
+
+We submitted an abstract for the ACDM (Association for Clinical Data Management) conference in Prague.
+
+# DIA EU
+
+(18-20 March 2025 - Basel, Switzerland)
+
+We submitted an abstract for the DIA EU (Drug Information Association) conference in Prague.
