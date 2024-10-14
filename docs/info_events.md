@@ -4,38 +4,15 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-16 September 2024 | Community Meeting (virtual) | Scheduled
-10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US | Scheduled
-10 October 2024 | PHUSE SDE - Copenhagen, Denmark | Scheduled
 14 October 2024 | Community Meeting (virtual) | Scheduled
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
+4 November 2024 | Community Meeting (virtual) | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
+2 December 2024 | Community Meeting (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague | Planned
 18-20 March 2025 | DIA EU - Basel | Planned
-
-## Community Meeting (virtual)
-
-(16 September 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7219995663961333760/comments/){target=_blank}.
-
-## DDF in Action Day - Copenhagen, Denmark & New Jersey, US
-
-(10 October 2024)
-
-We will be at the DDF in Action Day in Copenhagen and New Jersey. 
-
-Camilla Kehler will present on "Adoption of DDF @Novo Nordisk". Additionally we will show our poster "OpenStudyBuilder - an USDM Compatible SDR Solution". Please come around for discussions and to learn more!
-
-## PHUSE SDE - Copenhagen, Denmark
-
-(10 October 2024)
-
-There will be OpenStudyBuilder representatives at the event, additionally we will present a poster about the OpenStudyBuilder.
 
 ## Community Meeting (virtual)
 
@@ -91,6 +68,14 @@ The Schedule of Activities at the different levels are a major result when worki
 
 The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and shared as open source under COSA aiming for end-to-end automations from protocol to TLFs. The solution consists of a Study Builder Application connected to a Metadata Repository holding data standards and a Study Definition Repository with study specifications. 
 
+## Community Meeting (virtual)
+
+(4 November 2024, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7251489190201233408/){target=_blank}.
+
 ## PHUSE EU Connect
 
 (10-13 November 2024 - Strasbourg, France)
@@ -129,13 +114,22 @@ Katja will speak at the German organization "Bundesverband Medizinischer Auftrag
 
 Additional information is available [here](https://www.bvma.de/){target=_blank}.
 
-# ACDM - Prague
+
+## Community Meeting (virtual)
+
+(2 December 2024, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7251489521609900033/){target=_blank}.
+
+## ACDM - Prague
 
 (3-4 March 2025 - Prague, Czech Republic)
 
 We submitted an abstract for the ACDM (Association for Clinical Data Management) conference in Prague.
 
-# DIA EU
+## DIA EU
 
 (18-20 March 2025 - Basel, Switzerland)
 
