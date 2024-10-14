@@ -9,7 +9,8 @@ On this page you find a structured list of resources - not complete but containi
 Title | Description
 -- | --
 [OpenStudyBuilder Flyer](./presentations/2023-02-17-Flyer.pdf){target=_blank} | Flyer (2023-02-17)
-[OpenStudyBuilder Poster](./presentations/2024-04-OSB-Poster.pdf){target=_blank} | Poster (2024-04-29)
+[OpenStudyBuilder Poster](./presentations/2024-10-10-OSB-Poster-SDE-Copenhagen.pdf){target=_blank} | Poster (2024-10-10)
+[OpenStudyBuilder USDM Poster](./presentations/2024-10-10-OSB-USDM-Poster.pdf){target=_blank} | USDM Poster (2024-10-10)
 [Community Meeting Overview](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank} | Overview & **Links** (2024-01-29)
 [OpenStudyBuilder as MDR](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | OpenStudyBuilder as Metadata Repository (**MDR**) Collaboration  kick-off <br/>(2024-03-11)
 [OpenStudyBuilder for EDC Integrations](./presentations/2024-04-23-Workshop_OSB_EDC_Integration.pdf){target=_blank} | OpenStudyBuilder for standard **CRF** design and **EDC** integrations <br/>(2024-04-23)

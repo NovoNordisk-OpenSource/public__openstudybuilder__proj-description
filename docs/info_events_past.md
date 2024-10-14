@@ -4,6 +4,9 @@
 
 Date | Event 
 -- | --
+10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US
+10 October 2024 | PHUSE SDE - Copenhagen, Denmark
+16 September 2024 | Community Meeting (virtual)
 09 September 2024 | OSB-Trail-ControlledTerminology (virtual)
 15 July 2024 | OSB-Hub & OSB-Trail-ControlledTerminology
 01 July 2024 | Community Meeting (virtual)
@@ -22,6 +25,36 @@ Date | Event
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
 
+### DDF in Action Day - Copenhagen, Denmark & New Jersey, US
+
+(10 October 2024)
+
+We had been part of the DDF DDF in Action Day in Copenhagen and New Jersey having a presentation and a poster. 
+
+Camilla Kehler present on **"Adoption of DDF @Novo Nordisk"**. Additionally we showcased our poster "OpenStudyBuilder - an USDM Compatible SDR Solution".
+
+The **poster** can be accessed [here](./presentations/2024-10-10-OSB-USDM-Poster.pdf){target=_blank}.
+
+The **presentation** will be available soon.
+
+### PHUSE SDE - Copenhagen, Denmark
+
+(10 October 2024)
+
+**Introduction to OpenStudyBuilder**
+
+by Anja Lundgreen and Antoni Palusinski, Novo Nordisk 
+
+We had the pleasure to present a poster at the PHUSE SDE in Copenhagen. 
+
+The poster can be accessed [here](./presentations/2024-10-10-OSB-Poster-SDE-Copenhagen.pdf){target=_blank}.
+
+### Community Meeting (virtual)
+
+(16 September 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
+
 ### OSB-Trail-ControlledTerminology - Action Planning Meeting
 
 (9 September 2024 14-15 CEST, virtual event)
@@ -30,7 +63,7 @@ Please join the COSA Collaboration Team in the OpenStudyBuilder-Hub. Our mission
 
 Objective: The primary goal of this meeting is to transition from the planning phase to the action phase for the Controlled Terminology focus group. We aim to summarize the collective insights and feedback from our community to address challenges, and information gaps, and implement needs. We will ask for contributions and assign volunteers for specific actions.
 
-All information and follow up actions are managed in slack. Please join our slack channel [here](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A).
+All information and follow up actions are managed in slack. Please join our slack channel [here](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank}.
 
 ### OSB-Hub & OSB-Trail-ControlledTerminology
 
