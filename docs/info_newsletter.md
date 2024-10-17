@@ -2,6 +2,10 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Release 0.11.2, OSB Trail Controlled Terminology & Events
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7252706738343219202" height="950" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Release 0.10
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7239986316774420480" height="863" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
