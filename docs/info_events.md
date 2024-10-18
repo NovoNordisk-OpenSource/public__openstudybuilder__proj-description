@@ -11,8 +11,9 @@ Date | Event | Status
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 2 December 2024 | Community Meeting (virtual) | Scheduled
-3-4 March 2025 | ACDM - Prague | Planned
-18-20 March 2025 | DIA EU - Basel | Planned
+3-4 March 2025 | ACDM - Prague, Czech Republic | Planned
+18-20 March 2025 | DIA EU - Basel, Switzerland | Planned
+14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Planned
 
 ## Community Meeting (virtual)
 
@@ -134,3 +135,9 @@ We submitted an abstract for the ACDM (Association for Clinical Data Management)
 (18-20 March 2025 - Basel, Switzerland)
 
 We submitted an abstract for the DIA EU (Drug Information Association) conference in Prague.
+
+## CDISC EU Interchange 
+
+(14-15 May 2025 - Geneva, Switzerland)
+
+We will very likely be available at the CDISC EU Interchange conference in Geneva.
