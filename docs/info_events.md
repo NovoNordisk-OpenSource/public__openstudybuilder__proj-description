@@ -4,78 +4,12 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-14 October 2024 | Community Meeting (virtual) | Scheduled
-22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US | Scheduled
-23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US | Scheduled
-4 November 2024 | Community Meeting (virtual) | Scheduled
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France | Scheduled
 22 November 2024 | BVMA - Munic, Germany | Scheduled
 2 December 2024 | Community Meeting (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Planned
 18-20 March 2025 | DIA EU - Basel, Switzerland | Planned
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Planned
-
-## Community Meeting (virtual)
-
-(14 October 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7240247330715627520/comments/){target=_blank}.
-
-## COSA Workshop at CDISC US Interchange
-
-(22 October 2024 - Phoenix/Scottsdale, US)
-
-**COSA OpenStudyBuilder workshop - Use OpenStudyBuilder to drive EDC setup - a COSA Workshop**
-
-The landscape of system integrations within our industry often poses significant challenges despite the existence of established data exchange standards such as CDASH and ODM as well as the upcoming Biomedical Concepts and USDM, and others. Many tools, however, tend to support only their native formats or a limited selection of standards using custom extensions. This workshop aims to delve into these challenges and explore the vast opportunities available when integrating systems effectively.
-
-The workshop will primarily concentrate on the integration aspects of EDC (Electronic Data Capture) systems with OpenStudyBuilder, which boasts highly accessible interfaces through APIs and/or via ODM.XML file based integrations. Participants will gain insights into what currently would work and identify existing gaps, considering each system coming along with their own operational data model.
-
-We will start by explaining the OpenStudyBuilder vision around the end to end process with the illustration of the OSB Biomedical Concept (OSB BC).
-
-This will illustrate the Library and the Studies areas of the OpenStudyBuilder, and the reason for having every CTs, models and dictionaries connected to the metadata of our studies.
-
-We will here present the CRF module in the Library and explain the specification around the Study level, throught the use of the OSB BC.
-
-Then, we will split into different breakout groups with the following focus:
-
-- **Breakout 1** - EDC API based Integration: Working with standard CRFs (Case Report Forms), study SoA (Schedule of Activities) and vendor extensions in OpenStudyBuilder connecting to the EDC tools for EDC setup with bidirectional API based connections
-- **Breakout 2** - EDC ODM.XML based Integrations: Same as above, but focused on file based ODM.XML integrations.
-
-The integrations include study design definitions, reference and configuration of standard collection forms as well as specification of study specific forms. This will include use of Biomedical Concepts linking the data collection structure to a semantic definition and representation in e.g. SDTM. This will be illustrated from the ongoing data model in OSB, and how this model is related to the CDISC COSMoS BC model and USDM.
-
-Event information and registration is available [here](https://web.cvent.com/event/f5e9a2cd-6a16-45fb-aecc-d6451294cd5f/summary){target=_blank}.
-
-## CDISC US Interchange
-
-(23-24 October 2024 - Phoenix/Scottsdale, US)
-
-We will be at the CDISC Interchange with a presentation and are also planning for a workshop (planning ongoing).
-
-**Schedule of Activities in OpenStudyBuilder**
-
-by Mikkel Traun, Novo Nordisk
-
-This presentation demonstrate how OpenStudyBuilder operates across various standard levels to define the Schedule of Activities (SoA) as part of a structured study specification, catering to distinct study purposes: 
-
-- **Protocol SoA:** High level SoA in protocol, main purpose is for the investigator and site staff to get an overview of the operational schedule. 
-- **Detailed SoA:** Specifying the semantic data observations to be collected in the study – but not specific to representation in ADaM, SDTM or data collection; Will be part of protocol and appendixes or other supplementary documents. 
-- **Operational SoA:** Data specification to support data collection specification; Will also be related to specific ADaM PARAM/PARAMCD for collected data and thereby used to specify the data needed for analysis. 
-- **Data Capture / Collection Specification:** EDC information related to the SoA – i.e., how data is to be collected in the study and when, what is pre-set, what is collected and how. 
-
-The Schedule of Activities at the different levels are a major result when working with biomedical concepts and for this is integrated in the data model linked to the corresponding biomedical concept definitions in OpenStudyBuilder library module. This way and end-to-end connectivity and study setup automation is enabled. 
-
-The OpenStudyBuilder is developed as an outcome from the CDISC 360 project and shared as open source under COSA aiming for end-to-end automations from protocol to TLFs. The solution consists of a Study Builder Application connected to a Metadata Repository holding data standards and a Study Definition Repository with study specifications. 
-
-## Community Meeting (virtual)
-
-(4 November 2024, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7251489190201233408/){target=_blank}.
 
 ## PHUSE EU Connect
 

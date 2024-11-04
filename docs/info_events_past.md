@@ -4,6 +4,10 @@
 
 Date | Event 
 -- | --
+4 November 2024 | Community Meeting (virtual)
+23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US
+22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US
+14 October 2024 | Community Meeting (virtual)
 10 October 2024 | DDF in Action Day - Copenhagen, Denmark & New Jersey, US
 10 October 2024 | PHUSE SDE - Copenhagen, Denmark
 16 September 2024 | Community Meeting (virtual)
@@ -24,6 +28,50 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(4 November 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
+
+### CDISC US Interchange
+
+(23-24 October 2024 - Phoenix/Scottsdale, US)
+
+We had been at the CDISC US Interchange and presented about **Biomedical Concepts** and the **Schedule of Activities** in the CDISC Open Source Alliance stream. Additionally we had excellent discussion on two panel sessions.
+
+The **presentation** about "Schedule of Activities in OpenStudyBuilder" is available here [here](./presentations/2024-10-24-CDISC-US-COSA-SoA-in-OSB.pdf){target=_blank}.
+
+The **presentation** about "Activity Concepts in OpenStudyBuilder" is available here [here](./presentations/2024-10-24-CDISC-US-BC-Activity-in-OSB.pdf){target=_blank}.
+
+### COSA Workshop at CDISC US Interchange
+
+(22 October 2024 - Phoenix/Scottsdale, US)
+
+**COSA OpenStudyBuilder workshop - Use OpenStudyBuilder to drive EDC setup - a COSA Workshop**
+
+The landscape of system integrations within our industry often poses significant challenges despite the existence of established data exchange standards such as CDASH and ODM as well as the upcoming Biomedical Concepts and USDM, and others. Many tools, however, tend to support only their native formats or a limited selection of standards using custom extensions. This workshop aims to delve into these challenges and explore the vast opportunities available when integrating systems effectively.
+
+The workshop will primarily concentrate on the integration aspects of EDC (Electronic Data Capture) systems with OpenStudyBuilder, which boasts highly accessible interfaces through APIs and/or via ODM.XML file based integrations. Participants will gain insights into what currently would work and identify existing gaps, considering each system coming along with their own operational data model.
+
+We will start by explaining the OpenStudyBuilder vision around the end to end process with the illustration of the OSB Biomedical Concept (OSB BC).
+
+This will illustrate the Library and the Studies areas of the OpenStudyBuilder, and the reason for having every CTs, models and dictionaries connected to the metadata of our studies.
+
+We will here present the CRF module in the Library and explain the specification around the Study level, throught the use of the OSB BC.
+
+The introduction **presentation** is available here [here](./presentations/2024-10-22-COSA-OSB-WS-EDC-Integration.pdf){target=_blank}.
+
+The example EDC integration **presentation** is available here [here](./presentations/2024-10-22-COSA-OSB-WS-Oracle.pdf){target=_blank}.
+
+The final discussion **notes** are available here [here](./presentations/2024-10-22-COSA-OSB-WS-Notes.pdf){target=_blank}.
+
+### Community Meeting (virtual)
+
+(14 October 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
 
 ### DDF in Action Day - Copenhagen, Denmark & New Jersey, US
 
