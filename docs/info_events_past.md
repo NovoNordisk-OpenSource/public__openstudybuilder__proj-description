@@ -4,6 +4,9 @@
 
 Date | Event 
 -- | --
+2 December 2024 | Community Meeting (virtual)
+22 November 2024 | BVMA - Munic, Germany
+10-13 November 2024 | PHUSE EU Connect - Strasbourg, France
 4 November 2024 | Community Meeting (virtual)
 23-24 October 2024 | CDISC US Interchange - Phoenix/Scottsdale, US
 22 October 2024 | COSA Workshop - Phoenix/Scottsdale, US
@@ -28,6 +31,35 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(2 December 2024, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
+
+### BVMA (German Organization)
+
+(22 November 2024 - Munic, Germany)
+
+Katja spoke at the German organization "Bundesverband Medizinischer Auftragsinstitute e.V." about an introduction to the OpenStudyBuilder, and the oppotunities it provides as an open source project.
+
+The slides are in German and available [here](./presentations/2024-11-21-BVMA-OpenStudyBuilder.pdf){target=_blank}.
+
+### PHUSE EU Connect
+
+(10-13 November 2024 - Strasbourg, France)
+
+We were proud to actively participate in the PHUSE EU Connect, showcasing OpenStudyBuilder through live demonstrations at the COSA booth and presenting key advancements. Our contributions included the following presentations and poster:
+
+- **Status and news in OpenStudyBuilder** by Mikkel Traun, Novo Nordisk ([poster](./presentations/2024-11-12-PHUSEConnect-OpenStudyBuilder-Poster-PP23.pdf){target=_blank})
+- **Leveraging the USDM Standard in OpenStudyBuilder for Enhanced Data Exchange** by Marius Conjeaud, Neo4j and Nicolas de Saint Jorre, Novo Nordisk ([slides](./presentations/2024-11-12-PHUSEConnect-USDM-DH08.pdf){target=_blank}, [paper](./presentations/2024-11-12-PHUSEConnect-Paper-USDM-DH08.pdf){target=_blank})
+- **Digital Data Flow: Achieving Protocol Digitalization and Clinical Research Interoperability through Multi-stakeholder Collaboration** by Mikkel Traun, Novo Nordisk on behalf of TransCelerate ([slides](./presentations/2024-11-12-PHUSEConnect-DDF-PRE_DS10.pdf){target=_blank})
+- **Mapping a Veeva SDS specification to ODM-XML** by J&oslash;rgen Mangor Iversen, Novo Nordisk ([slides](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PRE_SI04.pdf){target=_blank}, [paper](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PAP_SI04.pdf){target=_blank})
+
+Additionally we recommend the following machine learning presentation as this showcases the opportunities for enabling a large language model with semantic knowledge from the OpenStudyBuilder:
+
+- **Revolutionising Statistical Programming Activities – StatProg CoPilot Consortium Leveraging on Open-Source World and Generative AI** by S&eacute;bastien Tourlet, CapGemini ([slides](https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/EU/Strasbourg/PRE_ML01.pdf){target=_blank}, [paper](https://phuse.s3.eu-central-1.amazonaws.com/Archive/2024/Connect/EU/Strasbourg/PAP_ML01.pdf){target=_blank})
 
 ### Community Meeting (virtual)
 

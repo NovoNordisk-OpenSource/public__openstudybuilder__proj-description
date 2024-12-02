@@ -12,7 +12,9 @@ Title | Description
 [OpenStudyBuilder Poster](./presentations/2024-10-10-OSB-Poster-SDE-Copenhagen.pdf){target=_blank} | Poster (2024-10-10)
 [OpenStudyBuilder USDM Poster](./presentations/2024-10-10-OSB-USDM-Poster.pdf){target=_blank} | USDM Poster (2024-10-10)
 [Community Meeting Overview](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank} | Overview & **Links** (2024-01-29)
+[OpenStudyBuilder and USDM](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | Leveraging the **USDM** Standard in OpenStudyBuilder for Enhanced Data Exchange<br/>(2024-11-12)
 [OpenStudyBuilder as MDR](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | OpenStudyBuilder as Metadata Repository (**MDR**) Collaboration  kick-off <br/>(2024-03-11)
+[Veeva SDS - EDC Integrations](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PRE_SI04.pdf){target=_blank} | Mapping a **Veeva SDS** specification to ODM-XML<br/>(2024-04-23)
 [OpenStudyBuilder for EDC Integrations](./presentations/2024-04-23-Workshop_OSB_EDC_Integration.pdf){target=_blank} | OpenStudyBuilder for standard **CRF** design and **EDC** integrations <br/>(2024-04-23)
 [OpenStudyBuilder to DDF and USDM](./presentations/2024-04-25-OpenStudyBuilder%20to%20DDF%20and%20USDM.pdf){target=_blank} | OpenStudyBuilder in the context of **DDF** and the **USDM** format<br/>(2024-04-25)
 [Concept based standards in OpenStudyBuilder supporting structured protocol content and submission deliverables](./presentations/2022-10-27-OpenStudyBuilderWithDemo-CDISC-US-Interchange.pdf){target=_blank} | **Introduction** with Demo Slides (2022-10-27)
@@ -43,5 +45,7 @@ Title | Description
 
 Content | Description
 -- | --
+[Paper](./presentations/2024-11-12-PHUSEConnect-Paper-USDM-DH08.pdf){target=_blank} | Leveraging the USDM Standard in OpenStudyBuilder for Enhanced Data Exchange (2024-11-12)
+[Paper](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PAP_SI04.pdf){target=_blank} | Mapping a Veeva SDS specification to ODM-XML (2024-11-12)
 [Paper](./presentations/2023-11-06-PHUSE_Paper_TT07.pdf){target=_blank} | Open-Source Protocol Automation with the OpenStudyBuilder (2023-11-06)
 [Paper](./presentations/2023-11-06-PHUSE_Paper_SI03.pdf){target=_blank} | Open-Source MDR & SDR - Managing your standards with the OpenStudyBuilder (2023-11-06)
