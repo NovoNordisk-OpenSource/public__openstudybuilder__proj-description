@@ -53,7 +53,7 @@ The slides are in German and available [here](./presentations/2024-11-21-BVMA-Op
 We were proud to actively participate in the PHUSE EU Connect, showcasing OpenStudyBuilder through live demonstrations at the COSA booth and presenting key advancements. Our contributions included the following presentations and poster:
 
 - **Status and news in OpenStudyBuilder** by Mikkel Traun, Novo Nordisk ([poster](./presentations/2024-11-12-PHUSEConnect-OpenStudyBuilder-Poster-PP23.pdf){target=_blank})
-- **Leveraging the USDM Standard in OpenStudyBuilder for Enhanced Data Exchange** by Marius Conjeaud, Neo4j and Nicolas de Saint Jorre, Novo Nordisk ([slides](./presentations/2024-11-12-PHUSEConnect-USDM-DH08.pdf){target=_blank})
+- **Leveraging the USDM Standard in OpenStudyBuilder for Enhanced Data Exchange** by Marius Conjeaud, Neo4j and Nicolas de Saint Jorre, Novo Nordisk ([slides](./presentations/2024-11-12-PHUSEConnect-USDM-DH08.pdf){target=_blank}, [paper](./presentations/2024-11-12-PHUSEConnect-Paper-USDM-DH08.pdf){target=_blank})
 - **Digital Data Flow: Achieving Protocol Digitalization and Clinical Research Interoperability through Multi-stakeholder Collaboration** by Mikkel Traun, Novo Nordisk on behalf of TransCelerate ([slides](./presentations/2024-11-12-PHUSEConnect-DDF-PRE_DS10.pdf){target=_blank})
 - **Mapping a Veeva SDS specification to ODM-XML** by J&oslash;rgen Mangor Iversen, Novo Nordisk ([slides](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PRE_SI04.pdf){target=_blank}, [paper](./presentations/2024-11-12-PHUSEConnect-VeevaSDS-PAP_SI04.pdf){target=_blank})
 
