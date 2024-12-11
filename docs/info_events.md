@@ -4,21 +4,12 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-5 December 2024 | Digital Data Flow (DDF) Solution Showcase (virtual) | Scheduled
 16 December 2024 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 13 January 2025 | Community Meeting (virtual) | Scheduled
 10 February 2025 | Community Meeting (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Planned
 18-20 March 2025 | DIA EU - Basel, Switzerland | Planned
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Planned
-
-## Digital Data Flow (DDF) Solution Showcase (virtual)
-
-(5 December 2024, virtual event)
-
-We are happy to be part of the Digital Data Flow Solution Showcase. We present "USDM and Schedule of Activities in OpenStudyBuilder".
-
-You can register for the event [here](https://www.transceleratebiopharmainc.com/events/webinar-digital-data-flow-ddf-solution-showcase-december-2024/){target=_blank}.
 
 ## OSB-Trail-SystemEngineers
 
