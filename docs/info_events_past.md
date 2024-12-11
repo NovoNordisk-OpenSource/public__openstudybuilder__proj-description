@@ -4,6 +4,7 @@
 
 Date | Event 
 -- | --
+5 December 2024 | Digital Data Flow (DDF) Solution Showcase (virtual)
 2 December 2024 | Community Meeting (virtual)
 22 November 2024 | BVMA - Munic, Germany
 10-13 November 2024 | PHUSE EU Connect - Strasbourg, France
@@ -31,6 +32,14 @@ Date | Event
 07 March 2024 | GraphSummit (Copenhagen, Denmark)
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
+
+### Digital Data Flow (DDF) Solution Showcase (virtual)
+
+(5 December 2024, virtual event)
+
+We had been happy to be part of the Digital Data Flow Solution Showcase. We present "USDM and Schedule of Activities in OpenStudyBuilder", our experiences of the DDF utilization within Novo Nordisk.
+
+The recording should soon be available.
 
 ### Community Meeting (virtual)
 
