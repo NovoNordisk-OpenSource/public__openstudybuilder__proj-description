@@ -2,6 +2,14 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Community
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7275809283101888512" height="990" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+### Release 0.12 & Events Recap
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7269729982212411393" height="995" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Release 0.11.2, OSB Trail Controlled Terminology & Events
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7252706738343219202" height="950" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -33,11 +41,3 @@ The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.l
 ### Ecosystem, Dashboard, EDC Integration & Workshop, Release 0.7.3
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7158353239233507329" height="940" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-### Reflections 2023
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7142429956776611841" height="815" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-### Business Go Live, Release 0.7 and PHUSE
-
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7135284515551219712" height="665" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
