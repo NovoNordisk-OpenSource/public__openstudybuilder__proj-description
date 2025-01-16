@@ -1,5 +1,17 @@
 # Past Events
 
+## 2025
+
+Date | Event 
+-- | --
+13 January 2025 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(13 January 2025, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
+
 ## 2024
 
 Date | Event 
@@ -44,7 +56,9 @@ We introduce a new dedicated community for system engineers working with OpenStu
 
 We had been happy to be part of the Digital Data Flow Solution Showcase. We present "USDM and Schedule of Activities in OpenStudyBuilder", our experiences of the DDF utilization within Novo Nordisk.
 
-The recording should soon be available.
+The recording is available [here](https://www.youtube.com/watch?v=66ZgsUHNfsI){target=_blank} - our part starts at 39'30.
+
+The slides are available [here](./presentations/2024-12-05-DDF-Showcase-Final.pdf){target=_blank}.
 
 ### Community Meeting (virtual)
 
