@@ -4,7 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-13 January 2025 | Community Meeting (virtual) | Scheduled
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual) | Scheduled
 10 February 2025 | Community Meeting (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
