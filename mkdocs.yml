@@ -21,6 +21,8 @@ nav:
     - Services: info_services.md
     - Resources: info_resources.md
     - Newsletter: info_newsletter.md
+    - Demonstrations:
+      - Library: info_demo.md
   - Guides:
     - Introduction: guide_intro.md
     - Overview: guide_overview.md
