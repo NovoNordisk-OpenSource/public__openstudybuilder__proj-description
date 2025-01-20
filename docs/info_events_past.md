@@ -46,7 +46,7 @@ Date | Event
 26 February 2024 | Community Meeting (virtual)
 29 January 2024 | Community Meeting (virtual)
 
-## OSB-Trail-SystemEngineers
+### OSB-Trail-SystemEngineers
 
 We introduce a new dedicated community for system engineers working with OpenStudyBuilder (OSB). This group aims to unite professionals to share experiences, collaborate on deployment and installation strategies, exchange best practices for monitoring and DevOps, and explore integration opportunities with OSB. This pre-kick-off meeting was used to plan ahead for the official kick-off in January 2025.
 
