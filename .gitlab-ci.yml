@@ -1,15 +1,13 @@
-image: python:3.8-buster
+variables:
+  IMAGE_REF: python:3.8-buster
 
-before_script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install pymdown-extensions
-  - pip install pyembed-markdown
-
+.install_packages: $install_packages
+  - pip install mkdocs mkdocs-material pymdown-extensions pyembed-markdown
 
 docs_test:
-  stage: test
+  image: $IMAGE_REF
   script:
+  - <<:*install_packages
   - mkdocs build --strict --verbose --site-dir test
   artifacts:
     paths:
@@ -18,8 +16,9 @@ docs_test:
   - main
 
 pages:
-  stage: deploy
+  image: $IMAGE_REF
   script:
+  - <<:*install_packages
   - mkdocs build --strict --verbose
   - mv site public
   artifacts:
@@ -28,3 +27,5 @@ pages:
   only:
   - main
 
+include:
+- template: Security/SAST.gitlab-ci.yml
