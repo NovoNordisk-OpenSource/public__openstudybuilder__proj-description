@@ -99,3 +99,5 @@ In the "Data Exchange Standards" area, the data models as well as the implementa
 ## Admin Definition
 
 Typically, clinical studies are grouped into projects which belong to clinical programs. 
+
+To be continued...
