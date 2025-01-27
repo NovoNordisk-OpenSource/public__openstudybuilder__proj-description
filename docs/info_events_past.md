@@ -4,7 +4,22 @@
 
 Date | Event 
 -- | --
+20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+### OSB-Trail-SystemEngineers Kick-Off (virtual)
+
+(20 January 2025, virtual event)
+
+We Kick-Off our new COSA Collaboration team: OSB-Trail-SystemEngineers! This dedicated community brings together system engineers and IT professionals to collaborate on:
+
+- Optimizing deployment workflows for OSB across diverse environments.
+- Exploring and implementing robust authentication methods tailored to OSB.
+- Facilitating seamless integrations between OSB and other enterprise systems.
+- Building a network of experts to tackle challenges and share innovative solutions.
+
+Join us in slack [here](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank}!
+
 
 ### Community Meeting (virtual)
 

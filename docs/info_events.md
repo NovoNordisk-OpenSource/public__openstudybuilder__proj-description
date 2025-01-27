@@ -4,7 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual) | Scheduled
 10 February 2025 | Community Meeting (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
 13 March 2025 | PHUSE SDE Frankfurt, Germany | Scheduled
@@ -12,21 +11,6 @@ Date | Event | Status
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## OSB-Trail-SystemEngineers Kick-Off (virtual)
-
-(20 January 2025, virtual event)
-
-Join Us for the OpenStudyBuilder Trail SystemEngineers Kick-Off!
-
-This dedicated community brings together system engineers and IT professionals to collaborate on:
-
-- Optimizing deployment workflows for OSB across diverse environments.
-- Exploring and implementing robust authentication methods tailored to OSB.
-- Facilitating seamless integrations between OSB and other enterprise systems.
-- Building a network of experts to tackle challenges and share innovative solutions.
-
-You can register for the event [here](https://events.teams.microsoft.com/event/b010007c-6c05-4466-ba50-39b90eae472d@078244a1-de67-4c9e-9088-986d7f110a37){target=_blank}.
 
 ## Community Meeting (virtual)
 
