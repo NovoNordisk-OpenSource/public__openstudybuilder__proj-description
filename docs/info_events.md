@@ -5,6 +5,7 @@ Overview
 Date | Event | Status 
 -- | -- | --
 10 February 2025 | Community Meeting (virtual) | Scheduled
+24 February 2025 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
 10 March 2025 | Community Meeting (virtual) | Scheduled
 13 March 2025 | PHUSE SDE Frankfurt, Germany | Scheduled
@@ -21,6 +22,22 @@ Date | Event | Status
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
 You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7268191439077924864/){target=_blank}.
+
+## OSB-Trail-SystemEngineers
+
+(24 February 2025, 15:00-16:00 CET, virtual event)
+
+Join the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers!
+
+Agenda:
+- Introduction
+- Deployment Practices at Novo Nordisk
+- Existing OSB Solutions: How to Deploy
+- Enhancing Deployment Strategies for Companies
+- Participant Feedback and Alignment on Next Steps
+
+You can join this meeting from 15:00-16:00 CET [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ2YjYzYjgtOWUwNS00Nzg5LWExNzktZDA4OTU0YTZjMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%22da5f227b-1c5f-4a65-b723-1a9dedd06c0c%22%2c%22Oid%22%3a%2282460739-ee48-485c-850a-342399df9e7e%22%7d){target=_blank}.
+
 
 ## ACDM - Prague
 
