@@ -4,7 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-10 February 2025 | Community Meeting (virtual) | Scheduled
 24 February 2025 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
 10 March 2025 | Community Meeting (virtual) | Scheduled
@@ -14,14 +13,6 @@ Date | Event | Status
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## Community Meeting (virtual)
-
-(10 February 2025, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7268191439077924864/){target=_blank}.
 
 ## OSB-Trail-SystemEngineers
 
