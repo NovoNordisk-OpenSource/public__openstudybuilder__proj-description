@@ -4,8 +4,15 @@
 
 Date | Event 
 -- | --
+10 February 2025 | Community Meeting (virtual) | Scheduled
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(10 February 2025, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
 
 ### OSB-Trail-SystemEngineers Kick-Off (virtual)
 
