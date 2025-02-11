@@ -4,21 +4,31 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-10 February 2025 | Community Meeting (virtual) | Scheduled
+24 February 2025 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
+10 March 2025 | Community Meeting (virtual) | Scheduled
 13 March 2025 | PHUSE SDE Frankfurt, Germany | Scheduled
+7 April 2025 | Community Meeting (virtual) | Scheduled
 13 May 2025 | Workshop at CDISC EU Interchange - Geneva, Switzerland | Scheduled
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
 
-## Community Meeting (virtual)
+## OSB-Trail-SystemEngineers
 
-(10 February 2025, virtual event)
+(24 February 2025, 15:00-16:00 CET, virtual event)
 
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+Join the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers!
 
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7268191439077924864/){target=_blank}.
+Agenda:
+- Introduction
+- Deployment Practices at Novo Nordisk
+- Existing OSB Solutions: How to Deploy
+- Enhancing Deployment Strategies for Companies
+- Participant Feedback and Alignment on Next Steps
+
+You can join this meeting from 15:00-16:00 CET [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ2YjYzYjgtOWUwNS00Nzg5LWExNzktZDA4OTU0YTZjMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%22da5f227b-1c5f-4a65-b723-1a9dedd06c0c%22%2c%22Oid%22%3a%2282460739-ee48-485c-850a-342399df9e7e%22%7d){target=_blank}.
+
 
 ## ACDM - Prague
 
@@ -30,11 +40,27 @@ by Camilla Kehler and Ana Calduch Arques, Novo Nordisk
 
 Discover how we at Novo Nordisk digitalizing the study protocol using OpenStudyBuilder to streamlining the study specification process from Schedule of Activities (SoA) via the data collection specification to the study submission specification. Maintain the SoA as part of a structured study specification, catering for the distinct study purposes: from high level display in the protocol (Protocol SoA), through the semantic data observations level to be collected in the study (Detailed SoA), to the data specification level linking to SDTM as well as ADAM (Operational SoA). The different levels of the SoA plays a key role when working with biomedical concepts and is integrated in the data model linked to the corresponding biomedical concept definitions in OpenStudyBuilder library module. This way and end-to-end connectivity is enabling the study setup automation.
 
+## Community Meeting (virtual)
+
+(10 March 2025, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7291012867393298434/comments/){target=_blank}.
+
 ## PHUSE SDE Frankfurt
 
 (13 March 2025 - Frankfurt, Germany)
 
 Katja will be available at the PHUSE Single Day Event - you can use the opportunities to talk about the OpenStudyBuilder.
+
+## Community Meeting (virtual)
+
+(7 April 2025, virtual event)
+
+Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
+
+You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7291013518252728320/comments/){target=_blank}.
 
 ## Workshop at CDISC EU Interchange 
 
