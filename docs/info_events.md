@@ -21,6 +21,7 @@ Date | Event | Status
 Join the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers!
 
 Agenda:
+
 - Introduction
 - Deployment Practices at Novo Nordisk
 - Existing OSB Solutions: How to Deploy
