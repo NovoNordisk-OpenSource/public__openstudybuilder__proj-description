@@ -75,9 +75,9 @@ Please follow our newsletter in [LinkedIn](https://www.linkedin.com/newsletters/
 
 ## Status and Team
 
-Novo Nordisk is very happy to release this Minimum Viable Product (MVP) as open source. Please be aware that we are still working on adding features and fixes. As this tool should support all end-to-end processes and connecting tasks, the current version is just the beginning. It could become a game changer with a growing community. So please join us. 
+Novo Nordisk is using the StudyBuilder (which is the internal name) in production to generate the protocol. The OpenStudyBuilder is contineously enhanced with new features and fixes to support all end-to-end processes along the road. It could become a game changer with a growing community where we as an industry can create a maintain an open tool landscape driven by standards. So please join us. 
 
-It's been a pleasure to work with the OpenStudyBuilder team. Novo Nordisk managed a very beautiful group of internals and consultants. Some colleagues are missing in this picture, but hopefully it is clear that many are involved in this very big open-source project! 
+It's been a pleasure to work with the OpenStudyBuilder team. Novo Nordisk managed a very beautiful group of internals and consultants.  
  
 Thanks to all working on the OpenStudyBuilder in the past, currently and who will be in the future.  
 
