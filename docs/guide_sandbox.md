@@ -91,12 +91,6 @@ Via https://openstudybuilder.northeurope.cloudapp.azure.com/browser/, the Neo4j 
 
 Finally, https://openstudybuilder.northeurope.cloudapp.azure.com/bloom/ is available to access the bloom tool. You have to select SSO for login here as well. If the SSO is not available, then there are cookie issues. Please refresh the webpage by using no "cache", for example in Chrome you can use Ctrl + Shift and click R.
 
-### Possible Microsoft Authentification Issues
-
-Sometimes there are some issues with remembered Microsoft logins and accounts specificially as you will receive a Neo4j guest account. If you get an error like in the screenshot, then use the "logout and forgot" behind the three dots. Then choose "use a different account" and re-login with your mail and then you should receive a code via mail. If you still do not receive a mail, then refresh the page and re-enter the mail. Then receiving the mail should work. If not, please let us know in Slack as this should not happen.
-
-![Screenshot for possible Microsoft login error](./img/guide_sandbox_06.png)
-
 ## Lokal docker installation
 
 You can install the OpenStudyBuilder with or without test data locally. The easiest way is to use the docker instructions. For this you just need to follow the instructions on the readme files. You can also install the single components by following the instructions in the corresponding readme files within each sub-folder.
@@ -123,7 +117,8 @@ Tool | URL | Note
 OpenStudyBuilder App | [http://localhost:5005/](http://localhost:5005/){target=_blank} | main application
 Documentation | [http://localhost:5005/doc/](http://localhost:5005/doc/){target=_blank} | product related documentation
 API | [http://localhost:5005/api/docs](http://localhost:5005/api/docs){target=_blank} | API documentation and running API calls
-Dashboards | [http://localhost:5007/](http://localhost:5007/){target=_blank} | Browser available NeoDash dashboards
+Consumer API | [http://localhost:5005/consumer-api/docs](http://localhost:5005/consumer-api/docs){target=_blank} | API documentation and running API calls for consumer API
+Dashboards | [http://localhost:5005/neodash/](http://localhost:5005/neodash/){target=_blank} | Browser available NeoDash dashboards
 DB Browser | [http://localhost:5001/browser/](http://localhost:5001/browser/){target=_blank} | Browser for underlying database
 
 ### Installation Experiences

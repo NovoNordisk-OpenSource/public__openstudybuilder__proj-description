@@ -4,32 +4,15 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-24 February 2025 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
 10 March 2025 | Community Meeting (virtual) | Scheduled
 13 March 2025 | PHUSE SDE Frankfurt, Germany | Scheduled
+24 March 2025 | OSB-Trail-SystemEngineers (APIs) | Scheduled
 7 April 2025 | Community Meeting (virtual) | Scheduled
 13 May 2025 | Workshop at CDISC EU Interchange - Geneva, Switzerland | Scheduled
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## OSB-Trail-SystemEngineers
-
-(24 February 2025, 15:00-16:00 CET, virtual event)
-
-Join the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers!
-
-Agenda:
-
-- Introduction
-- Deployment Practices at Novo Nordisk
-- Existing OSB Solutions: How to Deploy
-- Enhancing Deployment Strategies for Companies
-- Participant Feedback and Alignment on Next Steps
-
-You can join this meeting from 15:00-16:00 CET [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ2YjYzYjgtOWUwNS00Nzg5LWExNzktZDA4OTU0YTZjMDE0%40thread.v2/0?context=%7b%22Tid%22%3a%22da5f227b-1c5f-4a65-b723-1a9dedd06c0c%22%2c%22Oid%22%3a%2282460739-ee48-485c-850a-342399df9e7e%22%7d){target=_blank}.
-
 
 ## ACDM - Prague
 
@@ -54,6 +37,14 @@ You can register for the event [here](https://www.linkedin.com/events/openstudyb
 (13 March 2025 - Frankfurt, Germany)
 
 Katja will be available at the PHUSE Single Day Event - you can use the opportunities to talk about the OpenStudyBuilder.
+
+## OSB-Trail-SystemEngineers (APIs)
+
+(24 March 2025, 15:00-16:00 CET, virtual event)
+
+Join the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers! This time we will focus on API utilization.
+
+Meeting information are available [here](https://www.linkedin.com/events/osb-trail-systemengineers-focus7300543836559208448/comments/){target=_blank}.
 
 ## Community Meeting (virtual)
 
