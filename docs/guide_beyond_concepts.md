@@ -79,12 +79,38 @@ We are working on integrating the Veeva EDC System with the OpenStudyBuilder. Th
 Figure 4: High Level Overview of Veeva EDC Integration Plans
 {: class="imageDescription"}
 
+**In short** - the currently plan is the following:
 
+- Maintain CRF Forms, ItemGroups and Items in Veeva EDC
+- Synchronize CRF objects to OpenStudyBuilder (keep linking information)
+- Select activity instances in Schedule of Activities for timepoints (which are linked to CRF objects)
+- Create JSON file to call Veeva API to setup a Veeva EDC study which copies the corresponding forms and elements from the library
+- Use this for VAL and PROD to have the study setup in Veeva EDC
+
+**Explanation** 
+
+In the OpenStudyBuilder the CRF relevant information is defined in the library module in Forms, ItemGroups and Items. The Veeva EDC System contains also a CRF Library module storing the same. The idea is to have a synchronization job to keep both libraries containing the same information, containing linkage information in OpenStudyBuilder. Due to the limitations of the current version of the Veeva API, the current plan is to maintain and update the form information within the Veeva system and create the corresponding objects in OpenStudyBuilder via an automation job.
+
+A futher step is required to update and maintain the data specifications. For activities which are rough concepts, we need to define activity instances - which is a concrete definition of the data specification. This contains next to the final SDTM location for example additionally the form, item and item group links. This is typically done by a standards function.
+
+On study setup, an activity is selected for the schedule of activities which is used in the clinical protocol. Then these activities are further fine tuned with selecting the activity instances. By selecting the activity instance, the linkage of a selected activity and the corresponding required CRF elements is available.
+
+This specification can now be used to generate a very specifig formatted JSON file, when can then be consumed by the Veeva API to setup the study in Veeva EDC. We are working on a process (robot), to setup the Veeva EDC study database:
+
+- Create Study Master
+- Create Event Group Definitions
+- Create Event Definitions
+- Copy Form Definitions from the Veeva CRF Library 
+- Create Schedule
+
+This is then checked in the Veeva EDC system and will then be used for the study setup in VAL and PROD.
 
 ## Veeva Integration Detailed Plan
 
-![TODO](./img/guide_bc_04.png)
+Actually, to see the details of the elements and how this is all linked together, a more detailed view is required. The following section describes additional details. A high level overview is shown in the following figure.
+
+![Detailed Overview of Veeva EDC Integration Plans](./img/guide_bc_04.png)
 {: class="imageParagraph"}
 
-Figure 4: TODO
+Figure 4: Detailed Overview of Veeva EDC Integration Plans
 {: class="imageDescription"}
