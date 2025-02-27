@@ -4,9 +4,28 @@
 
 Date | Event 
 -- | --
-10 February 2025 | Community Meeting (virtual) | Scheduled
+24 February 2025 | OSB-Trail-SystemEngineers (virtual) 
+10 February 2025 | Community Meeting (virtual) 
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+### OSB-Trail-SystemEngineers (Deployments)
+
+(24 February 2025, 15:00-16:00 CET, virtual event)
+
+Our COSA Collaboration Team for OSB-Trail-SystemEngineers had a meeting on various deployments options and related processes.
+
+Agenda:
+
+- Introduction
+- Deployment Practices at Novo Nordisk
+- Existing OSB Solutions: How to Deploy
+- Enhancing Deployment Strategies for Companies
+- Participant Feedback and Alignment on Next Steps
+
+Checkout the presentation [here](./presentations/2025-02-24-osb-hub-trail-deployments.pdf){target=_blank}.
+
+Meeting outcome is documented [here](./presentations/2025-02-24-DeploymentWorkflows.pdf){target=_blank}.
 
 ### Community Meeting (virtual)
 
