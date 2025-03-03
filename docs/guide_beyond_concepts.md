@@ -21,7 +21,7 @@ The core elements are to be linked together:
 
 The activities, which are for example any kind of laboratory tests, build the base for the linkage. The following example shows how it could be envisioned in general. 
 
-![Linking All Together - High Level Vision](./img/guide_bc_01.png)
+[![Linking All Together - High Level Vision](./img/guide_bc_01.png)](./img/guide_bc_01.png){target=_blank}
 {: class="imageParagraph"}
 
 Figure 1: Linking All Together - High Level Vision
@@ -46,7 +46,7 @@ When having this definition available - for a concrete study, the protocol activ
 
 In the end, the mapping is a bit more complex having specific relationships of types. The following visualization shows the current implementation planning and status of the linking of the activities to the concrete data specification and beyond.
 
-![Linking all Together - Current Mapping Implementation Example](./img/guide_bc_02.png)
+[![Linking all Together - Current Mapping Implementation Example](./img/guide_bc_02.png)](./img/guide_bc_02.png){target=_blank}
 {: class="imageParagraph"}
 
 Figure 2: Linking all Together - Current Mapping Implementation Example
@@ -73,10 +73,18 @@ Then there are concrete instances which build the data specification. These coul
 
 We are working on integrating the Veeva EDC System with the OpenStudyBuilder. The following high-level overview shows the main idea.
 
-![High Level Overview of Veeva EDC Integration Plans](./img/guide_bc_03.png)
+![High Level Overview of Veeva EDC Integration Plans](./img/guide_bc_04_006.png)
 {: class="imageParagraph"}
 
 Figure 4: High Level Overview of Veeva EDC Integration Plans
+{: class="imageDescription"}
+
+We plan to synchronize the Veeva EDC CRF Library and the OpenStudyBuilder CRF library. These OpenStudyBuilder library elements are then linked to activity instances which are used in the study specific Schedule of Activities (SoA). This will trigger an automation which will setup the Study in the EDC setup in Veeva EDC.
+
+[![Overview of Veeva EDC Integration Plans](./img/guide_bc_03.png)](./img/guide_bc_03.png){target=_blank}
+{: class="imageParagraph"}
+
+Figure 5: Overview of Veeva EDC Integration Plans
 {: class="imageDescription"}
 
 **In short** - the currently plan is the following:
@@ -100,17 +108,80 @@ This specification can now be used to generate a very specifig formatted JSON fi
 - Create Study Master
 - Create Event Group Definitions
 - Create Event Definitions
-- Copy Form Definitions from the Veeva CRF Library 
+- Copy Form Definitions from the Veeva CRF Library
 - Create Schedule
 
 This is then checked in the Veeva EDC system and will then be used for the study setup in VAL and PROD.
 
 ## Veeva Integration Detailed Plan
 
-Actually, to see the details of the elements and how this is all linked together, a more detailed view is required. The following section describes additional details. A high level overview is shown in the following figure.
+Actually, to see the details of the elements and how this is all linked together, a more detailed view is required. The following section describes additional details. 
 
-![Detailed Overview of Veeva EDC Integration Plans](./img/guide_bc_04.png)
+[![Detailed Overview of Veeva EDC Integration Plans](./img/guide_bc_04.png)](./img/guide_bc_04.png){target=_blank}
 {: class="imageParagraph"}
 
-Figure 4: Detailed Overview of Veeva EDC Integration Plans
+Figure 6: Detailed Overview of Veeva EDC Integration Plans
 {: class="imageDescription"}
+
+The following legend is used to describe the elements:
+
+Description | Icon
+--- | ---
+Veeva EDC Form | ![Veeva EDC Form](./img/guide_bc_04_001_01.png)
+OpenStudyBuilder Form | ![OpenStudyBuilder Form](./img/guide_bc_04_001_02.png)
+Steps not fully supported | ![Steps not fully supported](./img/guide_bc_04_001_03.png)
+Veeva event group | ![Veeva event group](./img/guide_bc_04_001_04.png)
+Veeva event label | ![Veeva label](./img/guide_bc_04_001_05.png)
+OpenStudyBuilder Epoch | ![OpenStudyBuilder Epoch](./img/guide_bc_04_001_06.png)
+OpenStudyBuilder Visit | ![OpenStudyBuilder Visit](./img/guide_bc_04_001_07.png)
+OpenStudyBuilder Activity | ![OpenStudyBuilder Activity](./img/guide_bc_04_001_08.png)
+
+Let's get through the process steps.
+
+![Process Steps - eCRF Libraries](./img/guide_bc_04_002.png)
+{: class="imageParagraph"}
+
+Figure 7: Process Steps - eCRF Libraries
+{: class="imageDescription"}
+
+As a first steps, the eCRF forms are created in the Veeva eCRF Library including the ItemGroups and Items (1). An important value is the reference ID. The synchronization job (2) will create the correpsonding objects in the OpenStudyBuilder eCRF library (3) using additionally the linkage information (reference ID).
+
+![Process Steps - Activity Setup](./img/guide_bc_04_007.png)
+{: class="imageParagraph"}
+
+Figure 8: Process Steps - Activity Setup
+{: class="imageDescription"}
+
+In the steps step, the activity instances needs to be enhanced. Within the OpenStudyBuilder Activity Library (4), the activity (general concepts) and activity instances (dataset specifications) are managed. The activity instances are linked to the CRF elements (5). The link to the Form, ItemGroup and Item is managed in accordance with the ODM standard.
+
+![Process Steps - Study SoA Setup](./img/guide_bc_04_003.png)
+{: class="imageParagraph"}
+
+Figure 8: Process Steps - Study SoA Setup
+{: class="imageDescription"}
+
+In a study (6), a schedule of activity (SoA) is created (7). In the study, epochs are defined and used along with visits. A specific activity is selected for the study protocol and further fine-tuned by selecting a corresponding connected activity instance and associated with specific visits. As the linkage information is available in the standard, the visits can bind to concrete eCRF Forms including ItemGroups and Items (8).
+
+![Process Steps - Veeva EDC Study Setup](./img/guide_bc_04_005.png)
+{: class="imageParagraph"}
+
+Figure 8: Process Steps - Veeva EDC Study Setup
+{: class="imageDescription"}
+
+As we are now having all required information available, the Veeva EDC setup for the specific study can be created. First (1), the study is created if not already available storing the ID back in OpenStudyBuilder. Then the event group definitions are created (2) containing the Epochs. The next step created events (3) which corresponds to the visit. The form definitions are copied from the Veeva eCRF Library (4) using the ID which are stored along. Finally the Schedule is created (5) assigning the visits to the forms.
+
+There is a "robot" program which creates and performs the final required API calls in the Veeva EDC system. This automatic setup is performed in a DEV instance of the Veeva EDC system. After setup, checks can be performed within Veeva and then the study can be setup in VAL and PROD afterwards.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
