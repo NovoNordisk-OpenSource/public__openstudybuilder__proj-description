@@ -22,27 +22,25 @@ We organize focused projects, known as OpenStudyBuilder Hub Trails, where we col
 
 ## OSB-Trail-ControlledTerminology
 
+Kick-off July 2024
+
 Our first OpenStudyBuilder trail focuses on the management of controlled terminology (CT), encompassing CDISC and sponsor standards. Delve into critical questions such as how to seamlessly integrate with new CDISC CT versions? How to load or create sponsor terminology? What kind of additional attributes can I apply? What would I need additionally? How to use this downstream? How to deal with different versions?
 
-Join the corresponding channel in [Slack](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank} to join!
+Join the corresponding channel in [Slack](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank}!
 
-Focus | Description
--- | --
-Timeline | July 2024 - December 2024
-Outcome	| Documentation & best practices<br/>Supporting script(s) / tool(s)<br/>Additional requirements
-Collaboration | Support documentation<br/>Join discussion and requirement collection<br/>Review documentation<br/>Create specifications & requirements<br/>Implement supporting tool, e.g. Excel interface / importer/exporter
+**Status February 2025** 
 
-**Status December 2024** 
-
-A community member focus on the development of a user interface to manage import and export controlled terminologies. These activities are still ongoing and a first version might be available in January 2025. The specifications are discussed and communicated in our slack channel.
+A community member focus on the development of a user interface to manage import and export controlled terminologies. These activities are still ongoing and a first version might be available in Q1 2025. The specifications are discussed and communicated in our slack channel.
 
 Furthermore, we had a deeper look into the available CT scripts. We identified some challenges where we are planning to solve some of those. One of this are a few discrepancies within different CDISC catalogs. We reported these back to CDISC. The CT needs also some more refactoring, which will happen within the OpenStudyBuilder team in Novo Nordisk. We also see that the upload scripts should ideally be refactored - this is on the to-do list, but needs priorization. 
 
 ## OSB-Trail-SystemEngineers
 
+Kick-off January 2025
+
 Our second OpenStudyBuilder trail focuses on the collaboration of system engineers working with OpenStudyBuilder (OSB). This group aims to unite professionals to share experiences, collaborate on deployment and installation strategies, exchange best practices for monitoring and DevOps, and explore integration opportunities with OSB.
 
-Join the corresponding channel in [Slack](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank} to join!
+Join the corresponding channel in [Slack](https://join.slack.com/t/osb-mdr/shared_invite/zt-2iwjqjg76-r0NW6pRH5GnGQQ~~izLc_A){target=_blank}!
 
 **Our objectives:**
 
@@ -51,15 +49,13 @@ Join the corresponding channel in [Slack](https://join.slack.com/t/osb-mdr/share
 - Exchange experiences and solutions for integrating OSB with other systems.
 - Build a network of experts to support and innovate within the OSB ecosystem.
 
-Focus | Description
--- | --
-Timeline | January 2025 - June 2025
-Outcome	| Documentation & best practices<br/>Supporting script(s)
-Collaboration | Support documentation<br/>Join discussion and requirement collection<br/>Review documentation
+**Status February 2025**
 
-**Status December 2024** 
+We had an initial discussion meeting on 16. December 2024 to checkout who would like to participate and discuss on focus areas.
 
-We will perform a dicussion meeting on 16 December 2024 and will have an official kick-off in January 2025.
+**Deployments:** On 24.02.2025 we discussed about deployments including their challenges and solutions. Checkout the presentation [here](./presentations/2025-02-24-osb-hub-trail-deployments.pdf){target=_blank} and the summary [here](./presentations/2025-02-24-DeploymentWorkflows.pdf).
+
+**APIs:** On 24.03.2025 we will have a session on APIs. You can join the meeting either via direct invite (please contact us in slack) or using the linkedIn event [here](https://www.linkedin.com/events/osb-trail-systemengineers-focus7300543836559208448/comments/){target=_blank}.
 
 ## Community
 
