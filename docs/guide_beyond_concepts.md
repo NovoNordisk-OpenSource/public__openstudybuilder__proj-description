@@ -1,6 +1,6 @@
 # Beyond concepts {: class="guideH1"}
 
-(created 2025-02-21) 
+(created 2025-03-05) 
 {: class="guideCreated"}
 
 The activity concepts, as explained in the corresponding [guide](./guide_activity_concept.md), extend beyond the definition used for the Schedule of Activities. These concepts are crucial for linking the necessary information to enable and trace the flow from defining an activity in the protocol, through a data specification that can then be used in a concrete data collection. This information will be placed in a specific location within the data model(s), e.g. SDTM, and can later be linked to analysis results.
@@ -42,7 +42,7 @@ This activity instance is a very concrete item. For this we could store many **c
 When having this definition available - for a concrete study, the protocol activities could be selected and later on decided on the concrete data specification. With just these two selections and all the standard mapping done in the background, it's possible to utilize this downstream to define the corresponding CRF items and see already the mapping to the SDTM variables.
 
 
-## Current Mapping Implementation
+## Current Implementation
 
 In the end, the mapping is a bit more complex having specific relationships of types. The following visualization shows the current implementation planning and status of the linking of the activities to the concrete data specification and beyond.
 
@@ -68,16 +68,71 @@ Figure 3: Activities and Activity Instances in OpenStudyBuilder
 
 Then there are concrete instances which build the data specification. These could be numeric values or categories and have additional specification each.
 
+## Underlying Data Model
+
+The documentation of the underlying logical data model is always available in the latest version on GitLab [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model/logical_data_model?ref_type=heads){target=_blank}. The graphic which describes the activity concept best is named `logical-model-activity-class-concept.graphml`.
+
+The following image shows the status (click for details):
+
+[![Logical Data Model for Activity Class](./img/guide_bc_06.svg)](./img/guide_bc_06.svg){target=_blank}
+{: class="imageParagraph"}
+
+Figure 4: Logical Data Model for Activity Class
+{: class="imageDescription"}
+
+## Example Data
+
+The OpenStudyBuilder comes with a set of example data, including activities and activity instances. The content is available in the GitLab repository [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/studybuilder-import/datafiles/sponsor_library/activity?ref_type=heads){target=_blank}. This folder contains various CSV files that are imported into the OpenStudyBuilder to create the corresponding metadata. It is recommended to use a script to load and update activities and instances.
+
+The most relevant data is the import of "Activity Instance" data, which contains all "activity item" information. The following columns are available:
 
 
+- TOPIC_CD	(Topic Code)
+- sdtm_cat	(SDTM Category)
+- sdtm_sub_cat  (SDTM Sub-Category)
+- adam_param_code (ADaM Parameter Code)
+- SDTM_DOMAIN
+- activity
+- activity_instance
+- specimen
+- laterality
+- location
+- position
+- legacy_description
+- sub_domain_class
+- GENERAL_DOMAIN_CLASS
+- stdm_codelist
+- sdtm_variable
+- stdm_codelist_name
+- sdtm_variable_name
+- std_unit
+- unit_dimension
+- molecular_weight
+- si_unit
+- us_conv_unit
+- fasting
+- loinc
+- Response list
+- Assm. group
+- Assm. subgroup
 
+The following images shows some example columns and test data:
 
+![Example Data - Activitiy Instance (Part 1)](./img/guide_bc_06.png)
+{: class="imageParagraph"}
 
+Figure 5: Example Data - Activitiy Instance (Part 1)
+{: class="imageDescription"}
 
+![Example Data - Activitiy Instance (Part 2)](./img/guide_bc_07.png)
+{: class="imageParagraph"}
 
+Figure 6: Example Data - Activitiy Instance (Part 2)
+{: class="imageDescription"}
 
+![Example Data - Activitiy Instance (Part 3)](./img/guide_bc_08.png)
+{: class="imageParagraph"}
 
-
-
-
+Figure 7: Example Data - Activitiy Instance (Part 3)
+{: class="imageDescription"}
 
