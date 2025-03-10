@@ -12,6 +12,7 @@ Title | Description
 [OpenStudyBuilder Poster](./presentations/2024-10-10-OSB-Poster-SDE-Copenhagen.pdf){target=_blank} | Poster (2024-10-10)
 [OpenStudyBuilder USDM Poster](./presentations/2024-10-10-OSB-USDM-Poster.pdf){target=_blank} | USDM Poster (2024-10-10)
 [Community Meeting Overview](./presentations/2024-01-29-CommunityMeeting.pdf){target=_blank} | Overview & **Links** (2024-01-29)
+[Protocol to Data Collection](./presentations/2025-03-04-ACDM-Protocol-to-Data-Collection.pdf){target=_blank} | Digitalizing the study setup process from Protocol to Data Collection Specifications using OpenStudyBuilder (2025-03-04)
 [OpenStudyBuilder and USDM](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | Leveraging the **USDM** Standard in OpenStudyBuilder for Enhanced Data Exchange<br/>(2024-11-12)
 [USDM & Digital Data Flow](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | USDM & Digital Data Flow - OpenStudyBuilder Project as Enabler<br/>(2024-12-05)
 [OpenStudyBuilder as MDR](./presentations/2024-03-11-OSB-as-MDR-Collaboration.pdf){target=_blank} | OpenStudyBuilder as Metadata Repository (**MDR**) Collaboration  kick-off <br/>(2024-03-11)
