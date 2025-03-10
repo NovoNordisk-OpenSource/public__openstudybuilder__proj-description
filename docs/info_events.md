@@ -4,7 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-3-4 March 2025 | ACDM - Prague, Czech Republic | Scheduled
 10 March 2025 | Community Meeting (virtual) | Scheduled
 13 March 2025 | PHUSE SDE Frankfurt, Germany | Scheduled
 24 March 2025 | OSB-Trail-SystemEngineers (APIs) | Scheduled
@@ -13,16 +12,7 @@ Date | Event | Status
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## ACDM - Prague
-
-**Digitalizing the study setup process from Protocol to Data Collection Specifications using OpenStudyBuilder**
-
-(3-4 March 2025 - Prague, Czech Republic)
-
-by Camilla Kehler and Ana Calduch Arques, Novo Nordisk
-
-Discover how we at Novo Nordisk digitalizing the study protocol using OpenStudyBuilder to streamlining the study specification process from Schedule of Activities (SoA) via the data collection specification to the study submission specification. Maintain the SoA as part of a structured study specification, catering for the distinct study purposes: from high level display in the protocol (Protocol SoA), through the semantic data observations level to be collected in the study (Detailed SoA), to the data specification level linking to SDTM as well as ADAM (Operational SoA). The different levels of the SoA plays a key role when working with biomedical concepts and is integrated in the data model linked to the corresponding biomedical concept definitions in OpenStudyBuilder library module. This way and end-to-end connectivity is enabling the study setup automation.
+15-17 March 2026 | ADCM - Berlin, Germany | Planned
 
 ## Community Meeting (virtual)
 
@@ -67,7 +57,13 @@ You can register for the event [here](https://www.cdisc.org/events/interchange/2
 
 (14-15 May 2025 - Geneva, Switzerland)
 
-We will be at the CDISC EU Interchange conference in Geneva. We will do demonstrations at the COSA booth and maybe have a presentation or poster about the OpenStudyBuilder.
+We will be at the CDISC EU Interchange conference in Geneva. We will do demonstrations at the COSA booth and maybe have the following presentation.
+
+**Enhanced Biomedical Concepts: A Design Perspective in OpenStudyBuilder Supporting CDISC 360i**
+
+This presentation provides a deep dive into the design and implementation of the activity concept within OpenStudyBuilder, showcasing its role in the broader context of clinical study automation as envisioned by CDISC 360i. We will compare OpenStudyBuilder’s graph-based model with CDISC Biomedical Concepts, focusing on the rationale behind design choices, including structural adaptations and enhancements. Additionally, we will discuss challenges encountered during development, highlighting lessons learned and future opportunities to refine the approach.  
+
+You can register for the event [here](https://www.cdisc.org/events/interchange/2025-cdisc-tmf-europe-interchange){target=_blank}.
 
 ## PHUSE SDE Copenhagen
 
@@ -80,3 +76,13 @@ We will very likely be available at the PHUSE Single Day Event.
 (16-19 November 2025 - Hamburg, Germany)
 
 We will very likely be available at the PHUSE EU Connect conference in Hamburg.
+
+Registration and additional information available [here](https://www.phuse-events.org/attend/frontend/reg/thome.csp?pageID=47495&eventID=74&traceRedir=4){target=_blank}.
+
+## ADCM
+
+(15-17 March 2025 - Berlin, Germany)
+
+We plan to be at the ADCM and will submit a presentation.
+
+Additional event information available [here](https://acdmconference.org/){target=_blank}.

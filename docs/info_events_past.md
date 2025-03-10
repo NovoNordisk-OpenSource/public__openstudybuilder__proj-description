@@ -4,10 +4,24 @@
 
 Date | Event 
 -- | --
+3-4 March 2025 | ACDM - Prague, Czech Republic 
 24 February 2025 | OSB-Trail-SystemEngineers (virtual) 
 10 February 2025 | Community Meeting (virtual) 
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+
+## ACDM - Prague
+
+**Digitalizing the study setup process from Protocol to Data Collection Specifications using OpenStudyBuilder**
+
+(3-4 March 2025 - Prague, Czech Republic)
+
+by Camilla Kehler and Ana Calduch Arques, Novo Nordisk
+
+Discover how we at Novo Nordisk digitalizing the study protocol using OpenStudyBuilder to streamlining the study specification process from Schedule of Activities (SoA) via the data collection specification to the study submission specification. Maintain the SoA as part of a structured study specification, catering for the distinct study purposes: from high level display in the protocol (Protocol SoA), through the semantic data observations level to be collected in the study (Detailed SoA), to the data specification level linking to SDTM as well as ADAM (Operational SoA). The different levels of the SoA plays a key role when working with biomedical concepts and is integrated in the data model linked to the corresponding biomedical concept definitions in OpenStudyBuilder library module. This way and end-to-end connectivity is enabling the study setup automation.
+
+The slides are available [here](./presentations/2025-03-04-ACDM-Protocol-to-Data-Collection.pdf){target=_blank}.
 
 ### OSB-Trail-SystemEngineers (Deployments)
 
