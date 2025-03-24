@@ -4,12 +4,18 @@
 
 Date | Event 
 -- | --
+10 March 2025 | Community Meeting (virtual)
 3-4 March 2025 | ACDM - Prague, Czech Republic 
 24 February 2025 | OSB-Trail-SystemEngineers (virtual) 
 10 February 2025 | Community Meeting (virtual) 
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
 
+### Community Meeting (virtual)
+
+(10 March 2025, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
 
 ## ACDM - Prague
 
