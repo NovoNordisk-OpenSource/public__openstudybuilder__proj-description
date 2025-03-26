@@ -27,7 +27,7 @@ Core contributions are code changes to the core source code of OpenStudyBuilder 
 
 To enable contributions in a legal setup, we will very likely work with contributor license agreements (CLA) for entities. More information and the CLA will be added later.
 
-**Instructions**: When you have receided and signed the CLA, send the scanned document as mail to <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a>.
+**Instructions**: When you have receided and signed the CLA, send the scanned document as mail to <a href="mailto:kjgl@novonordisk.com">kjgl@novonordisk.com</a>.
 
 ### CLA Background
 
