@@ -5,29 +5,55 @@
 
 As OpenStudyBuilder adoption grows, Novo Nordisk is actively exploring a sustainable contribution model to enable broader participation in its development and maintenance. Given the complexity and scale of the project, code contributions have not yet been enabled, but with increasing interest from companies looking to implement OpenStudyBuilder, discussions are underway to define the future approach for maintaining and evolving the solution.
 
-![Different contribution model options](./img/info_contribution_01.png)
+![Different contribution model options](./img/info_contribution_01.png){: .imageNoBorder}
 
-In the scope of OpenStudyBuilder, additional functionality could be implemented in three different ways. The "Core Contributions" are changes to the core source code of OpenStudyBuilder, currently owned, maintained, and released as open-source by Novo Nordisk. Discussions are ongoing about how the core can enable contributions and potentially include additional maintainers and owners in the future.
+<hr/>
 
-Then there is the option to create "OSB Extensions." These extensions look and feel as if they were core functionalities integrated into the User Interface but are actually standalone features that could be developed, maintained, and delivered by anyone using any license. The idea is to have plug-and-play functionality that can be additionally installed depending on the need, similar to existing Word Plugins that can be purchased and used.
+In the scope of OpenStudyBuilder, additional functionality could be implemented in three different ways.
 
-Finally, OpenStudyBuilder can integrate with various other applications, such as EDC systems, authoring tools, or any other relevant software. These integrations could also be developed, maintained, and delivered by anyone using any license. We already see integrations for Oracle and Marvin EDC systems, as well as the Marvin ePRO tool, and we anticipate many more in the coming year.
+<div style="display: flex; align-items: flex-start; gap: 16px;">
+  <div style="flex: 0 0 20%;">
+    <img src="../img/info_contribution_02.png" class="imageNoBorder" alt="Core Contribution">
+  </div>
+  <div style="flex: 1;">
+     The "Core Contributions" are changes to the core source code of OpenStudyBuilder, currently owned, maintained, and released as open-source by Novo Nordisk. Discussions are ongoing about how the core can enable contributions and potentially include additional maintainers and owners in the future.
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 16px; margin-top: 16px;">
+  <div style="flex: 0 0 20%;">
+    <img src="../img/info_contribution_03.png" class="imageNoBorder" alt="OSB Extension">
+  </div>
+  <div style="flex: 1;">
+    Then there is the option to create "OSB Extensions." These extensions look and feel as if they were core functionalities integrated into the User Interface but are actually standalone features that could be developed, maintained, and delivered by anyone using any license. The idea is to have plug-and-play functionality that can be additionally installed depending on the need, similar to existing Word Plugins that can be purchased and used.
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 16px; margin-top: 16px;">
+  <div style="flex: 0 0 20%;">
+    <img src="../img/info_contribution_04.png" class="imageNoBorder" alt="Integrated Apps">
+  </div>
+  <div style="flex: 1;">
+    Finally, OpenStudyBuilder can integrate with various other applications, such as EDC systems, authoring tools, or any other relevant software. These integrations could also be developed, maintained, and delivered by anyone using any license. We already see integrations for Oracle and Marvin EDC systems, as well as the Marvin ePRO tool, and we anticipate many more in the coming year.
+  </div>
+</div>
+
 
 ## Extension and Integrations
 
 As mentioned, extensions and integrations could be developed, maintained and released by anyone using any license. For integrations, we recommend using the consumer API which is meant to be stable and version controlled. Currently, the API is not covering much functionality and some integrations might need to use the internal API. Please be aware that the internal API can be changed any time.
 
-For extensions, we recommend talking to the OpenStudyBuilder team as we currently do not have guidelines, configurations or similar to support this. This might change in the future.
+For extensions, we recommend talking to the OpenStudyBuilder team as we currently do not have guidelines, configurations or similar to support this. This might change in the future. You can contact us via <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a>.
 
 ## Core-Contributions
 
 Core contributions are code changes to the core source code of OpenStudyBuilder maintained by Novo Nordisk. Details about the intended initial process is work in progress.
 
-### CLA
+### Contributor License Agreement {#cla}
 
-To enable contributions in a legal setup, we will very likely work with contributor license agreements (CLA) for entities. More information and the CLA will be added later.
+To enable contributions in a legal setup, we will very likely work with a Contributor License Agreement (CLA) for entities. More information and the CLA will be added later.
 
-**Instructions**: When you have receided and signed the CLA, send the scanned document as mail to <a href="mailto:kjgl@novonordisk.com">kjgl@novonordisk.com</a>.
+**Instructions**: When you have received and signed the CLA, send the scanned document as mail to <a href="mailto:kjgl@novonordisk.com">kjgl@novonordisk.com</a>.
 
 ### CLA Background
 

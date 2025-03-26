@@ -39,3 +39,7 @@ img {
   margin-bottom: 0;
   text-align: center;
 }
+
+.imageNoBorder {
+  border: none;
+}
