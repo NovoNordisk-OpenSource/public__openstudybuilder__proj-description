@@ -4,6 +4,7 @@
 
 Date | Event 
 -- | --
+24 March 2025 | OSB-Trail-SystemEngineers (APIs)
 10 March 2025 | Community Meeting (virtual)
 3-4 March 2025 | ACDM - Prague, Czech Republic 
 24 February 2025 | OSB-Trail-SystemEngineers (virtual) 
@@ -11,13 +12,30 @@ Date | Event
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
 
+### OSB-Trail-SystemEngineers (APIs)
+
+(24 March 2025, 15:00-16:00 CET, virtual event)
+
+This is the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers! This time focused on API utilization.
+
+Agenda:
+
+- API Overview
+- Examples
+- API Limitations
+- Discussions
+
+Checkout the presentation [here](./presentations/2025-03-24-osb-hub-trail-systemEngineering-API.pdf){target=_blank}.
+
+Meeting outcome is documented [here](./presentations/2025-03-24-osb-hub-trail-systemengineers-summary.pdf){target=_blank}.
+
 ### Community Meeting (virtual)
 
 (10 March 2025, virtual event)
 
 We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
 
-## ACDM - Prague
+### ACDM - Prague
 
 **Digitalizing the study setup process from Protocol to Data Collection Specifications using OpenStudyBuilder**
 

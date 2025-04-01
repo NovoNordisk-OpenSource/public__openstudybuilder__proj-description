@@ -2,9 +2,17 @@
 
 The OpenStudyBuilder Newsletter is published monthly on [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}. 
 
+### Beyond Concepts, Events & Release 0.14.2
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7310242858928656384" height="1050" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+### Release 0.14 and Short-Term-Roadmap
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7298632864797982720" height="930" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ### Resum&eacute; 2024
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7287831972062609408" height="910" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7287831972062609408" height="930" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 ### Community
 
