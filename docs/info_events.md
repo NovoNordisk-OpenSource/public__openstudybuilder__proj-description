@@ -4,32 +4,23 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-7 April 2025 | Community Meeting (virtual) | Scheduled
 28 April 2025 | OSB-Trail-SystemEngineers (Testing, Loading, Migration) | Scheduled
 5 May 2025 | Community Meeting (virtual) | Scheduled
 13 May 2025 | Workshop at CDISC EU Interchange - Geneva, Switzerland | Scheduled
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 16 May 2025 | CDISC 360i Working Group - Geneva, Switzerland | Scheduled
 2 June 2025 | Community Meeting (virtual) | Scheduled
+2 June 2025 | OSB-Trail-SystemEngineers (virtual) | Scheduled
 7 July 2025 | Community Meeting (virtual) | Scheduled
+23-24 September 2025 | DDF: Mission Possible (East Hanover, New Jersey & Basel, Switzerland) | Planned
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## Community Meeting (virtual)
-
-(7 April 2025, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7291013518252728320/comments/){target=_blank}.
 
 ## OSB-Trail-SystemEngineers (Testing, Loading, Migration)
 
 (28 April 2025, 15:00-16:00 CET, virtual event)
 
 This is the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers! This time focused on Testing, Initial Loading, and Migrations.
-
-Registration will be available here soon. 
 
 ## Community Meeting (virtual)
 
@@ -73,11 +64,19 @@ You can register for the workshop event [here](https://www.cdisc.org/events/inte
 
 ## Community Meeting (virtual)
 
-(2 June 2025, virtual event)
+(2 June 2025, 15:00-16:00 CET, virtual event)
 
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
 You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7309854821560307712/comments/){target=_blank}.
+
+## OSB-Trail-SystemEngineers (virtual)
+
+(2 June 2025, 16:00-17:00 CET, virtual event)
+
+This is the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers!
+
+Registration will be available here soon - checkout linkedIn for latest news. 
 
 ## Community Meeting (virtual)
 
@@ -86,6 +85,12 @@ You can register for the event [here](https://www.linkedin.com/events/openstudyb
 Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
 
 You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7309855564111466496/comments/){target=_blank}.
+
+## DDF: Mission Possible
+
+(23-24 September 2025 - East Hanover, New Jersey & Basel, Switzerland)
+
+Following the success of last year's DDF in Action Day, this year's event, DDF: Mission Possible - Assess, Plan & Implement Protocol Digitalization Solutions, will take place on September 23-24. It will be co-hosted by Novartis in East Hanover, New Jersey, and Roche in Basel, Switzerland. Stay tuned for more details! We likely will join this event and maybe present some of the work of the OpenStudyBuilder.
 
 ## PHUSE SDE Copenhagen
 
