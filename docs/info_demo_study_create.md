@@ -36,7 +36,7 @@ The **Dictionaries** and **Data Exchange** standards are also intended to link t
 
 The most important section to create the study content is the **Define Study** section. 
 
-### Study Epochs
+### Study Epochs (Structure)
 
 The different study epochs can be defined in this area. 
 
@@ -51,10 +51,21 @@ For each epoch type, there are also various sub-types available. For example, th
 
 ![Animation - Create Study Epochs](./img/demo/info_demo_sc_35_epochs.gif)
 
-### Study Visits
+### Study Visits (Structure)
 
 The **Study Visits** section allows you to define the visits for the study. There are different visit types available. Visits are anchored and relative to other visits. This "anchoring" helps maintain the relationship between visits. Detailed options and functionality related to visits are described in the system documentation [here](https://openstudybuilder.northeurope.cloudapp.azure.com/doc/guides/userguide/studies/guide_visits.html){target=_blank}.
 
 In general, the "Scheduled Visit" is the most commonly used type. Typically, you would define one anchoring visit first, which is usually the first treatment visit. Afterward, you can create additional visits by linking them to the anchor visit and specifying their respective window days.
 
 ![Animation - Create Study Visits](./img/demo/info_demo_sc_37_visits.gif)
+
+### Study Activities
+
+The Schedule of Activities (SoA) is a crucial part of the study design. It outlines the activities that will be performed during each visit. The SoA is defined in the **Study Activities** section, where you can assign activities and associate them to visits.
+
+When a study activity should be added, ideally activities from the library or another study should be used. It is also possible to request a new activity request which needs to be processed by a standards developer. It is easy to assign multiple activities at once by selecting the tickbox for each activity. The search could be used to filter the activities, select the corresponding one, search for the next and so on. For the grouping it makes sense to assign them either all to one group and change other later on or to add the bunch of activities of one group and then continue with the next group.
+
+![Animation - Assign Activities to a Study](./img/demo/info_demo_sc_80_activities_select.gif)
+
+
+
