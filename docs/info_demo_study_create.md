@@ -67,5 +67,7 @@ When a study activity should be added, ideally activities from the library or an
 
 ![Animation - Assign Activities to a Study](./img/demo/info_demo_sc_80_activities_select.gif)
 
+As a next step, the activities need to be assigned to the corresponding visit. This can be done in the "Schedule of Activities" tab. The "Detailed" view allows editing whereas the "Protocol" shows the view of the SoA for the protocol. On the detailed view, all groupings can be explanded by clicking the "Expand table" toggle. With the eye symbol, the grouping and activity names can either be hidden or shown. The tickmarks can be used to assign the activities to the corresponding visit. 
 
+![Animation - Assign Activities to Visits](./img/demo/info_demo_sc_81_activities_times.gif)
 
