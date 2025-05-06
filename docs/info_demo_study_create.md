@@ -3,7 +3,7 @@
 (created 2025-04-29 using v0.14)  
 {: class="guideCreated"}
 
-This demonstration provides a step-by-step guide on how to create a study. For this purpose, we can use the **CDISC Pilot Study** as an example. The corresponding **clinical protocol** is available [here](https://wiki.ihe.net/images/4/47/Lzzt_protocol_redacted.pdf).  Alternatively, we can utilize the **USDM (Unified Study Definitions Model)** representation of the study. An example of the USDM 3.0 representation of this protocol is available. The **Excel USDM** file, created by data4knowledge, can be accessed [here](https://github.com/data4knowledge/study_definitions_workbench/tree/main/docs/examples/Excel) (file dated 12 November 2024).  
+This demonstration provides a step-by-step guide on how to create a study. For this purpose, we can use the **CDISC Pilot Study** as an example. The corresponding **clinical protocol** is available [here](https://wiki.ihe.net/images/4/47/Lzzt_protocol_redacted.pdf){target=_blank}.  Alternatively, we can utilize the **USDM (Unified Study Definitions Model)** representation of the study. An example of the USDM 3.0 representation of this protocol is available. The **Excel USDM** file, created by data4knowledge, can be accessed [here](https://github.com/data4knowledge/study_definitions_workbench/tree/main/docs/examples/Excel){target=_blank} (file dated 12 November 2024).  
 
 
 ## Create Study
@@ -35,3 +35,26 @@ The **Dictionaries** and **Data Exchange** standards are also intended to link t
 ## Define Study
 
 The most important section to create the study content is the **Define Study** section. 
+
+### Study Epochs
+
+The different study epochs can be defined in this area. 
+
+There are four different types of epochs:
+
+- **Pre-treatment**: The period before the treatment phase, during which subjects may undergo additional evaluations or assessments to establish a baseline for comparison with post-treatment data.
+- **Treatment**: The period during which subjects receive the study treatment or intervention.
+- **No-Treatment**: The period during which subjects do not receive any treatment or intervention, often used for comparison with the treatment group.
+- **Post-treatment**: The period after the treatment phase, during which subjects are monitored for any long-term effects or outcomes of the treatment. 
+
+For each epoch type, there are also various sub-types available. For example, the **Screening** sub-type is available for the **Pre-treatment** epoch. The sub-type is based on a CDISC codelist to ensure consistency and compliance.
+
+![Animation - Create Study Epochs](./img/demo/info_demo_sc_35_epochs.gif)
+
+### Study Visits
+
+The **Study Visits** section allows you to define the visits for the study. There are different visit types available. Visits are anchored and relative to other visits. This "anchoring" helps maintain the relationship between visits. Detailed options and functionality related to visits are described in the system documentation [here](https://openstudybuilder.northeurope.cloudapp.azure.com/doc/guides/userguide/studies/guide_visits.html){target=_blank}.
+
+In general, the "Scheduled Visit" is the most commonly used type. Typically, you would define one anchoring visit first, which is usually the first treatment visit. Afterward, you can create additional visits by linking them to the anchor visit and specifying their respective window days.
+
+![Animation - Create Study Visits](./img/demo/info_demo_sc_37_visits.gif)
