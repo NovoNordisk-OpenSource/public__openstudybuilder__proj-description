@@ -4,6 +4,8 @@
 
 Date | Event 
 -- | --
+5 May 2025 | Community Meeting (virtual) 
+28 April 2025 | OSB-Trail-SystemEngineers (Testing, Loading, Migration)
 7 April 2025 | Community Meeting (virtual)
 24 March 2025 | OSB-Trail-SystemEngineers (APIs)
 10 March 2025 | Community Meeting (virtual)
@@ -12,6 +14,18 @@ Date | Event
 10 February 2025 | Community Meeting (virtual) 
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+### Community Meeting (virtual)
+
+(5 May 2025, virtual event)
+
+We discussed various aspects of the OpenStudyBuilder in our monthly community meeting.
+
+### OSB-Trail-SystemEngineers (Testing, Loading, Migration)
+
+(28 April 2025, 15:00-16:00 CET, virtual event)
+
+This session in our COSA Collaboration Team for OSB-Trail-SystemEngineers focused on Testing, Initial Loading, and Migrations.
 
 ### Community Meeting (virtual)
 
