@@ -43,3 +43,22 @@ img {
 .imageNoBorder {
   border: none;
 }
+
+
+.small-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.small-table thead th {
+  text-align: center; /* Center align only for thead */
+}
+
+.small-table th, .small-table td {
+  padding: 2px; 
+  border: 1px solid #000;
+}
+
+.light-grey-back {
+  background-color: #f0f0f0;
+}
