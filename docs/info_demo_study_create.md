@@ -71,3 +71,10 @@ As a next step, the activities need to be assigned to the corresponding visit. T
 
 ![Animation - Assign Activities to Visits](./img/demo/info_demo_sc_81_activities_times.gif)
 
+### Data Specifications
+
+When the activities are specified, the concrete data specifications for these can be defined. These specifications are concepts that are connected to data definitions, such as the domains they belong to and the additional attributes associated with them. In the future, these will also be linked to CRF items and forms, allowing the CRF as required by the Schedule of Activities to be automatically generated.
+
+When navigating to the "Data Specifications" area for the first time, the system will automatically link recommendations for activity instances to the available activities. If no corresponding activity instance is available, an "Action needed" flag is displayed instead. It is recommended to review the activity instance. For example, for "Glucose," it might be collected as either a numeric or categorical value.
+
+![Animation - Assign Data Specifications](./img/demo/info_demo_sc_90_data.gif)
