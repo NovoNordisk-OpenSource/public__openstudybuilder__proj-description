@@ -98,6 +98,10 @@ In the "Data Exchange Standards" area, the data models as well as the implementa
 
 ## Admin Definition
 
-Typically, clinical studies are grouped into projects which belong to clinical programs. 
+Typically, clinical studies are grouped into projects which belong to clinical programs. These programs and project can be created and deleted in the admin definition panel. 
 
-To be continued...
+![Animation - Quick Overview of Admin Definitions](./img/demo/info_demo_lib_60_admin_defs.gif)
+
+## List
+
+It is also intended to be able to browse the different data standards. But this is currently work in progress.

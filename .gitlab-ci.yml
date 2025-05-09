@@ -27,6 +27,7 @@ pages:
     - public  
   only:
   - main
+  - dev_create_study
 
 
 

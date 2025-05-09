@@ -4,8 +4,6 @@ Overview
 
 Date | Event | Status 
 -- | -- | --
-28 April 2025 | OSB-Trail-SystemEngineers (Testing, Loading, Migration) | Scheduled
-5 May 2025 | Community Meeting (virtual) | Scheduled
 13 May 2025 | Workshop at CDISC EU Interchange - Geneva, Switzerland | Scheduled
 14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland | Scheduled
 16 May 2025 | CDISC 360i Working Group - Geneva, Switzerland | Scheduled
@@ -15,20 +13,6 @@ Date | Event | Status
 23-24 September 2025 | DDF: Mission Possible (East Hanover, New Jersey & Basel, Switzerland) | Planned
 23 October  2025 | PHUSE SDE Copenhagen, Denmark | Planned
 16-19 November 2025 | PHUSE EU Connect - Hamburg, Germany | Planned
-
-## OSB-Trail-SystemEngineers (Testing, Loading, Migration)
-
-(28 April 2025, 15:00-16:00 CET, virtual event)
-
-This is the next session in our COSA Collaboration Team for OSB-Trail-SystemEngineers! This time focused on Testing, Initial Loading, and Migrations.
-
-## Community Meeting (virtual)
-
-(5 May 2025, virtual event)
-
-Join us at the OpenStudyBuilder community meeting! Don't miss out on the opportunity to ask any questions to us! We can demonstrate various functionality and provide insightful answers. We can discuss on a wide range of subjects.
-
-You can register for the event [here](https://www.linkedin.com/events/openstudybuildercommunitymeetin7309849598674587649/comments/){target=_blank}.
 
 ## Workshop at CDISC EU Interchange 
 
