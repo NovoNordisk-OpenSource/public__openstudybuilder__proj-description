@@ -1,0 +1,224 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:W. Europe Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN=katja.glass;RSVP=TRUE:mailto:katja.glass@glacon.eu
+ATTENDEE;CN="MT (Mikkel Traun)";ROLE=OPT-PARTICIPANT;RSVP=TRUE:mailto:mt@no
+	vonordisk.com
+ATTENDEE;CN="NDJZ (Nicolas DE SAINT JORRE)";ROLE=OPT-PARTICIPANT;RSVP=TRUE:
+	mailto:NDJZ@novonordisk.com
+CLASS:PUBLIC
+CREATED:20240625T094617Z
+DESCRIPTION:Please welcome to our OSB-Hub where we want to introduce the OS
+	B-Trail-ControlledTerminology community team!\n\n \n\nYou find additional 
+	information on our wiki <https://github.com/cdisc-org/osb-hub/wiki> !\n\n 
+	\n\n______________________________________________________________________
+	__________\n\nMicrosoft Teams Need help? <https://aka.ms/JoinTeamsMeeting?
+	omkt=en-US>  \n\nJoin the meeting now <https://teams.microsoft.com/l/meetu
+	p-join/19%3ameeting_Njg1ZmQ3YjktNTMyOC00ZDA3LWJjZjAtZGUzNzQ1ZDA0OGQx%40thr
+	ead.v2/0?context=%7b%22Tid%22%3a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22
+	%2c%22Oid%22%3a%2218ab59ad-5e0f-42b8-9792-1e2d685d0c81%22%7d>  \n\nMeeting
+	 ID: 395 390 881 383 \n\nPasscode: MTbwSJ \n\n____________________________
+	____\n\nDial in by phone \n\n+45 32 72 47 12\,\,230047620# <tel:+453272471
+	2\,\,230047620>  Denmark\, All locations \n\nFind a local number <https://
+	dialin.teams.microsoft.com/83985741-09c1-45b8-922e-280972b6be96?id=2300476
+	20>  \n\nPhone conference ID: 230 047 620# \n\nJoin on a video conferencin
+	g device \n\nTenant key: meetnovonordisk@m.webex.com \n\nVideo ID: 121 461
+	 044 6 \n\nMore info <https://www.webex.com/msteams?confid=1214610446&tena
+	ntkey=meetnovonordisk&domain=m.webex.com>  \n\nFor organizers: Meeting opt
+	ions <https://teams.microsoft.com/meetingOptions/?organizerId=18ab59ad-5e0
+	f-42b8-9792-1e2d685d0c81&tenantId=fdfed7bd-9f6a-44a1-b694-6e39c468c150&thr
+	eadId=19_meeting_Njg1ZmQ3YjktNTMyOC00ZDA3LWJjZjAtZGUzNzQ1ZDA0OGQx@thread.v
+	2&messageId=0&language=en-US>  | Reset dial-in PIN <https://dialin.teams.m
+	icrosoft.com/usp/pstnconferencing>  \n\n <https://www.novonordisk.com/cont
+	ent/dam/Denmark/HQ/Commons/images/true-blue-logo-600px.image.68.0.png> \n\
+	nNote: For an optimal meeting experience always use the Teams client inste
+	ad of the dial-in number.\n\nOrg help <https://novonordisk.sharepoint.com/
+	sites/LearnMicrosoft365/SitePages/Get-started-with-Microsoft-Teams.aspx>  
+	\n\n______________________________________________________________________
+	__________\n\n \n\n
+DTEND;TZID="W. Europe Standard Time":20240715T155000
+DTSTAMP:20240625T094417Z
+DTSTART;TZID="W. Europe Standard Time":20240715T150000
+LAST-MODIFIED:20240625T094617Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="KJGL (Katja Glass)":mailto:KJGL@novonordisk.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:OSB-Hub & OSB-Trail-ControlledTerminology
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000B0DC2EE3F4C6DA01000000000000000
+	01000000078D0D672508FBF41B9C665B708F79B60
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta name=Generato
+	r content="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\\:*
+	 {behavior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\\
+	:* {behavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\;}\n
+	</style><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	{fon
+	t-family:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	
+	{font-family:"Yu Gothic"\;\n	panose-1:2 11 4 0 0 0 0 0 0 0\;}\n@font-face\
+	n	{font-family:Verdana\;\n	panose-1:2 11 6 4 3 5 4 4 2 4\;}\n@font-face\n	
+	{font-family:Aptos\;}\n@font-face\n	{font-family:"Segoe UI"\;\n	panose-1:2
+	 11 5 2 4 2 4 2 2 3\;}\n@font-face\n	{font-family:"\\@Yu Gothic"\;\n	panos
+	e-1:2 11 4 0 0 0 0 0 0 0\;}\n/* Style Definitions */\np.MsoNormal\, li.Mso
+	Normal\, div.MsoNormal\n	{margin:0in\;\n	font-size:11.0pt\;\n	font-family:
+	"Aptos"\,sans-serif\;\n	mso-ligatures:standardcontextual\;\n	mso-fareast-l
+	anguage:JA\;}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	col
+	or:#467886\;\n	text-decoration:underline\;}\nspan.EmailStyle17\n	{mso-styl
+	e-type:personal-compose\;\n	font-family:"Verdana"\,sans-serif\;\n	color:wi
+	ndowtext\;}\nspan.me-email-text\n	{mso-style-name:me-email-text\;}\nspan.m
+	e-email-text-secondary\n	{mso-style-name:me-email-text-secondary\;}\nspan.
+	me-email-headline\n	{mso-style-name:me-email-headline\;}\n.MsoChpDefault\n
+		{mso-style-type:export-only\;\n	font-size:11.0pt\;\n	mso-fareast-language
+	:JA\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 1.0in 1.0
+	in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style><!--[if 
+	gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />\n</xml><
+	![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">\n<o:idma
+	p v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></head><body
+	 lang=EN-GB link="#467886" vlink="#96607D" style='word-wrap:break-word'><d
+	iv class=WordSection1><p class=MsoNormal><span style='font-size:10.0pt\;fo
+	nt-family:"Verdana"\,sans-serif'>Please welcome to our OSB-Hub where we wa
+	nt to introduce the OSB-Trail-ControlledTerminology community team!<o:p></
+	o:p></span></p><p class=MsoNormal><span style='font-size:10.0pt\;font-fami
+	ly:"Verdana"\,sans-serif'><o:p>&nbsp\;</o:p></span></p><p class=MsoNormal>
+	<span style='font-size:10.0pt\;font-family:"Verdana"\,sans-serif'>You find
+	 additional information on our <a href="https://github.com/cdisc-org/osb-h
+	ub/wiki">wiki</a>!<o:p></o:p></span></p><p class=MsoNormal><span style='fo
+	nt-size:10.0pt\;font-family:"Verdana"\,sans-serif'><o:p>&nbsp\;</o:p></spa
+	n></p><div><div style='margin-bottom:.25in\;overflow:hidden'><p class=MsoN
+	ormal><span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'>____
+	__________________________________________________________________________
+	__</span><span style='font-size:12.0pt\;font-family:"Segoe UI"\,sans-serif
+	\;color:#242424\;mso-ligatures:none'><o:p></o:p></span></p></div><div styl
+	e='margin-bottom:9.0pt'><p class=MsoNormal><span class=me-email-text><b><s
+	pan style='font-size:18.0pt\;font-family:"Segoe UI"\,sans-serif\;color:#24
+	2424'>Microsoft Teams</span></b></span><span style='font-family:"Segoe UI"
+	\,sans-serif\;color:#242424'> <a href="https://aka.ms/JoinTeamsMeeting?omk
+	t=en-US"><span style='font-size:10.5pt\;color:#5B5FC7'>Need help?</span></
+	a> <o:p></o:p></span></p></div><div style='margin-bottom:4.5pt'><p class=M
+	soNormal><span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'><
+	a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Njg1ZmQ3Yjk
+	tNTMyOC00ZDA3LWJjZjAtZGUzNzQ1ZDA0OGQx%40thread.v2/0?context=%7b%22Tid%22%3
+	a%22fdfed7bd-9f6a-44a1-b694-6e39c468c150%22%2c%22Oid%22%3a%2218ab59ad-5e0f
+	-42b8-9792-1e2d685d0c81%22%7d" target="_blank" title="Meeting join link"><
+	b><span style='font-size:15.0pt\;color:#5B5FC7'>Join the meeting now</span
+	></b></a> <o:p></o:p></span></p></div><div style='margin-bottom:4.5pt'><p 
+	class=MsoNormal><span class=me-email-text-secondary><span style='font-size
+	:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#616161'>Meeting ID: </
+	span></span><span class=me-email-text><span style='font-size:10.5pt\;font-
+	family:"Segoe UI"\,sans-serif\;color:#242424'>395 390 881 383</span></span
+	><span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o
+	:p></span></p></div><div style='margin-bottom:.25in'><p class=MsoNormal><s
+	pan class=me-email-text-secondary><span style='font-size:10.5pt\;font-fami
+	ly:"Segoe UI"\,sans-serif\;color:#616161'>Passcode: </span></span><span cl
+	ass=me-email-text><span style='font-size:10.5pt\;font-family:"Segoe UI"\,s
+	ans-serif\;color:#242424'>MTbwSJ</span></span><span style='font-family:"Se
+	goe UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p></div><div styl
+	e='margin-bottom:.25in'><div class=MsoNormal align=center style='text-alig
+	n:center'><span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'>
+	<hr size=1 width="100%" align=center></span></div></div><div><div style='m
+	argin-bottom:4.5pt'><p class=MsoNormal><span class=me-email-text><b><span 
+	style='font-family:"Segoe UI"\,sans-serif\;color:#242424'>Dial in by phone
+	</span></b></span><span style='font-family:"Segoe UI"\,sans-serif\;color:#
+	242424'> <o:p></o:p></span></p></div><div style='margin-bottom:4.5pt'><p c
+	lass=MsoNormal><span style='font-family:"Segoe UI"\,sans-serif\;color:#242
+	424'><a href="tel:+4532724712\,\,230047620"><span style='font-size:10.5pt\
+	;color:#5B5FC7'>+45 32 72 47 12\,\,230047620#</span></a> </span><span clas
+	s=me-email-text><span style='font-size:10.5pt\;font-family:"Segoe UI"\,san
+	s-serif\;color:#616161'>Denmark\, All locations</span></span><span style='
+	font-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p>
+	</div><div style='margin-bottom:4.5pt'><p class=MsoNormal><span style='fon
+	t-family:"Segoe UI"\,sans-serif\;color:#242424'><a href="https://dialin.te
+	ams.microsoft.com/83985741-09c1-45b8-922e-280972b6be96?id=230047620"><span
+	 style='font-size:10.5pt\;color:#5B5FC7'>Find a local number</span></a> <o
+	:p></o:p></span></p></div></div><div style='margin-bottom:.25in'><p class=
+	MsoNormal><span class=me-email-text-secondary><span style='font-size:10.5p
+	t\;font-family:"Segoe UI"\,sans-serif\;color:#616161'>Phone conference ID:
+	 </span></span><span class=me-email-text><span style='font-size:10.5pt\;fo
+	nt-family:"Segoe UI"\,sans-serif\;color:#242424'>230 047 620#</span></span
+	><span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o
+	:p></span></p></div><div style='margin-bottom:4.5pt'><p class=MsoNormal><s
+	pan class=me-email-headline><b><span style='font-family:"Segoe UI"\,sans-s
+	erif\;color:#242424'>Join on a video conferencing device</span></b></span>
+	<span style='font-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o:
+	p></span></p></div><div style='margin-bottom:4.5pt'><p class=MsoNormal><sp
+	an class=me-email-text><span style='font-size:10.5pt\;font-family:"Segoe U
+	I"\,sans-serif\;color:#616161'>Tenant key: </span></span><span class=me-em
+	ail-text><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif
+	\;color:#242424'>meetnovonordisk@m.webex.com</span></span><span style='fon
+	t-family:"Segoe UI"\,sans-serif\;color:#242424'> <o:p></o:p></span></p></d
+	iv><div style='margin-bottom:4.5pt'><p class=MsoNormal><span class=me-emai
+	l-text-secondary><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sa
+	ns-serif\;color:#616161'>Video ID: </span></span><span class=me-email-text
+	><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:
+	#242424'>121 461 044 6</span></span><span style='font-family:"Segoe UI"\,s
+	ans-serif\;color:#242424'> <o:p></o:p></span></p></div><div style='margin-
+	bottom:.25in'><p class=MsoNormal><span style='font-family:"Segoe UI"\,sans
+	-serif\;color:#242424'><a href="https://www.webex.com/msteams?confid=12146
+	10446&amp\;tenantkey=meetnovonordisk&amp\;domain=m.webex.com" target="_bla
+	nk"><span style='font-size:10.5pt\;color:#5B5FC7'>More info</span></a> <o:
+	p></o:p></span></p></div><div><p class=MsoNormal><span class=me-email-text
+	-secondary><span style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-ser
+	if\;color:#616161'>For organizers: </span></span><span style='font-family:
+	"Segoe UI"\,sans-serif\;color:#242424'><a href="https://teams.microsoft.co
+	m/meetingOptions/?organizerId=18ab59ad-5e0f-42b8-9792-1e2d685d0c81&amp\;te
+	nantId=fdfed7bd-9f6a-44a1-b694-6e39c468c150&amp\;threadId=19_meeting_Njg1Z
+	mQ3YjktNTMyOC00ZDA3LWJjZjAtZGUzNzQ1ZDA0OGQx@thread.v2&amp\;messageId=0&amp
+	\;language=en-US" target="_blank"><span style='font-size:10.5pt\;color:#5B
+	5FC7'>Meeting options</span></a> </span><span style='font-family:"Segoe UI
+	"\,sans-serif\;color:#D1D1D1'>|</span><span style='font-family:"Segoe UI"\
+	,sans-serif\;color:#242424'> <a href="https://dialin.teams.microsoft.com/u
+	sp/pstnconferencing" target="_blank"><span style='font-size:10.5pt\;color:
+	#5B5FC7'>Reset dial-in PIN</span></a> <o:p></o:p></span></p></div><div sty
+	le='margin-top:.25in\;margin-bottom:4.5pt'><p class=MsoNormal><span style=
+	'font-family:"Segoe UI"\,sans-serif\;color:#242424'><img border=0 width=68
+	 height=47 style='width:.7083in\;height:.4895in' id="_x0000_i1026" src="ht
+	tps://www.novonordisk.com/content/dam/Denmark/HQ/Commons/images/true-blue-
+	logo-600px.image.68.0.png"></span><span style='font-family:"Segoe UI"\,san
+	s-serif\;color:#242424'><o:p></o:p></span></p><div><p class=MsoNormal><spa
+	n style='font-size:10.5pt\;font-family:"Segoe UI"\,sans-serif\;color:#6161
+	61'>Note: For an optimal meeting experience always use the Teams client in
+	stead of the dial-in number.<o:p></o:p></span></p></div></div><div style='
+	margin-bottom:.25in'><p class=MsoNormal><span style='font-family:"Segoe UI
+	"\,sans-serif\;color:#242424'><a href="https://novonordisk.sharepoint.com/
+	sites/LearnMicrosoft365/SitePages/Get-started-with-Microsoft-Teams.aspx" t
+	arget="_blank"><span style='font-size:10.5pt\;color:#5B5FC7'>Org help</spa
+	n></a> </span><span style='font-size:12.0pt\;font-family:"Segoe UI"\,sans-
+	serif\;color:#242424'><o:p></o:p></span></p></div><div style='margin-botto
+	m:.25in\;overflow:hidden'><p class=MsoNormal><span style='font-family:"Seg
+	oe UI"\,sans-serif\;color:#242424'>_______________________________________
+	_________________________________________<o:p></o:p></span></p></div></div
+	><p class=MsoNormal><span style='font-size:10.0pt\;font-family:"Verdana"\,
+	sans-serif'><o:p>&nbsp\;</o:p></span></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-APPTSEQTIME:20240625T094417Z
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

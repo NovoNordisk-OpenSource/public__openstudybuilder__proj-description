@@ -1,0 +1,64 @@
+img {
+  border: 1px solid;
+}
+
+.md-typeset hr {
+  margin: 1.5em 0;
+  border-bottom: 0.05rem solid hsl(0deg 0% 0% / 25%);
+}
+
+:root {
+  --md-primary-fg-color: #3a96df;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #011965;
+}
+
+:root > * {
+  --md-footer-fg-color: hsla(0, 0%, 100%, 1);
+  --md-footer-bg-color: #3a96df;
+  --md-footer-bg-color--dark: #2f7bb9;
+}
+
+.guideH1 {
+  margin: 0 0 0 !important;
+}
+
+.guideCreated {
+  margin: 0 0 1.25em;
+  font-size: 0.6rem;
+}
+
+.imageDescription {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0;
+  font-size: 0.7rem;
+}
+
+.imageParagraph {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.imageNoBorder {
+  border: none;
+}
+
+
+.small-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.small-table thead th {
+  text-align: center; /* Center align only for thead */
+}
+
+.small-table th, .small-table td {
+  padding: 2px; 
+  border: 1px solid #000;
+}
+
+.light-grey-back {
+  background-color: #f0f0f0;
+}
