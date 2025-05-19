@@ -765,7 +765,7 @@ We checked some examples for assessments and how there are stored in the OpenStu
 
 A question about maintenance came up. As this is an open-source project it relies on the community to support general topics and issues. When there is a more detailed need for support, then it is recommended to use vendors commercially. The current contributors are lists and can easily be contacted. The OpenStudyBuilder would also be happy to include additional vendors to provide services around the OpenStudyBuilder. Novo Nordisk has no intention of being a software provider. The idea is to facilitate knowledge sharing and sharing these solutions among pharma companies. Then there could be a network of suppliers that can give you professional services around the use and installation and integrations and validations and so on.
 
-A lot of documentation is available. The community documentation is this page here. Then we do have the repository documentation along with the source code in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution).. And finally, there is the in-build tool documentation which can be access by the local installation the "documentation" area or through the sandbox access where the documentation is available as well.
+A lot of documentation is available. The community documentation is this page here. Then we do have the repository documentation along with the source code in [GitHub](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution). And finally, there is the in-build tool documentation which can be access by the local installation the "documentation" area or through the sandbox access where the documentation is available as well.
 
 
 ### PHUSE EMEA Autumn SDE (Copenhagen)

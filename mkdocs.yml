@@ -48,7 +48,7 @@ extra_css:
 
 # Repository
 repo_name: OpenStudyBuilder
-repo_url: https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description
+repo_url: https://github.com/NovoNordisk-OpenSource/openstudybuilder-description
 
 # Configuration
 theme:

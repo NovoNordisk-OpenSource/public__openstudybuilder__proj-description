@@ -2,7 +2,7 @@
 
 ## Release of OpenStudyBuilder
 
-The OpenStudyBuilder has been released on 24.10.2022 and is available as open source in [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
+The OpenStudyBuilder has been released on 24.10.2022 and is available as open source in [GitLab](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
 
 Thanks to Novo Nordisk for sharing this as open source to enable the next level of collaboration! 
 
@@ -29,7 +29,7 @@ The API provides a standard interface which is very powerful. The application it
 
 ### The Documentation
 
-This project homepage contains core information as well as information about upcoming [events](info_events.md). For instructions on how to install all components together or just single components, see the single readme files in the [GitLab repository](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}. And finally, there is also the documentation portal with the documentation coming along with the tool itself – this is accessible through the Sandbox system [here](https://openstudybuilder.northeurope.cloudapp.azure.com/doc/){target=_blank}. 
+This project homepage contains core information as well as information about upcoming [events](info_events.md). For instructions on how to install all components together or just single components, see the single readme files in the [GitHub repository](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}. And finally, there is also the documentation portal with the documentation coming along with the tool itself – this is accessible through the Sandbox system [here](https://openstudybuilder.northeurope.cloudapp.azure.com/doc/){target=_blank}. 
 
 ## Demonstration Video
 

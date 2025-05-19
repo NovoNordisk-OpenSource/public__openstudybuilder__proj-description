@@ -219,7 +219,7 @@ Luckily not everyone needs to understand these concepts. A study designer can st
 
 ## OpenStudyBuilder Data Model
 
-The concepts data model is documented in the OpenStudyBuilder public repository and can be browsed to gain a better understanding of these. You do find the data model diagrams under ["neo4j-mdr-db\model"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model){target=_blank}. Note the solution is a MVP solution under development and the documentation is under updates as well. There might therefore be gaps in the diagrams, enhancements and updates to these data model diagrams. Development is ongoing and models will be updated as part of new releases. 
+The concepts data model is documented in the OpenStudyBuilder public repository and can be browsed to gain a better understanding of these. You do find the data model diagrams under ["neo4j-mdr-db\model"](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/neo4j-mdr-db/model){target=_blank}. Note the solution is a MVP solution under development and the documentation is under updates as well. There might therefore be gaps in the diagrams, enhancements and updates to these data model diagrams. Development is ongoing and models will be updated as part of new releases. 
 
 To manage the complexity of the domain, we distinguish between four abstraction layers from a data model perspective: 
 
@@ -230,7 +230,7 @@ To manage the complexity of the domain, we distinguish between four abstraction 
 
 The models are created using a yEd editor from yWorks, it is suggested to use this software to view the models (software available [here](https://www.yworks.com/products/yed){target=_blank} or live view [here](https://www.yworks.com/yed-live/){target=_blank}). 
 
-The Logical Modal for Activity Concept Class is for example available via ["neo4j-mdr-db\model\logical_data_model\logical-model-activity-class-concept.graphml"](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/neo4j-mdr-db/model/logical_data_model/logical-model-activity-class-concept.graphml){target=_blank}. 
+The Logical Modal for Activity Concept Class is for example available via ["neo4j-mdr-db\model\logical_data_model\logical-model-activity-class-concept.graphml"](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/blob/main/neo4j-mdr-db/model/logical_data_model/logical-model-activity-class-concept.graphml){target=_blank}. 
 
 ## References
 

@@ -23,4 +23,4 @@ If you would like to get additional information and want to discuss possible col
 
 ## Bugs and Issues
 
-If you are running into bugs or issues, please use the [GitLab Issues](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/issues){target=_blank} to report them. You might also want to reach out to us via [Slack](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank} for questions.
+If you are running into bugs or issues, please use the [GitHub Issues](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/issues){target=_blank} to report them. You might also want to reach out to us via [Slack](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank} for questions.

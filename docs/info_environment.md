@@ -4,11 +4,11 @@
 
 The current implementation required CDISC library access to access CDISC standards (freely available also for non-CDISC-members), a Neo4j database license for the database (a community version is available) and a set of servers where the web applications and API services can run. A docker-setup is available as well.
 
-Access to the open-source code is available via [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution){target=_blank}.
+Access to the open-source code is available via [GitHub](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}.
 
 Access to a cloud-based or a dedicated evaluation environment can be provided by Neo4j free of charge. Please check the following section for more information.
 
-It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/README.md){target=_blank} file. The different components can also be used independently due to the modular implementation and API usages - install instructions are available in the single sub-areas readme files.
+It is also possible to run the full system on a **local desktop environment** or on an individual cloud subscription on any of the main cloud providers. Instructions on how to set up the system on a local desktop can be found in the [readme](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/blob/main/README.md){target=_blank} file. The different components can also be used independently due to the modular implementation and API usages - install instructions are available in the single sub-areas readme files.
 
 ## Cloud evaluation environments
 
