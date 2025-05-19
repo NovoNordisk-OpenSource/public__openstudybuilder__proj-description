@@ -49,7 +49,7 @@ The following example is expecting that the OpenStudyBuilder is running in a loc
 
 The next step could be to load the controlled terminology to two databases, the "CDISC CT DB" and the "MDR DB". The script has three parameters. The first one is the initials, the second one the path and the third one defines whether or not to skip the download process from the CDISC API. For the path, use the absolute path without quotes. Please note that this step can run for some hours for the initial load.
 
-There is also a script to load sponsor specific codelists and terms into the OpenStudyBuilder as part of the `data-import` component. The content is maintained in simple CSV files which is then transferred into the database.  For more info see the [Readme.md](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/data-import/README.md){target=_blank} in the `data-import` component. 
+There is also a script to load sponsor specific codelists and terms into the OpenStudyBuilder as part of the `data-import` component. The content is maintained in simple CSV files which is then transferred into the database.  For more info see the [Readme.md](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/blob/main/studybuilder-import/README.md){target=_blank} in the `data-import` component. 
 
 ## APIs to Create / Update Codelists
 

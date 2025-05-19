@@ -10,7 +10,7 @@ Checkout available resources!
 - Newsletter: [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}
 - Demonstration Video: [YouTube](https://youtu.be/dL5CY0BwfEs){target=_blank}
 - Demonstration Flow: [Homepage](./info_demo.md)
-- Repository (Solution, Description): [GitLab](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder){target=_blank}
+- Repository: [GitLab](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/){target=_blank}
 - Slack: [Join](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank}
 - Email: [openstudybuilder@gmail.com](mailto:openstudybuilder@gmail.com)
 - Request sandbox access: [Sandbox](./guide_sandbox.md#getting-access){target=_blank}

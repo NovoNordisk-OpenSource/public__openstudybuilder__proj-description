@@ -2,7 +2,7 @@
 
 ![OpenStudyBuilder Tool Logo](./img/studyBuilderLogo.png)
 
-The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information. Please checkout the **[documentation portal](https://novo-nordisk.gitlab.io/nn-public/openstudybuilder/project-description/)** for further details and events.
+The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes - all the way from protocol development and CRF design - to creation of datasets, analysis, reporting, submission to health authorities and public disclosure of study information. Please checkout the **[project homepage](https://openstudybuilder.com)** for further details and events.
 
 ## Overview
 
@@ -11,9 +11,9 @@ Type | Description
 Project Type | [COSA project (CDISC Open Source Alliance)](https://cosa.cdisc.org/)
 Owner | Novo Nordisk A/S
 Contact | OpenStudyBuilder@gmail.com<br>Regular Open Sessions planned<br>Slack: [Join OpenStudyBuilder](https://join.slack.com/t/openstudybuilder/shared_invite/zt-124fgacgj-BfgkpsWVcksybIB6kzXlMw)
-Planned release | Q3-2022 (Source Code Release as Open Source)
-Documentation | [Documentation Portal](https://novo-nordisk.gitlab.io/nn-public/openstudybuilder/project-description/)
-Project Sub-pages | [https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder)
+First release | Q3-2022
+Documentation | [Project Homepage](https://openstudybuilder.com)
+Repository | [https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution)
 Programming Languages | Python, Cypher (Neo4j), JavaScript (Vue.js)
 Licenses | Components with MIT and GPLv3, documentation CC-BY-4.0 
 CDISC Standards | CDISC CT, CDASH, SDTM, ADaM with ODM-XML and Define-XML

@@ -13,7 +13,7 @@ Within the OpenStudyBuilder application, you can define and see the activities i
 
 The activities are managed in groups and subgroups. Whereas the "Activity" defines all general attributes, the "ActivityInstance"  is the specific identification of the logical observation. This includes reference to context and qualifier values. For example, this includes references to ADaM BDS PARAM/PARAMCD or column name in ADSL, it also includes internal unique identification as well as internal topic code. This will enable unique identification of source data, representation in SDTM by several qualifiers, and representation in ADaM BDS by PARAMCD value.
 
-The underlying data model documentation is available in GitLab and can be found [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model?ref_type=heads){target=_blank}. To understand the activities better you might want to look at the following visualizations from the OpenStudyBuilder data model. Please be aware that the models might be enhanced and evolve.
+The underlying data model documentation is available in GitLab and can be found [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/neo4j-mdr-db/model){target=_blank}. To understand the activities better you might want to look at the following visualizations from the OpenStudyBuilder data model. Please be aware that the models might be enhanced and evolve.
 
 File | Description
 -- | --
@@ -167,7 +167,7 @@ To investigate which types of nodes are available, which connections are availab
 
 If you're new to Cypher, don't worry! There are several tools available that can assist you in navigating this language. Tools like ChatGPT and Copilot are designed to provide guidance and suggestions, making it easier for you to construct and understand Cypher queries.
 
-To gain a deeper understanding of the database structure, we recommend exploring the model documentation available in GitLab. You can find this under [`/neo4j-mdr-db/model`](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/tree/main/neo4j-mdr-db/model?ref_type=heads){target=_blank}. This resource provides a detailed overview of the database model, helping you to understand how the data is organized and interconnected.
+To gain a deeper understanding of the database structure, we recommend exploring the model documentation available in GitLab. You can find this under [`/neo4j-mdr-db/model`](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/neo4j-mdr-db/model){target=_blank}. This resource provides a detailed overview of the database model, helping you to understand how the data is organized and interconnected.
 
 ### Create own dashboards (neodash docker)
 

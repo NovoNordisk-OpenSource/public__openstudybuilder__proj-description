@@ -17,8 +17,8 @@ Project Type | [COSA project (CDISC Open Source Alliance)](https://cosa.cdisc.or
 Owner | Novo Nordisk A/S
 Contact | <a href="mailto:OpenStudyBuilder@gmail.com">OpenStudyBuilder@gmail.com</a><br>Regular Open Sessions planned<br>Slack: [Join OpenStudyBuilder](https://join.slack.com/t/openstudybuilder/shared_invite/zt-19mtauzic-Jvrhtmy7hGstgyiIvB1Wsw){target=_blank}
 Newsletter | [LinkedIn Newsletter](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}
-Release | 3 October 2022 
-Project Sub-pages | [https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder){target=_blank}
+First release | Q3-2022
+Repository | [https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}
 Programming Languages | Python, Cypher (Neo4j), JavaScript (Vue.js)
 Licenses | Components with MIT and GPLv3, documentation CC-BY-4.0 
 CDISC Standards | CDISC CT, CDASH, SDTM, ADaM with ODM-XML and Define-XML

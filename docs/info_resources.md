@@ -1,6 +1,6 @@
 # Resources
 
-There are various resources available. You can see videos, presentations and hints for specific events under ["past events"](./info_events_past.md). You can also find all presentations in our corresponding GitLab repository where this page is hosted [here](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/project-description/-/tree/main/docs/presentations){target=_blank}. 
+There are various resources available. You can see videos, presentations and hints for specific events under ["past events"](./info_events_past.md). You can also find all presentations in our corresponding GitHub project homepage repository where this page is hosted [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-description/tree/main/docs/presentations){target=_blank}. 
 
 On this page you find a structured list of resources - not complete but containing core information. 
 

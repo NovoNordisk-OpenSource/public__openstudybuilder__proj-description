@@ -99,12 +99,12 @@ The current version 0.4 installation does include already test data and is very 
 
 ```
 cd c:\myInstallLocation
-git clone https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution.git OpenStudyBuilder
+git clone https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution.git OpenStudyBuilder
 cd OpenStudyBuilder
 docker compose up -d --build
 ```
 
-You can also checkout the readme files in the subfolders to install individual components. If you also want to load additional CDISC terminology, you can follow along the "mdr-standards-import" [readme](https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution/-/blob/main/mdr-standards-import/README.md). You might not want to load all CTs at once, but load just those you need.
+You can also checkout the readme files in the subfolders to install individual components. If you also want to load additional CDISC terminology, you can follow along the "mdr-standards-import" [readme](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/blob/main/mdr-standards-import/README.md). You might not want to load all CTs at once, but load just those you need.
 
 Please note that Windows is not recommended, but it is working.
 
@@ -135,7 +135,7 @@ az account set --subscription <name or id>
 az group create --name myOpenStudyBuilderResourceGroup --location westeurope
 az acr create --resource-group myOpenStudyBuilderResourceGroup --name myuniqueownacrname --sku Basic
 az acr login --name myuniqueownacrname
-git clone https://gitlab.com/Novo-Nordisk/nn-public/openstudybuilder/OpenStudyBuilder-Solution.git
+git clone https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution.git
 cd OpenStudyBuilder-Solution
 ```
 
