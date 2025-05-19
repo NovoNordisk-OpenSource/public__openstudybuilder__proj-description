@@ -6,7 +6,7 @@ The OpenStudyBuilder is an open source project which was released in October 202
 
 Checkout available resources!
 
-- Project website: [https://openstudybuilder.org](https://openstudybuilder.org)
+- Project website: [https://openstudybuilder.com](https://openstudybuilder.com)
 - Newsletter: [LinkedIn](https://www.linkedin.com/newsletters/openstudybuilder-6990328054849916928/){target=_blank}
 - Demonstration Video: [YouTube](https://youtu.be/dL5CY0BwfEs){target=_blank}
 - Demonstration Flow: [Homepage](./info_demo.md)
