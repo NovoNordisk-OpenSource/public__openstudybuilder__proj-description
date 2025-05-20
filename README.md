@@ -143,7 +143,7 @@ When additional custom standards and models should be included into the biomedic
 
 The current implementation required CDISC library access to access CDISC standards, a Neo4j database license for the database and a set of servers where the web applications and API services can run.
 
-Access to the open-source code will be via a public accessible GitLab repository. A link to this repository will be provided when available.
+Access to the open-source code will be via a public accessible GitHub repository. A link to this repository will be provided when available.
 
 Novo Nordisk is using a full containerised DevOps pipeline running in Azure where everything is hosted in the cloud. We will provide guidance on how a similar dedicated cloud-based environment can be made for stakeholders looking for a similar environment.
 

@@ -2,7 +2,7 @@
 
 ## Release of OpenStudyBuilder
 
-The OpenStudyBuilder has been released on 24.10.2022 and is available as open source in [GitLab](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
+The OpenStudyBuilder has been released on 24.10.2022 and is available as open source in [GitHub](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution){target=_blank}! You can check out this metadata repository together with the graph data containing a biomedical concept by installing it locally or you can request access to the sandbox system to play around with example data even without installing anything!  
 
 Thanks to Novo Nordisk for sharing this as open source to enable the next level of collaboration! 
 
