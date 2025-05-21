@@ -1,0 +1,1773 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+    <meta property="og:image" content="https://novonordisk-opensource.github.io/openstudybuilder-description/img/screenshot.png" />
+    <meta property="og:description" content="This is a community site containing information about the OpenStudyBuilder Application. The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.">
+
+    
+      
+        <title>CRF - OpenStudyBuilder</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/general.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-for-case-report-form-crf" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="OpenStudyBuilder" class="md-header__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenStudyBuilder
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CRF
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../status/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Info
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../guide_intro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="OpenStudyBuilder" class="md-nav__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    OpenStudyBuilder
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Info
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Info
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events_past/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Past Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_contribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_osb_hub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OSB Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Context
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_costs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Costs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_newsletter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Newsletter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_14" id="__nav_2_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Demonstrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_14">
+            <span class="md-nav__icon md-icon"></span>
+            Demonstrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Library
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_lib_activities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage Activity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_study_create/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create Study
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_codelists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codelists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    CRF
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRF
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#form-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Form Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itemgroups-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      ItemGroups Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Item Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-to-link-them-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time to link them all
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-the-blank-or-the-annotated-crf" class="md-nav__link">
+    <span class="md-ellipsis">
+      See the blank or the annotated CRF!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-aliases" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Aliases
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crfs-from-the-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRFs from the API!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remarks-02-try-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remarks 0.2 try-out
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_manage_studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_study_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Study Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_visits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_activity_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Concept
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_beyond_concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beyond Concepts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_bc_dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#template-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Template Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#form-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Form Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itemgroups-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      ItemGroups Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#item-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Item Management
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-to-link-them-all" class="md-nav__link">
+    <span class="md-ellipsis">
+      Time to link them all
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-the-blank-or-the-annotated-crf" class="md-nav__link">
+    <span class="md-ellipsis">
+      See the blank or the annotated CRF!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-aliases" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Aliases
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crfs-from-the-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRFs from the API!
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remarks-02-try-out" class="md-nav__link">
+    <span class="md-ellipsis">
+      Remarks 0.2 try-out
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 class="guideH1" id="guide-for-case-report-form-crf">Guide for Case Report Form (CRF)<a class="headerlink" href="#guide-for-case-report-form-crf" title="Permanent link">&para;</a></h1>
+<p class="guideCreated">(created 2022-12-12 using v0.2) </p>
+<p>The OpenStudyBuilder offers a Case Report Form (CRF) management feature in both the library and at the study level. For the moment - version 0.2 - the CRF is only available inside the library. We follow the CDISC Operational Data Model (ODM) with respect to terminology, structure and as import/export format as this is our industry standard and fits best connectivity requirements.</p>
+<p>The following video provides a great overview of the CRF featues available in version 0.2:</p>
+<p><iframe
+  title="CRF support in OpenStudyBuilder"
+  width=720
+  height=405
+  src="https://www.youtube-nocookie.com/embed/ubG9IJU9wVQ"
+  frameBorder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+</p>
+<p>The idea is to allow the end user to create Forms, Item Groups and Items for a CRF and bind them inside a template. This template can be validated and reused. It is possible to link its metadata to the activities that are also available in the library, and allows usage by the protocol. </p>
+<p>This linking and metadata allows for automation and traceability, which is a main benefit for Biomedical Concepts.</p>
+<p class="imageParagraph"><img alt="Screenshot of the CRF Tree in the OpenStudyBuilder" src="../img/guide_crf_01.png" /></p>
+<p class="imageDescription">Figure 1: Screenshot of the CRF Tree in the OpenStudyBuilder</p>
+<p>The CRFs part can be accessed by browsing the "Concepts" menu in the library.</p>
+<h2 id="template-management">Template Management<a class="headerlink" href="#template-management" title="Permanent link">&para;</a></h2>
+<p>The first step is to create a Template. By clicking on the <strong>Add</strong> button, a new Template can be defined with:</p>
+<ul>
+<li>A dedicated Name,</li>
+<li>A unique Object Identifier (OID) - if empty, OpenStudyBuilder will generate this</li>
+<li>Optionally specify a start (effective) and an end (obsolete) date</li>
+</ul>
+<p>Perform validation and set the validated flag to be able to use it outside the library.</p>
+<p>Clicking on the Relation icon in the table allows to see how this <strong>T</strong>emplate is linked to other CRF elements. The following image shows a small example of a template containing the <strong>F</strong>orm "Informed Consent and Demography", which contains two item<strong>G</strong>roups, one is "Informed Consent" which holds three single <strong>I</strong>tems, one example is "Study ID".</p>
+<p class="imageParagraph"><img alt="Relation of a Template with other CRF elements" src="../img/guide_crf_02.png" /></p>
+<p class="imageDescription">Figure 2: Relation of a Template with other CRF elements</p>
+<h2 id="form-management">Form Management<a class="headerlink" href="#form-management" title="Permanent link">&para;</a></h2>
+<p>The forms tab allows to access to the list of available forms in the library.
+By clicking the <strong>Add</strong> button, a dedicated page with a stepper system (with 2 steps) is opened. The first step deals with the definition of your form. The following needs to be provided:</p>
+<ul>
+<li>In the Definition part:<ul>
+<li>Mandatory name,</li>
+<li>OID - we recommend a prefix of F. (example: F.DM),</li>
+<li>Is the form repeated or not,</li>
+<li>Description and implementation notes,</li>
+</ul>
+</li>
+<li>In the Display part:<ul>
+<li>Display text (that can be used on the CRF as the full name of the form),</li>
+<li>Some completion Instructions.</li>
+</ul>
+</li>
+</ul>
+<p>In the second step, alternative names, so called "Aliases", can be defined by providing:</p>
+<ul>
+<li>Context (application domain, for example SDTM),</li>
+<li>Name (for example DM:Demographics).</li>
+</ul>
+<p>Save the Form and it will be added to the list in the table. Again, remember to validate it to enable form usage.</p>
+<h2 id="itemgroups-management">ItemGroups Management<a class="headerlink" href="#itemgroups-management" title="Permanent link">&para;</a></h2>
+<p>An item group is an operational data model element (see <a href="https://www.cdisc.org/standards/foundational/odm-xml/odm-xml-v1-3-2">'Specification for the Operational Data Model (ODM) Version 1.3.2 Production'</a> document available on the web site of CDISC) that groups a set of items that are consistent together.</p>
+<p>The corresponding tab lists every ItemGroup available in the library.</p>
+<p>By clicking the <strong>Add</strong> button, the following information can be entered:</p>
+<ul>
+<li>In the definition part:<ul>
+<li>Mandatory Name,</li>
+<li>OID - recommendation to start with "G.",</li>
+<li>Is the ItemGroup repeated or not,</li>
+<li>Description and implementation notes,</li>
+</ul>
+</li>
+<li>In the display part:<ul>
+<li>Display text (that can be used on the CRF as the full name of the Form),</li>
+<li>Some completion instructions,</li>
+</ul>
+</li>
+<li>In the annotations and reporting part:<ul>
+<li>Select one or more Domain(s) - will be used in the annotated version of the CRF,</li>
+<li>One or more SAS dataset name (could be used by connecting systems),</li>
+<li>Specify if this ItemGroup is or not referential data (If "IsReferenceData" is "Yes", this type of item group can occur only within a "ReferenceData" element - See the Specification for the Operational Data Model (ODM) Version 1.3.2 Production for more information),</li>
+<li>Select an origin for your ItemGroup (could be used when creating define.xml for SDTM),</li>
+<li>Role - this is deprecated, leave it empty,</li>
+<li>Purpose is always set to Tabulation for now,</li>
+<li>Comment field for additional information.</li>
+</ul>
+</li>
+</ul>
+<p>In the second step, Alias could be provided:</p>
+<ul>
+<li>Context (e.g.: SDTM),</li>
+<li>Name (e.g.: DM:Demographics).</li>
+</ul>
+<p>The ItemGroup will be added to the list in the table on save. Again, remember to validate it as only then it can be used later on.</p>
+<h2 id="item-management">Item Management<a class="headerlink" href="#item-management" title="Permanent link">&para;</a></h2>
+<p>Finally, items can be added. It describes a type of item that can occur within a study. Item properties include name, datatype, measurement units, range or codelist restrictions, and several other properties.</p>
+<p>Add an item by clicking on the dedicated button. This will open a page asking the user to provide the following information:</p>
+<ul>
+<li>In the Definition part:<ul>
+<li>Mandatory Name,</li>
+<li>OID - recommend starting with "I." as Item,</li>
+<li>Data type (please note that this list is based on a Sponsor Codelist allowing the end user to add new data types if needed),</li>
+<li>Based on the data type: provide length (this will represent the max length of the item)</li>
+<li>For float items, please provide the number of significant digits,</li>
+<li>Description and implementation notes,</li>
+</ul>
+</li>
+<li>In the Display part:<ul>
+<li>Display text (that can be used on the CRF as the full name of the Form),</li>
+<li>Completion instructions,</li>
+<li>In the Annotations and Reporting part:</li>
+<li>One or more SAS field names (that can be used by connected systems),</li>
+<li>One SDS Var Name - in order to have an annotated CRF with color coding defined in the Metadata Submission Guideline Version 2.0 (MSG 2.0), the SDS Var Name could be as follow: DM:RFICDTC|DS:DSSTDTC (Note: this is breaking the ODM validation schema),</li>
+<li>Origin for your item - by selecting 'Protocol Value’, the CRF will use a disabled field,</li>
+<li>Comment field for additional information.</li>
+</ul>
+</li>
+</ul>
+<p>The second step will depend on the data type of the item:</p>
+<ul>
+<li>For TEXT, DATE, TIME, DATETIME, BOOLEAN, DOUBLE, HEXBINARY, BASE64BINARY, HEXFLOAT, BASE64FLOAT, PARTIALDATE, PARTIALDATETIME, DURATIONDATETIME, INTERVALEDATETIME, INCOMPLETEDATETIME, INCOMPLETEDATE, INCOMPLETETIME and URI, Alias can be added by providing:<ul>
+<li>Context (e.g., SDTM),</li>
+<li>Name (e.g., RFICDTC).</li>
+</ul>
+</li>
+<li>For INTEGER and FLOAT:<ul>
+<li>Select used unit - click on <strong>Add</strong> and search in the dropdown menu.</li>
+</ul>
+</li>
+<li>For STRING:<ul>
+<li>Select corresponding codelist used by the item - search in the list and select accordingly, multiple codelists can be added,</li>
+<li>Select terms from the selected codelist that are applicable to the item.</li>
+</ul>
+</li>
+</ul>
+<p class="imageParagraph"><img alt="Code List Subset example" src="../img/guide_crf_03.png" /></p>
+<p class="imageDescription">Figure 3: Code List Subset example </p>
+<p>Save your item and it will be added to the list in the table. Again, remember to validate it. Then this item can be used elsewhere in the OpenStudyBuilder.</p>
+<h2 id="time-to-link-them-all">Time to link them all<a class="headerlink" href="#time-to-link-them-all" title="Permanent link">&para;</a></h2>
+<p>Clicking on the CRF tree tab displays the list of existing templates. This is the page where the structure of our CRFs is defined by managing the hierarchy inside a template. It links the forms that contain ItemGroups which contain the items. In order to do that, the CRF elements need to be in draft status.</p>
+<p>By clicking the plus button of each row, the list of elements that can be linked at this level is shown. For example, when looking at the available example form 'Informed Consent and Demography', then the OpenStudyBuilder will allow the addition of an ItemGroup.</p>
+<p>This addition could be for:</p>
+<ul>
+<li>A Form to a Template</li>
+<li>An ItemGroup to a Form</li>
+<li>An Item to an ItemGroup</li>
+</ul>
+<p>Finally, the template definition can be finished. To do so - click on the 3 dots in front of each element to open a menu with the following features:</p>
+<ul>
+<li>Set condition:  to define conditional structure between elements,</li>
+<li>Go to definition: to edit the element or review the metadata - this is also a way to create a new version of the element,</li>
+<li>Edit reference attributes: to setup attributes like Locked (Yes/No), Mandatory (Yes/No), Source Data Verification (SDV as a Yes/No) or Data Entry Required (Yes/no) - those attributes will be added in the ODM-xml file as vendor extension,</li>
+<li>Approve All: to automatically set the Status to FINAL and update the version of every element to the next one,</li>
+<li>Duplicate: to duplicate an element and create a new independent instance of it,</li>
+<li>Previous ODM: to open the ODM View for this element, even if it is still in Draft status.</li>
+</ul>
+<p>Please note that by enabling the "Reorder Content" switch, it is possible to move the elements inside the template with drag and drop.</p>
+<h2 id="see-the-blank-or-the-annotated-crf">See the blank or the annotated CRF!<a class="headerlink" href="#see-the-blank-or-the-annotated-crf" title="Permanent link">&para;</a></h2>
+<p>The end user will be able to view the case report form as a blank CRF or with SDTM annotations in the ODM view tab.</p>
+<p>By default, this page display two dropdown menus:</p>
+<ul>
+<li>ODM Element Type: to select the level to view as a HTML page:<ul>
+<li>Template: to display the Form(s), the ItemGroup(s) and the Item(s) handle by the template,</li>
+<li>Form: to display the ItemGroup(s) and the Item(s) inside a Form only,</li>
+<li>ItemGroup: to display the Item(s) inside an ItemGroup,</li>
+<li>Item: To display the selected Item only.</li>
+</ul>
+</li>
+<li>ODM Element Name: Based on the level selected, select the element to display.<ul>
+<li>The tick box "Include Draft Element" allows to display or hide elements that are not yet validated,</li>
+</ul>
+</li>
+<li>Finally, select the stylesheet to be applied: Blank or Annotated (without or with SDTM Annotations)</li>
+</ul>
+<p>The load button will open corresponding the ODM-XML file.</p>
+<p class="imageParagraph"><img alt="CRF with SDTM Annotations" src="../img/guide_crf_04.png" /></p>
+<p class="imageDescription">Figure 4: CRF with SDTM Annotations </p>
+<h2 id="the-aliases">The Aliases<a class="headerlink" href="#the-aliases" title="Permanent link">&para;</a></h2>
+<p>The last tab of the CRFs menu deals with the aliases created inside each element. New aliases could be added here and used where needed.</p>
+<p>New aliases can be included with the <strong>Add</strong> button with the attributes:</p>
+<ul>
+<li>Context,</li>
+<li>Name</li>
+</ul>
+<p class="imageParagraph"><img alt="Alias management in the OpenStudyBuilder" src="../img/guide_crf_05.png" /></p>
+<p class="imageDescription">Figure 5: Alias management in the OpenStudyBuilder </p>
+<h2 id="crfs-from-the-api">CRFs from the API!<a class="headerlink" href="#crfs-from-the-api" title="Permanent link">&para;</a></h2>
+<p>All CRF related metadata and the ODM content can be managed and browsed throughout the OpenStudyBuilder REST API. This enables the connectivity to any other systems including EDC tools! Open the Swagger interface and browse every Endpoint starting with an ODM prefix for a detailed overview.</p>
+<p>The following endpoints deal specifically with CRFs to receive or create:</p>
+<ul>
+<li>ODM Templates</li>
+<li>ODM Forms</li>
+<li>ODM Item Groups</li>
+<li>ODM Item</li>
+<li>ODM Conditions</li>
+<li>ODM Formal Expressions</li>
+<li>ODM Descriptions</li>
+<li>ODM Aliases</li>
+<li>ODM XML Extensions</li>
+<li>ODM XML Extension Attributes</li>
+<li>ODM XML Extension Tags</li>
+<li>ODM Metadata Import/Export</li>
+</ul>
+<h2 id="remarks-02-try-out">Remarks 0.2 try-out<a class="headerlink" href="#remarks-02-try-out" title="Permanent link">&para;</a></h2>
+<p>In case the <strong>"ODM Tree"</strong> does not display linked items when you have added links, please re-load the page and click the three dots to "Expand all". If this is not working, click in the row in the very first region where in the screenshot an arrow is available. </p>
+<p>When nothing can be selected for the <strong>"ODM View"</strong>, there are very likely no "final" versions available for display. At least approve one template to be able to try this out. Unluckily there is currently a minor bug available in the local installation, so the display is not working on the docker-environment. Nevertheless, the odm.xml can be downloaded via the API in any case.</p>
+<p>When using the <strong>API</strong>, the default documentation often contains a filled "filter" example, remember to remove this content when you trying an API call. </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 OpenStudyBuilder Project
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

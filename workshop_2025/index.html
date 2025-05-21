@@ -1,0 +1,1907 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+    <meta property="og:image" content="https://novonordisk-opensource.github.io/openstudybuilder-description/img/screenshot.png" />
+    <meta property="og:description" content="This is a community site containing information about the OpenStudyBuilder Application. The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.">
+
+    
+      
+        <title>Workshop Exercises - Design and Build with OpenStudyBuilder - OpenStudyBuilder</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/general.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#workshop-exercises-design-and-build-with-openstudybuilder" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="OpenStudyBuilder" class="md-header__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenStudyBuilder
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Workshop Exercises - Design and Build with OpenStudyBuilder
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../status/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Info
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../guide_intro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="OpenStudyBuilder" class="md-nav__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    OpenStudyBuilder
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Info
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Info
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events_past/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Past Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_contribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_osb_hub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OSB Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Context
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_costs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Costs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_newsletter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Newsletter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_14" id="__nav_2_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Demonstrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_14">
+            <span class="md-nav__icon md-icon"></span>
+            Demonstrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Library
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_lib_activities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage Activity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_study_create/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create Study
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_codelists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codelists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_crf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_manage_studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_study_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Study Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_visits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_activity_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Concept
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_beyond_concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beyond Concepts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_bc_dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-1-create-a-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 1: Create a Study
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-2-create-a-study-epochs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 2: Create a Study Epochs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-3-create-a-study-visits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3: Create a Study Visits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-4-assign-activities-to-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 4: Assign Activities to Study
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-5-select-activities-for-visits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 5: Select Activities for Visits
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-exercise-6-create-new-activity" class="md-nav__link">
+    <span class="md-ellipsis">
+      (Optional) Exercise 6: Create new Activity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-exercise-7-link-data-specifications-biomedical-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      (Optional) Exercise 7: Link Data Specifications (Biomedical Concepts)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-exercise-8-add-further-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      (Optional) Exercise 8: Add further information
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="workshop-exercises-design-and-build-with-openstudybuilder">Workshop Exercises - Design and Build with OpenStudyBuilder<a class="headerlink" href="#workshop-exercises-design-and-build-with-openstudybuilder" title="Permanent link">&para;</a></h1>
+<p>The following instructions are available for the "COSA OpenStudyBuilder Workshop: CDISC 360i - Design and Build with OpenStudyBuilder". Please follow the instructions.</p>
+<p>The CDISC Pilot study can be used as a reference for the exercises. We updated the SoA to reflect activity names which are available in OpenStudyBuilder and reduce the number of visits. The pilot study protocol is available <a href="https://github.com/cdisc-org/DDF-RA/raw/v3.12.0/Documents/Examples/CDISC_Pilot/CDISC_Pilot_Study.pdf" target="_blank">here</a> and the USDM 3.12 representation <a href="https://github.com/cdisc-org/DDF-RA/raw/v3.12.0/Documents/Examples/CDISC_Pilot/CDISC_Pilot_Study.xlsx" target="_blank">here</a>.</p>
+<p><strong>Focus Area</strong></p>
+<p>Clinical Study Protocol information should be entered into the OpenStudyBuilder - focusing on the Schedule of Activities. This should be made available to enable downstream utilization including data specification definitions.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sandbox account (requested via mail: <a href="mailto:openstudybuilder@neotechnology.com?subject=Request%20Sandbox%20Access">
+openstudybuilder@neotechnology.com - Request Sandbox Access</a>)</li>
+<li>Note, mail address might be exposed due to audit-trail</li>
+<li>Access and log into the sandbox environment (<a href="https://openstudybuilder.northeurope.cloudapp.azure.com/" target="_blank">https://openstudybuilder.northeurope.cloudapp.azure.com/</a>)</li>
+</ul>
+<h2 id="exercise-1-create-a-study">Exercise 1: Create a Study<a class="headerlink" href="#exercise-1-create-a-study" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Create a new study for project "CDISC Dev" named 80XX (where XX is a random number)</li>
+</ul>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - create Study" src="../img/demo/info_demo_sc_10_create_study.gif" /></p>
+</details>
+<h2 id="exercise-2-create-a-study-epochs">Exercise 2: Create a Study Epochs<a class="headerlink" href="#exercise-2-create-a-study-epochs" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Create Study Epochs (Studies -&gt; Define Study -&gt; Study Structure -&gt; Study Epochs)</li>
+<li>Use the following information:</li>
+</ul>
+<table border="1">
+    <thead>
+        <tr style="text-align: center;">
+            <th>Type</th>
+            <th colspan="2">Pre Treatment</th>
+            <th colspan="5">Treatment</th>
+            <th>Post Treatment</th>
+        </tr>
+        <tr style="text-align: center;">
+            <th>Epoch</th>
+            <th colspan="2">Screen</th>
+            <th>Treatment 1</th>
+            <th colspan="3">Treatment 2</th>
+            <th>Treatment 3</th>
+            <th>Follow-up</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Visit (V)</td>
+            <td>V1</td>
+            <td>V2</td>
+            <td>V3</td>
+            <td>V4</td>
+            <td>V5</td>
+            <td>V6</td>
+            <td>V7</td>
+            <td>V8</td>
+        </tr>
+        <tr>
+            <td>Timing of Visit (Weeks)</td>
+            <td>-2</td>
+            <td>-0.3</td>
+            <td>0</td>
+            <td>4</td>
+            <td>8</td>
+            <td>20</td>
+            <td>24</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Visit Window (Days)</td>
+            <td>0/+7</td>
+            <td>-1/0</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+        </tr>
+    </tbody>
+</table>
+
+<details class="tip">
+<summary>Tip</summary>
+<ul>
+<li>You might want to select the following epochs</li>
+<li>Pre Treatment -&gt; Screening</li>
+<li>Treatment -&gt; Treatment</li>
+<li>Treatment -&gt; Treatment</li>
+<li>Treatment -&gt; Treatment</li>
+<li>Post Treatment -&gt; Follow-up</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - create Epochs" src="../img/demo/info_demo_sc_35_epochs.gif" /></p>
+</details>
+<h2 id="exercise-3-create-a-study-visits">Exercise 3: Create a Study Visits<a class="headerlink" href="#exercise-3-create-a-study-visits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Create Study Visits (Studies -&gt; Define Study -&gt; Study Structure -&gt; Study Visits)</li>
+<li>Checkout the exercise 2 and use the same information as above</li>
+<li>It's recommended to create first the "week 0" visit to have the "anchor" for all other visits which are relative to this one.</li>
+<li>Additional details about visits are available in the system documentation <a href="https://openstudybuilder.northeurope.cloudapp.azure.com/doc/guides/userguide/studies/guide_visits.html" target="_blank">here</a>.</li>
+<li>Create at least three visits</li>
+</ul>
+<details class="tip">
+<summary>Tip</summary>
+<ul>
+<li>We are using "Scheduled visit" for all visits</li>
+<li>Use the epoch "Treatment 1"</li>
+<li>Select "Start of treatment" with "On Site Visit" and activate the "Anchor visit". Change the unit to "week". Save that visit.</li>
+<li>Create the second "Scheduled visit" for "Screening".  It's a "Screening", "On Site Visit". The time is referring the "Anchor visit in visit group", using the "week" time unit starting at -2 (Timing). The window should be from 0 to 7. Save this.</li>
+<li>The next "Scheduled visit" is also for "Screening". In this case the time reference unit is days and timing "-1". Window is from -1 to 0.</li>
+<li>Next comes the "Scheduled visit" for "Treatment 2". This "Treatment", "On Site Visit" is using the "Anchor visit in visit group", using the "week" time unit starting at 4 (Timing) and is using a -7/+7 window.</li>
+<li>"Duplicate" this timepoint (clicking the three dots in front of the corresponding row) to create the same for Week 8 and Week 20.</li>
+<li>"Duplicate" the same for week 24 and 26 and edit these two new items.</li>
+<li>Create the remaining two visits analogue.</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - create Epochs" src="../img/demo/info_demo_sc_37_visits.gif" />    </p>
+</details>
+<h2 id="exercise-4-assign-activities-to-study">Exercise 4: Assign Activities to Study<a class="headerlink" href="#exercise-4-assign-activities-to-study" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Select the below activities and assign them to the corresponding groups and visits. Note that there is one activity which are not available in the library and needs to be created (MMSE) in one optional next step below. </li>
+<li>In the "Study Activities" tab you can assign the activities.</li>
+</ul>
+<details class="tip">
+<summary>Tip</summary>
+<ul>
+<li>Assign activities via "+"</li>
+<li>Select from library</li>
+<li>Activate "Use the same SoA group for all" and select "Subject Related Information", search for all activities one by one and select that via the checkmark, finally save</li>
+<li>Assign the next group of activities by using "Safety" as SoA group analogue</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - Assign Activities" src="../img/demo/info_demo_sc_80_activities_select.gif" /></p>
+</details>
+<h2 id="exercise-5-select-activities-for-visits">Exercise 5: Select Activities for Visits<a class="headerlink" href="#exercise-5-select-activities-for-visits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>In the "Schedule of Activities" overview ("detailed") you can assign these to visits, adopt the visibility by defining which level of information should be displayed in the protocol SoA.</li>
+</ul>
+<details class="tip">
+<summary>Tip</summary>
+<ul>
+<li>Click "Expand table" to easily view all activities and groupings</li>
+<li>Click on the eye to toggle what should be displayed and what not, for example click all "eye" icons to toggle icons. This will activate the core group "Subject Related Information" and "Safety", deactivates all intermediate groupings and activate the highest activity level details.</li>
+<li>Assign activities to visits by clicking the corresponding checkbox</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - Assign Activities to Visits" src="../img/demo/info_demo_sc_81_activities_times.gif" />    </p>
+</details>
+<table class="small-table">
+    <thead class="light-grey-back">
+        <tr style="text-align: center;">
+            <th>Type</th>
+            <th colspan="2">Pre Treatment</th>
+            <th colspan="5">Treatment</th>
+            <th>Post Treatment</th>
+        </tr>
+        <tr style="text-align: center;">
+            <th>Epoch</th>
+            <th colspan="2">Screen</th>
+            <th>Treatment 1</th>
+            <th colspan="3">Treatment 2</th>
+            <th>Treatment 3</th>
+            <th>Follow-up</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Visit (V)</td>
+        <td>V1</td>
+        <td>V2</td>
+        <td>V3</td>
+        <td>V4</td>
+        <td>V5</td>
+        <td>V6</td>
+        <td>V7</td>
+        <td>V8</td>
+        </tr>
+        <tr>
+        <td>Timing of Visit (Weeks)</td>
+        <td>-2</td>
+        <td>-0.3</td>
+        <td>0</td>
+        <td>4</td>
+        <td>8</td>
+        <td>20</td>
+        <td>24</td>
+        <td>26</td>
+        </tr>
+        <tr>
+        <td>Visit Window (Days)</td>
+        <td>0/+7</td>
+        <td>-1/0</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+            <td>&#x00B1;7</td>
+        </tr>
+        <tr class="light-grey-back">
+        <td colspan="9">Subject Related Information</td>
+        </tr>
+        <tr>
+        <td>Informed Consent Obtained</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>Sex</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Race</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Ethnicity</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Date of Birth</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Systolic Blood Pressure (Vital Signs)</td>
+        <td>X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>Medical History/Concomitant Illness</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>Alcohol Habits</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>MMSE</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>X-Ray</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr class="light-grey-back">
+        <td colspan="9">Safety</td>
+        </tr>
+        <tr>
+        <td>Randomized</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>Temperature</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>ECG Mean Heart Rate</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>Hematocrit</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>Albumin</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>Direct Bilirubin</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>Glucose</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        </tr>
+        <tr>
+        <td>Hemoglobin</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        </tr>
+        <tr>
+        <td>Alzheimer's Disease - Cognitive Behavior (ADAS-Cog-13)</td>
+        <td>X</td>
+        <td>-</td>
+        <td>X</td>
+        <td>-</td>
+        <td>X</td>
+        <td>-</td>
+        <td>-</td>
+        <td>X</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="highlight"><pre><span></span><code>
+</code></pre></div>
+<h2 id="optional-exercise-6-create-new-activity">(Optional) Exercise 6: Create new Activity<a class="headerlink" href="#optional-exercise-6-create-new-activity" title="Permanent link">&para;</a></h2>
+<ul>
+<li>That there is one activity which are not available in the library and needs to be created (MMSE). When you create those, use a postfix with your study number, e.g. MMSE_80XX.</li>
+<li>It can be created as a "Create placeholder for new Activity Request" in a specific study which enables standards manager to check the details out, update and approve these new requests.</li>
+<li>It is recommended to create the activity in the library and then select the corresponding activity in the study. </li>
+<li>Corresponding "Activity Groups" and "Activity Subgroups" can be created using the corresponding tabs in case not available.</li>
+</ul>
+<details class="tip">
+<summary>Video demonstration - Create Activity</summary>
+<p><img alt="Animation - Create Activity in Library" src="../img/demo/info_demo_lib_bc_01_activity.gif" />    </p>
+</details>
+<details class="tip">
+<summary>Video demonstration - Create Group</summary>
+<p><img alt="Animation - Create Activity Group" src="../img/demo/info_demo_lib_bc_10_groups.gif" />    </p>
+</details>
+<details class="tip">
+<summary>Video demonstration - Create Subgroup</summary>
+<p><img alt="Animation - Create Activity Subgroup" src="../img/demo/info_demo_lib_bc_11_subgroups.gif" /></p>
+</details>
+<h2 id="optional-exercise-7-link-data-specifications-biomedical-concepts">(Optional) Exercise 7: Link Data Specifications (Biomedical Concepts)<a class="headerlink" href="#optional-exercise-7-link-data-specifications-biomedical-concepts" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Link activities as used for the protocol to concrete activity instances which contains the data specifications (Studies -&gt; Define Study -&gt; Data Specifications)</li>
+<li>An initial assignment is done by the system which can be checked and adopted</li>
+</ul>
+<details class="tip">
+<summary>Tip</summary>
+<ul>
+<li>Click the three dots and "Edit Activity - Instance relationship"</li>
+<li>Have a look at the relationship for Glucose, as there you can select for example the Glucose either as numerical or categorical collection</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Video demonstration</summary>
+<p><img alt="Animation - Set Data Specification" src="../img/demo/info_demo_sc_90_data.gif" /></p>
+</details>
+<h2 id="optional-exercise-8-add-further-information">(Optional) Exercise 8: Add further information<a class="headerlink" href="#optional-exercise-8-add-further-information" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Include additional information like title, registry identyfiers and further structure and design information</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 OpenStudyBuilder Project
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

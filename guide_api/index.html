@@ -1,0 +1,1904 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+    <meta property="og:image" content="https://novonordisk-opensource.github.io/openstudybuilder-description/img/screenshot.png" />
+    <meta property="og:description" content="This is a community site containing information about the OpenStudyBuilder Application. The OpenStudyBuilder is an open-source project for clinical study evaluations. This tool is a new approach for working with studies that once fully implemented will drive end-to-end consistency and more efficient processes.">
+
+    
+      
+        <title>API - OpenStudyBuilder</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/general.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-for-the-api" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="OpenStudyBuilder" class="md-header__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OpenStudyBuilder
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              API
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Description
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../status/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Info
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../guide_intro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="OpenStudyBuilder" class="md-nav__button md-logo" aria-label="OpenStudyBuilder" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
+  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
+  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
+  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
+  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
+</svg>
+
+    </a>
+    OpenStudyBuilder
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NovoNordisk-OpenSource/openstudybuilder-description" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    OpenStudyBuilder
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Description
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Info
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Info
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_events_past/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Past Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_contribution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_osb_hub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    OSB Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf_vision/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Vision
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_ddf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDF Context
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_environment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_costs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Costs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_newsletter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Newsletter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_14" id="__nav_2_14_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Demonstrations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_14">
+            <span class="md-nav__icon md-icon"></span>
+            Demonstrations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Library
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_lib_activities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage Activity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../info_demo_study_create/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create Study
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_sandbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_codelists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codelists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_crf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CRF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_manage_studies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage studies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_study_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Study Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_visits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_activity_concept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Concept
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_beyond_concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beyond Concepts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide_bc_dashboard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activity Dashboard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Definition
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openstudybuilder-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenStudyBuilder API Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-and-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      API and Execution
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API and Execution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openapi-and-swagger" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenAPI and Swagger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swagger-api-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Swagger API Documentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swagger-api-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Swagger API Execution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Comments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      R example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sas-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAS example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ddf-api-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      DDF-API Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#postman-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Postman Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#obtaining-a-bearer-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      Obtaining a Bearer Token
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      API Definition
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openstudybuilder-api-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenStudyBuilder API Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api-and-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      API and Execution
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API and Execution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openapi-and-swagger" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenAPI and Swagger
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swagger-api-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Swagger API Documentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#swagger-api-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Swagger API Execution
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Security Comments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#r-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      R example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sas-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAS example
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ddf-api-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      DDF-API Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#postman-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Postman Integration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#obtaining-a-bearer-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      Obtaining a Bearer Token
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 class="guideH1" id="guide-for-the-api">Guide for the API<a class="headerlink" href="#guide-for-the-api" title="Permanent link">&para;</a></h1>
+<p class="guideCreated">(updated 2024-07-05 using v0.9.1) </p>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The <strong>A</strong>pplication <strong>P</strong>rogramming <strong>I</strong>nterface (API) is a core feature of the OpenStudyBuilder, as integrations with other tools are key to enable fully automated processes and a single source of truth. The heart of the MDR is the graph database which is a Neo4j database. One possible approach to communicating with a database is querying it directly, but APIs allow for controlled operations. This can be used to enforce business logic and domain-oriented views of data. But APIs allow for more controlled operations on the database by enforcing the business logic and providing a more domain-oriented view on the data. The OpenStudyBuilder web application displays all its contents by requesting this information from the database via the API.</p>
+<p>The OpenStudyBuilder API allows you for example to:</p>
+<ul>
+<li>GET a list of all studies</li>
+<li>GET information of one study</li>
+<li>PATCH information for one study</li>
+<li>GET a list of all ODM templates (CRF templates)</li>
+<li>GET a list of all ODM forms</li>
+<li>Receive an ODM XML for a given template</li>
+</ul>
+<h2 id="api-definition">API Definition<a class="headerlink" href="#api-definition" title="Permanent link">&para;</a></h2>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software. A document or standard that describes how to build or use such a connection or interface is called an API specification.[1]</p>
+</div>
+<p class="imageDescription">[1] Wikipedia entry for API, <a href="https://en.wikipedia.org/wiki/API" target="_blank">https://en.wikipedia.org/wiki/API</a></p>
+<p class="imageParagraph"><img alt="Schema for API" src="../img/guide_api_intro1.png" /></p>
+<p class="imageDescription">Figure 1: Simplified API process</p>
+<h2 id="openstudybuilder-api-design">OpenStudyBuilder API Design<a class="headerlink" href="#openstudybuilder-api-design" title="Permanent link">&para;</a></h2>
+<p>The OpenStudyBuilder architeture is utilizing the API for dedicted connections. APIs are not only available for the OpenStudyBuilder, but are utilized by many other tools as these make the communication between systems much easier. </p>
+<p class="imageParagraph"><img alt="OpenStudyBuilder Conceptual Architecture" src="../img/studyBuilderDesign.png" /></p>
+<p class="imageDescription">Figure 2: OpenStudyBuilder Conceptual Architecture</p>
+<p>Let us start on the left side. The CDISC Library expose its data through an API, so this can be used by a program to load relevant data. Other library and dictionary providers might have an API where the data can be loaded from one system to another automatically. For the OpenStudyBuilder we have standard import programs in place which read the data from the CDISC API and stores the data in the database using the OpenStudyBuilder API - there are many parts in the API just responsible for standard imports.</p>
+<p>On the right side is the OpenStudyBuilder application which is also only communicating with the database through the OpenStudyBuilder API. Other tools like a protocol tool (not open-sourced currently) also access the data needed for their use-cases through the API. Addition use-cases could be, but not limited to, EDC tools which use the API to import and export ODM-XML metadata updates.</p>
+<p>The OpenStudyBuilder API is very powerful and contains a lot of endpoints to work with the data. Tool integrations are typically very difficult, but will be easier by utilizing APIs. To integrate multiple systems is still challenging, as every tool is using different interfaces. To overcome integration issues, the <a href="https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/" target="_blank">TransCelerate DDF</a> project is working together with CDISC on API standards. The OpenStudyBuilder has an DDF-API Endpoint available which can be used (see <a href="#ddf-api-overview">DDF-API Overview</a>). This enables any software supporting the DDF-API standard to be also working with the OpenStudyBuilder.</p>
+<p class="imageParagraph"><img alt="TransCelerate DDF API - Example" src="../img/guide_api_intro2.png" /></p>
+<p class="imageDescription">Figure 3: TransCelerate DDF API - Example</p>
+<p>The potential for an Electronic Data Capture (EDC) tool to support the DDF standards is significant. By connecting just the different solutions, for example by specifying the URL in a configuration file, tools would not need any further integrations when all provide the same information. Currently the capabilities of the DDF API might not be as powerful as required. The native OpenStudyBuilder API provides many additional information which could be consumed. Nevertheless, the USDM standard promises a future where this endpoint will progressively encompass a broader spectrum of functionalities enabling a standard exchange.</p>
+<h2 id="api-and-execution">API and Execution<a class="headerlink" href="#api-and-execution" title="Permanent link">&para;</a></h2>
+<h3 id="openapi-and-swagger">OpenAPI and Swagger<a class="headerlink" href="#openapi-and-swagger" title="Permanent link">&para;</a></h3>
+<p>For the API development and usage, there are excellent standards and tools available. The <a href="https://www.openapis.org/" target="_blank">OpenAPI</a> is a very common format for API specifications. This specification, which is available in the json format, can be important into many API tools - for example into <a href="https://www.postman.com/" target="_blank">Postman</a>, a commonly used API interaction tool. Additionally, there is the <a href="https://swagger.io/" target="_blank">Swagger</a> documentation which also allows executing API calls easily. </p>
+<p>In the OpenStudyBuilder you can download the OpenAPI either from the <a href="https://raw.githubusercontent.com/NovoNordisk-OpenSource/openstudybuilder-solution/refs/heads/main/clinical-mdr-api/openapi.json" target="_blank">repository</a> directly, or you can click the link in the Swagger documentation top right. This you can then load it into Postman to "Create a new collection". The Swagger documentation is an available component within the OpenStudyBuilder package - in the sandbox environment you can access this simply through a <a href="https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/" target="_blank">URL</a>. In the other environments this is also available, for example by using a docker environment the default URL is <a href="http://localhost:5005/api/docs" target="_blank">http://localhost:5005/api/docs</a>.</p>
+<p class="imageParagraph"><img alt="Download OpenAPI.json from Swagger documentation" src="../img/guide_api_intro4.png" /></p>
+<p class="imageDescription">Figure 4: Download OpenAPI.json from Swagger documentation</p>
+<p class="imageParagraph"><img alt="Importing OpenAPI.json into Postman" src="../img/guide_api_intro5.png" /></p>
+<p class="imageDescription">Figure 5: Importing OpenAPI.json into Postman</p>
+<p>There are different operations you can do with an API. The following standard operations are typically used for tasks:</p>
+<table>
+<thead>
+<tr>
+<th>Operation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>Retrieve data</td>
+</tr>
+<tr>
+<td>PUT</td>
+<td>Updates data</td>
+</tr>
+<tr>
+<td>POST</td>
+<td>Sends data for processing</td>
+</tr>
+<tr>
+<td>DELETE</td>
+<td>Removes data</td>
+</tr>
+<tr>
+<td>PATCH</td>
+<td>Updates data</td>
+</tr>
+</tbody>
+</table>
+<h3 id="swagger-api-documentation">Swagger API Documentation<a class="headerlink" href="#swagger-api-documentation" title="Permanent link">&para;</a></h3>
+<p class="imageParagraph"><img alt="Screenshot of Swagger API documentation (top section)" src="../img/guide_api_intro3.png" /></p>
+<p class="imageDescription">Figure 6: Swagger API documentation (top section)</p>
+<p>The top section contains some general information including license information. Then there is an authentication section. If you have not changed the settings, the docker environment will have no authentication. But for the sandbox environment, you do need to authenticate. You can simply click "authorize" and then in the pop-up again "authorize" to allow the API calls to be executed later on. The specifications related to authentication flow depends on how the specific authentication has been set up in an environment. The specifications related to authentication flow depends on how the specific authentication has been set up in an environment.</p>
+<p>You can see which endpoints are available. By being authorized you can additionally also execute these. There are many endpoints available which are grouped logically. Of course, it might be tricky to find the correct endpoint when you are not familiar with the used terminology used.</p>
+<p>The ODM prefixes are for example connections related to ODM and CRF items. You can for example see CRF templates and download these in the ODM-XML format. The corresponding functionality in the app is located under "Library -&gt; Concepts -&gt; CRFs". The CT is all related to the controlled terminology management which is available in the application via "Library -&gt; Code Lists".</p>
+<h3 id="swagger-api-execution">Swagger API Execution<a class="headerlink" href="#swagger-api-execution" title="Permanent link">&para;</a></h3>
+<p>To execute an API call within this website is very easy. After authentication we can search for "/studies" to get to the related calls. The short description gives a good overview of what call will do. </p>
+<p class="imageParagraph"><img alt="Screenshot of Swagger API documentation (Studies section)" src="../img/guide_api_execute1.png" /></p>
+<p class="imageDescription">Figure 7: Swagger API documentation (Studies section)</p>
+<p>When the "Get /studies" section is enlarged, many options are available. You might want to restrict the resulting data, filter by various conditions. Below you see the structure of return values which you might receive on success or failure. We can click on "Try it out" to be able to fill out the different parameters and execute that API command.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please note that the "filters" is pre-filled with an example <code>{"*":{ "v": [""], "op": "co"}}</code> - you need to remove this to get a result. This "filters" option is available and pre-filled in many calls, so please remember to remove those.</p>
+</div>
+<p>After executing this API call, you get a response.</p>
+<p class="imageParagraph"><img alt="Screenshot of Swagger API Execution (/studies)" src="../img/guide_api_execute2.png" /></p>
+<p class="imageDescription">Figure 8: Swagger API Execution (/studies)</p>
+<p>You receive a "Curl" statement, a "Request URL" and a "Response body". The "Response body" displays the data from your API call. The result is the "answer" to the API call question. It is available in JSON format, which is ideal to be processed further programmatically. The "CDISC DEV-0" study has for example the UID of "Study_000001". This is the unique identifier and is needed if you want to do follow up calls where you receive additional information or even change information.</p>
+<p>The <strong>"Request URL"</strong> is nice to re-use in a browser or HTTP request. When using no authentication (for the docker environment for example), you can copy the URL into a browser and see the same result - just not formatted. If you want to use this HTTP request in any other tool like a web or R-Shiny application, you can simply use this URL. That's very generic and can be used from nearly any programming language. When you use authentication, e.g., like we have for the sandbox test environment, you need to take care for this and can work with that as well.</p>
+<p>Most API tools support <strong>CURL</strong> requests. If you use a Linux system or a windows bash, you can even execute this CURL command to get the response. This CURL request also contains authentication (the bearer token in this case).</p>
+<p class="imageParagraph"><img alt="Screenshot of Git Bash in Windows executing CURL command" src="../img/guide_api_execute3.png" /></p>
+<p class="imageDescription">Figure 9: CURL command executed in Git Bash in Windows</p>
+<h3 id="security-comments">Security Comments<a class="headerlink" href="#security-comments" title="Permanent link">&para;</a></h3>
+<p>In the OpenStudyBuilder project, authentication and authorization is being handled with OAuth 2.0 and OpenID Connect. Depending on the use-cases of OpenStudyBuilder and how you're connecting to the API, different authentication flows exist, such as client credentials flow, device code flow and authorization code flow. You should familiarize yourself with the authentication context that you're going to implement. For testing purposes, you can get an access token from the OpenStudyBuilder sandbox environment and using this for Bearer token authentication in other software solutions connecting to the API, such as SAS, R, or Postman. Such workflows should not be used for anything else than testing.</p>
+<h3 id="r-example">R example<a class="headerlink" href="#r-example" title="Permanent link">&para;</a></h3>
+<p>As mentioned, this API can be called in any other kind of software. Let's use as example an R application connecting the sandbox environment with authentication. There are different packages available for http and CURL requests. The following example is using the httr package. As this is for test purposes, we are using a bearer token for authentication for simplicity.</p>
+<div class="highlight"><pre><span></span><code><span class="c1"># CURL example to get API results from OpenStudyBuilder</span>
+<span class="c1">#</span>
+<span class="c1"># Remark - you can get the current bearer token by executing by calling the API from the browser and copy the token</span>
+<span class="c1">#   goto - https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs#/Studies/get_all_studies_get</span>
+<span class="c1">#   click &quot;authorize&quot; top right lock symbol, then &quot;authorize&quot;</span>
+<span class="c1">#   click &quot;try it out&quot;</span>
+<span class="c1">#   remove everything from the &quot;filters&quot; field</span>
+<span class="c1">#   click &quot;execute&quot;</span>
+<span class="c1">#   copy the bearer token from the CURL command (long string after &quot;-H &#39;Authorization: Bearer &quot;)</span>
+<span class="c1">#</span>
+
+<span class="c1"># setup for sandbox environment</span>
+<span class="n">api_url</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;https://openstudybuilder.northeurope.cloudapp.azure.com/api&quot;</span>
+<span class="n">api_bearer</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;....&quot;</span><span class="w">    </span><span class="c1"># get your specific one</span>
+
+<span class="nf">library</span><span class="p">(</span><span class="n">httr</span><span class="p">)</span>
+
+<span class="n">response</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">GET</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="n">api_url</span><span class="p">,</span><span class="s">&quot;studies&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">sep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="p">),</span><span class="w"> </span><span class="nf">add_headers</span><span class="p">(</span><span class="n">Authorization</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">paste</span><span class="p">(</span><span class="s">&quot;Bearer&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">api_bearer</span><span class="p">)))</span>
+<span class="n">studies</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">jsonlite</span><span class="o">::</span><span class="nf">fromJSON</span><span class="p">(</span><span class="nf">rawToChar</span><span class="p">(</span><span class="n">response</span><span class="o">$</span><span class="n">content</span><span class="p">))</span>
+<span class="nf">cat</span><span class="p">(</span><span class="n">studies</span><span class="p">[][[</span><span class="s">&quot;items&quot;</span><span class="p">]][[</span><span class="s">&quot;uid&quot;</span><span class="p">]],</span><span class="w"> </span><span class="n">studies</span><span class="p">[][[</span><span class="s">&quot;items&quot;</span><span class="p">]][[</span><span class="s">&quot;study_id&quot;</span><span class="p">]])</span>
+
+
+<span class="n">response</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">GET</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="n">api_url</span><span class="p">,</span><span class="s">&quot;ct/terms?codelist_name=Sex&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">sep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="p">),</span><span class="w"> </span><span class="nf">add_headers</span><span class="p">(</span><span class="n">Authorization</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">paste</span><span class="p">(</span><span class="s">&quot;Bearer&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">api_bearer</span><span class="p">)))</span>
+<span class="n">ct_sex</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">jsonlite</span><span class="o">::</span><span class="nf">fromJSON</span><span class="p">(</span><span class="nf">rawToChar</span><span class="p">(</span><span class="n">response</span><span class="o">$</span><span class="n">content</span><span class="p">))</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">ct_sex</span><span class="p">[[</span><span class="s">&quot;items&quot;</span><span class="p">]][[</span><span class="s">&quot;name&quot;</span><span class="p">]][[</span><span class="s">&quot;sponsor_preferred_name&quot;</span><span class="p">]])</span>
+</code></pre></div>
+<p>We can simply get the resulting JSON file from a GET call and parse this into an R data frame. The first example ready in all studies which are available using the "/study" endpoint. Currently there is just one study available.</p>
+<p>We can use also any other available endpoint. The second example shows how the "Sex" controlled terminology is downloaded.</p>
+<p>Output:</p>
+<div class="highlight"><pre><span></span><code>&gt; cat(studies[][[&quot;items&quot;]][[&quot;uid&quot;]], studies[][[&quot;items&quot;]][[&quot;study_id&quot;]])
+Study_000001 CDISC DEV-0&gt; 
+&gt; 
+&gt; print(ct_sex[[&quot;items&quot;]][[&quot;name&quot;]][[&quot;sponsor_preferred_name&quot;]])
+[1] &quot;Female&quot;   &quot;Intersex&quot; &quot;Male&quot;     &quot;Unknown&quot; 
+</code></pre></div>
+<p class="imageParagraph"><img alt="Screenshot of R data frame from API studies object" src="../img/guide_api_execute4.png" /></p>
+<p class="imageDescription">Figure 10: R data frame from API studies object</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When using a local OpenStudyBuilder instance without authentication, the authentication headers can be omitted to get the same result.</p>
+<div class="highlight"><pre><span></span><code><span class="n">response</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">GET</span><span class="p">(</span><span class="nf">paste</span><span class="p">(</span><span class="s">&quot;http://localhost:5005/api&quot;</span><span class="p">,</span><span class="s">&quot;studies&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">sep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;/&quot;</span><span class="p">))</span>
+<span class="n">studies</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">jsonlite</span><span class="o">::</span><span class="nf">fromJSON</span><span class="p">(</span><span class="nf">rawToChar</span><span class="p">(</span><span class="n">response</span><span class="o">$</span><span class="n">content</span><span class="p">))</span>
+<span class="nf">cat</span><span class="p">(</span><span class="n">studies</span><span class="p">[][[</span><span class="s">&quot;items&quot;</span><span class="p">]][[</span><span class="s">&quot;uid&quot;</span><span class="p">]],</span><span class="w"> </span><span class="n">studies</span><span class="p">[][[</span><span class="s">&quot;items&quot;</span><span class="p">]][[</span><span class="s">&quot;study_id&quot;</span><span class="p">]])</span>
+</code></pre></div>
+</div>
+<h3 id="sas-example">SAS example<a class="headerlink" href="#sas-example" title="Permanent link">&para;</a></h3>
+<p>SAS is still the most common used programming language for clinical study evaluations. SAS provides the opportunity to perform API calls and process the response further. The following example is using a bearer authentication for the "/studies" endpoint. The API is calles through an HTTP request using PROC HTTP. The final result is a JSON file which can be transformed into a SAS library through the JSON library engine.</p>
+<div class="highlight"><pre><span></span><code><span class="k">OPTIONS</span> QUOTELENMAX;
+
+<span class="c">/* define the bearer token and API endpoint variable */</span> 
+<span class="nb">%let</span> bearer_token = eyJ0eXAiOi....; <span class="c">/* enter your token here */</span>
+<span class="nb">%let</span> api_endpoint = https://openstudybuilder<span class="m">.</span>northeurope<span class="m">.</span>cloudapp<span class="m">.</span>azure<span class="m">.</span>com/api/studies; 
+
+<span class="c">/* make the API call */</span> 
+<span class="k">FILENAME</span> response temp<span class="kr">; </span>
+
+<span class="kr">PROC HTTP </span>URL=<span class="s">&quot;</span><span class="nv">&amp;api_endpoint</span><span class="s">&quot;</span> METHOD=<span class="s">&quot;GET&quot;</span> <span class="k">OUT</span>=response;
+    debug level = <span class="m">1</span>;
+    HEADERS 
+        <span class="s">&quot;Authorization&quot;</span> = <span class="s">&quot;Bearer </span><span class="nv">&amp;bearer_token</span><span class="s">&quot;</span>
+        <span class="s">&quot;accept&quot;</span> =  <span class="s">&quot;application/json&quot;</span><span class="kr">; </span>
+<span class="kr">RUN;</span>
+
+<span class="c">/* Read in the JSON into a library */</span>
+<span class="k">LIBNAME</span> response JSON;
+</code></pre></div>
+<p>The "ALLDATA" dataset in the assigned library containing the full content of the response. </p>
+<p class="imageParagraph"><img alt="Screenshot of SAS ALLDATA dataset containing response" src="../img/guide_api_execute5.png" /></p>
+<p class="imageDescription">Figure 11: ALLDATA dataset containing response</p>
+<p>The first level information for the studies are contained in the "ITEMS" object, which can be seen by opening up the corresponding "ITEMS" dataset. At this timepoint there are three studies available in the OpenStudyBuilder sandbox environment.</p>
+<p class="imageParagraph"><img alt="Screenshot of SAS ITEMS dataset containing response" src="../img/guide_api_execute6.png" /></p>
+<p class="imageDescription">Figure 12: ITEMS dataset containing response information for ITEMS</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When using a local OpenStudyBuilder instance without authentication, the authentication headers can be omitted to get the same result. This will only work when SAS is also running locally. A server version cannot access a local application.</p>
+</div>
+<h2 id="ddf-api-overview">DDF-API Overview<a class="headerlink" href="#ddf-api-overview" title="Permanent link">&para;</a></h2>
+<p>The TransCelerate <a href="https://www.transceleratebiopharmainc.com/assets/digital-data-flow-solutions/" target="_blank">Digital Data Flow</a> (DDF) initiative is designed to pave the way for a future where study start-up processes are fully automated and dynamic. A key component of achieving this vision is the development of standardized APIs and the new Unified Study Definitions Model (USDM) that facilitate seamless integrations across systems.</p>
+<p><strong>DDF API Endpoint</strong>: The OpenStudyBuilder release 0.9.1 provides a DDF API Endpoint capable of exporting studies in the USDM format. The current exported USDM format is a hybrid of versions 2.7 and 3.0. Efforts are underway to enhance compliance with the USDM 3.0 standard, and we anticipate releasing updates in future versions to address this.</p>
+<p><strong>Swagger API Application</strong>: To interact with the API and download studies in the USDM format, users can utilize the Swagger API application. This tool is available for both sandbox and local environments:</p>
+<ul>
+<li>Sandbox Environment: <a href="https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs" target="_blank">https://openstudybuilder.northeurope.cloudapp.azure.com/api/docs</a></li>
+<li>Local Environment: <a href="http://localhost:5005/api/docs" target="_blank">http://localhost:5005/api/docs</a></li>
+</ul>
+<p>At the Swagger interface, navigate to the "DDF endpoints" section located at the bottom of the page.</p>
+<p><strong>How to Use</strong></p>
+<ol>
+<li><strong>Try It Out</strong>: Select the "try it out" option available in the DDF endpoints section.</li>
+<li><strong>Enter Study UID</strong>: Input the <code>study_uid</code> for the study you wish to download. For demonstration purposes, you can use the example study UID <code>Study_000001</code>.</li>
+<li><strong>Execution and Output</strong>: Due to the comprehensive data collection process across the graph database, the execution time for this endpoint may be longer than others. Please allow a few seconds for the output to be generated and displayed.</li>
+</ol>
+<p class="imageParagraph"><img alt="DDF API in Swagger" src="../img/guide_api_ddf_new_01.png" /></p>
+<h2 id="postman-integration">Postman Integration<a class="headerlink" href="#postman-integration" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.postman.com/" target="_blank">Postman</a> is an essential tool for API testing and development, offering a streamlined way to integrate and interact with APIs like the one from the OpenStudyBuilder solution.</p>
+<p><strong>Importing the API Collection</strong></p>
+<p>You can import the entire API collection into Postman using a URL obtained from the Swagger documentation.</p>
+<p class="imageParagraph"><img alt="Import OpenAPI.json into Postman using Swagger documentation URL" src="../img/guide_api_intro4.png" /></p>
+<p>To begin, navigate to Postman and utilize the "Import" feature. Here, you can input the URL, such as <code>https://openstudybuilder.northeurope.cloudapp.azure.com/api/openapi.json</code> for accessing the sandbox environment, to import it as a new Postman Collection.</p>
+<p>For those working with an unauthenticated API version, you can dive straight into testing. However, if authentication is required, it's crucial to manage access effectively. A common approach involves using a "Bearer Token" for authentication, which can be acquired either directly through the application or via the Swagger interface, ensuring secure and efficient access to API functionalities (<a href="#obtaining-a-bearer-token">see below</a>).</p>
+<p><strong>Setting Up Authentication</strong></p>
+<p>If the API requires authentication, a Bearer Token authentication setup could be used.</p>
+<ul>
+<li>Select the entire collection to apply settings globally (1).</li>
+<li>Navigate to the "Authorization" tab (2), select "Bearer Token" as the type (3), and enter your token (4).</li>
+</ul>
+<p><img alt="Setting Bearer Token authentication in Postman" src="../img/guide_api_ddf_new_04.png" /></p>
+<p><strong>Configuring the API Endpoint</strong></p>
+<p>Next, the concrete API endpoint needs to be set. This can be done by selecting the complete collection (1), selecting "Variables" (2) and enter the corresponding baseUrl (3) like "https://openstudybuilder.northeurope.cloudapp.azure.com/api".</p>
+<p><img alt="Setting the baseUrl" src="../img/guide_api_ddf_new_05.png" /></p>
+<p>Ensure that all changes are saved to preserve your setup.</p>
+<p><strong>Making API Requests</strong></p>
+<p>Finally, you can perform an API request.</p>
+<ol>
+<li><strong>Select an Endpoint</strong>: Choose, for example, the "GET" endpoint for "studies" (1).</li>
+<li><strong>Configure Parameters</strong>: Adjust parameters as necessary (all can be toggled by clicking "key") (2).</li>
+<li><strong>Check authentication</strong>: Ensure the endpoint inherits the authentication settings (4).</li>
+<li><strong>Send the Request</strong>: Execute the request (4).</li>
+<li><strong>Review the Response</strong>: This will display either the requested data or an error message (e.g., token expiration or invalid parameters) (5).</li>
+</ol>
+<p><img alt="Executing request in Postman" src="../img/guide_api_ddf_new_06.png" /></p>
+<h2 id="obtaining-a-bearer-token">Obtaining a Bearer Token<a class="headerlink" href="#obtaining-a-bearer-token" title="Permanent link">&para;</a></h2>
+<p>Securing a Bearer Token is a critical step for authenticating and interacting with the OpenStudyBuilder API. This token acts as a key, granting you access to the API's functionalities. Below are two methods to obtain your Bearer Token, either through the OpenStudyBuilder application or its Swagger documentation.</p>
+<p><strong>Via the OpenStudyBuilder Application</strong></p>
+<ol>
+<li>
+<p><strong>Access Developer Tools</strong>: Launch the OpenStudyBuilder application in your browser. Open the developer tools by pressing <code>F12</code> in Chrome or the equivalent shortcut in your browser, and navigate to the "Network" tab.</p>
+</li>
+<li>
+<p><strong>Perform an Action</strong>: Initiate an action within the application, such as selecting a study. This action triggers an API request, which is then logged in the Network tab.</p>
+</li>
+<li>
+<p><strong>Locate the Token</strong>: In the Network tab, look for an entry labeled "studies?..." or similar, indicative of the API request made. Clicking on this entry reveals the request details, including the endpoint URL (1) and the Bearer Token within the header information (2). This token can be copied and used for subsequent authentication requests.</p>
+</li>
+</ol>
+<p><img alt="Obtaining the Bearer Token from the OpenStudyBuilder Application" src="../img/guide_api_ddf_new_02.png" />
+<em>This image illustrates how to locate and copy the Bearer Token from the application's network traffic.</em></p>
+<p><strong>Note</strong>: The Bearer Token is temporary and will expire after a certain period. Ensure to refresh it periodically to maintain access.</p>
+<hr />
+<p><strong>Via the OpenStudyBuilder Swagger Documentation</strong></p>
+<ol>
+<li>
+<p><strong>Execute an Endpoint</strong>: Navigate to the OpenStudyBuilder Swagger documentation. Execute any API endpoint within the documentation interface.</p>
+</li>
+<li>
+<p><strong>Copy the Token</strong>: In the response section, a complete CURL request is displayed, which includes the Bearer Token. This token can be copied for use in authenticating your API requests.</p>
+</li>
+</ol>
+<p><img alt="Obtaining the Bearer Token from the Swagger Documentation" src="../img/guide_api_ddf_new_03.png" />
+<em>This image shows the CURL request in the Swagger documentation response, highlighting the Bearer Token.</em></p>
+<p>Both methods provide a straightforward way to obtain the Bearer Token, enabling secure and authenticated access to the OpenStudyBuilder API. Remember to handle this token with care, as it provides critical access permissions to the API and consider the token expiration.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 OpenStudyBuilder Project
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
