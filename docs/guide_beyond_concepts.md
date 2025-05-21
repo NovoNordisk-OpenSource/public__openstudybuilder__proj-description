@@ -70,7 +70,7 @@ Then there are concrete instances which build the data specification. These coul
 
 ## Underlying Data Model
 
-The documentation of the underlying logical data model is always available in the latest version on GitLab [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/neo4j-mdr-db/model/logical_data_model){target=_blank}. The graphic which describes the activity concept best is named `logical-model-activity-class-concept.graphml`.
+The documentation of the underlying logical data model is always available in the latest version on GitHub [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/neo4j-mdr-db/model/logical_data_model){target=_blank}. The graphic which describes the activity concept best is named `logical-model-activity-class-concept.graphml`.
 
 The following image shows the status (click for details):
 
@@ -82,7 +82,7 @@ Figure 4: Logical Data Model for Activity Class
 
 ## Example Data
 
-The OpenStudyBuilder comes with a set of example data, including activities and activity instances. The content is available in the GitLab repository [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/studybuilder-import/datafiles/sponsor_library/activity){target=_blank}. This folder contains various CSV files that are imported into the OpenStudyBuilder to create the corresponding metadata. It is recommended to use a script to load and update activities and instances.
+The OpenStudyBuilder comes with a set of example data, including activities and activity instances. The content is available in the GitHub repository [here](https://github.com/NovoNordisk-OpenSource/openstudybuilder-solution/tree/main/studybuilder-import/datafiles/sponsor_library/activity){target=_blank}. This folder contains various CSV files that are imported into the OpenStudyBuilder to create the corresponding metadata. It is recommended to use a script to load and update activities and instances.
 
 The most relevant data is the import of "Activity Instance" data, which contains all "activity item" information. The following columns are available:
 
