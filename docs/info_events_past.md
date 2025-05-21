@@ -4,6 +4,9 @@
 
 Date | Event 
 -- | --
+16 May 2025 | CDISC 360i Working Group - Geneva, Switzerland
+14-15 May 2025 | CDISC EU Interchange - Geneva, Switzerland
+13 May 2025 | Workshop at CDISC EU Interchange - Geneva, Switzerland
 5 May 2025 | Community Meeting (virtual) 
 28 April 2025 | OSB-Trail-SystemEngineers (Testing, Loading, Migration)
 7 April 2025 | Community Meeting (virtual)
@@ -14,6 +17,35 @@ Date | Event
 10 February 2025 | Community Meeting (virtual) 
 20 January 2025 | OSB-Trail-SystemEngineers Kick-Off (virtual)
 13 January 2025 | Community Meeting (virtual)
+
+### CDISC 360i Working Group at CDISC EU Interchange 
+
+(16 May 2025 - Geneva, Switzerland)
+
+We are highly engaged in the CDISC 360i program and had been at the 360i workshop. Further information on the 360i program can be found on the [CDISC website](https://www.cdisc.org/360i){target=_blank}.
+
+### CDISC EU Interchange 
+
+(14-15 May 2025 - Geneva, Switzerland)
+
+We presented the following at the CDISC EU Interchange conference in Geneva.
+
+**Enhanced Biomedical Concepts: A Design Perspective in OpenStudyBuilder Supporting CDISC 360i**
+
+This presentation provides a deep dive into the design and implementation of the activity concept within OpenStudyBuilder, showcasing its role in the broader context of clinical study automation as envisioned by CDISC 360i. We will compare OpenStudyBuilder’s graph-based model with CDISC Biomedical Concepts, focusing on the rationale behind design choices, including structural adaptations and enhancements. Additionally, we will discuss challenges encountered during development, highlighting lessons learned and future opportunities to refine the approach.  
+
+The presentation slides are available [here](./presentations/2025-05-14-CDISC-EU-EnhancedBC-in-OSB-360i.pdf){target=_blank}.
+
+### Workshop at CDISC EU Interchange 
+
+(13 May 2025 - Geneva, Switzerland with Mikkel Traun, Nicolas de Saint-Jorre and Katja Glass)
+
+In this interactive workshop, participants gained hands-on experience in designing a clinical study using OpenStudyBuilder, with a focus on the schedule of activities. The session explored how the CDISC 360i envisioned "Design" and "Build" processes are implemented within the tool. Attendees learned to create visits, assign activities, and export studies to USDM. The workshop included rendering into an M11 protocol. Additionally, participants selected data specifications for chosen activities, then exported and reviewed the structure definition in define.xml format. This workshop offered a practical introduction to the steps and processes, providing a first impression of how this workflow can transform clinical study development.
+
+The slides are available [here](./presentations/2025-05-13-OpenStudyBuilder_Workshop_SoA.pdf){target=_blank}.
+
+The workshop tasks are available [here](workshop_2025.md).
+
 
 ### Community Meeting (virtual)
 
@@ -26,6 +58,10 @@ We discussed various aspects of the OpenStudyBuilder in our monthly community me
 (28 April 2025, 15:00-16:00 CET, virtual event)
 
 This session in our COSA Collaboration Team for OSB-Trail-SystemEngineers focused on Testing, Initial Loading, and Migrations.
+
+The slides will come soon.
+
+Meeting outcome is documented [here](./presentations/2025-04-28-osb-hub-trail-SystemEngineering-summary.pdf){target=_blank}.
 
 ### Community Meeting (virtual)
 
